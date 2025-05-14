@@ -20,7 +20,9 @@ OVERVIEW
 4. The 0_Extras folder contains:
    
    a. Various misc tools that may assist you in the modding process. Each contain their own instructions.
+   
    b. A Marvel Rivals .usmap (as of Season 1.5) (from https://discord.gg/fmodel )
+   
    c. FModel AES key for Marvel Rivals (as of Season 1.25)
 
 MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If they're outdated, they will be labeled as so)
