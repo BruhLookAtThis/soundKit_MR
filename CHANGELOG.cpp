@@ -130,22 +130,22 @@ UPDATE 1.0.3
 
 General
 - Created a "_Premade-Audio-Mod-Folder" folder inside of the 0_Extras folder
-- This contains the folder structure for pak'ing audio mods, so you don't need to create it manually
+- This contains the folder structure for paking audio mods, so you dont need to create it manually
 
 -----------------------------------------------------
 -----------------------------------------------------
 UPDATE 1.1.0
 
 For soundMod
-- Integrated soundFinder's abilities into soundMod's script.
-- Added New soundFinder ability to soundMod's script. Allows quick finding of similar-use sound effects for a character
+- Integrated soundFinders abilities into soundMods script.
+- Added New soundFinder ability to soundMods script. Allows quick finding of similar-use sound effects for a character
  (i.e. "All" footstep SFX wem IDs, "all" jump SFX wem IDs, etc)
  (Keep in mind some characters use the same sfx with the same wem ID)
- (Because these sounds get injected into the characters' individual .bnk files, this is not an issue)
+ (Because these sounds get injected into the characters individual .bnk files, this is not an issue)
  (This function is not foolproof. Some irrelevant (possibly dummy?) sounds MAY be snagged in the net)
-- With those last two points, two folders were added to soundMod's directory that specifically say IGNORE THEM. So DON'T DELETE THEM. 
+- With those last two points, two folders were added to soundMods directory that specifically say IGNORE THEM. So DONT DELETE THEM. 
 - Added "Info" selections to explain how each Option of the script works
- (These descriptions are not particularly fleshed out currently, I'll get around to making them more detailed later)
+ (These descriptions are not particularly fleshed out currently, Ill get around to making them more detailed later)
 - Written Instructions in the .txt are NOT updated. Will get to this later.
 - Added a 0_Extras folder, which currently contains the rest of the .txtp files for SFX stuff. 
  (Currently only have the bnk_sfx txtps for each character inside of "z0-(IGNORE-THIS)-TXTPs-Folder")
@@ -153,7 +153,7 @@ For soundMod
 
 General
 - Removed soundFinder
-- Removed "NOTES.txt" out of the OLD TOOLS folder, added it's contents to the zz_READ_THIS_FIRST.txt file.
+- Removed "NOTES.txt" out of the OLD TOOLS folder, added its contents to the zz_READ_THIS_FIRST.txt file.
 - Added instructions for creating your own TXTP files in the zz_READ_THIS_FIRST.txt file. 
 
 -----------------------------------------------------
@@ -180,7 +180,7 @@ For CVS
 - Updated script to resolve issues regarding invalid characters in folder names when Transcribing subtitles
 - Updated script to resolve an issue with the "DELETE-delete" error
 - Added "Info" selections to explain how each Option of the script works
- (These descriptions are not particularly fleshed out currently, I'll get around to making them more detailed later)
+ (These descriptions are not particularly fleshed out currently, Ill get around to making them more detailed later)
 - Updated Written Instructions
 - Updated 1_Character_IDs.txt file with the latest Characters and Costumes
 - Changed "Punisher" to "ThePunisher" in the 1_Character_IDs.txt file
@@ -305,11 +305,3 @@ For SMT 1.1.9-beta5
   Script functions adjusted for this change
 - Option 2 leftover folders are now deleted upon script completion
 - Fixed various Return To Menu issues where if no assets were placed in the appropriate folders for various functions, the script would close
-
------------------------------------------------------
------------------------------------------------------
-UPDATE 1.1.9-beta5b
-
-For General 1.1.9-betab
-- Removed ".OLD-TOOLS-ONLY-USE-IF-NECESSARY" folder
-- Github integration
