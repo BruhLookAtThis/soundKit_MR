@@ -305,3 +305,18 @@ For SMT 1.1.9-beta5
   Script functions adjusted for this change
 - Option 2 leftover folders are now deleted upon script completion
 - Fixed various Return To Menu issues where if no assets were placed in the appropriate folders for various functions, the script would close
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta6
+
+For General 1.1.9-beta6
+- Shifted to Github, will adjust files, layouts, etc accordingly
+- Changed remaining note files to .json
+- Added Github-required .json files
+- Changed .txt files to .bat
+  (Hopefully antivirus is not triggered in the Github download)
+  (Will continue uploading to G Drive for a bit as well with this new change)
+- Placed CHARACTER-ID-LIST.json file in the main directory
+- Removed Character ID entries from CVS Instructions file
+- Removed .OLD-TOOLS-ONLY-USE-IF-NECESSARY folder, not needed with Github integration
