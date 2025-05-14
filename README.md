@@ -6,18 +6,21 @@ OVERVIEW
 
 1. Each folder has their own instructions
 2. The CVS (Chara-Voice-Sorter) folder is for:
+   
    a. Extracting and labeling most, if not all, character voices from the game
+   
    b. Extracting and organizing most, if not all, character voice subtitles from the game
+   
    c. Replacing most, if not all, English character voices with their Japanese or Chinese counterparts
 
-3. The SMT folder is for replacing ingame audio files with your custom files
+4. The SMT folder is for replacing ingame audio files with your custom files
    (soundFinder has been integrated into the SMT script as Option #2)
    Audio that has been logged can be found here:
 
    (For Marvel Rivals)
    https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0
 
-4. The 0_Extras folder contains:
+5. The 0_Extras folder contains:
    
    a. Various misc tools that may assist you in the modding process. Each contain their own instructions.
    
@@ -54,5 +57,7 @@ A LIST OF CHARACTER IDS, AS OF MID SEASON 1, CAN BE FOUND IN THE CVS FOLDER'S IN
 
 CREDITS:
 @BruhiookAtThis (Spare Change?: https://linktr.ee/BruhLookAtThis)
+
 WispEnjoyer_
+
 u/charles2404
