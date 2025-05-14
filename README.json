@@ -1,4 +1,5 @@
 OVERVIEW
+--------------------------------------------------------------
 
 (GRAB THE LATEST repak_cli (or repak-GUI) .zip FROM HERE: https://github.com/natimerry/repak-rivals/releases)
 
@@ -13,14 +14,14 @@ OVERVIEW
    
    c. Replacing most English character voices with their Japanese or Chinese counterparts
 
-4. The SMT (Sound Modding Tool) folder is for replacing ingame audio files with your custom files
+3. The SMT (Sound Modding Tool) folder is for replacing ingame audio files with your custom files
    
    Audio that has been logged can be found here:
 
    (For Marvel Rivals)
    https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0
 
-6. The 0_Extras folder contains:
+4. The 0_Extras folder contains:
    
    a. Various misc tools that may assist you in the modding process. Each contain their own instructions.
    
@@ -29,8 +30,6 @@ OVERVIEW
    c. FModel AES key for Marvel Rivals
 
 MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they will be labeled as so)
-
-A LIST OF CHARACTER IDS CAN BE FOUND IN THE CVS FOLDERS INSTRUCTIONS
 
 
 /*Creating TXTP Files*/
@@ -55,7 +54,9 @@ A LIST OF CHARACTER IDS CAN BE FOUND IN THE CVS FOLDERS INSTRUCTIONS
 11. Inside the "bnks" folder, a "txtp" folder will be made with all of the generated txtps
 12. Done. Drag those into the designated TXTP folder in SMT
 
+--------------------------------------------------------------
 CREDITS:
+
 @BruhiookAtThis (Spare Change?: https://linktr.ee/BruhLookAtThis)
 
 WispEnjoyer_
@@ -64,6 +65,7 @@ u/charles2404
 
 --------------------------------------------------------------
 ## Licensing
+
 soundMod_v1.2.0 is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE.md) for details.
 This tool uses FFmpeg version 7.1.1, licensed under the GPL v3. FFmpeg is a trademark of Fabrice Bellard. The FFmpeg source code is available [here](https://github.com/FFmpeg/FFmpeg/releases/tag/n7.1.1).
 
