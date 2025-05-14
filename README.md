@@ -7,11 +7,11 @@ OVERVIEW
 1. Each folder has their own instructions
 2. The CVS (Chara-Voice-Sorter) folder is for:
    
-   a. Extracting and labeling most, if not all, character voices from the game
+   a. Extracting and labeling most character voices (+ some Emote, MVP, Lobby, etc SFX) from the game
    
    b. Extracting and organizing most, if not all, character voice subtitles from the game
    
-   c. Replacing most, if not all, English character voices with their Japanese or Chinese counterparts
+   c. Replacing most English character voices with their Japanese or Chinese counterparts
 
 4. The SMT (Sound Modding Tool) folder is for replacing ingame audio files with your custom files
    
