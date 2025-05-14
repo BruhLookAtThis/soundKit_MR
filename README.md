@@ -13,24 +13,24 @@ OVERVIEW
    
    c. Replacing most, if not all, English character voices with their Japanese or Chinese counterparts
 
-4. The SMT folder is for replacing ingame audio files with your custom files
-   (soundFinder has been integrated into the SMT script as Option #2)
+4. The SMT (Sound Modding Tool) folder is for replacing ingame audio files with your custom files
+   
    Audio that has been logged can be found here:
 
    (For Marvel Rivals)
    https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0
 
-5. The 0_Extras folder contains:
+6. The 0_Extras folder contains:
    
    a. Various misc tools that may assist you in the modding process. Each contain their own instructions.
    
-   b. A Marvel Rivals .usmap (as of Season 1.5) (from https://discord.gg/fmodel )
+   b. A Marvel Rivals .usmap (from https://discord.gg/fmodel )
    
-   c. FModel AES key for Marvel Rivals (as of Season 1.25)
+   c. FModel AES key for Marvel Rivals
 
 MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If they're outdated, they will be labeled as so)
 
-A LIST OF CHARACTER IDS, AS OF MID SEASON 1, CAN BE FOUND IN THE CVS FOLDER'S INSTRUCTIONS
+A LIST OF CHARACTER IDS CAN BE FOUND IN THE CVS FOLDER'S INSTRUCTIONS
 
 
 /*Creating TXTP Files*/
