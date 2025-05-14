@@ -65,3 +65,8 @@ u/charles2404
 --------------------------------------------------------------
 ## License
 soundMod_v1.2.0 is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE.md) for details. This tool uses FFmpeg, which is also licensed under GPL v3.
+
+--------------------------------------------------------------
+## Attributions
+## FFmpeg Source Code
+This tool uses FFmpeg version 7.1.1, licensed under the GPL v3. The source code for this FFmpeg build is available in the release assets [here](https://github.com/FFmpeg/FFmpeg/releases/tag/n7.1.1).
