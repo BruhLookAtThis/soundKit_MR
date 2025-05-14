@@ -64,4 +64,4 @@ u/charles2404
 
 --------------------------------------------------------------
 ## License
-soundMod_v1.2.0 is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE) for details. This tool uses FFmpeg, which is also licensed under GPL v3.
+soundMod_v1.2.0 is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE.md) for details. This tool uses FFmpeg, which is also licensed under GPL v3.
