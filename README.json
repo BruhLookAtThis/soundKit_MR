@@ -28,9 +28,9 @@ OVERVIEW
    
    c. FModel AES key for Marvel Rivals
 
-MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If they're outdated, they will be labeled as so)
+MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they will be labeled as so)
 
-A LIST OF CHARACTER IDS CAN BE FOUND IN THE CVS FOLDER'S INSTRUCTIONS
+A LIST OF CHARACTER IDS CAN BE FOUND IN THE CVS FOLDERS INSTRUCTIONS
 
 
 /*Creating TXTP Files*/
@@ -47,7 +47,7 @@ A LIST OF CHARACTER IDS CAN BE FOUND IN THE CVS FOLDER'S INSTRUCTIONS
 7. Place all* of these .bnk files into the "bnks" folder you made
    (*If, for some reason, you want to use the .bnks out of one of the language folders, you can only do one language at a time)
    (This is because the English, Japanese, and Chinese bnks have the same names, so they will overwrite each other)
-   (Honestly, I only put the sound effect bnks in the bnks folder, don't really need to mess with the voice bnks)
+   (Honestly, I only put the sound effect bnks in the bnks folder, dont really need to mess with the voice bnks)
 8. Back in the WWiser.py window, click "Load dirs" at the top left
 9. Select the "bnks" folder
 
