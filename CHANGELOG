@@ -1,0 +1,315 @@
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1:
+
+- Initial Release
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1b:
+
+For CVS
+- Added CVS_v6b
+- This update fixes language mixups (like English voice files showing up in the Chinese folders, etc)
+- Tested on a know problem batch of like 25 sounds, checked out on all of them
+- Potentially can still be more issue files so let me know
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1c:
+
+For soundMod
+- Added soundMod_v5c
+- This update auto-replaces spaces or periods in wem file names with underscores
+- Having either of those two in the name may have caused your file(s) to not be properly processed
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1c-1:
+
+For soundMod
+- Removed "(N/A)" from Human Torch and The Thing in the Character ID list for the Transcriber
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2
+
+For soundMod
+- Bank_Stream .wem files are now all converted to decimal instead of remaining hexadecimals. This change is in preparation for planned methods of finding/mapping SFX .wems. If you log SFX on the Spreadsheet, log BOTH the decimal and the hexadecimal number for the wem ID. All the hexadecimal numbers should be 8-digits long, btw. You can go to this website if you need a number converted:
+https://www.rapidtables.com/convert/number/hex-to-decimal.html
+
+- Added ability to detect duplicate/overlapping .wem IDs
+- These files will now be moved to a "4-Dupe-ID-Wems-Are-Here" folder
+- Pick one of these files to install, then place the file you pick back into "2-Put-Custom-Wems-In-Here" and run the script again
+
+- Added ability to detect ID-less .wem files
+- These files will now be moved to a "5-Invalid-Name-Wems-Are-Here" folder
+- Place a decimal/hexadecimal number to the front of the files name, separated from the rest of the by a hyphen or underscore if need be, then place the file back into "2-Put-Custom-Wems-In-Here" and run the script again (if youre still gonna use that wem at all)
+
+- Added ability to detect .bnk-less .wem files
+- These files will now be moved to a "6-Wems-With-No-Bnk-Match-Here" folder
+- Place a .bnk file that uses that .wem ID into 1-Put-Vanilla-Bnks-In-Here, then place the file back into "2-Put-Custom-Wems-In-Here" and run the script again (if youre still gonna use that wem at all)
+
+For CVS
+- Added Transcribed subtitles for the latest update (3-13-2025)
+
+For Extras
+- Added multiple tools I use in my own workflow
+- This includes a Wem Silencer (for easy Shut Up! mods), Folder Path Maker, Duplicate Name Deleter, and more
+- Will probably add the rest of my tools when I have the time to make them more public use-friendly
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2b
+
+For CVS
+- Added latest Transcriber script
+- Transcribed subtitles are now separated into their own folders based on the language
+- Subtitles within these folders are now separated into their own .json files per-character
+- Instructions updated. (Importantly, added expanded Character ID list)
+- Added Pre-transcribed jsons using this latest method
+
+For soundMod
+- Slight update to instructions
+
+General
+- Renamed some stray .bat files back to .txt, in hopes virus warnings wont be incurred
+- You might still get the warning tho, idk. Stupid Windows Defender lol
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2b (Phantom)
+
+General
+- Name change from soundKit to soundKit_MR
+- Working on a soundKit for Tekken 8, so I dont wanna get these mixed up lol
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2c
+
+For soundFinder
+- Added more wems so 1000 files can be tested at a time
+- Added subfolder compatibility
+- Combined Test Number and Silence functionality into one script
+- Updated instructions
+- Added Changelog
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.0.0
+
+General
+- Refreshed Version number for every tool to "1.0.0"
+
+For CVS
+- Combined all functions into a single script
+- Increased the processing speed for Option 1 (Renaming Base Game Files)
+- Changed folder structures for all processed files to be more idiotproof
+- Changed folder structures for renamed Voice files to contain character names alongside ID numbers and language
+- Changed folder structures for renamed Display files to contain character names alongside ID numbers and costume
+- Updated all instructions
+
+-----------------------------------------------------
+-----------------------------------------------------
+Update 1.0.1
+
+For soundFinder v1.0.1
+- Updated script to no longer give errors when processing
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.0.2
+
+For CVS v1.0.1
+- Added text to Option 3 to clarify that it will execute Option 1, as that is necessary to fully complete Option 3 itself
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.0.3
+
+General
+- Created a "_Premade-Audio-Mod-Folder" folder inside of the 0_Extras folder
+- This contains the folder structure for pak'ing audio mods, so you don't need to create it manually
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.0
+
+For soundMod
+- Integrated soundFinder's abilities into soundMod's script.
+- Added New soundFinder ability to soundMod's script. Allows quick finding of similar-use sound effects for a character
+ (i.e. "All" footstep SFX wem IDs, "all" jump SFX wem IDs, etc)
+ (Keep in mind some characters use the same sfx with the same wem ID)
+ (Because these sounds get injected into the characters' individual .bnk files, this is not an issue)
+ (This function is not foolproof. Some irrelevant (possibly dummy?) sounds MAY be snagged in the net)
+- With those last two points, two folders were added to soundMod's directory that specifically say IGNORE THEM. So DON'T DELETE THEM. 
+- Added "Info" selections to explain how each Option of the script works
+ (These descriptions are not particularly fleshed out currently, I'll get around to making them more detailed later)
+- Written Instructions in the .txt are NOT updated. Will get to this later.
+- Added a 0_Extras folder, which currently contains the rest of the .txtp files for SFX stuff. 
+ (Currently only have the bnk_sfx txtps for each character inside of "z0-(IGNORE-THIS)-TXTPs-Folder")
+ (This is to save a little bit of time on processing when using Option 2 of soundMod)
+
+General
+- Removed soundFinder
+- Removed "NOTES.txt" out of the OLD TOOLS folder, added it's contents to the zz_READ_THIS_FIRST.txt file.
+- Added instructions for creating your own TXTP files in the zz_READ_THIS_FIRST.txt file. 
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.1
+
+For CVS
+- Added Emma Frost to Character ID list
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.2
+
+For Extras
+- Updated File-In-Folder-Lister tool.
+- It now ignores files that dont have a number in the front of their name (instead of throwing an error, preventing processing)
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.3
+
+For CVS
+- Added Option 100 & 101. These are just timesavers for logging to the MR Google Spreadsheet (https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=281487991#gid=281487991)
+- Updated script to resolve issues regarding invalid characters in folder names when Transcribing subtitles
+- Updated script to resolve an issue with the "DELETE-delete" error
+- Added "Info" selections to explain how each Option of the script works
+ (These descriptions are not particularly fleshed out currently, I'll get around to making them more detailed later)
+- Updated Written Instructions
+- Updated 1_Character_IDs.txt file with the latest Characters and Costumes
+- Changed "Punisher" to "ThePunisher" in the 1_Character_IDs.txt file
+
+For soundMod
+- REMINDER: Written instructions are NOT yet updated. Will update when I have time, kinda in a pinch rn
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.4
+
+For General
+- Will now be adding tool version # to subheader
+
+For soundMod_MR 1.1.4
+- Changed "x1-(OPTIONAL)-Put-Wems-To-TEST-Here" to "x1-Put-Wems-To-TEST-Here-(OPTIONAL)"
+- Changed "x3-(OPTIONAL)-Put-Wems-To-SILENCE-Here" to "x3-Put-Wems-To-SILENCE-Here-(OPTIONAL)"
+- Changed "z0-(IGNORE-THIS)-TESTs-Folder" to "0-Ignore-This-Folder-(TESTs)"
+- Changed "z0-(IGNORE-THIS)-TXTPs-Folder" to "0-Ignore-This-Folder-(TXTPs)"
+- Updated Info for Option 1
+- Tweaks to automatic folder creation
+
+- REMINDER: Written instructions are NOT yet updated. Will update when I have time, kinda in a pinch rn
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta
+
+For soundMod_MR 1.1.9-beta
+- Added Option 0. This lets you convert wav files to wem files without the need for AudioKinetic Launcher
+  (In beta right now because I cant test it yet since mods dont work in Season 2 atm)
+  (With that said, the previous versions download link will still be up)
+- Added a 0-Put-Custom-Wavs-In-Here folder to go with this new Option 0
+- Added a 0-Ignore-This-Folder-(TOOLs) folder to go with this new Option 0
+- Added "z" Info option to go with this new Option 0
+- Moved 0-Ignore-This-Folder-(TESTs) and 0-Ignore-This-Folder-(TXTPs) into the 0_Extras folder
+  (This was done to clear up space in the main directory)
+  (Their functionality/purpose remains the same, so, again, you can Ignore them)
+- Renamed z1_RunMeInPowershell_SoundMod.ps1 to z1_RunMeInPowershell_SoundMod_MR.ps1 
+- Renamed z2_DoubleClickMe_SoundMod.txt to z2_DoubleClickMe_SoundMod_MR.txt
+
+- NOTE: This will come out of beta once Option 0 is confirmed working
+- REMINDER: Written instructions are NOT yet updated. Will update when I...well, when I feel like it tbh
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta2
+
+For General
+- Changed CHANGELOG file format from txt to json just because I can
+
+For CVS 1.1.9-beta2
+- Updated Subtitles (5-5-2025)
+- Updated Character ID List (5-5-2025)
+
+For soundMod 1.1.9-beta2
+- Updated TXTPs (5-5-2025)
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta3
+
+For General
+- Changed (almost) all .txts (except those that should be changed to .bat) to .json just because I can
+- Removing "0-Ignore-This-Folder-(TOOLs)" folders in any .OLD-TOOLS-ONLY-USE-IF-NECESSARY from 1.1.9 forward
+  (Doing this cause the ffmpeg.exe file takes up unnecessary space)
+
+For soundMod 1.1.9-beta3
+- DRASTICALLY increased speed on wav to wem conversion
+  (Please note that it is still far slower than using the AudioKinetic Launcher for conversion)
+- Changed 0-Put-Custom-Wavs-In-Here folder to 0-Put-Custom-Wavs-For-SFX-And-Voices-In-Here
+  (This is in anticipation for Music wem integration, which requires separate processing)
+  (Uhh...dont take "anticipation" as Im working on it, cause Im not lol Screw the music modding process, honestly)
+- Moved SoundFileEditor.exe and its required files into the 0_Extras folder
+- Script adjusted for this movement
+  (This was just done to declutter the main directory)
+- Fixed script to allow returning to main menu after selecting Option 2
+- Custom wems with 8-digit > hexadecimal names can now be processed, assuming the beginning number(s) are supposed to be zeros
+- Duplicate Wem Error Folder placement now works properly
+- Added an Error Wem Log at the end of Option 1s completion so users know why and where their custom wems were moved (to)
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta4
+
+For General
+- Changed "soundMod" name to "SMT"
+  (This was done to reduce confusion between "soundKit" and "soundMod")
+
+For SMT 1.1.9-beta4
+- Restructured the layout for the scripts main menu
+- Added Option 5. This option allows users to replace multiple files with a single source wem
+  (This is useful if you want to replace multiple sounds with a single time, instead of manually copying and renaming the source wem)
+- Drastically increased processing time for Option 0
+- Adjusted Option 0, now outputs wems with a similar volume level as the source wav files
+  (Previously it just outright converted everything to mono, resulting in stereo source wavs sounding quieter in their mono wem form)
+  (Now applies a 2.0 volume boost to stereo wavs that are converted to mono wem files)
+  (This is a band-aid fix until I can get stereo conversion working correctly, if I can)
+- Added ffprobe.exe "0-Ignore-This-Folder-(TOOLs)"
+  (This is necessary for the change in the previous point to work)
+- Moved all OPTIONAL function outputs to their own folders inside of a "x0-OPTIONAL-Stuff-Is-In-Here" folder
+  (This was just done to declutter the main directory)
+- Changed Option 2 to fall under this Optional umbrella
+- Renamed and Added folders for these Optional functions
+  (This was done for clarity)
+- Added Quick Instructions to the Optional functions, presented upon selecting them
+  (This is just reinforcing what needs to be done for the option to work, some people need this lol)    
+- Rewrote Instructions to just include how to run the script, troubleshooting, credits, etc
+- Rewrote the Info options of the script to include proper instructions and notes for each option
+- Added Option with a link to the Marvel Rivals Sound Documentation
+- Changed "1-Put-Vanilla-Bnks-In-Here" to "1-Put-Original-Bnks-In-Here"
+  (This was done because Modded .bnks can be placed here as well, for certain scenarios)
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta5
+
+For SMT 1.1.9-beta5
+- Option 0 Stereo/Mono wav-to-wem conversion fixed.
+  Stereo wavs will now be converted to proper stereo wems, same for mono wavs
+- SoundFileEditor.exe (and its dependcies) were moved to the "0-Ignore-This-Folder-(TOOLs)" folder
+  Script functions adjusted for this change
+- Option 2 leftover folders are now deleted upon script completion
+- Fixed various Return To Menu issues where if no assets were placed in the appropriate folders for various functions, the script would close
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta5b
+
+For General 1.1.9-betab
+- Removed ".OLD-TOOLS-ONLY-USE-IF-NECESSARY" folder
+- Github integration
