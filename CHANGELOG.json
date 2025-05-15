@@ -320,3 +320,21 @@ For General 1.1.9-beta6
 - Placed CHARACTER-ID-LIST.json file in the main directory
 - Removed Character ID entries from CVS Instructions file
 - Removed .OLD-TOOLS-ONLY-USE-IF-NECESSARY folder, not needed with Github integration
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta7
+
+For CVS 1.1.9-beta7
+- Added ability for script to split multi-person characters voices into separate folders
+  Namely Hulk/Banner and Cloak/Dagger
+- Combined Asset folders into one folder, "1-Put-Media-Local-And-WWise-Folders-Here"
+- Changed WWise asset file format to .json
+
+  MAKE SURE TO EXTRACT JSONS FROM THE WWISE FOLDER FROM NOW ON
+
+- Changed "1_Character_IDs.txt" to "CHARACTER-ID-LIST.txt"
+- Remade terminal UI
+  Some option selects were shifted around
+
+- KEEP IN MIND, NEITHER THE INSTRUCTIONS FILE NOR THE INFO OPTIONS HAVE BEEN MANUALLY UPDATED   
