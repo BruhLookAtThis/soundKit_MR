@@ -378,3 +378,27 @@ For SMT 1.1.9-beta8
           JUST MANUALLY MAKE THE "1-Put-Media-Local-And-WWise-Folders-Here" FOLDER IF YOU ACCIDENTALLY DELETE IT
 
   NOTE 4: Crap, just thought of something lol. Welp, theres a reason this is a beta! Will update with some adjustments soon
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta9
+
+For CVS
+- Updated Instructions Json
+
+For SMT 1.1.9-beta9
+- Swapped Option 1 Sub-Options 1 and 2
+  So Sub-Option 1 is now for modding bnk files
+  Sub-Option 2 is now for extracting/renaming *MODDED* bnk files
+  You will be able to hear the modded audio files in the bank_streams folder now
+- Added Sub-Option 3 
+  This Sub-Option will rename and replace wems in bnk files
+  This is extracting/replacing *VANILLA* bnk files
+  You will be able to hear the vanilla audio files in the bank_streams folder now
+
+  NOTE: If you have not performed Option 1 of CVS, then these new features in the Sub-Options will do nothing for you
+        Obviously, thats because the script will have nothing to reference when trying to replace bank_streams wems
+        So the Sub-Options will just perform their tasks like in previous versions of SMT, keeping all split-second, unnamed wems
+
+  NOTE 2: WARNING AUTO-FOLDER CREATION BROKE FOR CVS. TOO TIRED TO FIX IT ATM
+          JUST MANUALLY MAKE THE "1-Put-Media-Local-And-WWise-Folders-Here" FOLDER IF YOU ACCIDENTALLY DELETE IT
