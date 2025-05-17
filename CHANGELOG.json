@@ -354,8 +354,16 @@ For CVS "1.1.9-beta8"
   (Will continue to be updated tho, if need be)
 
 For SMT 1.1.9-beta8
-- Integrated the renamed wem outputs from Option 1 of CVS into Option 1
-  Now, when extracting a bnk file, MOST wem files in the bnk folders bank_streams folder will be replaced with their CVS counterparts
+- Integrated the renamed wem outputs from Option 1 of CVS into Option 1 of SMT
+  THERE ARE NOW TWO SUB-OPTIONS INSIDE OF OPTION 1
+
+  IF YOU CHOOSE SUB-OPTION 1:
+  MOST wem files in the bnk folders bank_streams folder will be RENAMED to their CVS counterparts
+  This means the majority of the "split-second" audio clips that we used to find in the bank_streams folder will be renamed now
+  They will also be organized into folders, like they are in CVS
+
+  IF YOU CHOOSE SUB-OPTION 2:
+  Now, when extracting a bnk file, MOST wem files in the bnk folders bank_streams folder will be renamed AND replaced with their CVS counterparts
   This means the majority of the "split-second" audio clips that we used to find in the bank_streams folder will be the full clip now
   They will also be renamed just like they are in CVS and organized into folders, like they are in CVS
 
