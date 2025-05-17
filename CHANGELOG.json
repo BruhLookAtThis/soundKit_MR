@@ -348,7 +348,7 @@ For CVS 1.1.9-beta7
 -----------------------------------------------------
 UPDATE 1.1.9-beta8
 
-For CVS 1.1.9-beta8
+For CVS "1.1.9-beta8"
 - Moved to "0_Extras\0-Be-Careful-In-This-Folder-(CVS)" inside of SMT
 - Will no longer recieve its own version numbering
   (Will continue to be updated tho, if need be)
@@ -362,3 +362,9 @@ For SMT 1.1.9-beta8
   NOTE: If you have not performed Option 1 of CVS, then this new feature will do nothing for you
         Obviously, thats because the script will have nothing to reference when trying to replace bank_streams wems
   
+  NOTE 2: NEITHER THE INSTRUCTIONS FILE NOR THE INFO OPTIONS HAVE BEEN MANUALLY/FULLY UPDATED
+          I CHANGED SOME STUFF IN THE INSTRUCTIONS TO REFLECT THE NEW FOLDER AND JSON FILES FOR THE WWISE EXTRACT
+          LEFTOVER ODDITIES MAY STILL BE LINGERING THO. THIS IS A BETA LOL
+
+  NOTE 3: WARNING AUTO-FOLDER CREATION BROKE FOR CVS. TOO TIRED TO FIX IT ATM
+          JUST MANUALLY MAKE THE "1-Put-Media-Local-And-WWise-Folders-Here" FOLDER IF YOU ACCIDENTALLY DELETE IT
