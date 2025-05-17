@@ -343,3 +343,22 @@ For CVS 1.1.9-beta7
 
 - WARNING AUTO-FOLDER CREATION BROKE FOR CVS. TOO TIRED TO FIX IT ATM
 - JUST MANUALLY MAKE THE "1-Put-Media-Local-And-WWise-Folders-Here" FOLDER IF YOU ACCIDENTALLY DELETE IT
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta8
+
+For CVS 1.1.9-beta8
+- Moved to "0_Extras\0-Be-Careful-In-This-Folder-(CVS)" inside of SMT
+- Will no longer recieve its own version numbering
+  (Will continue to be updated tho, if need be)
+
+For SMT 1.1.9-beta8
+- Integrated the renamed wem outputs from Option 1 of CVS into Option 1
+  Now, when extracting a bnk file, MOST wem files in the bnk folders bank_streams folder will be replaced with their CVS counterparts
+  This means the majority of the "split-second" audio clips that we used to find in the bank_streams folder will be the full clip now
+  They will also be renamed just like they are in CVS and organized into folders, like they are in CVS
+
+  NOTE: If you have not performed Option 1 of CVS, then this new feature will do nothing for you
+        Obviously, thats because the script will have nothing to reference when trying to replace bank_streams wems
+  
