@@ -35,7 +35,10 @@ For soundMod
 UPDATE 2
 
 For soundMod
-- Bank_Stream .wem files are now all converted to decimal instead of remaining hexadecimals. This change is in preparation for planned methods of finding/mapping SFX .wems. If you log SFX on the Spreadsheet, log BOTH the decimal and the hexadecimal number for the wem ID. All the hexadecimal numbers should be 8-digits long, btw. You can go to this website if you need a number converted:
+- Bank_Stream .wem files are now all converted to decimal instead of remaining hexadecimals. 
+- This change is in preparation for planned methods of finding/mapping SFX .wems. 
+- If you log SFX on the Spreadsheet, log BOTH the decimal and the hexadecimal number for the wem ID. 
+- All the hexadecimal numbers should be 8-digits long, btw. You can go to this website if you need a number converted:
 https://www.rapidtables.com/convert/number/hex-to-decimal.html
 
 - Added ability to detect duplicate/overlapping .wem IDs
@@ -44,11 +47,13 @@ https://www.rapidtables.com/convert/number/hex-to-decimal.html
 
 - Added ability to detect ID-less .wem files
 - These files will now be moved to a "5-Invalid-Name-Wems-Are-Here" folder
-- Place a decimal/hexadecimal number to the front of the files name, separated from the rest of the by a hyphen or underscore if need be, then place the file back into "2-Put-Custom-Wems-In-Here" and run the script again (if youre still gonna use that wem at all)
+- Place a decimal/hexadecimal number to the front of the files name, separated from the rest of the by a hyphen or underscore if need be
+- Then place the file back into "2-Put-Custom-Wems-In-Here" and run the script again (if youre still gonna use that wem at all)
 
 - Added ability to detect .bnk-less .wem files
 - These files will now be moved to a "6-Wems-With-No-Bnk-Match-Here" folder
-- Place a .bnk file that uses that .wem ID into 1-Put-Vanilla-Bnks-In-Here, then place the file back into "2-Put-Custom-Wems-In-Here" and run the script again (if youre still gonna use that wem at all)
+- Place a .bnk file that uses that .wem ID into 1-Put-Vanilla-Bnks-In-Here
+- Then place the file back into "2-Put-Custom-Wems-In-Here" and run the script again (if youre still gonna use that wem at all)
 
 For CVS
 - Added Transcribed subtitles for the latest update (3-13-2025)
@@ -393,7 +398,7 @@ For SMT 1.1.9-beta9
   You will be able to hear the modded audio files in the bank_streams folder now
 - Added Sub-Option 3 
   This Sub-Option will rename and replace wems in bnk files
-  This is extracting/replacing *VANILLA* bnk files
+  This is for extracting/replacing *VANILLA* bnk files
   You will be able to hear the vanilla audio files in the bank_streams folder now
 
   NOTE: If you have not performed Option 1 of CVS, then these new features in the Sub-Options will do nothing for you
