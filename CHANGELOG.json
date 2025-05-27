@@ -414,6 +414,7 @@ UPDATE 1.1.9-beta10
 
 For CVS
 - Updated Character Costume List
+- Script now auto-generates '1-Put-Media-Local-And-WWise-Folders-Here' folder upon startup
 
 For SMT 1.1.9-beta10
 - Added Option 6
@@ -424,10 +425,7 @@ For SMT 1.1.9-beta10
 
 - Added a 'x6-ISOLATED-Wem-Stuff-Is-In-Here-(OPTIONAL)' folder (with 'A-Put-Modded-Bnk-Here' and a 'B-Put-Vanilla-Bnk-Here' subfolders) to accomodate this new Option 6
 - Renamed 'x0-OPTIONAL-Stuff-Is-In-Here' to 'x1-OPTIONAL-Stuff-Is-In-Here'
-- Removed Option 1s Sub-Option 2 (because it is largely useless now that Option 6 is added)
+- Removed Option 1s old Sub-Option 2 (because it is largely useless now that Option 6 is added)
 - Renamed Option 1s Sub-Option 3 (which was for extracting/replacing *VANILLA* bnk files) to Sub-Option 2
-- Changed Option 1s now-Sub-Option-2 to export extracted .bnks to a 'x0-EXTRACTED-Bnk-Folders-Are-Here' folder
+- Changed Option 1s now-Sub-Option 2 so that it exports extracted .bnks to a 'x0-EXTRACTED-Bnk-Folders-Are-Here' folder
   (This was just done to declutter the main directory)
-
-  NOTE 2: WARNING AUTO-FOLDER CREATION BROKE FOR CVS. TOO TIRED TO FIX IT ATM
-          JUST MANUALLY MAKE THE "1-Put-Media-Local-And-WWise-Folders-Here" FOLDER IF YOU ACCIDENTALLY DELETE IT
