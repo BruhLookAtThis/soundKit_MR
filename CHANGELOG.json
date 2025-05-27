@@ -412,6 +412,10 @@ For SMT 1.1.9-beta9
 -----------------------------------------------------
 UPDATE 1.1.9-beta10
 
+For General
+- Removed Character ID List Json from main directory to avoid confusion
+  The Character ID List txt in the '1_Extras' is what you should be editing if you want to add character/costume entries
+
 For CVS
 - Updated Character Costume List
 - Script now auto-generates '1-Put-Media-Local-And-WWise-Folders-Here' folder upon startup
