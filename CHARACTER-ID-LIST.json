@@ -10,7 +10,7 @@ Updated as of Season 2
 1014: Punisher
 1014001: Punisher (Default)
 1014100: Punisher (Camo)
-1014300: Punisher (Peach Momoko Demon Days)
+1014300: Punisher (Dangan Ronin Punisher)
 1014500: Punisher (Thunderbolts)
 1014501: Punisher (Punisher 2099)
 
@@ -18,7 +18,7 @@ Updated as of Season 2
 1015001: Storm (Default)
 1015100: Storm (Ivory Breeze)
 1015500: Storm (Mohawk Rock)
-1015501: Storm (PLACEHOLDER - Maybe Hellfire Gala)
+1015501: Storm (MAYBE - Ultimate Wind-Rider)
 1015502: Storm (Goddess of Thunder)
 
 1016: Loki
@@ -56,6 +56,7 @@ Updated as of Season 2
 1021001: Hawkeye (Default)
 1021100: Hawkeye (Tigers Eye)
 1021300: Hawkeye (Galactic Fangs)
+1021301: Hawkeye (MAYBE - Binary Arrow Hawkeye (Ultron Virus))
 1021500: Hawkeye (Ronin)
 1021501: Hawkeye (Freefall)
 
@@ -72,7 +73,7 @@ Updated as of Season 2
 1023100: Rocket Raccoon (Rocky)
 1023300: Rocket Raccoon (Bounty Hunter)
 1023301: Rocket Raccoon (Wild Winter)
-1023302: Rocket Raccoon (PLACEHOLDER - Maybe Beach Skin)
+1023302: Rocket Raccoon (Sunshine Racoon)
 1023801: Rocket Raccoon (Guardians of the Galaxy Vol. 3)
 
 1024: Hela
@@ -102,13 +103,17 @@ Updated as of Season 2
 1027: Groot
 1027001: Groot (Default)
 1027100: Groot (ABIES ALGAE)
-1027300: Groot (PLACEHOLDER - Withering Groot/Lore)
-1027301: Groot (PLACEHOLDER)
+1027300: Groot (PLACEHOLDER - Withering Groot)
+1027301: Groot (PLACEHOLDER - Yggroot Groot)
 1027302: Groot (Holiday Happiness)
 1027500: Groot (Carved Traveler)
 1027800: Groot (Guardians of the Galaxy Vol. 3)
 
-1028: Ultron (N/A)
+1028: Ultron
+1028001: Ultron (Default)
+1028100: Ultron (Mechanical Phantom Ultron)
+1028102: Ultron (Golden Ultron (Ranked skin)
+1028300: Ultron (X-Tron Ultron)
 
 1029: Magik
 1029001: Magik (Default)
@@ -142,7 +147,7 @@ Updated as of Season 2
 1032100: Squirrel Girl (ARTIC LEMMUS)
 1032300: Squirrel Girl (Nut Rocker)
 1032301: Squirrel Girl (Cheerful Dragoness)
-1032302: Squirrel Girl (PLACEHOLDER SKIN - Beach Skin/Lore Entry 2)
+1032302: Squirrel Girl (Sunshine Squirrel)
 1032500: Squirrel Girl (Urban Hunter)
 
 1033: BlackWidow
@@ -178,7 +183,7 @@ Updated as of Season 2
 1036300: Spider-Man (Spider-Oni)
 1036500: Spider-Man (2099: SPIDER-PUNK)
 1036501: Spider-Man (Bag-Man Beyond)
-1036502: Spider-Man (PLACEHOLDER)
+1036502: Spider-Man (PLACEHOLDER - Future Foundation Spider-man)
 1036503: Spider-Man (Marvels Spider-Man 2)
 1036800: Spider-Man (Spider-Man: No Way Home)
 
@@ -186,7 +191,7 @@ Updated as of Season 2
 1037001: Magneto (Default)
 1037100: Magneto (UNCANNY BLACKSTEEL)
 1037101: Magneto (Will of Glacata)
-1037300: Magneto (PLACEHOLDER - Ultron Virus Lore Entry)
+1037300: Magneto (PLACEHOLDER - Binary Sword Magneto (Ultron Virus))
 1037500: Magneto (Master of Magnetism)
 1037501: Magneto (King Magnus)
 
@@ -194,6 +199,7 @@ Updated as of Season 2
 1038001: Scarlet Witch (Default)
 1038100: Scarlet Witch (WHITE WITCH)
 1038101: Scarlet Witch (NYX WEAVER)
+1038300: Scarlet Witch (Immortal Sovereign Scarlet Witch)
 1038500: Scarlet Witch (Chaos Gown)
 1038501: Scarlet Witch (Emporium Matron)
 1038800: Scarlet Witch (Doctor Strange in the Multiverse of Madness)
@@ -201,6 +207,7 @@ Updated as of Season 2
 1039: Thor
 1039001: Thor (Default)
 1039100: Thor (MIDGARD UMBER)
+1039300: Thor (Hellfire Gala Thor)
 1039500: Thor (HERALD OF THUNDER)
 1039501: Thor (Reborn from Ragnarok)
 1039502: Thor (Lord of Asgard)
@@ -211,6 +218,7 @@ Updated as of Season 2
 1040100: Mr. Fantastic (First Family)
 1040300: Mr. Fantastic (The Life Fantastic)
 1040500: Mr. Fantastic (The Maker)
+1040501: Mr. Fantastic (Future Foundation Mister Fantastic)
 
 1041: WinterSoldier
 1041001: Winter Soldier (Default)
@@ -244,13 +252,14 @@ Updated as of Season 2
 1045101: Namor (Will of Galacta)
 1045300: Namor (Retro X-Uniform)
 1045500: Namor (Savage Sub-Mariner)
+1045501: Namor (Retro X-Uniform Namor)
 1045800: Namor (Black Panther: Wakanda Forever)
 
 1046: AdamWarlock
 1046001: Adam Warlock (Default)
 1046100: Adam Warlock (COSMIC JADE)
 1046101: Adam Warlock (Will of Galacta)
-1046300: Adam Warlock (PLACEHOLDER SKIN)
+1046300: Adam Warlock (Immortal Avatar Adam Warlock)
 1046301: Adam Warlock (Blood Soul)
 1046800: Adam Warlock (Guardians of the Galaxy Vol. 3)
 
@@ -258,6 +267,7 @@ Updated as of Season 2
 1047001: Jeff (Default)
 1047100: Jeff (ADOPTED AVENGER)
 1047300: Jeff (Cuddly Fuzzlefin)
+1047301: Jeff (Sunshine Shark)
 1047500: Jeff (Incognito Dolphin)
 
 1048: Psylocke
@@ -283,12 +293,14 @@ Updated as of Season 2
 1050101: Invisible Woman (Blood Shield)
 1050300: Invisible Woman (The Life Fantastic)
 1050500: Invisible Woman (Malice)
+1050501: Invisible Woman (Future Foundation Invisible Woman)
 
 1051: TheThing
 1051001: The Thing (Default)
 1051100: The Thing (First Family)
 1051101: The Thing (The Unlimited)
 1051500: The Thing (Trench Coat)
+1051501: The Thing (Future Foundation The Thing)
 
 1052: IronFist
 1052001: Iron Fist (Default)
@@ -300,7 +312,7 @@ Updated as of Season 2
 1053: EmmaFrost
 1053001: EmmaFrost (Default)
 1053100: EmmaFrost (Blue Sapphire)
-1053101: EmmaFrost (PLACEHOLDER SKIN)
+1053101: EmmaFrost (PLACEHOLDER - Will of Galacta Emma Frost)
 1053102: EmmaFrost (Golden Diamond)
 1053500: EmmaFrost (X-Revolution)
 
