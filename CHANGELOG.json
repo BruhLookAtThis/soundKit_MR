@@ -407,3 +407,27 @@ For SMT 1.1.9-beta9
 
   NOTE 2: WARNING AUTO-FOLDER CREATION BROKE FOR CVS. TOO TIRED TO FIX IT ATM
           JUST MANUALLY MAKE THE "1-Put-Media-Local-And-WWise-Folders-Here" FOLDER IF YOU ACCIDENTALLY DELETE IT
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta10
+
+For CVS
+- Updated Character Costume List
+
+For SMT 1.1.9-beta10
+- Added Option 6
+  This option is for isolating modded .wem files from voice/sfx mods
+  It compares and contrasts modded .bnk files against vanilla .bnk files
+  It then deletes any .wem files between the two (or more) that have BOTH a matching name & a matching file size
+  This leaves behind only the modded .wem files (assuming they are a different size than the vanilla .wem files, which is almost guaranteed to be the case)
+
+- Added a 'x6-ISOLATED-Wem-Stuff-Is-In-Here-(OPTIONAL)' folder (with 'A-Put-Modded-Bnk-Here' and a 'B-Put-Vanilla-Bnk-Here' subfolders) to accomodate this new Option 6
+- Renamed 'x0-OPTIONAL-Stuff-Is-In-Here' to 'x1-OPTIONAL-Stuff-Is-In-Here'
+- Removed Option 1s Sub-Option 2 (because it is largely useless now that Option 6 is added)
+- Renamed Option 1s Sub-Option 3 (which was for extracting/replacing *VANILLA* bnk files) to Sub-Option 2
+- Changed Option 1s now-Sub-Option-2 to export extracted .bnks to a 'x0-EXTRACTED-Bnk-Folders-Are-Here' folder
+  (This was just done to declutter the main directory)
+
+  NOTE 2: WARNING AUTO-FOLDER CREATION BROKE FOR CVS. TOO TIRED TO FIX IT ATM
+          JUST MANUALLY MAKE THE "1-Put-Media-Local-And-WWise-Folders-Here" FOLDER IF YOU ACCIDENTALLY DELETE IT
