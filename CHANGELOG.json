@@ -444,3 +444,4 @@ UPDATE 1.1.9-beta11
 For SMT 1.1.9-beta11
 - Fix Option 0s converted WEMs. Stereo WEMs will now properly play in foobar
 - Adjusted wording order for Option 1s Main Menu description to reflect the order in which the Sub-Options are placed
+- Adjusted titling in the Info Options to reflect the main menu wording
