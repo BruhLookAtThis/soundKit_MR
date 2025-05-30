@@ -467,3 +467,10 @@ For CVS
         Ill try to fix this, or at least alleviate it, in future updates
 - NOTE: Some subtitle lines dont seem to be fully processed. I checked in FModel, and their corresponding audio files dont exist
         Ill assume the subs are just placeholders for now
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta12b
+
+For CVS
+- Added COMPLETE Ultron Update subtitles
