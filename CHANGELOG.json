@@ -435,8 +435,8 @@ For SMT 1.1.9-beta10
   (This was just done to declutter the main directory)
 
 ### I AM JUST NOW BECOMING AWARE OF WEMS CONVERTED FROM WAVS NOT BEING PLAYABLE IN FOOBAR. THIS DOES NOT AFFECT INGAME PERFORMANCE, BUT ITS KINDA LAME, SO I WILL SEE IF I CAN FIX IT IN A FUTURE UPDATE!
-### FOR NOW, YOU CAN PLAY THE WHOLE .BNK FILE IN FOOBAR AND HEAR THE WEM CORRECTLY, OR RE-EXTRACT THE WEM OUT OF THE BNK, AND IT WILL PLAY CORRECTLY. DUMB, I KNOW, 
-### BUT IT THAT WILL HAVE TO DO IN THE MEANTIME (OR YOU CAN JUST LISTEN TO THE ORIGINAL WAV, ITS THE SAME SOUND LOL
+### FOR NOW, YOU CAN PLAY THE WHOLE .BNK FILE IN FOOBAR AND HEAR THE WEM CORRECTLY, OR RE-EXTRACT THE WEM OUT OF THE BNK, AND IT WILL PLAY CORRECTLY. DUMB, I KNOW, BUT IT THAT WILL HAVE TO DO IN THE 
+MEANTIME (OR YOU CAN JUST LISTEN TO THE ORIGINAL WAV, ITS THE SAME SOUND LOL
 
 -----------------------------------------------------
 -----------------------------------------------------
@@ -446,11 +446,6 @@ For SMT 1.1.9-beta11
 - Fix Option 0s converted WEMs. Stereo WEMs will now properly play in foobar
 - Adjusted wording order for Option 1s Main Menu description to reflect the order in which the Sub-Options are placed
 - Adjusted titling in the Info Options to reflect the main menu wording
-
-- IDK ABOUT YALL BUT ON MY PC, SUBTITLE EXTRACTION IS PARTIALLY BROKEN, AS IN SOME FILENAMES ARE BEING LISTED CORRECTLY
-- I WILL SEE WHAT I CAN DO TO FIX THIS...ODD SITUATION
-- IT APPEARS TO BE AN ISSUE WITH FILE PATH CHARACTER LIMITS LOL
-- WORKING ON FIXING THAT...
 
 -----------------------------------------------------
 -----------------------------------------------------
@@ -465,3 +460,9 @@ For SMT
 
 For CVS
 - Updated Character ID List for Ultron Update
+- Updated script to fix Percent Error
+
+- NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
+        Ill try to fix this, or at least alleviate it, in future updates
+- NOTE: Will reupload with updated Subtitles list later, Im tired af.
+        Some lines dont seem to be processed all the way either, so I gotta fix something with this too smh        
