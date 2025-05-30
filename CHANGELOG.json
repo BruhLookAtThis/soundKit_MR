@@ -451,3 +451,17 @@ For SMT 1.1.9-beta11
 - I WILL SEE WHAT I CAN DO TO FIX THIS...ODD SITUATION
 - IT APPEARS TO BE AN ISSUE WITH FILE PATH CHARACTER LIMITS LOL
 - WORKING ON FIXING THAT...
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta11b
+
+For General
+- Just gonna leave the version number for the update, no need to add it to SMT logs as well
+
+For SMT
+- Updated TXTPs for Ultron Update
+  (For some reason, there are less TXTPs this time around. Hmmm...)
+
+For CVS
+- Updated Character ID List for Ultron Update
