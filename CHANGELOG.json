@@ -461,8 +461,9 @@ For SMT
 For CVS
 - Updated Character ID List for Ultron Update
 - Updated script to fix Percent Error
+- Added Ultron Update subtitles
 
 - NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
         Ill try to fix this, or at least alleviate it, in future updates
-- NOTE: Will reupload with updated Subtitles list later, Im tired af.
-        Some lines dont seem to be processed all the way either, so I gotta fix something with this too smh        
+- NOTE: Some subtitle lines dont seem to be fully processed. I checked in FModel, and their corresponding audio files dont exist
+        Ill assume the subs are just placeholders for now
