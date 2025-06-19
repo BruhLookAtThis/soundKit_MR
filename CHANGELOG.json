@@ -474,3 +474,23 @@ UPDATE 1.1.9-beta12b
 
 For CVS
 - Added COMPLETE Ultron Update subtitles
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta12c
+
+For General
+- Changed 'WWiseAudio' in the _Premade-Audio-Mod-Folder folder to 'WwiseAudio'
+
+For SMT
+- Added 'q' Option for exiting the terminal
+
+For CVS
+- Updated Character ID List for Ultron Update
+- Updated script to fix Percent Error
+- Added Ultron Update subtitles HOWEVER Ultrons lines are not included atm
+
+- NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
+        Ill try to fix this, or at least alleviate it, in future updates
+- NOTE: Some subtitle lines dont seem to be fully processed. I checked in FModel, and their corresponding audio files dont exist
+        Ill assume the subs are just placeholders for now
