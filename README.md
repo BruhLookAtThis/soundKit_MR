@@ -14,14 +14,18 @@ OVERVIEW
    
    c. Replacing most English character voices with their Japanese or Chinese counterparts
 
-3. The SMT (Sound Modding Tool) folder is for replacing ingame audio files with your custom files
+3. The SMT (Sound Modding Tool) folder is for:
+   
+   a. Replacing ingame audio files with your custom files
+
+   b. Extracting vanilla audio files from bnk files
    
    Audio that has been logged can be found here:
 
    (For Marvel Rivals)
    https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0
 
-4. The 0_Extras folder contains:
+5. The 0_Extras folder contains:
    
    a. Various misc tools that may assist you in the modding process. Each contain their own instructions.
    
