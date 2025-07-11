@@ -489,3 +489,15 @@ For SMT
         Ill try to fix this, or at least alleviate it, in future updates
 - NOTE: Some subtitle lines dont seem to be fully processed. I checked in FModel, and their corresponding audio files dont exist
         Ill assume the subs are just placeholders for now
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1.9-beta12d
+
+For CVS
+- Updated Character ID List for Phoenix
+
+- NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
+        Ill try to fix this, or at least alleviate it, in future updates
+- NOTE: (Still extracting the latest subtitles, so idk if this is still an issue) Some subtitle lines dont seem to be fully processed. I checked in FModel, and their corresponding audio files dont exist
+        Ill assume the subs are just placeholders for now
