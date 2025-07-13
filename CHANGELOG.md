@@ -502,5 +502,72 @@ For CVS
 
 - NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
         Ill try to fix this, or at least alleviate it, in future updates
-- NOTE: (Still extracting the latest subtitles, so idk if this is still an issue) Some subtitle lines dont seem to be fully processed. I checked in      FModel, and their corresponding audio files dont exist
+- NOTE: (Still extracting the latest subtitles, so idk if this is still an issue) Some subtitle lines dont seem to be fully processed. I checked in      FModel,           and their corresponding audio files dont exist
         Ill assume the subs are just placeholders for now
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.0
+
+Kinda...forgot everything I changed LOL
+Ill list what I remember, might be a little vague tho
+
+For General
+- Updated Instructions files
+- Updated
+
+For SMT
+- Changed how Option 106 works:
+  a. Modded .bnk is placed into 'A-Put-Modded-Bnk-Here'
+  b. Vanilla .bnk is placed into 'B-Put-Vanilla-Bnk-Here'
+  c. Option 106 is ran
+  d. Modded .wem files are separated into a folder in 'C-Modded-Wems-Are-Here'
+  e. Corresponding Vanilla .wem files are separated into a folder in 'D-Vanilla-Wems-Are-Here'
+  f. Both Modded and Vanilla .wems are renamed to the full CVS format
+  g. However, Vanilla wems are also replaced with the full CVS variant as well
+
+  This way, users will be able to hear the exact line that has been replaced by the modded .wem file
+
+  h. Folders in 'C-Modded-Wems-Are-Here' or 'D-Vanilla-Wems-Are-Here' that have a 7-digit number in their name
+     matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
+
+     i.e. If 'bnk_vo_1011001' is the folder name, it will become 'Hulk (Default)-bnk_vo_1011001'
+
+- Changed how Option 1's Sub-Option 2 outputs folders
+  a. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-EXTRACTED-Bnks-Are-Here'
+  b. Secondly, folders output to '4-EXTRACTED-Bnks-Are-Here' that have a 7-digit number in their name
+     matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
+  c. If the same .bnk file is processed multiple times without the user clearing out the '4-EXTRACTED-Bnks-Are-Here' folder,
+     the script will append '_Old#' to the older bnk folder(s) 
+
+- Changed how Option 102 outputs folders
+  a. Folders output to 'x102-SEARCH-Wem-Stuff-Is-Here' that have a 7-digit number in their name
+     matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
+
+- Changed how Option 103 functions
+  a. Previously, test file creation was limited to the amount of test wems available in the Tests folder
+  b. Now, the script will reuse Test wems if there are more source wems than test wems
+
+- Changed various folder names
+  a. '4-Dupe-ID-Wems-Are-Here' changed to 'x202-DUPE-ID-Wems-Are-Here'
+  b. '5-Invalid-Name-Wems-Are-Here' changed to 'x203-INVALID-NAME-Wems-Are-Here'
+  c. '6-Wems-With-No-Bnk-Match-Here' changed to 'x204-Wems-With-NO-BNK-MATCH-Here'
+- All error files are now placed into a 'x200-ERROR-FILEs-Are-Here' folder instead of the main directory
+  This was done to declutter the space
+
+- Updated terminal main menu
+- Updated Info sections
+
+For CVS
+- Changed Option names
+- Changed some folder names
+  a. '1-Put-Media-Local-And-WWise-Folders-Here' changed to '1-Put-MEDIA-LOCAL-n-WWISE-Here'
+  b. '3-Transcribed-Jsons-Will-Be-Here' changed to '3-SUBTITLE-JSONs-Will-Be-Here'
+  c. '5-ENG-Voices-Are-Now-JPN-Here' changed to '5-ENG-FILES-With-JPN-AUDIO-Here'
+  d. '5-ENG-Voices-Are-Now-CHN-Here' changed to '5-ENG-FILES-With-CHN-AUDIO-Here'
+
+- Updated terminal main menu
+- Updated Info sections   
+
+- NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
+        Ill try to fix this, or at least alleviate it, in future updates
