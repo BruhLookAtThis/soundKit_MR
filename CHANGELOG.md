@@ -507,7 +507,7 @@ For CVS
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.0 (Not uploaded to Releases yet, just writing this here now)
+UPDATE 2.0.0
 
 Kinda...forgot everything I changed LOL
 Ill list what I remember, might be a little vague tho
@@ -570,4 +570,4 @@ For CVS
 - Updated Info sections   
 
 - NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
-        Ill try to fix this, or at least alleviate it, in future updates
+        I (may) try to fix this, or at least alleviate it, in future updates
