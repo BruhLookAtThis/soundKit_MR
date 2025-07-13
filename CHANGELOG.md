@@ -507,7 +507,7 @@ For CVS
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.0
+UPDATE 2.0.0 (Not uploaded to Releases yet, just writing this here now)
 
 Kinda...forgot everything I changed LOL
 Ill list what I remember, might be a little vague tho
