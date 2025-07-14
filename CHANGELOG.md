@@ -569,7 +569,10 @@ For CVS
   4. '5-ENG-Voices-Are-Now-CHN-Here' changed to '5-ENG-FILES-With-CHN-AUDIO-Here'
 
 - Updated terminal main menu
-- Updated Info sections   
-
+- Updated Info sections
+- Changed subtitles folder to 'SUBTITLES'
+- Deleted Filename/Subtitles jsons from this folder, leaving only the full jsons left (these contain both Filenames AND Subtitles)
+  I have an idea for a future update but I need to work out the logic...it may not even work like I am imagining
+  
 - NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
         I (may) try to fix this, or at least alleviate it, in future updates
