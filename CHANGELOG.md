@@ -518,41 +518,42 @@ For General
 
 For SMT
 - Changed how Option 106 works:
-  a. Modded .bnk is placed into 'A-Put-Modded-Bnk-Here'
-  b. Vanilla .bnk with the same name is placed into 'B-Put-Vanilla-Bnk-Here'
-  c. Option 106 is ran
-  d. Modded .wem files are separated into a folder named after the .bnk in 'C-Modded-Wems-Are-Here'
-  e. Corresponding Vanilla .wem files are separated into a folder named after the .bnk in 'D-Vanilla-Wems-Are-Here'
-  f. Both Modded and Vanilla .wems are renamed to the full CVS format
-  g. However, Vanilla wems are also replaced with the full CVS variant as well
-  h. Any files between these same-named folders that isnt present in BOTH folders is also deleted
+  1. Modded .bnk is placed into 'A-Put-Modded-Bnk-Here'
+  2. Vanilla .bnk with the same name is placed into 'B-Put-Vanilla-Bnk-Here'
+  3. Option 106 is ran
+  4. Modded .wem files are separated into a folder named after the .bnk in 'C-Modded-Wems-Are-Here'
+  5. Corresponding Vanilla .wem files are separated into a folder named after the .bnk in 'D-Vanilla-Wems-Are-Here'
+  6. Both Modded and Vanilla .wems are renamed to the full CVS format
+  7. However, Vanilla wems are also replaced with the full CVS variant as well
+  8. Any files between these same-named folders that isnt present in BOTH folders is also deleted
 
   This way, users will be able to hear the vanilla line that has been replaced by the modded .wem file
 
-  h. Folders in 'C-Modded-Wems-Are-Here' or 'D-Vanilla-Wems-Are-Here' that have a 7-digit number in their name
+  9. Folders in 'C-Modded-Wems-Are-Here' or 'D-Vanilla-Wems-Are-Here' that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
 
      i.e. If 'bnk_vo_1011001' is the folder name, it will become 'Hulk (Default)-bnk_vo_1011001'
 
 - Changed how Option 1's Sub-Option 2 outputs folders
-  a. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-EXTRACTED-Bnks-Are-Here'
-  b. Secondly, folders output to '4-EXTRACTED-Bnks-Are-Here' that have a 7-digit number in their name
+  1. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-EXTRACTED-Bnks-Are-Here'
+  2. Secondly, folders output to '4-EXTRACTED-Bnks-Are-Here' that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
-  c. If the same .bnk file is processed multiple times without the user clearing out the '4-EXTRACTED-Bnks-Are-Here' folder,
+  3. If the same .bnk file is processed multiple times without the user clearing out the '4-EXTRACTED-Bnks-Are-Here' folder,
      the script will append '_Old#' to the older bnk folder(s) 
 
 - Changed how Option 102 outputs folders
-  a. Folders output to 'x102-SEARCH-Wem-Stuff-Is-Here' that have a 7-digit number in their name
+  1. Folders output to 'x102-SEARCH-Wem-Stuff-Is-Here' that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
 
 - Changed how Option 103 functions
-  a. Previously, test file creation was limited to the amount of test wems available in the Tests folder
-  b. Now, the script will reuse Test wems if there are more source wems than test wems
+  1. Previously, test file creation was limited to the amount of test wems available in the Tests folder
+  2. Now, the script will reuse Test wems if there are more source wems than test wems
 
 - Changed various folder names
-  a. '4-Dupe-ID-Wems-Are-Here' changed to 'x202-DUPE-ID-Wems-Are-Here'
-  b. '5-Invalid-Name-Wems-Are-Here' changed to 'x203-INVALID-NAME-Wems-Are-Here'
-  c. '6-Wems-With-No-Bnk-Match-Here' changed to 'x204-Wems-With-NO-BNK-MATCH-Here'
+  1. '4-Dupe-ID-Wems-Are-Here' changed to 'x202-DUPE-ID-Wems-Are-Here'
+  2. '5-Invalid-Name-Wems-Are-Here' changed to 'x203-INVALID-NAME-Wems-Are-Here'
+  3. '6-Wems-With-No-Bnk-Match-Here' changed to 'x204-Wems-With-NO-BNK-MATCH-Here'
+  4. 
 - All error files are now placed into a 'x200-ERROR-FILEs-Are-Here' folder instead of the main directory
   This was done to declutter the space
 
@@ -562,10 +563,10 @@ For SMT
 For CVS
 - Changed Option names
 - Changed some folder names
-  a. '1-Put-Media-Local-And-WWise-Folders-Here' changed to '1-Put-MEDIA-LOCAL-n-WWISE-Here'
-  b. '3-Transcribed-Jsons-Will-Be-Here' changed to '3-SUBTITLE-JSONs-Will-Be-Here'
-  c. '5-ENG-Voices-Are-Now-JPN-Here' changed to '5-ENG-FILES-With-JPN-AUDIO-Here'
-  d. '5-ENG-Voices-Are-Now-CHN-Here' changed to '5-ENG-FILES-With-CHN-AUDIO-Here'
+  1. '1-Put-Media-Local-And-WWise-Folders-Here' changed to '1-Put-MEDIA-LOCAL-n-WWISE-Here'
+  2. '3-Transcribed-Jsons-Will-Be-Here' changed to '3-SUBTITLE-JSONs-Will-Be-Here'
+  3. '5-ENG-Voices-Are-Now-JPN-Here' changed to '5-ENG-FILES-With-JPN-AUDIO-Here'
+  4. '5-ENG-Voices-Are-Now-CHN-Here' changed to '5-ENG-FILES-With-CHN-AUDIO-Here'
 
 - Updated terminal main menu
 - Updated Info sections   
