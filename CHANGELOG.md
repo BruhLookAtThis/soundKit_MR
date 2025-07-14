@@ -519,14 +519,15 @@ For General
 For SMT
 - Changed how Option 106 works:
   a. Modded .bnk is placed into 'A-Put-Modded-Bnk-Here'
-  b. Vanilla .bnk is placed into 'B-Put-Vanilla-Bnk-Here'
+  b. Vanilla .bnk with the same name is placed into 'B-Put-Vanilla-Bnk-Here'
   c. Option 106 is ran
-  d. Modded .wem files are separated into a folder in 'C-Modded-Wems-Are-Here'
-  e. Corresponding Vanilla .wem files are separated into a folder in 'D-Vanilla-Wems-Are-Here'
+  d. Modded .wem files are separated into a folder named after the .bnk in 'C-Modded-Wems-Are-Here'
+  e. Corresponding Vanilla .wem files are separated into a folder named after the .bnk in 'D-Vanilla-Wems-Are-Here'
   f. Both Modded and Vanilla .wems are renamed to the full CVS format
   g. However, Vanilla wems are also replaced with the full CVS variant as well
+  h. Any files between these same-named folders that isnt present in BOTH folders is also deleted
 
-  This way, users will be able to hear the exact line that has been replaced by the modded .wem file
+  This way, users will be able to hear the vanilla line that has been replaced by the modded .wem file
 
   h. Folders in 'C-Modded-Wems-Are-Here' or 'D-Vanilla-Wems-Are-Here' that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
