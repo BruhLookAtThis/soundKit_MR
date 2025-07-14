@@ -1,4 +1,4 @@
-Updated as of Season 2.5
+Updated as of Season 3
 
 1011: Hulk
 1011001: Hulk (Default)
@@ -13,6 +13,7 @@ Updated as of Season 2.5
 1014300: Punisher (Dangan Ronin Punisher)
 1014500: Punisher (Thunderbolts)
 1014501: Punisher (Punisher 2099)
+1014800: Punisher (Daredevil Born Again)
 
 1015: Storm
 1015001: Storm (Default)
@@ -20,6 +21,7 @@ Updated as of Season 2.5
 1015500: Storm (Mohawk Rock)
 1015501: Storm (MAYBE - Ultimate Wind-Rider)
 1015502: Storm (Goddess of Thunder)
+1015503: Storm (Symbiote Storm)
 
 1016: Loki
 1016001: Loki (Default)
@@ -66,6 +68,7 @@ Updated as of Season 2.5
 1022300: Captain America (Galactic Talon)
 1022500: Captain America (Captain Gladiator)
 1022501: Captain America (Star Spangled Style)
+1022502: Captain America (Captain Klyntar)
 1022801: Captain America (Avengers: Infinity War)
 
 1023: RocketRaccoon
@@ -74,6 +77,7 @@ Updated as of Season 2.5
 1023300: Rocket Raccoon (Bounty Hunter)
 1023301: Rocket Raccoon (Wild Winter)
 1023302: Rocket Raccoon (Sunshine Racoon)
+1023500: Rocket Raccoon (Symbiote Raccoon) 
 1023801: Rocket Raccoon (Guardians of the Galaxy Vol. 3)
 
 1024: Hela
@@ -130,6 +134,7 @@ Updated as of Season 2.5
 1030100: Moon Knight (Blood Moon Knight)
 1030300: Moon Knight (Lunar General)
 1030500: Moon Knight (Mister Knight)
+1030501: Moon Knight (Phoenix Knight)
 1030800: Moon Knight (Fist of Vengeance)
 
 1031: LunaSnow
@@ -141,7 +146,6 @@ Updated as of Season 2.5
 1031303: Luna Snow (PLACEHOLDER)
 1031304: Luna Snow (Plasma Pulse - Mirae 2099)
 
-
 1032: SquirrelGirl
 1032001: Squirrel Girl (Default)
 1032100: Squirrel Girl (ARTIC LEMMUS)
@@ -149,6 +153,7 @@ Updated as of Season 2.5
 1032301: Squirrel Girl (Cheerful Dragoness)
 1032302: Squirrel Girl (Sunshine Squirrel)
 1032500: Squirrel Girl (Urban Hunter)
+1032501: Squirrel Girl (Symbiote Squirrel)
 
 1033: BlackWidow
 1033001: Black Widow (Default)
@@ -185,6 +190,7 @@ Updated as of Season 2.5
 1036501: Spider-Man (Bag-Man Beyond)
 1036502: Spider-Man (PLACEHOLDER - Future Foundation Spider-man)
 1036503: Spider-Man (Marvels Spider-Man 2)
+1036504: Spider-Man (Black Suit)
 1036800: Spider-Man (Spider-Man: No Way Home)
 
 1037: Magneto
@@ -211,6 +217,7 @@ Updated as of Season 2.5
 1039500: Thor (HERALD OF THUNDER)
 1039501: Thor (Reborn from Ragnarok)
 1039502: Thor (Lord of Asgard)
+1039503: Thor (Majestic Raiment)
 1039800: Thor (Thor: Love and Thunder)
 
 1040: MrFantastic
@@ -254,6 +261,7 @@ Updated as of Season 2.5
 1045300: Namor (Retro X-Uniform)
 1045500: Namor (Savage Sub-Mariner)
 1045501: Namor (Retro X-Uniform)
+1045502: Namor (Phoenix King)
 1045800: Namor (Black Panther: Wakanda Forever)
 
 1046: AdamWarlock
@@ -270,6 +278,7 @@ Updated as of Season 2.5
 1047300: Jeff (Cuddly Fuzzlefin)
 1047301: Jeff (Sunshine Shark)
 1047500: Jeff (Incognito Dolphin)
+1047501: Jeff (Devouring Duo)
 
 1048: Psylocke
 1048001: Psylocke (Default)
@@ -280,12 +289,12 @@ Updated as of Season 2.5
 1048502: Psylocke (PLACEHOLDER SKIN - Hellfire Gala?)
 1048503: Psylocke (Phantom Purple - Vengeance)
 
-
 1049: Wolverine
 1049001: Wolverine (Default)
 1049100: Wolverine (Lone Wolf)
 1049300: Wolverine (Blood Berserker)
 1049500: Wolverine (Patch)
+1049501: Wolverine (Weapon X)
 1049800: Wolverine (Deadpool & Wolverine)
 
 1050: InvisibleWoman
@@ -307,6 +316,7 @@ Updated as of Season 2.5
 1052001: Iron Fist (Default)
 1052100: Iron Fist (Martial Arts Savant)
 1052300: Iron Fist (Lions Gaze)
+1052301: Iron Fist (Binary Fist)
 1052500: Iron Fist (Sword Master)
 1052501: Iron Fist (Immortal Weapon of Agamotto)
 
@@ -316,8 +326,12 @@ Updated as of Season 2.5
 1053101: EmmaFrost (PLACEHOLDER - Will of Galacta Emma Frost)
 1053102: EmmaFrost (Golden Diamond)
 1053500: EmmaFrost (X-Revolution)
+1053501: EmmaFrost (Phoenix Diamond)
 
 1054: Phoenix
+1054001: Phoenix (Default)
+1054300: Phoenix (Chaos Phoenix)
+
 1067: Armor
 1068: Hive
 1069: White Fox
@@ -329,3 +343,6 @@ Updated as of Season 2.5
 4016: Galacta-Bot
 4017: Galacta-And-NPCs
 4018: Galacta-Tank-Bot
+
+4019: Ultron Drone
+4019001: Ultron Drone (Default)
