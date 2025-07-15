@@ -539,7 +539,17 @@ For SMT
   2. Secondly, folders output to '4-EXTRACTED-Bnks-Are-Here' that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
   3. If the same .bnk file is processed multiple times without the user clearing out the '4-EXTRACTED-Bnks-Are-Here' folder,
-     the script will append '_Old#' to the older bnk folder(s) 
+     the script will append '_Old#' to the older bnk folder(s)
+
+- Added Sub-Option 3 to Option 1 (EXPERIMENTAL, THEORETICAL, ALL THAT JAZZ)
+  1. In Season 3, NetEase changed some ID numbers for certain files, namely character Ults
+  2. This led to people getting errors when attempting to rebuild their voice mods using outdated wem IDs
+  3. So this Sub-Option cross references Season 2.5 information and Season 3 information
+  4. If it discovers that a file has changed wem IDs between seasons, it changes the ID to the new one
+  5. From there, it can properly create a modded .bnk file
+
+  NOTE: This relies on the contents of '0_EXTRAS\0-CVS\1_EXTRAS\SUBTITLES-NEW-*' and '0_EXTRAS\0-CVS\1_EXTRAS\SUBTITLES-OLD-*'
+        Do not remove or modify these folders unless you *KNOW* what you are doing (Chances are, you dont. So Dont touch em.)
 
 - Changed how Option 102 outputs folders
   1. Folders output to 'x102-SEARCH-Wem-Stuff-Is-Here' that have a 7-digit number in their name
@@ -553,7 +563,7 @@ For SMT
   1. '4-Dupe-ID-Wems-Are-Here' changed to 'x202-DUPE-ID-Wems-Are-Here'
   2. '5-Invalid-Name-Wems-Are-Here' changed to 'x203-INVALID-NAME-Wems-Are-Here'
   3. '6-Wems-With-No-Bnk-Match-Here' changed to 'x204-Wems-With-NO-BNK-MATCH-Here'
-  4. 
+     
 - All error files are now placed into a 'x200-ERROR-FILEs-Are-Here' folder instead of the main directory
   This was done to declutter the space
 
