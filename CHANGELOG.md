@@ -580,9 +580,10 @@ For CVS
 
 - Updated terminal main menu
 - Updated Info sections
-- Changed subtitles folder to 'SUBTITLES'
-- Deleted Filename/Subtitles jsons from this folder, leaving only the full jsons left (these contain both Filenames AND Subtitles)
-  I have an idea for a future update but I need to work out the logic...it may not even work like I am imagining
+- Changed subtitles folder in 1_EXTRAS to 'SUBTITLES-NEW-*'
+- Added 'SUBTITLES-OLD-*' here to accomodate Option 1 Sub-Option 3 of the SMT script
+- Deleted Filename/Subtitles .jsons from this folder, leaving only the full jsons behind (these contain both Filenames AND Subtitles)
+- Adjusted Option 2 and Option 101s output JSONs to have proper formatting
   
 - NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
         I (may) try to fix this, or at least alleviate it, in future updates
