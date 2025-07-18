@@ -578,14 +578,15 @@ For CVS
   3. '5-ENG-Voices-Are-Now-JPN-Here' changed to '5-ENG-FILES-With-JPN-AUDIO-Here'
   4. '5-ENG-Voices-Are-Now-CHN-Here' changed to '5-ENG-FILES-With-CHN-AUDIO-Here'
 
-- Updated terminal main menu
-- Updated Info sections
-- Changed Galacta-*.json to GalactaAndNPCs-*.json
 - Changed subtitles folder in 1_EXTRAS to 'SUBTITLES-NEW-*'
 - Added 'SUBTITLES-OLD-*' in 1_EXTRAS to accomodate Option 1 Sub-Option 3 of the SMT script
 - Fixed <Chara>-<Lang>.json formatting to accomodate Option 1 Sub-Option 3 of the SMT scripts need for properly formatted json files 
 - Deleted Filename/Subtitles .jsons from this folder, leaving only the full jsons behind (these contain both Filenames AND Subtitles)
 - Adjusted Option 2 and Option 101s output JSONs to have proper formatting
+- Changed Option 2 and Option 101 to create .json files for each NPCs voicelines
+
+- Updated terminal main menu
+- Updated Info sections
   
 - NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
         I (may) try to fix this, or at least alleviate it, in future updates
