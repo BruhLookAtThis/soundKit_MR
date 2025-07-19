@@ -582,11 +582,11 @@ For CVS
 - Added 'SUBTITLES-OLD-*' in 1_EXTRAS to accomodate Option 1 Sub-Option 3 of the SMT script
 - Fixed <Chara>-<Lang>.json formatting to accomodate Option 1 Sub-Option 3 of the SMT scripts need for properly formatted json files 
 - Deleted Filename/Subtitles .jsons from this folder, leaving only the full jsons behind (these contain both Filenames AND Subtitles)
-- Adjusted Option 2 and Option 101s output JSONs to have proper formatting
+- Adjusted Option 2 and Option 101s output JSONs to have proper json formatting
 - Changed Option 2 and Option 101 to create .json files for each NPCs voicelines
+- Changed Galacta subtitle json file to 'NPC_Galacta'
 
 - Updated terminal main menu
 - Updated Info sections
   
-- NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
-        I (may) try to fix this, or at least alleviate it, in future updates
+- NOTE: Long file path issue is mostly alleviated, however some very small instances of files not being processed exist. Please dont try to run CVS in some long,          complex directory.
