@@ -65,7 +65,7 @@ CREDITS:
 
 WispEnjoyer_
 
-Lazuli / crime.sorciere
+Lazuli / Kara
 
 u/charles2404
 
