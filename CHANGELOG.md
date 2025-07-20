@@ -507,14 +507,14 @@ For CVS
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.0
+UPDATE 2.0.0 (NOT RELEASED YET)
 
 Kinda...forgot everything I changed LOL
 Ill list what I remember, might be a little vague tho
 
 For General
 - Updated Instructions files
-- Updated
+- Changed Instruction files from .json to .txt format
 
 For SMT
 - Changed how Option 106 works:
@@ -541,15 +541,21 @@ For SMT
   3. If the same .bnk file is processed multiple times without the user clearing out the '4-EXTRACTED-Bnks-Are-Here' folder,
      the script will append '_Old#' to the older bnk folder(s)
 
-- Added Sub-Option 3 to Option 1 (EXPERIMENTAL, THEORETICAL, ALL THAT JAZZ)
+- Added Sub-Option 3 to Option 1 (EXPERIMENTAL, THEORETICAL, MIGHT WORK, MIGHT NOT, ALL THAT JAZZ)
   1. In Season 3, NetEase changed some ID numbers for certain files, namely character Ults
   2. This led to people getting errors when attempting to rebuild their voice mods using outdated wem IDs
-  3. So this Sub-Option cross references Season 2.5 information and Season 3 information
-  4. If it discovers that a file has changed wem IDs between seasons, it changes the ID to the new one
-  5. From there, it can properly create a modded .bnk file
+  3. So this Sub-Option cross references Season 2.5 subtitle information and Season 3 subtitle information
+  4. If it discovers that a file has changed wem IDs between seasons, it changes the ID on your file to the new one
+  5. From there, it can properly create a modded .bnk file for the current season
+  6. Goes without saying that, because this update is achieved by referencing subtitle info, it does NOT work for sfx
+     That is because sfx do not have any subtitles, of course.
+  7. That said, using this option will automatically convert any hexadecimal IDs on your files to decimal
+     This will happen regardless of if it finds a match to update or not
+     Im doing this to phase out the use of hexadecimals, as they are the least useful of the two formats when it comes to Rivals   
 
   NOTE: This relies on the contents of '0_EXTRAS\0-CVS\1_EXTRAS\SUBTITLES-NEW-*' and '0_EXTRAS\0-CVS\1_EXTRAS\SUBTITLES-OLD-*'
         Do not remove or modify these folders unless you *KNOW* what you are doing (Chances are, you dont. So Dont touch em.)
+        Read the Info for Option 1 for more details about updating your subtitle folders for future seasons
 
 - Changed how Option 102 outputs folders
   1. Folders output to 'x102-SEARCH-Wem-Stuff-Is-Here' that have a 7-digit number in their name
@@ -569,6 +575,7 @@ For SMT
 
 - Updated terminal main menu
 - Updated Info sections
+- Added the Info section material to the INSTRUCTIONS .txt
 
 For CVS
 - Changed Option names
@@ -580,13 +587,21 @@ For CVS
 
 - Changed subtitles folder in 1_EXTRAS to 'SUBTITLES-NEW-*'
 - Added 'SUBTITLES-OLD-*' in 1_EXTRAS to accomodate Option 1 Sub-Option 3 of the SMT script
-- Fixed <Chara>-<Lang>.json formatting to accomodate Option 1 Sub-Option 3 of the SMT scripts need for properly formatted json files 
+  This folder contains the subtitle .jsons from Season 2.5
+- Moved non-English folders from both of these folders into '.ALL-LANGS-FOR-SUBS-OLD-*' and '.ALL-LANGS-FOR-SUBS-NEW-*' folders
+  This was done to decrease workload on SMT Option 1 Sub-Option 3
+  You can add a language back if you need to. I believe only 'ja' and 'Hans'/'zH-Hans' will be of any use for that Sub-Option 3
+- Fixed <Chara>-<Lang>.json formatting to accomodate Option 1 Sub-Option 3 of the SMT scripts need for properly formatted json files
+  EDIT: This is no longer relevant, as the Sub-Option 3 now reads the jsons as plain text to avoid formatting issues 
 - Deleted Filename/Subtitles .jsons from this folder, leaving only the full jsons behind (these contain both Filenames AND Subtitles)
-- Adjusted Option 2 and Option 101s output JSONs to have proper json formatting
 - Changed Option 2 and Option 101 to create .json files for each NPCs voicelines
-- Changed Galacta subtitle json file to 'NPC_Galacta'
+  Their .json filenames will begin with 'NPC_'
+  Certain NPCs like 'Galacta' and 'UltronDrone' do not follow this namescheme
+  I will try to iron this out at a later date, but its no big issue anyway
 
 - Updated terminal main menu
 - Updated Info sections
+- Added the Info section material to the INSTRUCTIONS .txt
   
 - NOTE: Long file path issue is mostly alleviated, however some very small instances of files not being processed exist. Please dont try to run CVS in some long,          complex directory.
+        One example is spiderzeros voice lines not fully extracting. As far as I know, she is the only problem character.
