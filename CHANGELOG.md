@@ -517,22 +517,25 @@ For General
 - Changed Instruction files from .json to .txt format
 
 For SMT
-- Changed how Option 106 works:
+- Changed how Option 106 works (EXPERIMENTAL update):
   1. Modded .bnk is placed into 'A-Put-Modded-Bnk-Here'
   2. Vanilla .bnk with the same name is placed into 'B-Put-Vanilla-Bnk-Here'
   3. Option 106 is ran
-  4. Modded .wem files are separated into a folder named after the .bnk in 'C-Modded-Wems-Are-Here'
-  5. Corresponding Vanilla .wem files are separated into a folder named after the .bnk in 'D-Vanilla-Wems-Are-Here'
-  6. Both Modded and Vanilla .wems are renamed to the full CVS format
-  7. However, Vanilla wems are also replaced with the full CVS variant as well
-  8. Any files between these same-named folders that isnt present in BOTH folders is also deleted
+  4. Modded .wem files are separated into a folder (named after the .bnk) in 'C-Modded-Wems-Are-Here'
+     If the Modded .bnk is from an older season, the wem IDs for its .wem files will be updated
+  6. Corresponding Vanilla .wem files are separated into a folder (named after the .bnk) in 'D-Vanilla-Wems-Are-Here'
+  7. Both Modded and Vanilla .wems are renamed to the full CVS format, if applicable
+  8. However, Vanilla wems are also replaced with the full-sized CVS variant as well
+  9. Any files between these same-named folders that isnt present in BOTH folders is also deleted
 
-  This way, users will be able to hear the vanilla line that has been replaced by the modded .wem file
+     This way, users will be able to hear the vanilla line that has been replaced by the modded .wem file
 
-  9. Folders in 'C-Modded-Wems-Are-Here' or 'D-Vanilla-Wems-Are-Here' that have a 7-digit number in their name
+  10. Folders in 'C-Modded-Wems-Are-Here' or 'D-Vanilla-Wems-Are-Here' that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
 
      i.e. If 'bnk_vo_1011001' is the folder name, it will become 'Hulk (Default)-bnk_vo_1011001'
+
+ 10.   
 
 - Changed how Option 1's Sub-Option 2 outputs folders
   1. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-EXTRACTED-Bnks-Are-Here'
@@ -541,7 +544,7 @@ For SMT
   3. If the same .bnk file is processed multiple times without the user clearing out the '4-EXTRACTED-Bnks-Are-Here' folder,
      the script will append '_Old#' to the older bnk folder(s)
 
-- Added Sub-Option 3 to Option 1 (EXPERIMENTAL, THEORETICAL, MIGHT WORK, MIGHT NOT, ALL THAT JAZZ)
+- Added Sub-Option 3 to Option 1 (EXPERIMENTAL)
   1. In Season 3, NetEase changed some ID numbers for certain files, namely character Ults
   2. This led to people getting errors when attempting to rebuild their voice mods using outdated wem IDs
   3. So this Sub-Option cross references Season 2.5 subtitle information and Season 3 subtitle information
