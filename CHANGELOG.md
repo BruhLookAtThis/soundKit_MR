@@ -539,10 +539,10 @@ For SMT
  10.   
 
 - Changed how Option 1's Sub-Option 2 outputs folders
-  1. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-EXTRACTED-Bnks-Are-Here'
-  2. Secondly, folders output to '4-EXTRACTED-Bnks-Are-Here' that have a 7-digit number in their name
+  1. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-Your-EXTRACTED-BNKs-Are-Here'
+  2. Secondly, folders output to '4-Your-EXTRACTED-BNKs-Are-Here' that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
-  3. If the same .bnk file is processed multiple times without the user clearing out the '4-EXTRACTED-Bnks-Are-Here' folder,
+  3. If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
      the script will append '_Old#' to the older bnk folder(s)
 
 - Added Sub-Option 3 to Option 1 (EXPERIMENTAL)
