@@ -515,22 +515,23 @@ Ill list what I remember, might be a little vague tho
 For General
 - Updated Instructions files
 - Changed Instruction files from .json to .txt format
+- Various folder names have been changed. Ill list what I remember below, forgot every single one I changed tho
 
 For SMT
 - Changed how Option 106 works (EXPERIMENTAL update):
   1. Modded .bnk is placed into 'A-Put-Modded-Bnk-Here'
   2. Vanilla .bnk with the same name is placed into 'B-Put-Vanilla-Bnk-Here'
   3. Option 106 is ran
-  4. Modded .wem files are separated into a folder (named after the .bnk) in 'C-Modded-Wems-Are-Here'
+  4. Modded .wem files are separated into a folder (named after the .bnk) in 'C-Modded-Wems-Here'
      If the Modded .bnk is from an older season, the wem IDs for its .wem files will be updated
-  6. Corresponding Vanilla .wem files are separated into a folder (named after the .bnk) in 'D-Vanilla-Wems-Are-Here'
+  6. Corresponding Vanilla .wem files are separated into a folder (named after the .bnk) in 'D-Vanilla-Wems-Here'
   7. Both Modded and Vanilla .wems are renamed to the full CVS format, if applicable
   8. However, Vanilla wems are also replaced with the full-sized CVS variant as well
   9. Any files between these same-named folders that isnt present in BOTH folders is also deleted
 
      This way, users will be able to hear the vanilla line that has been replaced by the modded .wem file
 
-  10. Folders in 'C-Modded-Wems-Are-Here' or 'D-Vanilla-Wems-Are-Here' that have a 7-digit number in their name
+  10. Folders in 'C-Modded-Wems-Here' or 'D-Vanilla-Wems-Here' that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
 
      i.e. If 'bnk_vo_1011001' is the folder name, it will become 'Hulk (Default)-bnk_vo_1011001'
@@ -556,12 +557,12 @@ For SMT
      This will happen regardless of if it finds a match to update or not
      Im doing this to phase out the use of hexadecimals, as they are the least useful of the two formats when it comes to Rivals   
 
-  NOTE: This relies on the contents of '0_EXTRAS\0-CVS\1_EXTRAS\SUBTITLES-NEW-*' and '0_EXTRAS\0-CVS\1_EXTRAS\SUBTITLES-OLD-*'
+  NOTE: This relies on the contents of '0_XTRA\0-CVS\1_XTRA\SUBs-NEW-*' and '0_XTRA\0-CVS\1_XTRA\SUBs-OLD-*'
         Do not remove or modify these folders unless you *KNOW* what you are doing (Chances are, you dont. So Dont touch em.)
         Read the Info for Option 1 for more details about updating your subtitle folders for future seasons
 
 - Changed how Option 102 outputs folders
-  1. Folders output to 'x102-SEARCH-Wem-Stuff-Is-Here' that have a 7-digit number in their name
+  1. Folders output to 'x102-SEARCH-Wem-Stuff' that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
 
 - Changed how Option 103 functions
@@ -569,8 +570,8 @@ For SMT
   2. Now, the script will reuse Test wems if there are more source wems than test wems
 
 - Changed various folder names
-  1. '4-Dupe-ID-Wems-Are-Here' changed to 'x202-DUPE-ID-Wems-Are-Here'
-  2. '5-Invalid-Name-Wems-Are-Here' changed to 'x203-INVALID-NAME-Wems-Are-Here'
+  1. '4-Dupe-ID-Wems-Are-Here' changed to 'x202-DUPE-ID-Wems-Here'
+  2. '5-Invalid-Name-Wems-Are-Here' changed to 'x203-INVALID-NAME-Wems-Here'
   3. '6-Wems-With-No-Bnk-Match-Here' changed to 'x204-Wems-With-NO-BNK-MATCH-Here'
      
 - All error files are now placed into a 'x200-ERROR-FILEs-Are-Here' folder instead of the main directory
@@ -583,13 +584,13 @@ For SMT
 For CVS
 - Changed Option names
 - Changed some folder names
-  1. '1-Put-Media-Local-And-WWise-Folders-Here' changed to '1-Put-MEDIA-LOCAL-n-WWISE-Here'
-  2. '3-Transcribed-Jsons-Will-Be-Here' changed to '3-SUBTITLE-JSONs-Will-Be-Here'
+  1. '1-Put-Media-Local-And-WWise-Folders-Here' changed to '1-Put-MEDIA-LOCAL-WWISE-Here'
+  2. '3-Transcribed-Jsons-Will-Be-Here' changed to '3-SUBTITLEs-Are-Here'
   3. '5-ENG-Voices-Are-Now-JPN-Here' changed to '5-ENG-FILES-With-JPN-AUDIO-Here'
   4. '5-ENG-Voices-Are-Now-CHN-Here' changed to '5-ENG-FILES-With-CHN-AUDIO-Here'
 
-- Changed subtitles folder in 1_EXTRAS to 'SUBTITLES-NEW-*'
-- Added 'SUBTITLES-OLD-*' in 1_EXTRAS to accomodate Option 1 Sub-Option 3 of the SMT script
+- Changed subtitles folder in 1_XTRA to 'SUBs-NEW'
+- Added 'SUBs-OLD' in 1_XTRA to accomodate Option 1 Sub-Option 3 of the SMT script
   This folder contains the subtitle .jsons from Season 2.5
 - Moved non-English folders from both of these folders into '.ALL-LANGS-FOR-SUBS-OLD-*' and '.ALL-LANGS-FOR-SUBS-NEW-*' folders
   This was done to decrease workload on SMT Option 1 Sub-Option 3
