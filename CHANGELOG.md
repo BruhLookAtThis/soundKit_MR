@@ -518,7 +518,7 @@ For General
 - Various folder names have been changed. Ill list what I remember below, forgot every single one I changed tho
 
 For SMT
-- Changed how Option 106 works ( VERY EXPERIMENTAL update):
+- Changed how Option 106 works (VERY EXPERIMENTAL update):
   1. Modded .bnk is placed into 'A-Put-Modded-Bnk-Here'
   2. Vanilla .bnk with the same name is placed into 'B-Put-Vanilla-Bnk-Here'
   3. Option 106 is ran
@@ -538,6 +538,15 @@ For SMT
 
   NOTE: Some unused files may be left over will be leftover after processing. Its usually a very minimal amount of these.
 
+- Changed how Option 102 works (VERY EXPERIMENTAL update):
+  1. Firstly, x102-SEARCH-Wem-Stuff-Is-Here' is changed to 'x102-RENAMED-File-Stuff'
+  2. This option now acts as a renamer/organizer for exported 'special' sfx/display .wems from FModel
+  3. The user exports these files, and places them into 'A-Put-Files-To-Rename-Here'
+  4. Option 102 is ran, and the wems are renamed into a state that can be used for creating modded bnks
+  5. Too much to explain here, so just read the Info about this Option in the script or in the instructions file
+     - Since the old Option 102 is largely irrelevant, it has been completely overwritten
+     - In addition, the TXTP files have been deleted since they are now wasted space
+  
 - Changed how Option 1's Sub-Option 2 outputs folders
   1. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-Your-EXTRACTED-BNKs-Are-Here'
   2. Secondly, folders output to '4-Your-EXTRACTED-BNKs-Are-Here' that have a 7-digit number in their name
