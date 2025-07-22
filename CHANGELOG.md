@@ -523,7 +523,7 @@ For SMT
   2. Vanilla .bnk with the same name is placed into 'B-Put-Vanilla-Bnk-Here'
   3. Option 106 is ran
   4. Modded .wem files are separated into a folder (named after the .bnk) in 'C-Modded-Wems-Here'
-     If the Modded .bnk is from an older season, the wem IDs for its .wem files will be updated
+     - If the Modded .bnk is from an older season, the wem IDs for its .wem files will be updated
   6. Corresponding Vanilla .wem files are separated into a folder (named after the .bnk) in 'D-Vanilla-Wems-Here'
   7. Both Modded and Vanilla .wems are renamed to the full CVS format, if applicable
   8. However, Vanilla wems are also replaced with the full-sized CVS variant as well, if applicable
@@ -532,7 +532,7 @@ For SMT
      This way, users will be able to hear the vanilla line that has been replaced by the modded .wem file
 
   10. Folders in 'C-Modded-Wems-Here' or 'D-Vanilla-Wems-Here' that have a 7-digit number in their name
-     matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
+      - matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
 
      i.e. If 'bnk_vo_1011001' is the folder name, it will become 'Hulk (Default)-bnk_vo_1011001'
 
@@ -575,7 +575,7 @@ For SMT
   3. '6-Wems-With-No-Bnk-Match-Here' changed to 'x204-Wems-With-NO-BNK-MATCH-Here'
      
 - All error files are now placed into a 'x200-ERROR-FILEs-Are-Here' folder instead of the main directory
-  This was done to declutter the space
+  - This was done to declutter the space
 
 - Updated terminal main menu
 - Updated Info sections
@@ -599,9 +599,9 @@ For CVS
   EDIT: This is no longer relevant, as the Sub-Option 3 now reads the jsons as plain text to avoid formatting issues 
 - Deleted Filename/Subtitles .jsons from this folder, leaving only the full jsons behind (these contain both Filenames AND Subtitles)
 - Changed Option 2 and Option 101 to create .json files for each NPCs voicelines
-  Their .json filenames will begin with 'NPC_'
-  Certain NPCs like 'Galacta' and 'UltronDrone' do not follow this namescheme
-  I will try to iron this out at a later date, but its no big issue anyway
+  - Their .json filenames will begin with 'NPC_'
+  - Certain NPCs like 'Galacta' and 'UltronDrone' do not follow this namescheme
+  - I will try to iron this out at a later date, but its no big issue anyway
 
 - Updated terminal main menu
 - Updated Info sections
