@@ -512,10 +512,12 @@ UPDATE 2.0.0 (NOT RELEASED YET)
 Kinda...forgot everything I changed LOL
 Ill list what I remember, might be a little vague tho
 
-For General
-- Updated Instructions files
-- Changed Instruction files from .json to .txt format
+For General 
+- Changed Instruction files from .json to .txt format for SMT and CVS
 - Various folder names have been changed. Ill list what I remember below, forgot every single one I changed tho
+- Updated terminal main menus for SMT and CVS scripts
+- Updated Info sections for SMT and CVS scripts
+- Added the respective Info sections material to the INSTRUCTIONS .txt for SMT and CVS
 
 For SMT
 - Changed how Option 106 works (VERY EXPERIMENTAL update):
@@ -588,10 +590,6 @@ For SMT
 - All error files are now placed into a 'x200-ERROR-FILEs-Are-Here' folder instead of the main directory
   - This was done to declutter the space
 
-- Updated terminal main menu
-- Updated Info sections
-- Added the Info section material to the INSTRUCTIONS .txt
-
 For CVS
 - Changed Option names
 - Changed some folder names
@@ -600,23 +598,16 @@ For CVS
   3. '5-ENG-Voices-Are-Now-JPN-Here' changed to '5-ENG-FILES-With-JPN-AUDIO-Here'
   4. '5-ENG-Voices-Are-Now-CHN-Here' changed to '5-ENG-FILES-With-CHN-AUDIO-Here'
 
-- Changed subtitles folder in 1_XTRA to 'SUBs-NEW'
-- Added 'SUBs-OLD' in 1_XTRA to accomodate Option 1 Sub-Option 3 of the SMT script
-  This folder contains the subtitle .jsons from Season 2.5
+- Changed subtitles folder in 1_XTRA to 'SUBs-NEW'. It contains subtitle .jsons from Season 3
+- Added 'SUBs-OLD' in 1_XTRA to accomodate Options of the SMT script
+  This 'SUBs-OLD' folder contains the subtitle .jsons from Season 2.5
 - Moved non-English folders from both of these folders into '.ALL-LANGS-FOR-SUBS-OLD-*' and '.ALL-LANGS-FOR-SUBS-NEW-*' folders
-  This was done to decrease workload on SMT Option 1 Sub-Option 3
-  You can add a language back if you need to. I believe only 'ja' and 'Hans'/'zH-Hans' will be of any use for that Sub-Option 3
-- Fixed <Chara>-<Lang>.json formatting to accomodate Option 1 Sub-Option 3 of the SMT scripts need for properly formatted json files
-  EDIT: This is no longer relevant, as the Sub-Option 3 now reads the jsons as plain text to avoid formatting issues 
-- Deleted Filename/Subtitles .jsons from this folder, leaving only the full jsons behind (these contain both Filenames AND Subtitles)
+  This was done to decrease workload on SMT Options
+  You can add a language back if you need to. I believe only 'ja' and 'Hans'/'zH-Hans' will be of any use
+- Deleted Filename/Subtitles .jsons from this folder, leaving only the full .jsons behind (these contain both Filenames AND Subtitles)
 - Changed Option 2 and Option 101 to create .json files for each NPCs voicelines
   - Their .json filenames will begin with 'NPC_'
   - Certain NPCs like 'Galacta' and 'UltronDrone' do not follow this namescheme
-  - I will try to iron this out at a later date, but its no big issue anyway
-
-- Updated terminal main menu
-- Updated Info sections
-- Added the Info section material to the INSTRUCTIONS .txt
+  - I will try to iron this out at a later date, but its no big issue at the moment
   
-- NOTE: Long file path issue is mostly alleviated, however some very small instances of files not being processed exist. Please dont try to run CVS in some long,          complex directory.
-        One example is spiderzeros voice lines not fully extracting. As far as I know, she is the only problem character.
+- NOTE: Long file path issue has been alleviated a bit, but still, I advise you dont try to run CVS or SMT in some long, complex directory.
