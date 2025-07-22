@@ -545,6 +545,8 @@ For SMT
   3. If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
      - the script will append '_Old#' to the older bnk folder(s)
 
+- Added ability for Sub-Option 2 to replace wems in display_breath files with their full counterparts
+
 - Added Sub-Option 3 to Option 1 (VERY EXPERIMENTAL)
   1. In Season 3, NetEase changed some ID numbers for certain files, namely character Ults
   2. This led to people getting errors when attempting to rebuild their voice mods using outdated wem IDs
