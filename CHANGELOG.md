@@ -518,7 +518,7 @@ For General
 - Various folder names have been changed. Ill list what I remember below, forgot every single one I changed tho
 
 For SMT
-- Changed how Option 106 works (EXPERIMENTAL update):
+- Changed how Option 106 works ( VERY EXPERIMENTAL update):
   1. Modded .bnk is placed into 'A-Put-Modded-Bnk-Here'
   2. Vanilla .bnk with the same name is placed into 'B-Put-Vanilla-Bnk-Here'
   3. Option 106 is ran
@@ -526,8 +526,8 @@ For SMT
      If the Modded .bnk is from an older season, the wem IDs for its .wem files will be updated
   6. Corresponding Vanilla .wem files are separated into a folder (named after the .bnk) in 'D-Vanilla-Wems-Here'
   7. Both Modded and Vanilla .wems are renamed to the full CVS format, if applicable
-  8. However, Vanilla wems are also replaced with the full-sized CVS variant as well
-  9. Any files between these same-named folders that isnt present in BOTH folders is also deleted
+  8. However, Vanilla wems are also replaced with the full-sized CVS variant as well, if applicable
+  9. Any files between these same-named folders that isnt present in BOTH folders is deleted
 
      This way, users will be able to hear the vanilla line that has been replaced by the modded .wem file
 
@@ -536,7 +536,7 @@ For SMT
 
      i.e. If 'bnk_vo_1011001' is the folder name, it will become 'Hulk (Default)-bnk_vo_1011001'
 
- 10.   
+  NOTE: Some unused files may be left over will be leftover after processing. Its usually a very minimal amount of these.
 
 - Changed how Option 1's Sub-Option 2 outputs folders
   1. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-Your-EXTRACTED-BNKs-Are-Here'
@@ -545,7 +545,7 @@ For SMT
   3. If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
      the script will append '_Old#' to the older bnk folder(s)
 
-- Added Sub-Option 3 to Option 1 (EXPERIMENTAL)
+- Added Sub-Option 3 to Option 1 (VERY EXPERIMENTAL)
   1. In Season 3, NetEase changed some ID numbers for certain files, namely character Ults
   2. This led to people getting errors when attempting to rebuild their voice mods using outdated wem IDs
   3. So this Sub-Option cross references Season 2.5 subtitle information and Season 3 subtitle information
