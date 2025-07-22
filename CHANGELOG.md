@@ -541,9 +541,9 @@ For SMT
 - Changed how Option 1's Sub-Option 2 outputs folders
   1. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-Your-EXTRACTED-BNKs-Are-Here'
   2. Secondly, folders output to '4-Your-EXTRACTED-BNKs-Are-Here' that have a 7-digit number in their name
-     matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
+     - matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
   3. If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
-     the script will append '_Old#' to the older bnk folder(s)
+     - the script will append '_Old#' to the older bnk folder(s)
 
 - Added Sub-Option 3 to Option 1 (VERY EXPERIMENTAL)
   1. In Season 3, NetEase changed some ID numbers for certain files, namely character Ults
@@ -552,10 +552,10 @@ For SMT
   4. If it discovers that a file has changed wem IDs between seasons, it changes the ID on your file to the new one
   5. From there, it can properly create a modded .bnk file for the current season
   6. Goes without saying that, because this update is achieved by referencing subtitle info, it does NOT work for sfx
-     That is because sfx do not have any subtitles, of course.
+     - That is because sfx do not have any subtitles, of course.
   7. That said, using this option will automatically convert any hexadecimal IDs on your files to decimal
-     This will happen regardless of if it finds a match to update or not
-     Im doing this to phase out the use of hexadecimals, as they are the least useful of the two formats when it comes to Rivals   
+     - This will happen regardless of if it finds a match to update or not
+     - Im doing this to phase out the use of hexadecimals, as they are the least useful of the two formats when it comes to Rivals   
 
   NOTE: This relies on the contents of '0_XTRA\0-CVS\1_XTRA\SUBs-NEW-*' and '0_XTRA\0-CVS\1_XTRA\SUBs-OLD-*'
         Do not remove or modify these folders unless you *KNOW* what you are doing (Chances are, you dont. So Dont touch em.)
