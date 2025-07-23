@@ -602,7 +602,8 @@ For CVS
 - Added 'SUBs-OLD' in 1_XTRA to accomodate Options of the SMT script
   This 'SUBs-OLD' folder contains the subtitle .jsons from Season 2.5
 - Moved non-English folders from both of these folders into '.ALL-LANGS-FOR-SUBS-OLD-*' and '.ALL-LANGS-FOR-SUBS-NEW-*' folders
-  This was done to decrease workload on SMT Options
+  (EDIT: Also moved these two folders into an '.Unused' folder to declutter a bit)
+  This was done to decrease workload on the SMT Options
   You can add a language back if you need to. I believe only 'ja' and 'Hans'/'zH-Hans' will be of any use
 - Deleted Filename/Subtitles .jsons from this folder, leaving only the full .jsons behind (these contain both Filenames AND Subtitles)
 - Changed Option 2 and Option 101 to create .json files for each NPCs voicelines
