@@ -41,6 +41,7 @@ Updated as of Season 3
 1017101: HumanTorch (Blood Blaze)
 1017201: HumanTorch (Unknown)
 1017500: HumanTorch (Negative Zone Gladiator)
+1017800: HumanTorch (First Steps)
 
 1018: DoctorStrange
 1018001: DoctorStrange (Default)
@@ -233,6 +234,7 @@ Updated as of Season 3
 1040300: MrFantastic (The Life Fantastic)
 1040500: MrFantastic (The Maker)
 1040501: MrFantastic (Future Foundation)
+1040800: MrFantastic (First Steps)
 
 1041: WinterSoldier
 1041001: WinterSoldier (Default)
@@ -313,6 +315,7 @@ Updated as of Season 3
 1050300: InvisibleWoman (The Life Fantastic)
 1050500: InvisibleWoman (Malice)
 1050501: InvisibleWoman (Future Foundation Invisible Woman)
+1050800: InvisibleWoman (First Steps)
 
 1051: TheThing
 1051001: TheThing (Default)
@@ -321,6 +324,7 @@ Updated as of Season 3
 1051301: TheThing (Sunshine Thing)
 1051500: TheThing (Trench Coat)
 1051501: TheThing (Future Foundation The Thing)
+1051800: TheThing (First Steps)
 
 1052: IronFist
 1052001: IronFist (Default)
