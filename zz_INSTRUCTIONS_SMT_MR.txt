@@ -130,12 +130,14 @@ Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE
              - Select the WWiseAudio folder, then select the 'Packages' tab at the top of the window
              - Select a .bnk file,  then Export it as '.uasset'
              
-             - IF you are looking for a voice (vo/display_breath) file:
+             - IF you are looking for a voice (vo/display_breath/display_vo, etc) file:
              - In Fmodel, Navigate to 'Marvel/Content/WWiseAudio/(One Of The Language Folders)'
              - Select a .bnk file,  then Export it as '.uasset'
              
              - Place your .bnk file(s) in '1-Put-ORIGINAL-BNKs-Here'.
-             - Place your custom .wem files in '2-Put-CUSTOM-WEMs-Here'.
+             - Place your custom .wem files in '2-Put-CUSTOM-WEMs-Here'
+             - Custom .wem filename format should be: 'WemID#.wem' or 'WemID#-ExtraWords.wem'
+             - For Example: '12345.wem' or '12345-CaptainAmericaYell.wem'
              
              - Select Option 1 in this script.
              - Select a Sub-Option and press Enter.
@@ -157,7 +159,7 @@ Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE
              - If it finds that a wem ID has changed, it will rename it to the current ID, which it will find
              - It will then create a modded .bnk(s) using your custom .wems, then output it to '3-Your-MODDED-BNK-Is-Here'.
 
-             - SUB-OPTION 2:
+             - SUB-OPTION 4:
              - This will output folder(s) named after the .bnk file(s) + character costume in '4-Your-EXTRACTED-BNKs-Are-Here'.
              - These folders will contain all the .wems from the .bnk, so you can look at them for yourself
              - If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
@@ -190,7 +192,7 @@ Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE
              
               MORE INFO
              - Usually, the CVS script is used to extract full voicelines for every character
-             - However, SOME characters, like Black Panther, have full voicelines that are ONLY located in his .bnk file/the extracted bnk_* folders.
+             - However, SOME characters, like Black Panther, have/may have full voicelines that are ONLY located in his .bnk file/the extracted .bnk folders.
              - However (Pt.2), because those voice lines are only found in the .bnk, they will not have any reference name to be renamed to
              - AKA, they will still show up as random numbers for their name, instead of something like '1278791-vo_blahblah.wem'
              - ALL files that do not have a reference name will be placed into an 'Unknown' folder
