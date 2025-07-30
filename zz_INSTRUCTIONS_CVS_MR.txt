@@ -1,0 +1,235 @@
+----------------------------------------------------------------
+CREDITS:
+----------------------------------------------------------------
+
+BruhLookAtThis / ❕토 Tobi 비❕ (Spare Change?: https://linktr.ee/BruhLookAtThis)
+SlimeCore_ / WispEnjoyer
+Lazuli / Kara
+
+----------------------------------------------------------------
+CREATOR NOTES:
+----------------------------------------------------------------
+
+-Notify me if there are any errors (Discord: BruhLookAtThis, Twitter: BruhIookAtThis)
+-'Display' extracting is for use with 'bnk_display_#######.bnk' files only. NOT 'bnk_display_BREATH_#######.bnk' files.
+-Some MVP sound effects may be located in the 'trans' folders instead of the 'mvp' folder. Up to you to figure things out for your own needs. 
+-I included already-transcribed subtitles in the '1_XTRA' folder cause it takes a long time to produce. 
+-May or may not be up-to-date, I'll label the folder with the date that I made them on.
+-Of course, I added an option to the script so that you can transcribe them yourself when a game update comes out
+
+-To manually add missing costumes/characters/etc, you can edit the CHARACTER-ID-LIST.txt and add the entry yourself
+-Keep in mind how each line is formatted, and make sure you replicate it for your new entry, of course.
+-AVOID USING ANY COLONS AFTER THE COLON THAT SEPARATES THE ID NUMBER FROM THE NAME
+-For Example: 
+      1022001: Captain America (PeePee) - THIS IS OKAY
+      1022001: Captain America (Pee: Pee) - THIS IS NOT OKAY
+
+----------------------------------------------------------------
+BASICS:
+----------------------------------------------------------------
+
+1. Right Click the file thats named 'z1_RunMeInPowershell_CVS_MR.ps1'
+2. Click 'Run In Powershell'
+3. A Powershell window will open
+4. Select one of the Info Options to learn what each option does, how to use them, and extra notes it may have
+
+----------------------------------------------------------------
+WARNINGS:
+----------------------------------------------------------------
+
+1. Dont touch the contents of the file thats named 'z1_RunMeInPowershell_CVS_MR'
+2. Do NOT try to use this tool inside of a folder that has spaces or special characters in its name
+   This includes ANY folder in the path leading to the tool
+   Good Example: 'D:\Folder1\Folder2\Folder3\soundkit_MR_v99\' is good to go, because there are no spaces OR special characters in the path folders
+   Bad Example: 'D:\Folder 1\Folder2\Folder#\soundkit_MR_v99\' is not good to go, because it has a space and a special character in the path folders
+3. Use this tool inside of a super long directory may cause issues, like skipped files during processing   
+
+----------------------------------------------------------------
+TROUBLESHOOTING:
+----------------------------------------------------------------
+
+1. If you have any questions, hit the discord buddy: https://discord.gg/UU7dKBSqUR
+2. If you run the .ps1 file in Powershell and it immediately closed:
+    - Type 'powershell' in the File Explorer url and hit Enter
+    - A Powershell window will open. Paste this in it and hit Enter:
+
+     .\z1_RunMeInPowershell_CVS_MR.ps1
+
+    - You should be able to clearly see an error message now without the window immediately closing 
+
+2b. If you get an error/warning about Execution Policy when running the .ps1 file
+    - Double click 'z2_DoubleClickMe_CVS_MR.bat'
+     (If you dont see the .bat at the end of the file's name, Google 'How To Enable File Extensions'
+     and follow the instructions for your OS version)
+    - A CMD window will appear and the process will (or should lol) begin
+
+    IF THIS DOES NOT WORK, GOOGLE 'HOW TO CHANGE POWERSHELL EXECUTION POLICY' AND FOLLOW THE STEPS FOR YOUR OS VERSION (Windows 10, Windows 11, etc)
+
+2c. If you get an error/warning about something 'not being recognized as a valid command' or whatever
+    - Make sure the path to your tool doesnt have folders that contain spaces or special characters in their names (See the WARNINGS section)
+     
+3. If you clicked the .ps1/.bat and nothing showed up in the '3-Your-Modded-Bnk-Is-In-Here' folder, make sure you updated your FModel to the latest version available.
+    - At the top of FModel, go to Help > Releases.
+    - Download the latest Release
+    - Re-export your vanilla .bnk from FModel, and then try again
+
+4. If it's still not working, you probably...MESSED WITH THE AMAZING SPIDERMAN!!!! DON'T DO THAT!!!
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+INFO ABOUT THIS TOOLS OPTIONS:
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+=== Info About Option 1: Rename And Organize The *VOICE/DISPLAY WEM* Files ===
+             
+              This option organizes .wem audio files into easier-to-understand names/folders.
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - In Fmodel, Navigate to 'Marvel/Content/WwiseAudio/'
+             - Select the Media folder, then Export it as '.uasset'
+             
+             - In Fmodel, Navigate to 'Marvel/Content/'
+             - Select the Localization folder, then Export it as '.json'
+             
+             - In Fmodel, Navigate to 'Marvel/Content/Marvel/'
+             - Select the Wwise folder, then Export it as '.json'
+             
+             - Place these Media, Localization, and WWise folders into '1-Put-MEDIA-LOCAL-WWISE-Here'.
+             - Ensure 'CHARACTER-ID-LIST.txt' is in the '1_XTRA\' folder.
+             
+             - Choose Option 1 of this script
+             - The script will then begin renaming and organizing .wem files into language-specific folders (e.g., English(US), Japanese(JP)).
+             - It will also rename and organize .wem files into a Display folder, which contains things like emote and lobby sfx
+             - Output is saved in '2-RENAMED-WEMs-Will-Be-Here', with folders named using character IDs, names, and DebugName prefixes (e.g., 1021_Hulk_hero_hulk_(US)).
+             
+             =====================================
+              NOTES:
+             
+             - Uses '1_XTRA\CHARACTER-ID-LIST.txt' to map character IDs to names.
+             - If you know the Character ID of a new character (or costume), you can add it to this file
+             - DO NOT INCLUDE ANY COLONS, SEMICOLONS, OR OTHER SPECIAL CHARACTERS WHEN ENTERING NEW NAMES
+             - THIS WILL CAUSE THE SCRIPT TO NOT READ THE NAME
+             - STICK TO THE TYPE OF CHARACTERS I HAVE PRE-INSTALLED, LIKE LETTERS, NUMBERS, AND PARENTHESIS
+             - Save your changes, then run the script again to get the new files organized
+             
+             =====================================
+
+=== Info About Option 2: Extract And Organize The *SUBTITLES* ===
+             
+             - This option extracts subtitles and organizes them by character.
+             - Reads Game.json files from '1-Put-MEDIA-LOCAL-WWISE-Here\Localization\Game'.
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - In Fmodel, Navigate to 'Marvel/Content/WwiseAudio/'
+             - Select the Media folder, then Export it as '.uasset'
+             
+             - In Fmodel, Navigate to 'Marvel/Content/'
+             - Select the Localization folder, then Export it as '.json'
+             
+             - In Fmodel, Navigate to 'Marvel/Content/Marvel/'
+             - Select the Wwise folder, then Export it as '.json'
+             
+             - Place these Media, Localization, and WWise folders into '1-Put-MEDIA-LOCAL-WWISE-Here'.
+             - Ensure 'CHARACTER-ID-LIST.txt' is in the '1_XTRA\' folder.
+             
+             - Choose Option 2 of this script
+             - The script will then begin extracting subtitles and organizing them into .json files.
+             - Output is saved in '3-SUBTITLEs-Are-Here', with subfolders for each language (e.g., en, ja).
+             
+             =====================================
+              NOTES:
+             
+             - Uses '1_XTRA\CHARACTER-ID-LIST.txt' to map character IDs to names.
+             - If you know the Character ID of a new character (or costume), you can add it to this file
+             - DO NOT INCLUDE ANY COLONS, SEMICOLONS, OR OTHER SPECIAL CHARACTERS WHEN ENTERING NEW NAMES
+             - THIS WILL CAUSE THE SCRIPT TO NOT READ THE NAME
+             - STICK TO THE TYPE OF CHARACTERS I HAVE PRE-INSTALLED, LIKE LETTERS, NUMBERS, AND PARENTHESIS
+             - Save your changes, then run the script again to get the new files organized
+             
+             =====================================
+
+=== Info About Option 100: *SWAP* ENG Audio With JPN/CHN Audio ===
+             
+              This option swaps English voice lines with their Japanese or Chinese versions.
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - In Fmodel, Navigate to 'Marvel/Content/WwiseAudio/'
+             - Select the Media folder, then Export it as '.uasset'
+             
+             - In Fmodel, Navigate to 'Marvel/Content/'
+             - Select the Localization folder, then Export it as '.json'
+             
+             - In Fmodel, Navigate to 'Marvel/Content/Marvel/'
+             - Select the Wwise folder, then Export it as '.json'
+             
+             - Place these Media, Localization, and WWise folders into '1-Put-MEDIA-LOCAL-WWISE-Here'.
+             - Ensure 'CHARACTER-ID-LIST.txt' is in the '1_XTRA\' folder.
+             
+             - Choose Option 100 of this script
+             - FIRST, the script will then begin renaming and organizing .wem files into language-specific folders (e.g., English(US), Japanese(JP)).
+             - It will also rename and organize .wem files into a Display folder, which contains things like emote and lobby sfx
+             - Output is saved in '2-RENAMED-WEMs-Will-Be-Here', with folders named using character IDs, names, and DebugName prefixes (e.g., 1021_Hulk_hero_hulk_(US)).
+             
+             - SECOND, the script will copy Japanese and Chinese .wem files from '2-RENAMED-WEMs-Will-Be-Here'.
+             - Then it will rename them to match English file names, creating new language-specific folders.
+             - Output is saved in '5-ENG-FILES-With-JPN-AUDIO-Here' and '5-ENG-FILES-With-CHN-AUDIO-Here'.
+             
+             =====================================
+              NOTES:
+             
+             - Uses '1_XTRA\CHARACTER-ID-LIST.txt' to map character IDs to names.
+             - If you know the Character ID of a new character (or costume), you can add it to this file
+             - DO NOT INCLUDE ANY COLONS, SEMICOLONS, OR OTHER SPECIAL CHARACTERS WHEN ENTERING NEW NAMES
+             - THIS WILL CAUSE THE SCRIPT TO NOT READ THE NAME
+             - STICK TO THE TYPE OF CHARACTERS I HAVE PRE-INSTALLED, LIKE LETTERS, NUMBERS, AND PARENTHESIS
+             - Save your changes, then run the script again to get the new files organized
+             
+             =====================================
+
+=== Info About Option 101: Extract, Organize, *AND SPLIT* Subtitles ===
+             
+              This option combines Option 2 and subtitle splitting into a single workflow.
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - In Fmodel, Navigate to 'Marvel/Content/WwiseAudio/'
+             - Select the Media folder, then Export it as '.uasset'
+             
+             - In Fmodel, Navigate to 'Marvel/Content/'
+             - Select the Localization folder, then Export it as '.json'
+             
+             - In Fmodel, Navigate to 'Marvel/Content/Marvel/'
+             - Select the Wwise folder, then Export it as '.json'
+             
+             - Place these Media, Localization, and WWise folders into '1-Put-MEDIA-LOCAL-WWISE-Here'.
+             - Ensure 'CHARACTER-ID-LIST.txt' is in the '1_XTRA\' folder.
+             
+             - Choose Option 101 of this script
+             - The script will then begin extracting subtitles and organizing them into .json files.
+             - Output is saved in '3-SUBTITLEs-Are-Here', with subfolders for each language (e.g., en, ja).
+             - Then the script will split these jsons into two different versions:
+               1. Filenames.json, which will only contain the file names of the renamed .wem files
+               2. Subtitles.json, which will only contain the subtitle lines of the renamed .wem files
+             - This is primarily used by me to easily update the Subtitles Spreadsheet (Choose Option z for more info)
+             
+             =====================================
+              NOTES:
+             
+             - Uses '1_XTRA\CHARACTER-ID-LIST.txt' to map character IDs to names.
+             - If you know the Character ID of a new character (or costume), you can add it to this file
+             - DO NOT INCLUDE ANY COLONS, SEMICOLONS, OR OTHER SPECIAL CHARACTERS WHEN ENTERING NEW NAMES
+             - THIS WILL CAUSE THE SCRIPT TO NOT READ THE NAME
+             - STICK TO THE TYPE OF CHARACTERS I HAVE PRE-INSTALLED, LIKE LETTERS, NUMBERS, AND PARENTHESIS
+             - Save your changes, then run the script again to get the new files organized
+             
+             =====================================
