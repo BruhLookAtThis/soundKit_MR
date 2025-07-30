@@ -1,0 +1,369 @@
+----------------------------------------------------------------
+CREDITS:
+----------------------------------------------------------------
+
+BruhLookAtThis / ❕토 Tobi 비❕ (Spare Change?: https://linktr.ee/BruhLookAtThis)
+SlimeCore_ / WispEnjoyer
+Lazuli / Kara
+u/charles2404
+
+----------------------------------------------------------------
+CREATOR NOTES:
+----------------------------------------------------------------
+
+-Documentation for SFX/Voices is SLOWLY beginning here: https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=438791024#gid=438791024
+-Decimal to 8-digit Hex Converter: https://www.rapidtables.com/convert/number/decimal-to-hex.html
+
+----------------------------------------------------------------
+FIRSTLY BEFORE YOU DO ANYTHING HERE:
+----------------------------------------------------------------
+
+1. Go into the '0_XTRA\0-(CVS)' folder
+2. Read the Instructions (specifically for Option 1 of that .ps1 file in there)
+3. Run the .ps1 script there and choose option 1 (after following the setup steps of course)
+4. Once the Option 1 is completely done processing, you can come back to this tools script
+5. This is all done to make Option 1 of THIS script a better experience
+
+----------------------------------------------------------------
+BASICS:
+----------------------------------------------------------------
+
+1. Right Click the file thats named 'z1_RunMeInPowershell_SMT_MR.ps1'
+2. Click 'Run In Powershell'
+3. A Powershell window will open
+4. Select one of the Info Options to learn what each option does, how to use them, and extra notes it may have
+
+----------------------------------------------------------------
+WARNINGS:
+----------------------------------------------------------------
+
+1. Dont touch the contents of the file thats named 'z1_RunMeInPowershell_SMT_MR'
+2. Do NOT try to use this tool inside of a folder that has spaces or special characters in its name
+   This includes ANY folder in the path leading to the tool
+   Good Example: 'D:\Folder1\Folder2\Folder3\soundkit_MR_v99\' is good to go, because there are no spaces OR special characters in the path folders
+   Bad Example: 'D:\Folder 1\Folder2\Folder#\soundkit_MR_v99\' is not good to go, because it has a space and a special character in the path folders
+3. Use this tool inside of a super long directory may cause issues, like skipped files during processing   
+
+----------------------------------------------------------------
+TROUBLESHOOTING:
+----------------------------------------------------------------
+
+1. If you have any questions, hit the discord buddy: https://discord.gg/UU7dKBSqUR
+2. If you run the .ps1 file in Powershell and it immediately closed:
+    - Type 'powershell' in the File Explorer url and hit Enter
+    - A Powershell window will open. Paste this in it and hit Enter:
+
+     .\z1_RunMeInPowershell_SMT_MR.ps1
+
+    - You should be able to clearly see an error message now without the window immediately closing 
+
+2b. If you get an error/warning about Execution Policy when running the .ps1 file
+    - Double click 'z2_DoubleClickMe_SMT_MR.bat'
+     (If you dont see the .bat at the end of the file's name, Google 'How To Enable File Extensions'
+     and follow the instructions for your OS version)
+    - A CMD window will appear and the process will (or should lol) begin
+
+    IF THIS DOES NOT WORK, GOOGLE 'HOW TO CHANGE POWERSHELL EXECUTION POLICY' AND FOLLOW THE STEPS FOR YOUR OS VERSION (Windows 10, Windows 11, etc)
+
+2c. If you get an error/warning about something 'not being recognized as a valid command' or whatever
+    - Make sure the path to your tool doesnt have folders that contain spaces or special characters in their names (See the WARNINGS section)
+     
+3. If you clicked the .ps1/.bat and nothing showed up in the '3-Your-Modded-Bnk-Is-In-Here' folder, make sure you updated your FModel to the latest version available.
+    - At the top of FModel, go to Help > Releases.
+    - Download the latest Release
+    - Re-export your vanilla .bnk from FModel, and then try again
+
+4. If it's still not working, you probably...MESSED WITH THE AMAZING SPIDERMAN!!!! DON'T DO THAT!!!     
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+INFO ABOUT THIS TOOLS OPTIONS:
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+Info About Option 0: *CONVERT* Your Custom .Wav Files Into .Wem Files
+         
+             - This option converts your custom .wav audio files into .wem files.
+             - Ensure ffmpeg.exe & ffprobe.exe are in '0_XTRA\0-TOOLS' (if not, download from https://ffmpeg.org/download.html).
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - Place your custom .wav file(s) in '0-Put-CUSTOM-WAVS-Here'.
+             - Select Option 0 in this script.
+             - The script converts .wav files to .wem files, outputting them into '2-Put-CUSTOM-WEMs-Here'.
+             - You can then use Option 1 to include these .wem files in a modded .bnk file.
+             
+             =====================================
+              NOTES:
+             
+             - A fade-in filter is applied to prevent audio pops (0.01s duration).
+             
+             =====================================
+
+Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE* .Wem IDs
+      
+             - This option creates a modified .bnk file by replacing original .wem files inside of the .bnk with your custom .wem files.
+             - It can also be used simply to extract a .bnk file so you can examine the wem files inside
+             - It can also update old wem IDs to newer ones by cross-referencing subtitle jsons
+             
+             - Please do Option 1 Of The CVS .Ps1 Script In The '0_XTRA\0-CVS' Folder *FIRST*!
+             - This Will Allow Option 1 Of *THIS* Script To Rename/Replace MOST Of The Bnk Folder's Split-Second Audio Clips With FULL, NAMED Clips
+             
+             - Be Aware That This Rename/Replace Function Only Works With The Following File Types:
+               Bnk_Vo_####
+               Bnk_Display_####
+             
+             - This Will NOT Do Anything For The Following File Types:
+               Bnk_Display_Breath_####
+               Bnk_Sfx_###
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - IF you are looking for a sound effect (sfx/display) file:
+             - In Fmodel, Navigate to 'Marvel/Content/'
+             - Select the WWiseAudio folder, then select the 'Packages' tab at the top of the window
+             - Select a .bnk file,  then Export it as '.uasset'
+             
+             - IF you are looking for a voice (vo/display_breath) file:
+             - In Fmodel, Navigate to 'Marvel/Content/WWiseAudio/(One Of The Language Folders)'
+             - Select a .bnk file,  then Export it as '.uasset'
+             
+             - Place your .bnk file(s) in '1-Put-ORIGINAL-BNKs-Here'.
+             - Place your custom .wem files in '2-Put-CUSTOM-WEMs-Here'.
+             
+             - Select Option 1 in this script.
+             - Select a Sub-Option and press Enter.
+             
+             - SUB-OPTION 1:
+             - This will create a modded .bnk(s) using your custom .wems, then output it to '3-Your-MODDED-BNK-Is-Here'.
+             
+             - SUB-OPTION 2:
+             - This will output folder(s) named after the .bnk file(s) + character costume in '4-Your-EXTRACTED-BNKs-Are-Here'.
+               These folders will contain all the .wems from the .bnk, so you can look at them for yourself
+               If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
+               the script will append '_Old#' to the older bnk folder(s)
+             
+             - SUB-OPTION 3: (EXPERIMENTAL)
+             - This will update old wem IDs that are from prior Seasons that have changed, then create a modded .bnk
+             - First it will cross reference the .json info in the 'SUB-OLD-*' folder in '0_XTRA\0-CVS\1_XTRA\'.
+             - If it finds that a wem ID has changed, it will rename it to the current ID, which it will find
+             - It will then create a modded .bnk(s) using your custom .wems, then output it to '3-Your-MODDED-BNK-Is-Here'.
+             
+             =====================================
+              NOTES:
+             
+              FILE NAMING
+             - .Wem filenames in '2-Put-CUSTOM-WEMs-Here' must start with the same decimal (or hexadecimal) number that the original wem file starts with.
+             - For example, if the original file was '1278791-vo_blahblah.wem', your custom .wem NEEDS to have '1278791' at the front of it's name.
+             - If you want to add more to the name, separate the number with a hyphen, then type your custom name
+             - For example, '1278791-PoopyHead.wem' is valid. '1278791PoopyHead.wem' is not because it has no hyphen
+             - Please only use letters, numbers, hyphens, and/or underscores in your custom name
+             
+              ERROR FOLDERS
+             - Duplicate IDs will be moved to 'x202-DUPE-ID-Wems-Are-Here'.
+               You need to choose one file to use, as they both cannot replace a single entry
+             - Invalid filenames will be moved to 'x203-INVALID-NAME-Wems-Are-Here'.
+               These files do not have a hexa/decimal number at the front of their name or dont have a hyphen separating the rest of the name
+             - WEMs with no matching .bnk ID will be moved to 'x204-Wems-With-NO-BNK-MATCH-Here'.
+               These files have a number in their name that doesnt match any entries within the .bnk files in '1-Put-ORIGINAL-BNKs-Here'
+             
+              TIPS
+             - If making a mod from scratch, always use a vanilla .bnk from the latest version of the game
+             - IF YOU DID OPTION 1 OF THE CVS SCRIPT: *MOST* wems in the bank_streams folder will be renamed and/or replaced with their full audio clips
+             - Miscellaneous sounds will be in an 'Unknown' folder inside of your extracted bnk's 'bank_streams' folder
+             - Keep in mind, old audio mods MAY be missing new voice lines/sounds that have been added in a game update.
+             - That's why I ALWAYS advise using a fresh file if you're going to create a mod.
+             
+              MORE INFO
+             - Usually, the CVS script is used to extract full voicelines for every character
+             - However, SOME characters, like Black Panther, have full voicelines that are ONLY located in his .bnk file/the extracted bnk_* folders.
+             - However (Pt.2), because those voice lines are only found in the .bnk, they will not have any reference name to be renamed to
+             - AKA, they will still show up as random numbers for their name, instead of something like '1278791-vo_blahblah.wem'
+             - ALL files that do not have a reference name will be placed into an 'Unknown' folder
+             - Mainly, .bnk files are where full clips of death, damage, gasp, etc. sounds are found
+             - There are many (seemingly) unused clips as well, which obviously dont have reference names, so they will also be in 'Unknown'
+             
+              MORE INFO Pt.2
+             - Some bnks like 'Init.bnk' and 'bnk_vo_effect' dont seem to work with this tool
+             - If I find a way to fix that, I will update the script. 'music_formal.bnk' may not be fully supported either
+             
+              MORE INFO Pt.3
+             - Sub-Option 3 relies on the info in the multiple SUBTITLES folders
+             - The SUBTITLES folder that will be used for the renaming will be named SUB-NEW-*
+             - The asterisk can be whatever you want. As of the time of writing, I have it as SUB-NEW-S3
+             - I put 'S3' because it is currently Season 3
+             
+             - The SUBTITLES folder that will be used for initially matching old wem IDs will be named SUB-OLD-*
+             - The asterisk can be whatever you want. As of the time of writing, I have it as SUB-OLD-S2.5
+             - I put 'S2.5' because it is currently Season 3, and the season prior to this was 2.5
+             - All voice file wem IDs remained the same from Season 1 to Season 2.5, so this should suffice even for updating Season 1 wems
+             
+             - When Season 3.5 rolls around, you can rename 'SUB-NEW-S3' to 'SUB-OLD-S3
+             - Then run Option 2 of CVS to get the subtitles for Season 3.5, and place them into a 'SUB-NEW-S3.5' folder
+             - This should be a continuable process for any future Season, unless NetEase screws us all over
+             
+             - Highly recommend removing any language folders that you know you wont be using. This will speed the process up
+             - For example,I'm only keeping the 'en' folder in both of my SUBTITLES-* folders
+             - This way, the script doesnt waste time searching jsons that dont matter, or could get in the way
+             
+              QUICK .BNK CONTENT RUNDOWN:
+             - Bnk_vo_#######.bnk: Character voice bnks
+             - Bnk_sfx_#######.bnk: Character general SFX bnks
+             - Bnk_display_#######.bnk: Character general 'Display' SFX bnks (i.e. Emote SFX, MVP SFX, Hero Menu SFX, etc)
+             - Bnk_display_breath_#######.bnk: Character general breathe sound bnks (i.e. Gasps, Jump Breaths, Sighs, Hero Menu Laughs, etc)
+             
+             =====================================
+
+=== Info About Option 102: *RENAME* Special Wems From FModel === -ForegroundColor Cyan
+     
+     This option renames and organizes .wem files, mainly sfx and display, extracted from uassets in FModel.
+     
+     =====================================
+      INSTRUCTIONS:
+     
+     - In Fmodel, Navigate to:
+       'Marvel/Content/Marvel/Wwise/Assets/WwiseEvents/Characters/####/#######/'
+     - Select a folder (namely 'display', 'ability', 'impact', etc.)
+       Files that begin with 'sfx' or 'display' are what's important here
+     - Double click a single file or (recommended) Shift select all files in the folder'
+     - Right click and select 'Extract In New Tab'
+     - This should open a media player in FModel.
+     - Right click and press 'Save Playlist'
+     - This should export every file in the media player to your FModel output folder
+     
+     - Place your exported .wem files in:
+       'x100-XTRAs-Are-Here\x102-RENAMED-File-Stuff\A-Put-Files-To-Rename-Here'
+     - Select Option 102 in this script.
+     - The script will rename files by moving the number in parentheses to the front of the file's name.
+     - Files are then organized into folders named after the relevant costume (based on the 7-digit ID number of the file).
+     - Output is placed in 'x100-XTRAs-Are-Here\x102-RENAMED-File-Stuff\B-RENAMED-FILES-Are-Here'.
+     
+     =====================================
+      NOTES:
+     
+     - Filenames must end with a number in parentheses (e.g., '(4313545)').
+     - Only .wem files are processed; others are deleted from the output folder.
+     - If no character ID match is found, the numeric ID is used in the folder name.
+     - Use this to prepare .wem files for use with Option 1 (create modded .bnk files).
+     
+     =====================================
+      MORE INFO:
+     
+     - For files with a 7-digit number between the first and second underscores, the script (like 'display_1031001_hello_play.wem'):
+       - Matches '1031001' to 'CHARACTER-ID-LIST.txt' (e.g., '1031001: LunaSnow (Default)').
+       - Creates a folder like 'LunaSnow (Default)-display_1031001'.
+       - Places the file in a subfolder named after the text between the second and third underscores (e.g., 'hello').
+     - For 'vo' files with a 5-digit and 3-digit number (e.g., 'vo_10310_301_breath_... (4313545).wem'):
+       - Combines '10310' and '301' (minus the 5th digit) to form '1031301'.
+       - Matches '1031301' to 'CHARACTER-ID-LIST.txt' (e.g., '1031301: LunaSnow (Mirae 2099)').
+       - Creates a folder like 'LunaSnow (Mirae 2099)-Display_Breath_1031301'.
+       - Places the file in a subfolder named after the text between the third and fourth underscores (e.g., 'breath').
+       - This 'vo' function is here just in case, it's not terribly useful at the moment
+     - Invalid files are moved to 'x203-INVALID-NAME-Wems-Here'.
+     
+     =====================================
+
+Info About Option 103: Create *TEST* Wem Files
+
+              This option creates test .wem files by copying test files over your source .wem files.
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - Place your .wem file(s) in 'x100-XTRAs-Are-Here\x103-TEST-Wem-Stuff\A-Put-Wems-To-TEST-Here'.
+             - Ensure test .wem files are in '0_XTRA\0-TESTS'.
+             - Select Option 105 in this script.
+             - The script copies test files to match your source .wem files, preserving folder structure.
+             - Outputs are placed in 'x100-XTRAs-Are-Here\x103-TEST-Wem-Stuff\B-Your-New-TEST-Wems-Are-Here'.
+             
+             =====================================
+             NOTES:
+             
+             - If the number of test files exceeds the number of source .wem files, the script will reuse some test files.
+             - The number in the '_test#' of the filename will be the audio that plays in game.
+             - So for example: '19191919-Example_test1.wem', the sound that will play when this file triggers is 'ONE'. 
+             - Use this to create placeholder .wem files for pinpointing sounds.
+             
+             =====================================
+
+Info About Option 104: Create *SILENT* Wem Files
+
+              This option creates silent .wem files by replacing your input .wem files with a silent .wem file.
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - Place your .wem file(s) in 'x100-XTRAs-Are-Here\x104-SILENT-Wem-Stuff\A-Put-Wems-To-SILENCE-Here'.
+             - Ensure '0-Silent.wem' is in '0_XTRA\0-TESTS'.
+             - Select Option 104 in this script.
+             - The script copies '0-Silent.wem' to match the name of your source .wem files, preserving folder structure.
+             - Output is placed in 'x100-XTRAs-Are-Here\x104-SILENT-Wem-Stuff\B-Your-New-SILENCED-Wems-Are-Here'.
+             
+             =====================================
+              NOTES:
+             
+             =====================================
+
+Info About Option 105: *REPLACE* Multiple Wems With One Wem File
+
+              This option replaces multiple .wem files with a single .wem file.
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - Place your .wem files to be replaced in 'x100-XTRAs-Are-Here\x105-REPLACED-Wem-Stuff\A-Put-Wems-To-REPLACE-Here'.
+             - Place a single replacement .wem file in 'x100-XTRAs-Are-Here\x105-REPLACED-Wem-Stuff\B-Put-The-REPLACEMENT-Wem-Here'.
+             - Select Option 105 in this script.
+             - The script copies the replacement .wem file to match your input .wem files, preserving folder structure.
+             - Output is placed in 'x100-XTRAs-Are-Here\x105-REPLACED-Wem-Stuff\C-Your-New-REPLACED-Wems-Are-Here'.
+             
+             =====================================
+              NOTES:
+             
+             - Exactly one .wem file must be in the replacement folder.
+             - Use this to replace multiple sounds with a single custom sound.
+             
+             =====================================
+
+Info About Option 106: *ISOLATE* Custom Wems From Modded Bnks
+
+             This option isolates custom WEM files by comparing modded and vanilla BNKs.
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - Place the modded .bnk file(s) in 'x100-XTRAs-Are-Here\x106-ISOLATED-Wem-Stuff\A-Put-Modded-Bnk-Here'.
+             - Place the vanilla .bnk file(s) in 'x100-XTRAs-Are-Here\x106-ISOLATED-Wem-Stuff\B-Put-Vanilla-Bnk-Here'.
+             - Select Option 106 in this script.
+             - The script will then extract and delete .wems that have the exact same file size and name.
+             - 'C-Modded-Wems-Here' will contain folder(s) named like so: <chara_costume>-<bnk_name>
+             - Inside these folders will be all the modded .wems that were in the .bnk.
+             - 'D-Vanilla-Wems-Here' will contain folder(s) named like so: <chara_costume>-<bnk_name>
+             - Inside these folders will be the full, vanilla counterpart .wems.
+             
+             =====================================
+              NOTES:
+             
+             - If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
+               the script will append '_Old#' to the older bnk folder(s)
+             - There is a one-in-a-million chance that a modded .wem is the same file size as a vanilla .wem.
+             - If such is the case, it would be deleted too. Nothing I can do about that for now.
+             - That would actually be crazy tho, ngl
+             
+             =====================================
+
+MISCELLANEOUS INFO
+
+             === Marvel Rivals Sound Documentation ===
+             
+              https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=438791024#gid=438791024
+             
+             === Marvel Rivals Modding Discord ===
+             
+              https://discord.gg/marvelrivalsmodding
+             
+             =====================================
