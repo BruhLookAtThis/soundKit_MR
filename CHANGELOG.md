@@ -581,6 +581,7 @@ For SMT
 - Changed how Option 103 functions
   1. Previously, test file creation was limited to the amount of test wems available in the Tests folder
   2. Now, the script will reuse Test wems if there are more source wems than test wems
+  3. "_test#" was changed to "-test#"
 
 - Changed various folder names
   1. '4-Dupe-ID-Wems-Are-Here' changed to 'x202-DUPE-ID-Wems-Here'
