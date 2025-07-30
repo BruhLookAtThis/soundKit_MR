@@ -360,7 +360,9 @@ Updated as of Season 3
 1071001: Amaranth (Default)
 
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
-# Galacta has bnk_vo_system.bnk & bnk_vo_tutorial_level.bnk
+
+# Galacta has bnk_vo_system.bnk, bnk_vo_practice_level.bnk & bnk_vo_tutorial_level.bnk
+# UltronDrone has bnk_vo_4019001.bnk
 
 4017: Galacta
 4019: UltronDrone
