@@ -115,9 +115,11 @@ Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE
              - Be Aware That This Rename/Replace Function Only Works With The Following File Types:
                Bnk_Vo_####
                Bnk_Display_####
+               Bnk_Display_Breath_####
+               Bnk_Display_Vo_####
+               Bnk_Vo_(Word)
              
              - This Will NOT Do Anything For The Following File Types:
-               Bnk_Display_Breath_####
                Bnk_Sfx_###
              
              =====================================
@@ -143,8 +145,10 @@ Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE
              
              - SUB-OPTION 2:
              - This will output folder(s) named after the .bnk file(s) + character costume in '4-Your-EXTRACTED-BNKs-Are-Here'.
-               These folders will contain all the .wems from the .bnk, so you can look at them for yourself
-               If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
+             - These folders will contain all the .wems from the .bnk, so you can look at them for yourself
+             - If the .wems have an ID that matches a .wem ID present in the '2-RENAMED-WEMs-Are-Here' folder of CVS,
+               then that .wem will be replaced with the .wem from '2-RENAMED-WEMs-Are-Here'
+             - If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
                the script will append '_Old#' to the older bnk folder(s)
              
              - SUB-OPTION 3: (EXPERIMENTAL)
@@ -152,6 +156,12 @@ Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE
              - First it will cross reference the .json info in the 'SUB-OLD-*' folder in '0_XTRA\0-CVS\1_XTRA\'.
              - If it finds that a wem ID has changed, it will rename it to the current ID, which it will find
              - It will then create a modded .bnk(s) using your custom .wems, then output it to '3-Your-MODDED-BNK-Is-Here'.
+
+             - SUB-OPTION 2:
+             - This will output folder(s) named after the .bnk file(s) + character costume in '4-Your-EXTRACTED-BNKs-Are-Here'.
+             - These folders will contain all the .wems from the .bnk, so you can look at them for yourself
+             - If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
+               the script will append '_Old#' to the older bnk folder(s)
              
              =====================================
               NOTES:
