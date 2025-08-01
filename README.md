@@ -1,9 +1,9 @@
 OVERVIEW
 --------------------------------------------------------------
 
-(GRAB THE LATEST repak_cli (or repak-GUI) .zip FROM HERE: https://github.com/natimerry/repak-rivals/releases)
+[(GRAB THE LATEST repak_cli (or repak-GUI) .zip](https://github.com/natimerry/repak-rivals/releases)
 
-(GRAB AN FMODEL DOWNLOAD FROM HERE: https://fmodel.app/download)
+[GRAB FMODEL FROM HERE](https://fmodel.app/download)
 
 1. Each folder has their own instructions
 2. The CVS (Chara-Voice-Sorter) folder is for:
@@ -24,8 +24,7 @@ OVERVIEW
    
    Audio that has been logged can be found here:
 
-   (For Marvel Rivals)
-   https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0
+   [Marvel Rivals Audio Spreadsheet](https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0)
 
 5. The 3_XTRA folder contains:
    
