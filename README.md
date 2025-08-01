@@ -1,7 +1,7 @@
 OVERVIEW
 --------------------------------------------------------------
 
-[(GRAB THE LATEST repak_cli (or repak-GUI) .zip](https://github.com/natimerry/repak-rivals/releases)
+[GRAB THE LATEST repak_cli (or repak-GUI)](https://github.com/natimerry/repak-rivals/releases)
 
 [GRAB FMODEL FROM HERE](https://fmodel.app/download)
 
