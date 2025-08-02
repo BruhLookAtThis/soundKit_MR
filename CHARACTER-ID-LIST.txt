@@ -386,7 +386,7 @@ Updated as of Season 3
 4018: NPC_GalactaBotTank
 
 8021: NPC_LokiGhost
-8031: NPC_SpiderZero_VoiceID
+8031: NPC_SpiderZeroAndMasterWeaver
 8032: NPC_TrainNPCs
 8041: NPC_Shuri
 8042: NPC_BastAndNPCs
