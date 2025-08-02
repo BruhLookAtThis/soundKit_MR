@@ -507,7 +507,7 @@ For CVS
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.0 (NOT RELEASED YET)
+UPDATE 2.0.0
 
 Kinda...forgot everything I changed LOL
 Ill list what I remember, might be a little vague tho
@@ -613,3 +613,10 @@ For CVS
   - I will try to iron this out at a later date, but its no big issue at the moment
   
 - NOTE: Long file path issue has been alleviated a bit, but still, I advise you dont try to run CVS or SMT in some long, complex directory.
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.0b
+
+For CVS
+- Changed '8031: NPC_SpiderZero_VoiceID' to '8031: NPC_SpiderZeroAndMasterWeaver' in the CHARACTER-ID-LIST.txt file
