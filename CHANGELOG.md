@@ -620,3 +620,16 @@ UPDATE 2.0.0b
 
 For CVS
 - Changed '8031: NPC_SpiderZero_VoiceID' to '8031: NPC_SpiderZeroAndMasterWeaver' in the CHARACTER-ID-LIST.txt file
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.1
+
+For SMT
+- Re-applied/added wem filename sanitization function for Options 1s Sub-Option 1 and Sub-Option 3
+  - As with folder paths, spaces in filenames cause issues that prevent the script from functioning properly
+  - In the video, I instructed users to refrain from using spaces, special characters, etc in their wem filenames
+  - However, older versions of the script were able to bypass these issues using sanitization
+  - I forgot about that for 2.0.0, so now it is added back
+  - Any wem file with a space, special character, underscore, etc will have those characters replaced with a hyphen before processing
+  - This should only be an issue-and-fix for SubOpt 1/3, but if other cases show up Ill look into it (Dont got time to dig around atm)
