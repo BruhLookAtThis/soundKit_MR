@@ -646,7 +646,7 @@ For General
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.3 (NOT RELEASED. BUG TESTING)
+UPDATE 2.0.3
 
 For SMT
 - Re-implemented ability to process a custom wem ID for multiple bnk files that may all reference it
