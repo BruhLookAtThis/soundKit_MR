@@ -633,3 +633,20 @@ For SMT
   - I forgot about that for 2.0.0, so now it is added back
   - Any wem file with a space, special character, underscore, etc will have those characters replaced with a hyphen before processing
   - This should only be an issue-and-fix for SubOpt 1/3, but if other cases show up Ill look into it (Dont got time to dig around atm)
+ 
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.2
+
+For General
+- Updated 'SUBs-NEW' folder for Season 3.5
+- Updated .usmap file for Season 3.5
+- Updated 'CHARACTER-ID-LIST.txt' file for Season 3.5
+- Updated '.ALL-LANGS-FOR-SUBS-NEW-S3' with Season 3.5 files, renamed to '.ALL-LANGS-FOR-SUBS-NEW-S3.5'
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.3 (NOT RELEASED. BUG TESTING)
+
+For SMT
+- Re-implemented ability to process a custom wem ID for multiple bnk files that may all reference it
