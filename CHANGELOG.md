@@ -650,3 +650,13 @@ UPDATE 2.0.3
 
 For SMT
 - Re-implemented ability to process a custom wem ID for multiple bnk files that may all reference it
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.3b
+
+For SMT
+- Adjusted Option 1s file name sanitization to 'only' replace spaces in the file name with hyphens
+  - This should allow you to keep apostrophes, exclamation marks, @s, etc in the name if you so wish
+ 
+NOTE: NOT EXTENSIVELY TESTED
