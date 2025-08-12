@@ -660,3 +660,19 @@ For SMT
   - This should allow you to keep apostrophes, exclamation marks, @s, etc in the name if you so wish
  
 NOTE: NOT EXTENSIVELY TESTED
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.4
+
+For SMT
+- It has recently been discovered that trying to process more than 580MB of wems in the '2-Put-CUSTOM-WEMs-Here' folder does not work
+- Adjusted Option 1s Sub-Options 1 & 3 to throw an error if more than 580MB of wems detected in that folder, cancelling any operations
+  - Users must now reduce the amount of files in that folder until it is under 580MB before they can proceed
+  - Realistically, nobody should come close to hitting this limit unless they are processing a metric f**kton of wems for MULTIPLE .bnk files
+- Updated relevant Info Option and Instructions file
+
+- Updated Option 106 to remove hardcoded path requirement that was accidentally left in
+  - Function should now work in more dynamic folder paths leading up to the tools main folder  
+ 
+NOTE: NOT EXTENSIVELY TESTED
