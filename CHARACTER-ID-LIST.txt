@@ -2,8 +2,7 @@ Updated as of Season 4
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
-# 1 0 5 4 1 0 1 - Sirianas Silver
-# 1 0 5 4 5 0 0 - Skuld 2099
+# Nothing Yet...
 
 # OKAY, YOU CAN STOP IGNORING NOW. EVERYTHING BELOW IS VALID
 
@@ -380,7 +379,8 @@ Updated as of Season 4
 1056: Angela
 1056001: Angela (Default)
 1056100: Angela (Cerulean Lightbringer)
-1056500: Angela (PLACEHOLDER)
+1054101: Angela (Sirianas Silver)
+1056500: Angela (Skuld 2099)
 
 1067: Armor
 1067001: Armor (Default)
