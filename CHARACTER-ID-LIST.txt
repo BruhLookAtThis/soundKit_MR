@@ -1,4 +1,11 @@
-Updated as of Season 3
+Updated as of Season 4
+
+# IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
+
+# 1 0 5 4 1 0 1 - Sirianas Silver
+# 1 0 5 4 5 0 0 - Skuld 2099
+
+# OKAY, YOU CAN STOP IGNORING NOW. EVERYTHING BELOW IS VALID
 
 # DO NOT CHANGE THE NAME OF ANY ALREADY-EXISTING ENTRIES. THIS CAN BREAK FEATURES OF THE SCRIPT.
 
@@ -30,10 +37,12 @@ Updated as of Season 3
 1016100: Loki (Frost Giant)
 1016300: Loki (Shin Sagi-Shi)
 1016301: Loki (Robe of Relaxation)
+1016302: Loki (Immortal Firebird)
 1016303: Loki (Tidal Trickery)
 1016500: Loki (Presidental Attire)
 1016501: Loki (All-Butcher)
 1016800: Loki (Loki Season 2)
+
 
 1017: HumanTorch
 1017001: HumanTorch (Default)
@@ -46,6 +55,7 @@ Updated as of Season 3
 1018: DoctorStrange
 1018001: DoctorStrange (Default)
 1018100: DoctorStrange (Master of Black Magic)
+1018101: DoctorStrange (Astral Wanderer)
 1018300: DoctorStrange (Sorcerer Immortal)
 1018500: DoctorStrange (God Of Magic)
 1018501: DoctorStrange (Sorcerer Supreme of the Galaxy)
@@ -63,7 +73,7 @@ Updated as of Season 3
 1021001: Hawkeye (Default)
 1021100: Hawkeye (Tigers Eye)
 1021300: Hawkeye (Galactic Fangs)
-1021301: Hawkeye (MAYBE - Binary Arrow Hawkeye (Ultron Virus))
+1021301: Hawkeye (Old Man Hawkeye)
 1021500: Hawkeye (Ronin)
 1021501: Hawkeye (Freefall)
 
@@ -74,6 +84,7 @@ Updated as of Season 3
 1022500: CaptainAmerica (Captain Gladiator)
 1022501: CaptainAmerica (Star Spangled Style)
 1022502: CaptainAmerica (Captain Klyntar)
+1022503: CaptainAmerica (Golden Age)
 1022801: CaptainAmerica (Avengers: Infinity War)
 
 1023: RocketRaccoon
@@ -92,12 +103,14 @@ Updated as of Season 3
 1024300: Hela (Queen in Black)
 1024301: Hela (Empress of the Cosmos)
 1024302: Hela (Yami no Karasu)
+1024303: Hela (Queen in Black)
 1024500: Hela (Goddess of Death)
 
 1025: CloakDagger
 1025001: CloakDagger (Default)
 1025100: CloakDagger (Lemon Lime)
 1025300: CloakDagger (Dance Partner)
+1025302: CloakDagger (Polarity Bond)
 1025500: CloakDagger (Growth & Decay)
 1025301: CloakDagger (Twilight Duo)
 
@@ -112,7 +125,7 @@ Updated as of Season 3
 1027: Groot
 1027001: Groot (Default)
 1027100: Groot (ABIES ALGAE)
-1027300: Groot (PLACEHOLDER)
+1027300: 
 1027301: Groot (Yggroot Groot)
 1027302: Groot (Holiday Happiness)
 1027500: Groot (Carved Traveler)
@@ -122,6 +135,7 @@ Updated as of Season 3
 1028001: Ultron (Default)
 1028100: Ultron (Mechanical Phantom)
 1028102: Ultron (Golden Ultron (Ranked skin))
+1028300: Ultron (Wasteland Robot)
 1028500: Ultron (X-Tron)
 
 1029: Magik
@@ -132,6 +146,7 @@ Updated as of Season 3
 1029302: Magik (Rosy Resilience - Punkchild)
 1029500: Magik (Eldritch Armor)
 1029501: Magik (Retro X-Uniform)
+1029502: Magik (Phoenix Demon)
 
 1030: MoonKnight
 1030001: MoonKnight (Default)
@@ -141,6 +156,7 @@ Updated as of Season 3
 1030500: MoonKnight (Mister Knight)
 1030501: MoonKnight (Phoenix Knight)
 1030800: MoonKnight (Fist of Vengeance)
+1030801: MoonKnight (Moon Knight Mech)
 
 1031: LunaSnow
 1031001: LunaSnow (Default)
@@ -150,6 +166,7 @@ Updated as of Season 3
 1031302: LunaSnow (Nolaehaneun Manyeo)
 1031303: LunaSnow (Cool Summer)
 1031304: LunaSnow (Plasma Pulse - Mirae 2099)
+1031305: LunaSnow (Abyssal Glow)
 1031306: LunaSnow (Radiant Radiance)
 1031307: LunaSnow (Prismatic Pulse)
 
@@ -177,6 +194,7 @@ Updated as of Season 3
 1034301: IronMan (Blood Edge Armor)
 1034500: IronMan (Steam Power)
 1034501: IronMan (Superior Iron Man)
+1034502: IronMan (Extrembiote Armor)
 1034800: IronMan (Avengers: Endgame)
 
 1035: Venom
@@ -185,6 +203,7 @@ Updated as of Season 3
 1035101: Venom (ANTI-VENOM)
 1035102: Venom (Hyper Orange)
 1035300: Venom (Snow Symbiote)
+1035301: Venom (Reborn King in Black)
 1035500: Venom (Lingering Imprint)
 1035501: Venom (Space Knight)
 
@@ -205,6 +224,7 @@ Updated as of Season 3
 1037100: Magneto (UNCANNY BLACKSTEEL)
 1037101: Magneto (Will of Glacata)
 1037300: Magneto (Binary Sword)
+1037302: Magneto (The Trial of Magneto)
 1037500: Magneto (Master of Magnetism)
 1037501: Magneto (King Magnus)
 
@@ -213,6 +233,7 @@ Updated as of Season 3
 1038100: ScarletWitch (WHITE WITCH)
 1038101: ScarletWitch (NYX WEAVER)
 1038300: ScarletWitch (Immortal Sovereign)
+1038301: 
 1038500: ScarletWitch (Chaos Gown)
 1038501: ScarletWitch (Emporium Matron)
 1038800: ScarletWitch (Doctor Strange in the Multiverse of Madness)
@@ -240,9 +261,10 @@ Updated as of Season 3
 1041001: WinterSoldier (Default)
 1041100: WinterSoldier (Navy Trooper)
 1041300: WinterSoldier (Blood Soldier)
-1041301: WinterSoldier (PLACEHOLDER SKIN)
+1041301: WinterSoldier (Polarity Soldier)
 1041302: WinterSoldier (Winters Wraith (Blood Soldier))
 1041500: WinterSoldier (Revolution)
+1041501: WinterSoldier (Winters Veil)
 1041800: WinterSoldier (Thunderbolts)
 
 1042: PeniParker
@@ -250,6 +272,7 @@ Updated as of Season 3
 1042100: PeniParker (OLIVE SKIMMER)
 1042101: PeniParker (Blue Tarantula)
 1042300: PeniParker (Yatsukahagi)
+1042301: PeniParker (Wasteland Mecha)
 1042500: PeniParker (VEN#M)
 
 1043: StarLord
@@ -258,10 +281,13 @@ Updated as of Season 3
 1043300: StarLord (Lions Mane)
 1043500: StarLord (MASTER OF THE SUN)
 1043501: StarLord (King of Spartax)
+1043502: StarLord (Starlit Outlaw)
 1043800: StarLord (Guardians of the Galaxy Vol. 3)
 
 1044: Blade
 1044001: Blade (Default)
+1044101: Blade (Will of Galacta)
+1044300: Blade (Polarity Edge)
 
 1045: Namor
 1045001: Namor (Default)
@@ -324,6 +350,7 @@ Updated as of Season 3
 1051301: TheThing (Sunshine Thing)
 1051500: TheThing (Trench Coat)
 1051501: TheThing (Future Foundation The Thing)
+1051502: TheThing (Symbiote Thing)
 1051800: TheThing (First Steps)
 
 1052: IronFist
@@ -333,6 +360,7 @@ Updated as of Season 3
 1052301: IronFist (Binary Fist)
 1052500: IronFist (Sword Master)
 1052501: IronFist (Immortal Weapon of Agamotto)
+1052502: IronFist (Binary Fist)
 
 1053: EmmaFrost
 1053001: EmmaFrost (Default)
@@ -347,6 +375,12 @@ Updated as of Season 3
 1054101: Phoenix (The Return of Jean Grey)
 1054102: Phoenix (Emerald Flames)
 1054300: Phoenix (Chaos Phoenix)
+1054500: Phoenix (Dark Phoenix)
+
+1056: Angela
+1056001: Angela (Default)
+1056100: Angela (Cerulean Lightbringer)
+1056500: Angela (PLACEHOLDER)
 
 1067: Armor
 1067001: Armor (Default)
@@ -392,6 +426,7 @@ Updated as of Season 3
 8042: NPC_BastAndNPCs
 8043: NPC_Kliluna
 8052: NPC_AllBlack
+8053: NPC_Knull
 8061: NPC_Herbie
 8062: NPC_RatotoSkr
 8063: NPC_Bats
