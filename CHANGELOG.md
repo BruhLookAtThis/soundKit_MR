@@ -676,3 +676,19 @@ For SMT
   - Function should now work in more dynamic folder paths leading up to the tools main folder  
  
 NOTE: NOT EXTENSIVELY TESTED
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.5
+
+For General
+- Updated '.usmap' file for Season 4
+
+For SMT
+- Changed Sanitization logs from Red to Green to reduce confusion
+- Changed "Summary of Files Moved to Error Folders" to "Summary of Files Moved to Error Folders -> OR <- Files That Were Sanitized" to reduce confusion
+
+For CVS
+- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated 'SUBS-NEW' folder
+- Updated '.ALL-LANGS-FOR-SUBS-NEW-S4' folder
