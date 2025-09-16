@@ -692,3 +692,21 @@ For CVS
 - Updated 'CHARACTER-ID-LIST.txt' file
 - Updated 'SUBS-NEW' folder
 - Updated '.ALL-LANGS-FOR-SUBS-NEW-S4' folder
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.6
+
+For CVS
+- Added DEV Option 201
+  This option is intended to be used AFTER executing Option 2 or 101 to generate subtitles
+  Once that is done, you can use this option to further separate subtitles/filenames
+  It will split it up characters that have multiple voices under the same 4-digit ID
+  It accomplishes this by utitlizing 5 digits of the ID instead
+  This is because the 5th digit (typically) separates these different entities
+  For instance, Cloak & Dagger are '1025', but Dagger is '10250' and Cloak is '10251'
+- Updated 'CHARACTER-ID-LIST.txt' file to included these 5-Digit ID numbers
+  Future dual-voice characters should have their 5-digit IDs listed here for compatibility with Option 201
+
+NOTE: This is NOT heavily tested AT ALL! Like, WHATSOEVER! Ill get to that later, way too tired rn 
+      Also, this does not fix Doctor Stranges issue with the Madness costume voice
