@@ -9,6 +9,9 @@ Updated as of Season 4
 # DO NOT CHANGE THE NAME OF ANY ALREADY-EXISTING ENTRIES. THIS CAN BREAK FEATURES OF THE SCRIPT.
 
 1011: Hulk
+10110: Hulk (Banner)
+10111: Hulk (Hero Hulk)
+10112: Hulk (Monster Hulk)
 1011001: Hulk (Default)
 1011100: Hulk (Mighty G-Bomb)
 1011500: Hulk (Punk Rage)
@@ -106,6 +109,8 @@ Updated as of Season 4
 1024500: Hela (Goddess of Death)
 
 1025: CloakDagger
+10250: CloakDagger (Dagger)
+10251: CloakDagger (Cloak)
 1025001: CloakDagger (Default)
 1025100: CloakDagger (Lemon Lime)
 1025300: CloakDagger (Dance Partner)
@@ -138,6 +143,8 @@ Updated as of Season 4
 1028500: Ultron (X-Tron)
 
 1029: Magik
+10290: Magik (Magik)
+10291: Magik (DarkChylde)
 1029001: Magik (Default)
 1029100: Magik (AMETHEYST ARMOR)
 1029300: Magik (Punkchild)
