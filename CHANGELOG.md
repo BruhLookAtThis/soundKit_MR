@@ -713,7 +713,7 @@ NOTE: This is NOT heavily tested AT ALL! Like, WHATSOEVER! Ill get to that later
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.7 (NOT RELEASED YET)
+UPDATE 2.0.7 (NOT RELEASED YET, IN BUG-TESTING HELL ATM SMH)
 
 For SMT
 - Adjusted Option 1s Sub-Options to ignore underscores during sanitization
