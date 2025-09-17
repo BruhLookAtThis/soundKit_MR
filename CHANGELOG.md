@@ -710,3 +710,16 @@ For CVS
 
 NOTE: This is NOT heavily tested AT ALL! Like, WHATSOEVER! Ill get to that later, way too tired rn 
       Also, this does not fix Doctor Stranges issue with the Madness costume voice
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.7 (NOT RELEASED YET)
+
+For SMT
+- Adjusted Option 1s Sub-Options to ignore underscores during sanitization
+  Now wems with the default CVS formatting will remain untouched
+
+- Added Option 1 Sub-Option 5
+- This option will update outdated wem IDs without creating a bnk file  
+
+NOTE: This is NOT heavily tested!    
