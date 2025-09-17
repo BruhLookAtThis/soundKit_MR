@@ -720,6 +720,9 @@ For SMT
   Now wems with the default CVS formatting will remain untouched
 
 - Added Option 1 Sub-Option 5
-- This option will update outdated wem IDs without creating a bnk file  
+- This option will update outdated wem IDs without creating a bnk file
+
+For CVS
+- Removed '-Filenames.json' and '-Subtitles.json' files out of the 'SUBS-NEW' folder
 
 NOTE: This is NOT heavily tested!    
