@@ -725,4 +725,15 @@ For SMT
 For CVS
 - Removed '-Filenames.json' and '-Subtitles.json' files out of the 'SUBS-NEW' folder
 
-NOTE: This is NOT heavily tested!    
+NOTE: This is NOT heavily tested!
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.8 (NOT RELEASED YET, BUG TESTING)
+
+For CVS
+- Integrated Dev Option 201 into Option 2 and Option 101
+  Removed Dev Option 201 from the menu selection
+- Tweaked 'CHARACTER-ID-LIST.txt' contents to specify 5-digit outputs being 'ONLY' for the parenthesied character
+
+NOTE: This is NOT heavily tested!  
