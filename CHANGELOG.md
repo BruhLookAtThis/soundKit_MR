@@ -742,7 +742,17 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.8 (NOT RELEASED YET, BUG TESTING)
+UPDATE 2.0.8
+
+For SMT
+- Updated Option 102 to handle any file structured like 'NAME_HERE (######)'
+  Previously this was too restrictive, but now it can work with files like 'bnk_ui_share (236255246).wem'
+- Updated Option 102 to handle any file type, so long as the name is structured like 'NAME_HERE (######)'
+  Sometimes, files can be exported as wavs instead of wems. Now the script can handle those wav files too.
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.9 (NOT RELEASED YET, BUG TESTING)
 
 For CVS
 - Integrated Dev Option 201 into Option 2 and Option 101
