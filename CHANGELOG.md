@@ -752,6 +752,14 @@ For SMT
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.0.8b
+
+For SMT
+- Updated Option 0 to support subfolders
+  Now you can place .wavs in separate subfolders, and they will be converted to .wems in subfolders of the same name.
+  
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE 2.0.9 (NOT RELEASED YET, BUG TESTING)
 
 For CVS
