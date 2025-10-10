@@ -765,6 +765,10 @@ UPDATE 2.0.8c
 For General
 - Updated .usmap file
 
+For SMT (Accidentally delete the logs for the Phantom updates in 2.0.8b, so writing this here, or at least what I remember)
+- Fixed Option 102 to work with any file formatted like so: 'Base_Name (#####)'
+- This allows for a much wider range of extracted files to be rewritten properly
+
 For CVS
 - Updated subtitle jsons in the 'SUBS-NEW' & '.ALL-LANGS-FOR-SUBS-NEW-S4' folders
 - Updated 'CHARACTER-ID-LIST.txt' file
