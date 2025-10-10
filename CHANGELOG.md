@@ -757,6 +757,19 @@ UPDATE 2.0.8b
 For SMT
 - Updated Option 0 to support subfolders
   Now you can place .wavs in separate subfolders, and they will be converted to .wems in subfolders of the same name.
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.8c
+
+For General
+- Updated .usmap file
+
+For CVS
+- Updated subtitle jsons in the 'SUBS-NEW' & '.ALL-LANGS-FOR-SUBS-NEW-S4' folders
+- Updated 'CHARACTER-ID-LIST.txt' file
+
+NOTE: This is NOT heavily tested!
   
 -----------------------------------------------------
 -----------------------------------------------------
