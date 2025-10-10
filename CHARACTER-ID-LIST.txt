@@ -9,9 +9,9 @@ Updated as of Season 4
 # DO NOT CHANGE THE NAME OF ANY ALREADY-EXISTING ENTRIES. THIS CAN BREAK FEATURES OF THE SCRIPT.
 
 1011: Hulk
-10110: Hulk (Banner)
-10111: Hulk (Hero Hulk)
-10112: Hulk (Monster Hulk)
+10110: Hulk (Banner Only)
+10111: Hulk (Hero Hulk Only)
+10112: Hulk (Monster Hulk Only)
 1011001: Hulk (Default)
 1011100: Hulk (Mighty G-Bomb)
 1011500: Hulk (Punk Rage)
@@ -52,6 +52,7 @@ Updated as of Season 4
 1017101: HumanTorch (Blood Blaze)
 1017201: HumanTorch (Unknown)
 1017500: HumanTorch (Negative Zone Gladiator)
+1017502: HumanTorch (Sunny Sizzler)
 1017800: HumanTorch (First Steps)
 
 1018: DoctorStrange
@@ -109,8 +110,8 @@ Updated as of Season 4
 1024500: Hela (Goddess of Death)
 
 1025: CloakDagger
-10250: CloakDagger (Dagger)
-10251: CloakDagger (Cloak)
+10250: CloakDagger (Dagger Only)
+10251: CloakDagger (Cloak Only)
 1025001: CloakDagger (Default)
 1025100: CloakDagger (Lemon Lime)
 1025300: CloakDagger (Dance Partner)
@@ -143,8 +144,8 @@ Updated as of Season 4
 1028500: Ultron (X-Tron)
 
 1029: Magik
-10290: Magik (Magik)
-10291: Magik (DarkChylde)
+10290: Magik (Magik Only)
+10291: Magik (DarkChylde Only)
 1029001: Magik (Default)
 1029100: Magik (AMETHEYST ARMOR)
 1029300: Magik (Punkchild)
@@ -347,6 +348,7 @@ Updated as of Season 4
 1050300: InvisibleWoman (The Life Fantastic)
 1050500: InvisibleWoman (Malice)
 1050501: InvisibleWoman (Future Foundation Invisible Woman)
+1050502: InvisibleWoman (Azure Shade)
 1050800: InvisibleWoman (First Steps)
 
 1051: TheThing
@@ -373,6 +375,7 @@ Updated as of Season 4
 1053100: EmmaFrost (Blue Sapphire)
 1053101: EmmaFrost (Will of Galacta)
 1053102: EmmaFrost (Golden Diamond)
+1053300: EmmaFrost (Hellfire Protocol)
 1053500: EmmaFrost (X-Revolution)
 1053501: EmmaFrost (Phoenix Diamond)
 
@@ -383,11 +386,45 @@ Updated as of Season 4
 1054300: Phoenix (Chaos Phoenix)
 1054500: Phoenix (Dark Phoenix)
 
+1055: DareDevil
+1055001: DareDevil (Default)
+1055500: DareDevil (Devil 2099)
+
 1056: Angela
 1056001: Angela (Default)
 1056100: Angela (Cerulean Lightbringer)
 1054101: Angela (Sirianas Silver)
 1056500: Angela (Skuld 2099)
+
+1057: Professor X
+1057001: Professor X (Default)
+
+1058: Gambit
+1058001: Gambit (Default)
+
+1059: Elsa Bloodstone
+1059001: Elsa Bloodstone (Default)
+
+1060: Colossus
+1060001: Colossus (Default)
+
+1061: Locus
+1061001: Locus (Default)
+
+1062: Beast
+1062001: Beast (Default)
+
+1063: Nightcrawler
+1063001: Nightcrawler (Default)
+
+1064: Jubilee
+1064001: Jubilee (Default)
+
+1065: Rogue
+1065001: Rogue (Default)
+
+1066: UNKNOWN
+1066001: UNKNOWN (Default)
 
 1067: Armor
 1067001: Armor (Default)
