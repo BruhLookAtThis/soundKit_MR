@@ -240,7 +240,7 @@ Updated as of Season 4
 1038100: ScarletWitch (WHITE WITCH)
 1038101: ScarletWitch (NYX WEAVER)
 1038300: ScarletWitch (Immortal Sovereign)
-1038301: 
+1038301: ScarletWitch (Phoenix Chaos)
 1038500: ScarletWitch (Chaos Gown)
 1038501: ScarletWitch (Emporium Matron)
 1038800: ScarletWitch (Doctor Strange in the Multiverse of Madness)
