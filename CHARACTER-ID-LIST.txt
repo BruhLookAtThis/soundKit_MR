@@ -1,4 +1,4 @@
-Updated as of Season 4
+Updated as of Season 5
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -69,6 +69,7 @@ Updated as of Season 4
 1020100: Mantis (KNOWHERE CORP)
 1020300: Mantis (Galactic Wings)
 1020301: Mantis (Jade Maiden)
+1020302: Mantis (Oceanic Harmony)
 1020500: Mantis (Flora Maiden)
 1020800: Mantis (Guardians of the Galaxy Vol. 3)
 
@@ -183,6 +184,7 @@ Updated as of Season 4
 1032300: SquirrelGirl (Nut Rocker)
 1032301: SquirrelGirl (Cheerful Dragoness)
 1032302: SquirrelGirl (Sunshine Squirrel)
+1032303: SquirrelGirl (Turbo Tailwind)
 1032500: SquirrelGirl (Urban Hunter)
 1032501: SquirrelGirl (Symbiote Squirrel)
 
@@ -192,13 +194,13 @@ Updated as of Season 4
 1033300: BlackWidow (Lions Heartbeat)
 1033500: BlackWidow (Red Runway Veil)
 1033501: BlackWidow (Mrs. Barnes)
+1033503: BlackWidow (MIDNIGHT SUSPENSE)
 1033800: BlackWidow (White Suit)
 
 1034: IronMan
 1034001: IronMan (Default)
 1034100: IronMan (ARMOR MODEL 42)
-1034300: IronMan (PLACEHOLDER)
-1034301: IronMan (Blood Edge Armor)
+1034300: IronMan (Blood Edge Armor)
 1034500: IronMan (Steam Power)
 1034501: IronMan (Superior Iron Man)
 1034502: IronMan (Extrembiote Armor)
@@ -224,6 +226,7 @@ Updated as of Season 4
 1036502: SpiderMan (Black Suit)
 1036503: SpiderMan (Marvels Spider-Man 2)
 1036504: SpiderMan (Black Suit)
+1036505: SpiderMan (Man-Spider)
 1036800: SpiderMan (Spider-Man: No Way Home)
 
 1037: Magneto
@@ -244,11 +247,13 @@ Updated as of Season 4
 1038500: ScarletWitch (Chaos Gown)
 1038501: ScarletWitch (Emporium Matron)
 1038800: ScarletWitch (Doctor Strange in the Multiverse of Madness)
+1038801: ScarletWitch (The Queen Of The Dead)
 
 1039: Thor
 1039001: Thor (Default)
 1039100: Thor (MIDGARD UMBER)
 1039300: Thor (Worthy Waves)
+1039301: Thor (Lightning Fast)
 1039302: Thor (Azure Skies)
 1039500: Thor (HERALD OF THUNDER)
 1039501: Thor (Reborn from Ragnarok)
@@ -280,6 +285,7 @@ Updated as of Season 4
 1042101: PeniParker (Blue Tarantula)
 1042300: PeniParker (Yatsukahagi)
 1042301: PeniParker (Wasteland Mecha)
+1042302: PeniParker (Floral Frights)
 1042500: PeniParker (VEN#M)
 
 1043: StarLord
@@ -295,12 +301,13 @@ Updated as of Season 4
 1044001: Blade (Default)
 1044101: Blade (Will of Galacta)
 1044300: Blade (Polarity Edge)
+1044800: Blade (Moon Knight)
 
 1045: Namor
 1045001: Namor (Default)
 1045100: Namor (MAUVE SUB-MARINER)
 1045101: Namor (Will of Galacta)
-1045300: Namor (Retro X-Uniform)
+1045300: Namor (Phantom Tide)
 1045500: Namor (Savage Sub-Mariner)
 1045501: Namor (Retro X-Uniform)
 1045502: Namor (Phoenix King)
@@ -312,6 +319,7 @@ Updated as of Season 4
 1046101: AdamWarlock (Will of Galacta)
 1046300: AdamWarlock (Immortal Avatar Adam Warlock)
 1046301: AdamWarlock (Blood Soul)
+1046500: AdamWarlock (Magus)
 1046800: AdamWarlock (Guardians of the Galaxy Vol. 3)
 
 1047: Jeff
@@ -319,6 +327,7 @@ Updated as of Season 4
 1047100: Jeff (ADOPTED AVENGER)
 1047300: Jeff (Cuddly Fuzzlefin)
 1047301: Jeff (Sunshine Shark)
+1047302: Jeff (Jeff O'Lantern)
 1047500: Jeff (Incognito Dolphin)
 1047501: Jeff (Devouring Duo)
 
@@ -337,6 +346,7 @@ Updated as of Season 4
 1049001: Wolverine (Default)
 1049100: Wolverine (Lone Wolf)
 1049300: Wolverine (Blood Berserker)
+1049301: Wolverine (Dog Brother X)
 1049500: Wolverine (Patch)
 1049501: Wolverine (Weapon X)
 1049800: Wolverine (Deadpool & Wolverine)
@@ -396,49 +406,52 @@ Updated as of Season 4
 1054101: Angela (Sirianas Silver)
 1056500: Angela (Skuld 2099)
 
-1057: Professor X
+1057: Professor X (UNCONFIRMED)
 1057001: Professor X (Default)
 
 1058: Gambit
 1058001: Gambit (Default)
+1058100: Gambit (Crimson Heart)
+1058101: Gambit (Sacrifical Pawn)
+1058300: Gambit (Thieves Guildmaster)
 
-1059: Elsa Bloodstone
+1059: Elsa Bloodstone (UNCONFIRMED)
 1059001: Elsa Bloodstone (Default)
 
-1060: Colossus
+1060: Colossus (UNCONFIRMED)
 1060001: Colossus (Default)
 
-1061: Locus
+1061: Locus (UNCONFIRMED)
 1061001: Locus (Default)
 
-1062: Beast
+1062: Beast (UNCONFIRMED)
 1062001: Beast (Default)
 
-1063: Nightcrawler
+1063: Nightcrawler (UNCONFIRMED)
 1063001: Nightcrawler (Default)
 
-1064: Jubilee
+1064: Jubilee (UNCONFIRMED)
 1064001: Jubilee (Default)
 
-1065: Rogue
+1065: Rogue (UNCONFIRMED)
 1065001: Rogue (Default)
 
-1066: UNKNOWN
+1066: UNKNOWN (UNCONFIRMED)
 1066001: UNKNOWN (Default)
 
-1067: Armor
+1067: Armor (UNCONFIRMED)
 1067001: Armor (Default)
 
-1068: Hive
+1068: Hive (UNCONFIRMED)
 1068001: Hive (Default)
 
-1069: WhiteFox
+1069: WhiteFox (UNCONFIRMED)
 1069001: WhiteFox (Default)
 
-1070: Forge
+1070: Forge (UNCONFIRMED)
 1070001: Forge (Default)
 
-1071: Amaranth
+1071: Amaranth (UNCONFIRMED)
 1071001: Amaranth (Default)
 
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
@@ -462,6 +475,7 @@ Updated as of Season 4
 4012: NPC_MasterWeaver
 4016: NPC_GalactaBot
 4018: NPC_GalactaBotTank
+4032: NPC_Khonshu
 
 8021: NPC_LokiGhost
 8031: NPC_SpiderZeroAndMasterWeaver
