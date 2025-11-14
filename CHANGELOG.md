@@ -775,6 +775,19 @@ For CVS
 - Updated 'CHARACTER-ID-LIST.txt' file
 
 NOTE: This is NOT heavily tested!
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.8d
+
+For General
+- Updated .usmap file
+
+For CVS
+- Updated subtitle jsons in the 'SUBS-NEW' & '.ALL-LANGS-FOR-SUBS-NEW-S5' folders
+- Updated 'CHARACTER-ID-LIST.txt' file
+
+NOTE: This is NOT heavily tested!
   
 -----------------------------------------------------
 -----------------------------------------------------
