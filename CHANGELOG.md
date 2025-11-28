@@ -778,24 +778,30 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.8d
+UPDATE 2.0.8e
 
 For General
 - Updated .usmap file
+- Added version number to script(s) main menu
 
 For CVS
-- Updated subtitle jsons in the 'SUBS-NEW' & '.ALL-LANGS-FOR-SUBS-NEW-S5' folders
 - Updated 'CHARACTER-ID-LIST.txt' file
 
 NOTE: This is NOT heavily tested!
   
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.9 (NOT RELEASED YET, BUG TESTING)
+UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
+
+For SMT
+- Integrated SFX Renaming for Option 1 Sub-Option 2
+- Added .mp3 support to Option 0
+- Added volume amplification options to Option 0
 
 For CVS
 - Integrated Dev Option 201 into Option 2 and Option 101
   Removed Dev Option 201 from the menu selection
 - Tweaked 'CHARACTER-ID-LIST.txt' contents to specify 5-digit outputs being 'ONLY' for the parenthesied character
+- Integrated SFX Renaming for Option 1
 
 NOTE: This is NOT heavily tested!  
