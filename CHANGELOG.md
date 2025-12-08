@@ -796,7 +796,7 @@ UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
 For SMT
 - Integrated SFX Renaming for Option 1 Sub-Option 2
 - Added .mp3, .m4a, .flac, and .ogg support to Option 0
-- Added volume amplification options to Option 0
+- Added volume amplification options to Option 0 (as low as x0.1 or high as x5.0)
 
 For CVS
 - Integrated Dev Option 201 into Option 2 and Option 101
