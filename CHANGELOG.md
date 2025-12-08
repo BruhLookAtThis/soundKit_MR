@@ -791,7 +791,7 @@ NOTE: This is NOT heavily tested!
   
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
+UPDATE X.X.1 (NOT RELEASED YET, BUG TESTING)
 
 For SMT
 - Integrated SFX Renaming for Option 1 Sub-Option 2
@@ -799,9 +799,17 @@ For SMT
 - Added volume amplification options to Option 0 (as low as x0.1 or high as x5.0)
 
 For CVS
+- Integrated SFX Renaming & Organization for Option 1
+
+NOTE: This is NOT heavily tested!
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE X.X.2 (NOT RELEASED YET, BUG TESTING)
+
+For CVS
 - Integrated Dev Option 201 into Option 2 and Option 101
   Removed Dev Option 201 from the menu selection
-- Tweaked 'CHARACTER-ID-LIST.txt' contents to specify 5-digit outputs being 'ONLY' for the parenthesied character
-- Integrated SFX Renaming & Organization for Option 1
+- Tweaked 'CHARACTER-ID-LIST.txt' contents to specify 5-digit outputs being 'ONLY' for the parenthesied character (Wait...WTF Was This? Lol I Forgot)
 
 NOTE: This is NOT heavily tested!  
