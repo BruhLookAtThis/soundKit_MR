@@ -793,6 +793,10 @@ NOTE: This is NOT heavily tested!
 -----------------------------------------------------
 UPDATE 2.0.9 (NOT RELEASED YET, BUG TESTING)
 
+For General
+- Updated Mapping File
+- Updated CHARACTER-ID-LIST.txt (Added 5-digit codes for all playable characters)
+    
 For SMT
 - Integrated SFX Renaming for Option 1 Sub-Option 2 (EXPERIMENTAL)
 - Added .mp3, .m4a, .flac, and .ogg support to Option 0 (EXPERIMENTAL)
