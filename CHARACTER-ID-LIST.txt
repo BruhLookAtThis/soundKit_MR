@@ -19,6 +19,7 @@ Updated as of Season 5
 1011502: Hulk (Joe Fixit)
 
 1014: ThePunisher
+10140: ThePunisher
 1014001: ThePunisher (Default)
 1014100: ThePunisher (Camo)
 1014300: ThePunisher (Dangan Ronin Punisher)
@@ -27,6 +28,7 @@ Updated as of Season 5
 1014800: ThePunisher (Daredevil Born Again)
 
 1015: Storm
+10150: Storm
 1015001: Storm (Default)
 1015100: Storm (Ivory Breeze)
 1015500: Storm (Mohawk Rock)
@@ -35,6 +37,7 @@ Updated as of Season 5
 1015503: Storm (Symbiote Storm)
 
 1016: Loki
+10160: Loki
 1016001: Loki (Default)
 1016100: Loki (Frost Giant)
 1016300: Loki (Shin Sagi-Shi)
@@ -47,6 +50,7 @@ Updated as of Season 5
 
 
 1017: HumanTorch
+10170: HumanTorch
 1017001: HumanTorch (Default)
 1017100: HumanTorch (First Family)
 1017101: HumanTorch (Blood Blaze)
@@ -56,15 +60,18 @@ Updated as of Season 5
 1017800: HumanTorch (First Steps)
 
 1018: DoctorStrange
+10180: DoctorStrange
 1018001: DoctorStrange (Default)
 1018100: DoctorStrange (Master of Black Magic)
 1018101: DoctorStrange (Astral Wanderer)
 1018300: DoctorStrange (Sorcerer Immortal)
+1018302: DoctorStrange (Bleeker Street Strut)
 1018500: DoctorStrange (God Of Magic)
 1018501: DoctorStrange (Sorcerer Supreme of the Galaxy)
 1018800: DoctorStrange (Doctor Strange in the Multiverse of Madness)
 
 1020: Mantis
+10200: Mantis
 1020001: Mantis (Default)
 1020100: Mantis (KNOWHERE CORP)
 1020300: Mantis (Galactic Wings)
@@ -74,6 +81,7 @@ Updated as of Season 5
 1020800: Mantis (Guardians of the Galaxy Vol. 3)
 
 1021: Hawkeye
+10210: Hawkeye
 1021001: Hawkeye (Default)
 1021100: Hawkeye (Tigers Eye)
 1021300: Hawkeye (Galactic Fangs)
@@ -82,6 +90,7 @@ Updated as of Season 5
 1021501: Hawkeye (Freefall)
 
 1022: CaptainAmerica
+10220: CaptainAmerica
 1022001: CaptainAmerica (Default)
 1022100: CaptainAmerica (Captain A.I.M.erica)
 1022300: CaptainAmerica (Galactic Talon)
@@ -92,6 +101,7 @@ Updated as of Season 5
 1022801: CaptainAmerica (Avengers: Infinity War)
 
 1023: RocketRaccoon
+10230: RocketRaccoon
 1023001: RocketRaccoon (Default)
 1023100: RocketRaccoon (Rocky)
 1023300: RocketRaccoon (Bounty Hunter)
@@ -101,6 +111,7 @@ Updated as of Season 5
 1023801: RocketRaccoon (Guardians of the Galaxy Vol. 3)
 
 1024: Hela
+10240: Hela
 1024001: Hela (Default)
 1024100: Hela (ULTIMATE)
 1024101: Hela (Will of Galacta)
@@ -121,6 +132,7 @@ Updated as of Season 5
 1025301: CloakDagger (Twilight Duo)
 
 1026: BlackPanther
+10260: BlackPanther
 1026001: BlackPanther (Default)
 1026100: BlackPanther (ORISHA BLOOD)
 1026300: BlackPanther (Galactic Claw)
@@ -129,6 +141,7 @@ Updated as of Season 5
 1026501: BlackPanther (Damisa-Sarki)
 
 1027: Groot
+10270: Groot
 1027001: Groot (Default)
 1027100: Groot (ABIES ALGAE)
 1027300: 
@@ -138,6 +151,7 @@ Updated as of Season 5
 1027800: Groot (Guardians of the Galaxy Vol. 3)
 
 1028: Ultron
+10280: Ultron
 1028001: Ultron (Default)
 1028100: Ultron (Mechanical Phantom)
 1028102: Ultron (Golden Ultron (Ranked skin))
@@ -157,6 +171,7 @@ Updated as of Season 5
 1029502: Magik (Phoenix Demon)
 
 1030: MoonKnight
+10300: MoonKnight
 1030001: MoonKnight (Default)
 1030100: MoonKnight (Golden Moonlight)
 1030100: MoonKnight (Blood Moon Knight)
@@ -167,6 +182,7 @@ Updated as of Season 5
 1030801: MoonKnight (Moon Knight Mech)
 
 1031: LunaSnow
+10310: LunaSnow
 1031001: LunaSnow (Default)
 1031100: LunaSnow (MINTY BEATS)
 1031300: LunaSnow (Shining Star)
@@ -179,6 +195,7 @@ Updated as of Season 5
 1031307: LunaSnow (Prismatic Pulse)
 
 1032: SquirrelGirl
+10320: SquirrelGirl
 1032001: SquirrelGirl (Default)
 1032100: SquirrelGirl (ARTIC LEMMUS)
 1032300: SquirrelGirl (Nut Rocker)
@@ -189,6 +206,7 @@ Updated as of Season 5
 1032501: SquirrelGirl (Symbiote Squirrel)
 
 1033: BlackWidow
+10330: BlackWidow
 1033001: BlackWidow (Default)
 1033100: BlackWidow (Lethal Toxicity)
 1033300: BlackWidow (Lions Heartbeat)
@@ -198,6 +216,7 @@ Updated as of Season 5
 1033800: BlackWidow (White Suit)
 
 1034: IronMan
+10340: IronMan
 1034001: IronMan (Default)
 1034100: IronMan (ARMOR MODEL 42)
 1034300: IronMan (Blood Edge Armor)
@@ -207,6 +226,7 @@ Updated as of Season 5
 1034800: IronMan (Avengers: Endgame)
 
 1035: Venom
+10350: Venom
 1035001: Venom (Default)
 1035100: Venom (CYAN CLASH)
 1035101: Venom (ANTI-VENOM)
@@ -217,6 +237,7 @@ Updated as of Season 5
 1035501: Venom (Space Knight)
 
 1036: SpiderMan
+10360: SpiderMan
 1036001: SpiderMan (Default)
 1036100: SpiderMan (SCARLET SPIDER)
 1036101: SpiderMan (Chasm)
@@ -230,6 +251,7 @@ Updated as of Season 5
 1036800: SpiderMan (Spider-Man: No Way Home)
 
 1037: Magneto
+10370: Magneto
 1037001: Magneto (Default)
 1037100: Magneto (UNCANNY BLACKSTEEL)
 1037101: Magneto (Will of Glacata)
@@ -239,6 +261,7 @@ Updated as of Season 5
 1037501: Magneto (King Magnus)
 
 1038: ScarletWitch
+10380: ScarletWitch
 1038001: ScarletWitch (Default)
 1038100: ScarletWitch (WHITE WITCH)
 1038101: ScarletWitch (NYX WEAVER)
@@ -250,6 +273,7 @@ Updated as of Season 5
 1038801: ScarletWitch (The Queen Of The Dead)
 
 1039: Thor
+10390: Thor
 1039001: Thor (Default)
 1039100: Thor (MIDGARD UMBER)
 1039300: Thor (Worthy Waves)
@@ -262,14 +286,17 @@ Updated as of Season 5
 1039800: Thor (Thor: Love and Thunder)
 
 1040: MrFantastic
+10400: MrFantastic
 1040001: MrFantastic (Default)
 1040100: MrFantastic (First Family)
 1040300: MrFantastic (The Life Fantastic)
+1040301: MrFantastic (Dad-tastic Reed)
 1040500: MrFantastic (The Maker)
 1040501: MrFantastic (Future Foundation)
 1040800: MrFantastic (First Steps)
 
 1041: WinterSoldier
+10410: WinterSoldier
 1041001: WinterSoldier (Default)
 1041100: WinterSoldier (Navy Trooper)
 1041300: WinterSoldier (Blood Soldier)
@@ -280,6 +307,7 @@ Updated as of Season 5
 1041800: WinterSoldier (Thunderbolts)
 
 1042: PeniParker
+10420: PeniParker
 1042001: PeniParker (Default)
 1042100: PeniParker (OLIVE SKIMMER)
 1042101: PeniParker (Blue Tarantula)
@@ -289,6 +317,7 @@ Updated as of Season 5
 1042500: PeniParker (VEN#M)
 
 1043: StarLord
+10430: StarLord
 1043001: StarLord (Default)
 1043100: StarLord (JOVIAL STAR)
 1043300: StarLord (Lions Mane)
@@ -298,12 +327,15 @@ Updated as of Season 5
 1043800: StarLord (Guardians of the Galaxy Vol. 3)
 
 1044: Blade
+10440: Blade
 1044001: Blade (Default)
 1044101: Blade (Will of Galacta)
 1044300: Blade (Polarity Edge)
+1044500: Blade (Restful Recovery)
 1044800: Blade (Moon Knight)
 
 1045: Namor
+10450: Namor
 1045001: Namor (Default)
 1045100: Namor (MAUVE SUB-MARINER)
 1045101: Namor (Will of Galacta)
@@ -314,6 +346,7 @@ Updated as of Season 5
 1045800: Namor (Black Panther: Wakanda Forever)
 
 1046: AdamWarlock
+10460: AdamWarlock
 1046001: AdamWarlock (Default)
 1046100: AdamWarlock (COSMIC JADE)
 1046101: AdamWarlock (Will of Galacta)
@@ -323,6 +356,7 @@ Updated as of Season 5
 1046800: AdamWarlock (Guardians of the Galaxy Vol. 3)
 
 1047: Jeff
+10470: Jeff
 1047001: Jeff (Default)
 1047100: Jeff (ADOPTED AVENGER)
 1047300: Jeff (Cuddly Fuzzlefin)
@@ -330,11 +364,14 @@ Updated as of Season 5
 1047302: Jeff (Jeff O'Lantern)
 1047500: Jeff (Incognito Dolphin)
 1047501: Jeff (Devouring Duo)
+1047502: Jeff (Business Shark)
 
 1048: Psylocke
+10480: Psylocke
 1048001: Psylocke (Default)
 1048100: Psylocke (Kirisaki Sakura)
 1048300: Psylocke (Blood Kariudo)
+1048302: Psylocke (Daring Daifuku)
 1048500: Psylocke (Vengeance)
 1048501: Psylocke (Retro X-Uniform)
 1048502: Psylocke (Breezy Butterfly)
@@ -343,6 +380,7 @@ Updated as of Season 5
 1048505: Psylocke (Moonlight Mirage)
 
 1049: Wolverine
+10490: Wolverine
 1049001: Wolverine (Default)
 1049100: Wolverine (Lone Wolf)
 1049300: Wolverine (Blood Berserker)
@@ -352,6 +390,7 @@ Updated as of Season 5
 1049800: Wolverine (Deadpool & Wolverine)
 
 1050: InvisibleWoman
+10500: InvisibleWoman
 1050001: InvisibleWoman (Default)
 1050100: InvisibleWoman (First Family)
 1050101: InvisibleWoman (Blood Shield)
@@ -362,6 +401,7 @@ Updated as of Season 5
 1050800: InvisibleWoman (First Steps)
 
 1051: TheThing
+10510: TheThing
 1051001: TheThing (Default)
 1051100: TheThing (First Family)
 1051101: TheThing (The Unlimited)
@@ -372,6 +412,7 @@ Updated as of Season 5
 1051800: TheThing (First Steps)
 
 1052: IronFist
+10520: IronFist
 1052001: IronFist (Default)
 1052100: IronFist (Martial Arts Savant)
 1052300: IronFist (Lions Gaze)
@@ -381,6 +422,7 @@ Updated as of Season 5
 1052502: IronFist (Binary Fist)
 
 1053: EmmaFrost
+10530: EmmaFrost
 1053001: EmmaFrost (Default)
 1053100: EmmaFrost (Blue Sapphire)
 1053101: EmmaFrost (Will of Galacta)
@@ -390,6 +432,7 @@ Updated as of Season 5
 1053501: EmmaFrost (Phoenix Diamond)
 
 1054: Phoenix
+10540: Phoenix
 1054001: Phoenix (Default)
 1054101: Phoenix (The Return of Jean Grey)
 1054102: Phoenix (Emerald Flames)
@@ -397,61 +440,78 @@ Updated as of Season 5
 1054500: Phoenix (Dark Phoenix)
 
 1055: DareDevil
+10550: DareDevil
 1055001: DareDevil (Default)
 1055500: DareDevil (Devil 2099)
 
 1056: Angela
+10560: Angela
 1056001: Angela (Default)
 1056100: Angela (Cerulean Lightbringer)
 1054101: Angela (Sirianas Silver)
 1056500: Angela (Skuld 2099)
 
 1057: Professor X (UNCONFIRMED)
+10570: Professor X (UNCONFIRMED)
 1057001: Professor X (Default)
 
 1058: Gambit
+10580: Gambit
 1058001: Gambit (Default)
 1058100: Gambit (Crimson Heart)
 1058101: Gambit (Sacrifical Pawn)
 1058300: Gambit (Thieves Guildmaster)
 
 1059: Elsa Bloodstone (UNCONFIRMED)
+10590: Elsa Bloodstone (UNCONFIRMED)
 1059001: Elsa Bloodstone (Default)
 
 1060: Colossus (UNCONFIRMED)
+10600: Colossus (UNCONFIRMED)
 1060001: Colossus (Default)
 
 1061: Locus (UNCONFIRMED)
+10610: Locus (UNCONFIRMED)
 1061001: Locus (Default)
 
 1062: Beast (UNCONFIRMED)
+10620: Beast (UNCONFIRMED)
 1062001: Beast (Default)
 
 1063: Nightcrawler (UNCONFIRMED)
+10630: Nightcrawler (UNCONFIRMED)
 1063001: Nightcrawler (Default)
 
 1064: Jubilee (UNCONFIRMED)
+10640: Jubilee (UNCONFIRMED)
 1064001: Jubilee (Default)
 
 1065: Rogue (UNCONFIRMED)
+10650: Rogue (UNCONFIRMED)
 1065001: Rogue (Default)
 
 1066: UNKNOWN (UNCONFIRMED)
+10660: UNKNOWN (UNCONFIRMED)
 1066001: UNKNOWN (Default)
 
 1067: Armor (UNCONFIRMED)
+10670: Armor (UNCONFIRMED)
 1067001: Armor (Default)
 
 1068: Hive (UNCONFIRMED)
+10680: Hive (UNCONFIRMED)
 1068001: Hive (Default)
 
 1069: WhiteFox (UNCONFIRMED)
+10690: WhiteFox (UNCONFIRMED)
 1069001: WhiteFox (Default)
 
 1070: Forge (UNCONFIRMED)
+10700: Forge (UNCONFIRMED)
 1070001: Forge (Default)
 
 1071: Amaranth (UNCONFIRMED)
+10710: Amaranth (UNCONFIRMED)
 1071001: Amaranth (Default)
 
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
@@ -460,8 +520,11 @@ Updated as of Season 5
 # UltronDrone has bnk_vo_4019001.bnk
 
 4017: Galacta
+4017001: Galacta (Default)
 4019: UltronDrone
 4019001: UltronDrone (Default)
+4024: ZombieWanda
+4025: ZombieNamor
 
 # BELOW ARE NPCs THAT DO NOT HAVE THEIR OWN VO .BNK FILE
 
