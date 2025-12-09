@@ -791,25 +791,55 @@ NOTE: This is NOT heavily tested!
   
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE X.X.1 (NOT RELEASED YET, BUG TESTING)
+UPDATE 2.0.9 (NOT RELEASED YET, BUG TESTING)
 
 For SMT
 - Integrated SFX Renaming for Option 1 Sub-Option 2
-- Added .mp3, .m4a, .flac, and .ogg support to Option 0
-- Added volume amplification options to Option 0 (as low as x0.1 or high as x5.0)
+- Added .mp3, .m4a, .flac, and .ogg support to Option 0 (EXPERIMENTAL)
+- Added volume amplification options to Option 0 (as low as x0.1 or high as x5.0) (EXPERIMENTAL)
+- Fixed Wem ID Updating for Sub-Option 5 (EXPERIMENTAL)
+  NOTE: Wem ID Updating functions were reworked as a whole
+        With that said, not much testing has been done yet.
+- Added Log files for updated Wem IDS.
+  These can be found in 0_XTRA\0-LOGS\ when processed.
+  File name structure is as follows: Updated_Wem_IDs_5-DIGITCHARAID_CHARANAME
+  Inside will be a list of old filenames followed by their new, updated names
 
 For CVS
 - Integrated SFX Renaming & Organization for Option 1
+  NOTE: THIS NOW REQUIRES YOU TO DO THE FOLLOWING:
+  - In Fmodel, Navigate to 'Marvel/Content/Marvel/'
+  - Select the Wwise folder, then Export it as '.json'
+  - Select the Wwise folder again, right click it, then choose 'Save Folder's Packages Audio'
+  - This will export into a 'WwiseAudio' folder, just like you got when exporting the
+  - 'Media' folder.
+  - You can do both of these exports and then move that whole WwiseAudio folder into
+    the '1-Put-MEDIA-LOCAL-WWISE-Here' folder.
+  NOTE: I have added a '0-DELETE-LIST.txt' file in '1_XTRA\0-DATA\' specifically for this new function
+        You can ignore this file, but for anyone curious, this file contains a list of
+        text strings that are present in some filenames that are saved after you do
+       'Save Folder's Packages Audio'
+        Files with these text strings in their name are essentially worthless, therefore I have them auto-deleted to save you some space.
+       At the time of writing, those entries are:
+       - (Chinese(CN))
+       - (SFX)
+       - (English(US))
+       - (Japanese(JP))
+       - vo_
+
+       The first 4 are absolutely worthless, as those files do not contain ID numbers that we can utilize.
+       From the little testing I've done, 'vo_' is also worthless, tho I may potentially find a use for those files in the futue. BIG maybe tho.
+   
+- Integrated Dev Option 201 into Option 2 and Option 101
+  Removed Dev Option 201 from the menu selection
 
 NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE X.X.2 (NOT RELEASED YET, BUG TESTING)
+UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
 
 For CVS
-- Integrated Dev Option 201 into Option 2 and Option 101
-  Removed Dev Option 201 from the menu selection
 - Tweaked 'CHARACTER-ID-LIST.txt' contents to specify 5-digit outputs being 'ONLY' for the parenthesied character (Wait...WTF Was This? Lol I Forgot)
 
 NOTE: This is NOT heavily tested!  
