@@ -794,19 +794,19 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.0.9 (NOT RELEASED YET, BUG TESTING)
 
 For SMT
-- Integrated SFX Renaming for Option 1 Sub-Option 2
+- Integrated SFX Renaming for Option 1 Sub-Option 2 (EXPERIMENTAL)
 - Added .mp3, .m4a, .flac, and .ogg support to Option 0 (EXPERIMENTAL)
 - Added volume amplification options to Option 0 (as low as x0.1 or high as x5.0) (EXPERIMENTAL)
 - Fixed Wem ID Updating for Sub-Option 5 (EXPERIMENTAL)
   NOTE: Wem ID Updating functions were reworked as a whole
         With that said, not much testing has been done yet.
-- Added Log files for updated Wem IDS.
+- Added Log files for updated Wem IDS. (EXPERIMENTAL)
   These can be found in 0_XTRA\0-LOGS\ when processed.
   File name structure is as follows: Updated_Wem_IDs_5-DIGITCHARAID_CHARANAME
   Inside will be a list of old filenames followed by their new, updated names
 
 For CVS
-- Integrated SFX Renaming & Organization for Option 1
+- Integrated SFX Renaming & Organization for Option 1 (EXPERIMENTAL)
   NOTE: THIS NOW REQUIRES YOU TO DO THE FOLLOWING:
   - In Fmodel, Navigate to 'Marvel/Content/Marvel/'
   - Select the Wwise folder, then Export it as '.json'
