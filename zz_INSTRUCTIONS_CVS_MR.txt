@@ -10,17 +10,17 @@ Lazuli / Kara
 CREATOR NOTES:
 ----------------------------------------------------------------
 
--Notify me if there are any errors (Discord: BruhLookAtThis, Twitter: BruhIookAtThis)
--'Display' extracting is for use with 'bnk_display_#######.bnk' files only. NOT 'bnk_display_BREATH_#######.bnk' files.
--Some MVP sound effects may be located in the 'trans' folders instead of the 'mvp' folder. Up to you to figure things out for your own needs. 
--I included already-transcribed subtitles in the '1_XTRA' folder cause it takes a long time to produce. 
--May or may not be up-to-date, I'll label the folder with the date that I made them on.
--Of course, I added an option to the script so that you can transcribe them yourself when a game update comes out
+- Notify me if there are any errors (Discord: BruhLookAtThis, Twitter: BruhIookAtThis)
+- 'Display' extracting is for use with 'bnk_display_#######.bnk' files only. NOT 'bnk_display_BREATH_#######.bnk' files.
+- Some MVP sound effects may be located in the 'trans' folders instead of the 'mvp' folder. Up to you to figure things out for your own needs. 
+- I included already-transcribed subtitles in the '1_XTRA' folder cause it takes a long time to produce. 
+- May or may not be up-to-date, I'll label the folder with the date that I made them on.
+- Of course, I added an option to the script so that you can transcribe them yourself when a game update comes out
 
--To manually add missing costumes/characters/etc, you can edit the CHARACTER-ID-LIST.txt and add the entry yourself
--Keep in mind how each line is formatted, and make sure you replicate it for your new entry, of course.
--AVOID USING ANY COLONS AFTER THE COLON THAT SEPARATES THE ID NUMBER FROM THE NAME
--For Example: 
+- To manually add missing costumes/characters/etc, you can edit the CHARACTER-ID-LIST.txt and add the entry yourself
+- Keep in mind how each line is formatted, and make sure you replicate it for your new entry, of course.
+- AVOID USING ANY COLONS AFTER THE COLON THAT SEPARATES THE ID NUMBER FROM THE NAME
+- For Example: 
       1022001: Captain America (PeePee) - THIS IS OKAY
       1022001: Captain America (Pee: Pee) - THIS IS NOT OKAY
 
@@ -83,7 +83,7 @@ INFO ABOUT THIS TOOLS OPTIONS:
 ----------------------------------------------------------------
 ----------------------------------------------------------------
 
-=== Info About Option 1: Rename And Organize The *VOICE/DISPLAY WEM* Files ===
+=== Info About Option 1: Rename And Organize The *VOICE/DISPLAY/SFX WEM* Files ===
              
               This option organizes .wem audio files into easier-to-understand names/folders.
              
@@ -98,13 +98,16 @@ INFO ABOUT THIS TOOLS OPTIONS:
              
              - In Fmodel, Navigate to 'Marvel/Content/Marvel/'
              - Select the Wwise folder, then Export it as '.json'
-             
-             - Place these Media, Localization, and WWise folders into '1-Put-MEDIA-LOCAL-WWISE-Here'.
+             - Select the Wwise folder again, right click it, then choose 'Save Folder's Packages Audio'
+            
+             - Place these WWiseAudio (Media will be inside of this), Localization, and WWise (this will be inside of a 'Marvel' folder) folders into '1-Put-MEDIA-LOCAL-WWISE-Here'.
              - Ensure 'CHARACTER-ID-LIST.txt' is in the '1_XTRA\' folder.
              
              - Choose Option 1 of this script
              - The script will then begin renaming and organizing .wem files into language-specific folders (e.g., English(US), Japanese(JP)).
-             - It will also rename and organize .wem files into a Display folder, which contains things like emote and lobby sfx
+             - It will also rename and organize .wem files into a Display folder, which contains things like emote and lobby sfx.
+             - It will also rename and organize .wem files into an SFX folder, which contains things like character, ui, and environment sfx.
+               Character SFX folders will be directly in the 'SFX' folder, while other sfx files will be in an '_OtherSFX' folder inside of the 'SFX' folder.        
              - Output is saved in '2-RENAMED-WEMs-Will-Be-Here', with folders named using character IDs, names, and DebugName prefixes (e.g., 1021_Hulk_hero_hulk_(US)).
              
              =====================================
@@ -116,6 +119,17 @@ INFO ABOUT THIS TOOLS OPTIONS:
              - THIS WILL CAUSE THE SCRIPT TO NOT READ THE NAME
              - STICK TO THE TYPE OF CHARACTERS I HAVE PRE-INSTALLED, LIKE LETTERS, NUMBERS, AND PARENTHESIS
              - Save your changes, then run the script again to get the new files organized
+
+             - Uses '1_XTRA\0-DATA\0-DELETE-LIST.txt' to auto-delete files containing specific text strings
+               By default, the list contains:
+
+               (Chinese(CN))
+               (SFX)
+               (English(US))
+               (Japanese(JP))
+               vo_
+
+               Files containing these text strings are, to my knowledge, practically useless for the job.
              
              =====================================
 
@@ -142,6 +156,9 @@ INFO ABOUT THIS TOOLS OPTIONS:
              - Choose Option 2 of this script
              - The script will then begin extracting subtitles and organizing them into .json files.
              - Output is saved in '3-SUBTITLEs-Are-Here', with subfolders for each language (e.g., en, ja).
+               NOTE: If a single character consists of two characters with distinct voices, the script will additionally give
+                     them each their own json file. Atm, this is the case for Cloak & Dagger, Banner/Hulk/Ult Hulk, and Magik/Darkchylde
+                     Phoenix may be supported later.
              
              =====================================
               NOTES:
@@ -152,12 +169,21 @@ INFO ABOUT THIS TOOLS OPTIONS:
              - THIS WILL CAUSE THE SCRIPT TO NOT READ THE NAME
              - STICK TO THE TYPE OF CHARACTERS I HAVE PRE-INSTALLED, LIKE LETTERS, NUMBERS, AND PARENTHESIS
              - Save your changes, then run the script again to get the new files organized
-             
+
+             - Regarding Dual-Character Splitting:
+             - Uses 'CHARACTER-ID-LIST.txt' to map 5-digit character IDs to names.
+             - Only processes lines with 'vo_' followed by a 5-digit ID that matches a 5-digit ID in CHARACTER-ID-LIST.txt.
+             - Skips JSON files with 'Filenames' or 'Subtitles' in their names to avoid re-processing generated files.
+             - This is NOT foolproof, thanks to NetEase. For example, 10251 is Cloak, and 10250 is Dagger
+               But Cloak has a (single, afaik) voice line that uses 'vo_10250', and vice versa for Dagger
+             - I still haven't figure out a solution for Doctor Stranges' Madness voice yet...  
+
              =====================================
 
 === Info About Option 100: *SWAP* ENG Audio With JPN/CHN Audio ===
              
               This option swaps English voice lines with their Japanese or Chinese versions.
+              Automatically executes Option 1.
              
              =====================================
               INSTRUCTIONS:
@@ -220,6 +246,9 @@ INFO ABOUT THIS TOOLS OPTIONS:
              - Then the script will split these jsons into two different versions:
                1. Filenames.json, which will only contain the file names of the renamed .wem files
                2. Subtitles.json, which will only contain the subtitle lines of the renamed .wem files
+               NOTE: If a single character consists of two characters with distinct voices, the script will additionally give
+                     them each their own json file. Atm, this is the case for Cloak & Dagger, Banner/Hulk/Ult Hulk, and Magik/Darkchylde
+                     Phoenix may be supported later.
              - This is primarily used by me to easily update the Subtitles Spreadsheet (Choose Option z for more info)
              
              =====================================
@@ -232,4 +261,12 @@ INFO ABOUT THIS TOOLS OPTIONS:
              - STICK TO THE TYPE OF CHARACTERS I HAVE PRE-INSTALLED, LIKE LETTERS, NUMBERS, AND PARENTHESIS
              - Save your changes, then run the script again to get the new files organized
              
+            - Regarding Dual-Character Splitting:
+            - Uses 'CHARACTER-ID-LIST.txt' to map 5-digit character IDs to names.
+            - Only processes lines with 'vo_' followed by a 5-digit ID that matches a 5-digit ID in CHARACTER-ID-LIST.txt.
+            - Skips JSON files with 'Filenames' or 'Subtitles' in their names to avoid re-processing generated files.
+            - This is NOT foolproof, thanks to NetEase. For example, 10251 is Cloak, and 10250 is Dagger
+              But Cloak has a (single, afaik) voice line that uses 'vo_10250', and vice versa for Dagger
+            - I still haven't figure out a solution for Doctor Stranges' Madness voice yet...
+
              =====================================
