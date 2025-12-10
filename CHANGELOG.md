@@ -795,7 +795,9 @@ UPDATE 2.0.9 (NOT RELEASED YET, BUG TESTING)
 
 For General
 - Updated Mapping File
-- Updated CHARACTER-ID-LIST.txt (Added 5-digit codes for all playable characters)
+- Updated CHARACTER-ID-LIST.txt
+  Added 5-digit codes for all playable characters
+  Added more characters/a LOT of costumes (thanks to SFX organizing being a thing now)
     
 For SMT
 - Integrated SFX Renaming for Option 1 Sub-Option 2 (EXPERIMENTAL)
