@@ -230,7 +230,7 @@ Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE
              
              =====================================
 
-=== Info About Option 102: *RENAME* Special Wems From FModel === -ForegroundColor Cyan
+Info About Option 102: *RENAME* Special Wems From FModel === -ForegroundColor Cyan
      
      This option renames and organizes .wem files, mainly sfx and display, extracted from uassets in FModel.
      
