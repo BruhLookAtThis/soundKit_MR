@@ -14,6 +14,7 @@ Updated as of Season 5
 10112: Hulk (Monster Hulk Only)
 1011001: Hulk (Default)
 1011100: Hulk (Mighty G-Bomb)
+1011300: Hulk (Maestro)
 1011500: Hulk (Punk Rage)
 1011501: Hulk (Green Scar)
 1011502: Hulk (Joe Fixit)
@@ -25,12 +26,15 @@ Updated as of Season 5
 1014300: ThePunisher (Dangan Ronin Punisher)
 1014500: ThePunisher (Thunderbolts)
 1014501: ThePunisher (Punisher 2099)
+1014503: ThePunisher (Franken-Castle)
+1014502: ThePunisher (Aqua Arsenal)
 1014800: ThePunisher (Daredevil Born Again)
 
 1015: Storm
 10150: Storm
 1015001: Storm (Default)
 1015100: Storm (Ivory Breeze)
+1015300: Storm (Queen of Orphans)
 1015500: Storm (Mohawk Rock)
 1015501: Storm (MAYBE - Ultimate Wind-Rider)
 1015502: Storm (Goddess of Thunder)
@@ -40,6 +44,7 @@ Updated as of Season 5
 10160: Loki
 1016001: Loki (Default)
 1016100: Loki (Frost Giant)
+1016101: Loki (IGNITE)
 1016300: Loki (Shin Sagi-Shi)
 1016301: Loki (Robe of Relaxation)
 1016302: Loki (Immortal Firebird)
@@ -56,6 +61,7 @@ Updated as of Season 5
 1017101: HumanTorch (Blood Blaze)
 1017201: HumanTorch (Unknown)
 1017500: HumanTorch (Negative Zone Gladiator)
+1017501: HumanTorch (Future Foundation)
 1017502: HumanTorch (Sunny Sizzler)
 1017800: HumanTorch (First Steps)
 
@@ -104,6 +110,7 @@ Updated as of Season 5
 10230: RocketRaccoon
 1023001: RocketRaccoon (Default)
 1023100: RocketRaccoon (Rocky)
+1023101: RocketRaccoon (Will of Galacta)
 1023300: RocketRaccoon (Bounty Hunter)
 1023301: RocketRaccoon (Wild Winter)
 1023302: RocketRaccoon (Sunshine Racoon)
@@ -119,7 +126,9 @@ Updated as of Season 5
 1024301: Hela (Empress of the Cosmos)
 1024302: Hela (Yami no Karasu)
 1024303: Hela (Queen in Black)
+1024304: Hela (The Grim Lady)
 1024500: Hela (Goddess of Death)
+1024800: Hela (Merciful Queen)
 
 1025: CloakDagger
 10250: CloakDagger (Dagger Only)
@@ -144,10 +153,10 @@ Updated as of Season 5
 10270: Groot
 1027001: Groot (Default)
 1027100: Groot (ABIES ALGAE)
-1027300: 
 1027301: Groot (Yggroot Groot)
 1027302: Groot (Holiday Happiness)
 1027500: Groot (Carved Traveler)
+1027502: Groot (Big Buddy)
 1027800: Groot (Guardians of the Galaxy Vol. 3)
 
 1028: Ultron
@@ -157,6 +166,7 @@ Updated as of Season 5
 1028102: Ultron (Golden Ultron (Ranked skin))
 1028300: Ultron (Wasteland Robot)
 1028500: Ultron (X-Tron)
+1028800: Ultron (Infinity Ultron)
 
 1029: Magik
 10290: Magik (Magik Only)
@@ -166,6 +176,7 @@ Updated as of Season 5
 1029300: Magik (Punkchild)
 1029301: Magik (Frozen Demon)
 1029302: Magik (Rosy Resilience - Punkchild)
+1029303: Magik (New Millenia Might)
 1029500: Magik (Eldritch Armor)
 1029501: Magik (Retro X-Uniform)
 1029502: Magik (Phoenix Demon)
@@ -193,6 +204,7 @@ Updated as of Season 5
 1031305: LunaSnow (Abyssal Glow)
 1031306: LunaSnow (Radiant Radiance)
 1031307: LunaSnow (Prismatic Pulse)
+1031308: LunaSnow (Cherry Delight)
 
 1032: SquirrelGirl
 10320: SquirrelGirl
@@ -223,6 +235,7 @@ Updated as of Season 5
 1034500: IronMan (Steam Power)
 1034501: IronMan (Superior Iron Man)
 1034502: IronMan (Extrembiote Armor)
+1034503: IronMan (Big Shot)
 1034800: IronMan (Avengers: Endgame)
 
 1035: Venom
@@ -235,6 +248,7 @@ Updated as of Season 5
 1035301: Venom (Reborn King in Black)
 1035500: Venom (Lingering Imprint)
 1035501: Venom (Space Knight)
+1035302: Venom (Gummy Surprise)
 
 1036: SpiderMan
 10360: SpiderMan
@@ -248,6 +262,7 @@ Updated as of Season 5
 1036503: SpiderMan (Marvels Spider-Man 2)
 1036504: SpiderMan (Black Suit)
 1036505: SpiderMan (Man-Spider)
+1036508: SpiderMan (Iron Spider)
 1036800: SpiderMan (Spider-Man: No Way Home)
 
 1037: Magneto
@@ -256,6 +271,7 @@ Updated as of Season 5
 1037100: Magneto (UNCANNY BLACKSTEEL)
 1037101: Magneto (Will of Glacata)
 1037300: Magneto (Binary Sword)
+1037301: Magneto (Temporal Tyrant)
 1037302: Magneto (The Trial of Magneto)
 1037500: Magneto (Master of Magnetism)
 1037501: Magneto (King Magnus)
@@ -269,6 +285,7 @@ Updated as of Season 5
 1038301: ScarletWitch (Phoenix Chaos)
 1038500: ScarletWitch (Chaos Gown)
 1038501: ScarletWitch (Emporium Matron)
+1038502: ScarletWitch (Witch of the Evil Eye)
 1038800: ScarletWitch (Doctor Strange in the Multiverse of Madness)
 1038801: ScarletWitch (The Queen Of The Dead)
 
@@ -289,6 +306,7 @@ Updated as of Season 5
 10400: MrFantastic
 1040001: MrFantastic (Default)
 1040100: MrFantastic (First Family)
+1040101: MrFantastic (Will of Galacta)
 1040300: MrFantastic (The Life Fantastic)
 1040301: MrFantastic (Dad-tastic Reed)
 1040500: MrFantastic (The Maker)
@@ -340,6 +358,7 @@ Updated as of Season 5
 1045100: Namor (MAUVE SUB-MARINER)
 1045101: Namor (Will of Galacta)
 1045300: Namor (Phantom Tide)
+1045301: Namor (Monstro King)
 1045500: Namor (Savage Sub-Mariner)
 1045501: Namor (Retro X-Uniform)
 1045502: Namor (Phoenix King)
@@ -361,7 +380,7 @@ Updated as of Season 5
 1047100: Jeff (ADOPTED AVENGER)
 1047300: Jeff (Cuddly Fuzzlefin)
 1047301: Jeff (Sunshine Shark)
-1047302: Jeff (Jeff O'Lantern)
+1047302: Jeff (Jeff O Lantern)
 1047500: Jeff (Incognito Dolphin)
 1047501: Jeff (Devouring Duo)
 1047502: Jeff (Business Shark)
@@ -371,6 +390,7 @@ Updated as of Season 5
 1048001: Psylocke (Default)
 1048100: Psylocke (Kirisaki Sakura)
 1048300: Psylocke (Blood Kariudo)
+1048301: Psylocke (Fleeting Butterfly)
 1048302: Psylocke (Daring Daifuku)
 1048500: Psylocke (Vengeance)
 1048501: Psylocke (Retro X-Uniform)
@@ -395,6 +415,7 @@ Updated as of Season 5
 1050100: InvisibleWoman (First Family)
 1050101: InvisibleWoman (Blood Shield)
 1050300: InvisibleWoman (The Life Fantastic)
+1050301: InvisibleWoman (Disappearing Dessert)
 1050500: InvisibleWoman (Malice)
 1050501: InvisibleWoman (Future Foundation Invisible Woman)
 1050502: InvisibleWoman (Azure Shade)
@@ -405,6 +426,8 @@ Updated as of Season 5
 1051001: TheThing (Default)
 1051100: TheThing (First Family)
 1051101: TheThing (The Unlimited)
+1051102: TheThing (Blue Thing)
+1051300: TheThing (Rocky Tide)
 1051301: TheThing (Sunshine Thing)
 1051500: TheThing (Trench Coat)
 1051501: TheThing (Future Foundation The Thing)
@@ -450,6 +473,7 @@ Updated as of Season 5
 1056100: Angela (Cerulean Lightbringer)
 1054101: Angela (Sirianas Silver)
 1056500: Angela (Skuld 2099)
+1056501: Angela (Odins Beautiful Daughter)
 
 1057: Professor X (UNCONFIRMED)
 10570: Professor X (UNCONFIRMED)
@@ -519,8 +543,10 @@ Updated as of Season 5
 # Galacta has bnk_vo_system.bnk, bnk_vo_practice_level.bnk & bnk_vo_tutorial_level.bnk
 # UltronDrone has bnk_vo_4019001.bnk
 
+4016001: Galacta Bot (SFX)
 4017: Galacta
 4017001: Galacta (Default)
+4018001: Knull (SFX)
 4019: UltronDrone
 4019001: UltronDrone (Default)
 4024: ZombieWanda
