@@ -83,157 +83,169 @@ INFO ABOUT THIS TOOLS OPTIONS:
 ----------------------------------------------------------------
 ----------------------------------------------------------------
 
-Info About Option 0: *CONVERT* Your Custom .Wav Files Into .Wem Files
-         
-             - This option converts your custom .wav audio files into .wem files.
-             - Ensure ffmpeg.exe & ffprobe.exe are in '0_XTRA\0-TOOLS' (if not, download from https://ffmpeg.org/download.html).
-             
-             =====================================
-              INSTRUCTIONS:
-             
-             - Place your custom .wav file(s) in '0-Put-CUSTOM-WAVS-Here'.
-             - Select Option 0 in this script.
-             - The script converts .wav files to .wem files, outputting them into '2-Put-CUSTOM-WEMs-Here'.
-             - You can then use Option 1 to include these .wem files in a modded .bnk file.
-             
-             =====================================
+=== Info About Option 0: *CONVERT* Your Custom .Wav Files Into .Wem Files ===
+            
+            - This option converts your custom .wav, .mp3, .flac, .ogg, or .m4a audio files into .wem files.
+            - Ensure ffmpeg.exe & ffprobe.exe are in '0_XTRA\0-TOOLS' (if not, download from https://ffmpeg.org/download.html).
+            
+            =====================================
+             INSTRUCTIONS:
+            
+            - Place your custom .wav file(s) in '0-Put-CUSTOM-WAVS-Here'.
+            - Select Option 0 in this script.
+            - Press enter to convert your audio files to wem with a x1.0 volume amplification
+            - Or input a volume multiplification level ranging from 0.1 to 5.0, with the smaller number producing a quieter file
+            - The script converts your audio files to .wem files, outputting them into '2-Put-CUSTOM-WEMs-Here'.
+            - You can then use Option 1 to include these .wem files in a modded .bnk file.
+            
+            =====================================
               NOTES:
              
              - A fade-in filter is applied to prevent audio pops (0.01s duration).
              
              =====================================
 
-Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE* .Wem IDs
-      
-             - This option creates a modified .bnk file by replacing original .wem files inside of the .bnk with your custom .wem files.
-             - It can also be used simply to extract a .bnk file so you can examine the wem files inside
-             - It can also update old wem IDs to newer ones by cross-referencing subtitle jsons
-             
-             - Please do Option 1 Of The CVS .Ps1 Script In The '0_XTRA\0-CVS' Folder *FIRST*!
-             - This Will Allow Option 1 Of *THIS* Script To Rename/Replace MOST Of The Bnk Folder's Split-Second Audio Clips With FULL, NAMED Clips
-             
-             - Be Aware That This Rename/Replace Function Only Works With The Following File Types:
-               Bnk_Vo_####
-               Bnk_Display_####
-               Bnk_Display_Breath_####
-               Bnk_Display_Vo_####
-               Bnk_Vo_(Word)
-             
-             - This Will NOT Do Anything For The Following File Types:
-               Bnk_Sfx_###
-             
-             =====================================
-              INSTRUCTIONS:
-             
-             - IF you are looking for a sound effect (sfx/display) file:
-             - In Fmodel, Navigate to 'Marvel/Content/'
-             - Select the WWiseAudio folder, then select the 'Packages' tab at the top of the window
-             - Select a .bnk file,  then Export it as '.uasset'
-             
-             - IF you are looking for a voice (vo/display_breath/display_vo, etc) file:
-             - In Fmodel, Navigate to 'Marvel/Content/WWiseAudio/(One Of The Language Folders)'
-             - Select a .bnk file,  then Export it as '.uasset'
-             
-             - Place your .bnk file(s) in '1-Put-ORIGINAL-BNKs-Here'.
-             - Place your custom .wem files in '2-Put-CUSTOM-WEMs-Here'
-             - Custom .wem filename format should be: 'WemID#.wem' or 'WemID#-ExtraWords.wem'
-             - For Example: '12345.wem' or '12345-CaptainAmericaYell.wem'
-             
-             - Select Option 1 in this script.
-             - Select a Sub-Option and press Enter.
-             
-             - SUB-OPTION 1:
-             - This will create a modded .bnk(s) using your custom .wems, then output it to '3-Your-MODDED-BNK-Is-Here'.
-             
-             - SUB-OPTION 2:
-             - This will output folder(s) named after the .bnk file(s) + character costume in '4-Your-EXTRACTED-BNKs-Are-Here'.
-             - These folders will contain all the .wems from the .bnk, so you can look at them for yourself
-             - If the .wems have an ID that matches a .wem ID present in the '2-RENAMED-WEMs-Are-Here' folder of CVS,
-               then that .wem will be replaced with the .wem from '2-RENAMED-WEMs-Are-Here'
-             - If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
-               the script will append '_Old#' to the older bnk folder(s)
-             
-             - SUB-OPTION 3: (EXPERIMENTAL)
-             - This will update old wem IDs that are from prior Seasons that have changed, then create a modded .bnk
-             - First it will cross reference the .json info in the 'SUB-OLD-*' folder in '0_XTRA\0-CVS\1_XTRA\'.
-             - If it finds that a wem ID has changed, it will rename it to the current ID, which it will find
-             - It will then create a modded .bnk(s) using your custom .wems, then output it to '3-Your-MODDED-BNK-Is-Here'.
+=== Info About Option 1: *CREATE* a Modded .Bnk \ *EXTRACT* A Vanilla .Bnk \ *UPDATE* .Wem IDs ===
+            
+            - This option creates a modified .bnk file by replacing original .wem files inside of the .bnk with your custom .wem files.
+            - It can also be used simply to extract a .bnk file so you can examine the wem files inside
+            - It can also update old wem IDs to newer ones by cross-referencing subtitle jsons
+            - Sub-Options 1 & 3 can only handle up to 580MB of.wem files in the '2-Put-CUSTOM-WEMs-Here' folder
+            - Even fully replaced .bnk files should fall at LEAST 100MB under this, but just giving you a headsup
+            
+            - Please do Option 1 Of The CVS .Ps1 Script In The '0_XTRA\0-CVS' Folder *FIRST*!
+            - This Will Allow Option 1 Of *THIS* Script To Rename/Replace MOST Of The Bnk Folder's Split-Second Audio Clips With FULL, NAMED Clips
+            
+            =====================================
+             INSTRUCTIONS:
+            
+            - IF you are looking for a sound effect (sfx/display) file:
+            - In Fmodel, Navigate to 'Marvel/Content/'
+            - Select the WWiseAudio folder, then select the 'Packages' tab at the top of the window
+            - Select a .bnk file,  then Export it as '.uasset'
+            
+            - IF you are looking for a voice (vo/display_breath/display_vo, etc) file:
+            - In Fmodel, Navigate to 'Marvel/Content/WWiseAudio/(One Of The Language Folders)'
+            - Select a .bnk file,  then Export it as '.uasset'
+            
+            - Place your .bnk file(s) in '1-Put-ORIGINAL-BNKs-Here'.
+            - Place your custom .wem files in '2-Put-CUSTOM-WEMs-Here'.
+            - Custom .wem filename format should be: 'WemID#.wem' or 'WemID#-ExtraWords.wem'.
+            - For Example: '12345.wem' or '12345-CaptainAmericaYell.wem'.
+            
+            - Select Option 1 in this script.
+            - Select a Sub-Option and press Enter.
+            
+            - SUB-OPTION 1:
+            - This will create a modded .bnk(s) using your custom .wems, then output it to '3-Your-MODDED-BNK-Is-Here'.
+            - NOTE: If you have more than 580MB of files in the '2-Put-CUSTOM-WEMs-Here' folder, you will get a warning.
+                    Reduce the amount of files until you have less than 580MB of files in there, then run the option again
+            
+            - SUB-OPTION 2:
+            - This will output folder(s) named after the .bnk file(s) + character costume in '4-Your-EXTRACTED-BNKs-Are-Here'.
+            - These folders will contain all the .wems from the .bnk, so you can look at them for yourself
+            - If the .wems have an ID that matches a .wem ID present in the '2-RENAMED-WEMs-Are-Here' folder of CVS,
+              then that .wem will be replaced with the .wem from '2-RENAMED-WEMs-Are-Here'
+            - If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
+              the script will append '_Old#' to the older bnk folder(s)
+            
+            - SUB-OPTION 3: (EXPERIMENTAL)
+            - This will update old wem IDs that are from prior Seasons that have changed, then create a modded .bnk
+            - First it will cross reference the .json info in the 'SUBS-OLD' and 'SUBS-NEW' folders in '0_XTRA\0-CVS\1_XTRA\'.
+            - If it finds that a wem ID has changed, it will rename it to the current ID, which it will find in the 'SUBS-NEW' folder*
+              NOTE: It's important to keep the jsons in here up to date. Use CVS to generate these when needed.
+            
+            - It will then create a modded .bnk(s) using your custom .wems, then output it to '3-Your-MODDED-BNK-Is-Here'.
+            - NOTE: If you have more than 580MB of files in the '2-Put-CUSTOM-WEMs-Here' folder, you will get a warning.
+                    Reduce the amount of files until you have less than 580MB of files in there, then run the option again
+            
+            - SUB-OPTION 4:
+            - This will output folder(s) named after the .bnk file(s) + character costume in '4-Your-EXTRACTED-BNKs-Are-Here'.
+            - These folders will contain all the .wems from the .bnk, so you can look at them for yourself
+            - If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
+              the script will append '_Old#' to the older bnk folder(s)
+            
+            - SUB-OPTION 5:
+            - This will ONLY update old wem IDs that are from a prior Season that have changed
+            - First it will cross reference the .json info in the 'SUBS-OLD' folder in '0_XTRA\0-CVS\1_XTRA\'.
+            - If it finds that a wem ID has changed, it will rename it to the current ID, which it will find in the 'SUBS-NEW' folder
+            - A log of the updated wem files will be output to json files inside of '0_XTRA\0-LOGS'
+            
+            =====================================
+             NOTES:
+            
+             FILE NAMING
+            - .Wem filenames in '2-Put-CUSTOM-WEMs-Here' must start with the same decimal (or hexadecimal) number that the original wem file starts with.
+            - For example, if the original file was '1278791-vo_blahblah.wem', your custom .wem NEEDS to have '1278791' at the front of it's name.
+            - If you want to add more to the name, separate the number with a hyphen, then type your custom name
+            - For example, '1278791-PoopyHead.wem' is valid. '1278791PoopyHead.wem' is not because it has no hyphen
+            - Please only use letters, numbers, hyphens, and/or underscores in your custom name
+            
+             ERROR FOLDERS
+            - Duplicate IDs will be moved to 'x202-DUPE-ID-Wems-Here'.
+              You need to choose one file to use, as they both cannot replace a single entry
+            - Invalid filenames will be moved to 'x203-INVALID-NAME-Wems-Here'.
+              These files do not have a hexa/decimal number at the front of their name or dont have a hyphen separating the rest of the name
+            - WEMs with no matching .bnk ID will be moved to 'x204-Wems-With-NO-BNK-MATCH-Here'.
+              These files have a number in their name that doesnt match any entries within the .bnk files in '1-Put-ORIGINAL-BNKs-Here'
+            
+             TIPS
+            - If making a mod from scratch, always use a vanilla .bnk from the latest version of the game
+            - IF YOU DID OPTION 1 OF THE CVS SCRIPT: *MOST* wems in the bank_streams folder will be renamed and/or replaced with their full audio clips
+            - Miscellaneous sounds will be in an 'Unknown' folder inside of your extracted bnk's 'bank_streams' folder
+            - Keep in mind, old audio mods MAY be missing new voice lines/sounds that have been added in a game update.
+            - That's why I ALWAYS advise using a fresh file if you're going to create a mod.
+            
+             MORE INFO
+            - Usually, the CVS script is used to extract full voicelines for every character
+            - However, SOME characters, like Black Panther, have/may have full voicelines that are ONLY located in his .bnk file/the extracted .bnk folders.
+            - However (Pt.2), because those voice lines are only found in the .bnk, they will not have any reference name to be renamed to
+            - AKA, they will still show up as random numbers for their name, instead of something like '1278791-vo_blahblah.wem'
+            - ALL files that do not have a reference name will be placed into an 'Unknown' folder
+            - Mainly, .bnk files are where full clips of death, damage, gasp, etc. sounds are found
+            - There are many (seemingly) unused clips as well, which obviously dont have reference names, so they will also be in 'Unknown'
+            
+             MORE INFO Pt.2
+            - Some bnks like 'Init.bnk' and 'bnk_vo_effect' dont seem to work with this tool
+            - If I find a way to fix that, I will update the script. 'music_formal.bnk' may not be fully supported either
+            
+             MORE INFO Pt.3
+            - Sub-Option 3 relies on the info in the multiple SUBS folders
+            - The SUBS folder that will be used for renaming to new IDs is 'SUBS-NEW'
+            - The SUBS folder that will be used for initially matching old wem IDs is 'SUBS-OLD'
+            
+            - Atm, it is Season 5. The 'SUBS-NEW' folder is filled with Season 5 subtitles & 'SUBS-OLD' folder has Season 2.5 subs.
+            - When Season 5.5 rolls around, run Option 2 (or 101, which I recommend) of CVS to get the latest subtitles
+            - Delete the files in 'SUBS-NEW', and place the new subtitle files in there
+            - This should be a continuable process for any future Season, unless NetEase screws us all over
+            
+              NOTE: So I'm coming back to this from the future to say I just noticed a flaw in the logic
+                    If a file doesn't exist from Season 2.5 (at the time of writing), but it did in let's say Season 4 (at the time of writing,
+                    but it changed in Season 5 (at the time of writing), and your wem is named after an ID from Season 4,
+                    then the script wouldn't be able to update it to it's Season 5 wem ID because it won't be able to find a match
+                    in the Season 2.5 jsons. Sooooooooooo...I might just have to update the SUBS-OLD folder with every half Season update?
+                    Or maybe just once every full Season...idk. I'll think about it.
+            
+            - Highly recommend removing any language folders that you know you wont be using. This will speed the process up
+            - For example,I'm only keeping the 'en' folder in both of my SUBTITLES folders
+            - This way, the script doesnt waste time searching jsons that dont matter, or could get in the way
+            
+             QUICK .BNK CONTENT RUNDOWN:
+            - Bnk_vo_#######.bnk: Character voice bnks
+            - Bnk_sfx_#######.bnk: Character general SFX bnks
+            - Bnk_display_#######.bnk: Character general 'Display' SFX bnks (i.e. Emote SFX, MVP SFX, Hero Menu SFX, etc)
+            - Bnk_display_breath_#######.bnk: Character general breathe sound bnks (i.e. Gasps, Jump Breaths, Sighs, Hero Menu Laughs, etc)
+            
+            =====================================
 
-             - SUB-OPTION 4:
-             - This will output folder(s) named after the .bnk file(s) + character costume in '4-Your-EXTRACTED-BNKs-Are-Here'.
-             - These folders will contain all the .wems from the .bnk, so you can look at them for yourself
-             - If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
-               the script will append '_Old#' to the older bnk folder(s)
-             
-             =====================================
-              NOTES:
-             
-              FILE NAMING
-             - .Wem filenames in '2-Put-CUSTOM-WEMs-Here' must start with the same decimal (or hexadecimal) number that the original wem file starts with.
-             - For example, if the original file was '1278791-vo_blahblah.wem', your custom .wem NEEDS to have '1278791' at the front of it's name.
-             - If you want to add more to the name, separate the number with a hyphen, then type your custom name
-             - For example, '1278791-PoopyHead.wem' is valid. '1278791PoopyHead.wem' is not because it has no hyphen
-             - Please only use letters, numbers, hyphens, and/or underscores in your custom name
-             
-              ERROR FOLDERS
-             - Duplicate IDs will be moved to 'x202-DUPE-ID-Wems-Are-Here'.
-               You need to choose one file to use, as they both cannot replace a single entry
-             - Invalid filenames will be moved to 'x203-INVALID-NAME-Wems-Are-Here'.
-               These files do not have a hexa/decimal number at the front of their name or dont have a hyphen separating the rest of the name
-             - WEMs with no matching .bnk ID will be moved to 'x204-Wems-With-NO-BNK-MATCH-Here'.
-               These files have a number in their name that doesnt match any entries within the .bnk files in '1-Put-ORIGINAL-BNKs-Here'
-             
-              TIPS
-             - If making a mod from scratch, always use a vanilla .bnk from the latest version of the game
-             - IF YOU DID OPTION 1 OF THE CVS SCRIPT: *MOST* wems in the bank_streams folder will be renamed and/or replaced with their full audio clips
-             - Miscellaneous sounds will be in an 'Unknown' folder inside of your extracted bnk's 'bank_streams' folder
-             - Keep in mind, old audio mods MAY be missing new voice lines/sounds that have been added in a game update.
-             - That's why I ALWAYS advise using a fresh file if you're going to create a mod.
-             
-              MORE INFO
-             - Usually, the CVS script is used to extract full voicelines for every character
-             - However, SOME characters, like Black Panther, have/may have full voicelines that are ONLY located in his .bnk file/the extracted .bnk folders.
-             - However (Pt.2), because those voice lines are only found in the .bnk, they will not have any reference name to be renamed to
-             - AKA, they will still show up as random numbers for their name, instead of something like '1278791-vo_blahblah.wem'
-             - ALL files that do not have a reference name will be placed into an 'Unknown' folder
-             - Mainly, .bnk files are where full clips of death, damage, gasp, etc. sounds are found
-             - There are many (seemingly) unused clips as well, which obviously dont have reference names, so they will also be in 'Unknown'
-             
-              MORE INFO Pt.2
-             - Some bnks like 'Init.bnk' and 'bnk_vo_effect' dont seem to work with this tool
-             - If I find a way to fix that, I will update the script. 'music_formal.bnk' may not be fully supported either
-             
-              MORE INFO Pt.3
-             - Sub-Option 3 relies on the info in the multiple SUBTITLES folders
-             - The SUBTITLES folder that will be used for the renaming will be named SUB-NEW-*
-             - The asterisk can be whatever you want. As of the time of writing, I have it as SUB-NEW-S3
-             - I put 'S3' because it is currently Season 3
-             
-             - The SUBTITLES folder that will be used for initially matching old wem IDs will be named SUB-OLD-*
-             - The asterisk can be whatever you want. As of the time of writing, I have it as SUB-OLD-S2.5
-             - I put 'S2.5' because it is currently Season 3, and the season prior to this was 2.5
-             - All voice file wem IDs remained the same from Season 1 to Season 2.5, so this should suffice even for updating Season 1 wems
-             
-             - When Season 3.5 rolls around, you can rename 'SUB-NEW-S3' to 'SUB-OLD-S3
-             - Then run Option 2 of CVS to get the subtitles for Season 3.5, and place them into a 'SUB-NEW-S3.5' folder
-             - This should be a continuable process for any future Season, unless NetEase screws us all over
-             
-             - Highly recommend removing any language folders that you know you wont be using. This will speed the process up
-             - For example,I'm only keeping the 'en' folder in both of my SUBTITLES-* folders
-             - This way, the script doesnt waste time searching jsons that dont matter, or could get in the way
-             
-              QUICK .BNK CONTENT RUNDOWN:
-             - Bnk_vo_#######.bnk: Character voice bnks
-             - Bnk_sfx_#######.bnk: Character general SFX bnks
-             - Bnk_display_#######.bnk: Character general 'Display' SFX bnks (i.e. Emote SFX, MVP SFX, Hero Menu SFX, etc)
-             - Bnk_display_breath_#######.bnk: Character general breathe sound bnks (i.e. Gasps, Jump Breaths, Sighs, Hero Menu Laughs, etc)
-             
-             =====================================
-
-Info About Option 102: *RENAME* Special Wems From FModel === -ForegroundColor Cyan
+=== Info About Option 102: *RENAME* Special Wems From FModel === -ForegroundColor Cyan
      
      This option renames and organizes .wem files, mainly sfx and display, extracted from uassets in FModel.
      
+     --- THIS IS PRACTICALLY IRRELEVANT NOW, RENAMING IS PRE-PROCESSED WITH CVS NOW ---
+     --- THIS IS PRACTICALLY IRRELEVANT NOW, RENAMING IS PRE-PROCESSED WITH CVS NOW ---
+     --- THIS IS PRACTICALLY IRRELEVANT NOW, RENAMING IS PRE-PROCESSED WITH CVS NOW ---
+
      =====================================
       INSTRUCTIONS:
      
