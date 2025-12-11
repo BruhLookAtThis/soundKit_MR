@@ -791,7 +791,7 @@ NOTE: This is NOT heavily tested!
   
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.9 (NOT RELEASED YET, BUG TESTING)
+UPDATE 2.0.9
 
 For General
 - Updated Mapping File
