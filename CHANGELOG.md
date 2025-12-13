@@ -838,14 +838,28 @@ For CVS
    
 - Integrated Dev Option 201 into Option 2 and Option 101
   Removed Dev Option 201 from the menu selection
+- Tweaked 'CHARACTER-ID-LIST.txt' contents to specify 5-digit outputs being 'ONLY' for the parenthesied character (Wait...WTF Was This? Lol I Forgot)
 
 NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
+UPDATE 2.0.9b
+
+For General
+- Updated .usmap file
 
 For CVS
-- Tweaked 'CHARACTER-ID-LIST.txt' contents to specify 5-digit outputs being 'ONLY' for the parenthesied character (Wait...WTF Was This? Lol I Forgot)
+- Updated 'CHARACTER-ID-LIST.txt' file
+
+NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
+
+For General
+For SMT
+For CVS
 
 NOTE: This is NOT heavily tested!  
