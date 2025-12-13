@@ -851,6 +851,8 @@ For General
 
 For CVS
 - Updated 'CHARACTER-ID-LIST.txt' file
+- Updated 'SUBS-NEW' and 'ALL-LANGS-FOR-SUBS-NEW' to Season 5.5
+- Updated 'SUBS-OLD' and 'ALL-LANGS-FOR-SUBS-OLD' to Season 5
 
 NOTE: This is NOT heavily tested! 
 
