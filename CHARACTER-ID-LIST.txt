@@ -514,8 +514,8 @@ Updated as of Season 5
 10640: Jubilee (UNCONFIRMED)
 1064001: Jubilee (Default)
 
-1065: Rogue (UNCONFIRMED)
-10650: Rogue (UNCONFIRMED)
+1065: Rogue
+10650: Rogue
 1065001: Rogue (Default)
 1065100: Rogue (Queens Defense)
 1065101: Rogue (Searing Spellstripe)
