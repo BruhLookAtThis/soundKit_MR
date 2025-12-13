@@ -53,7 +53,6 @@ Updated as of Season 5
 1016501: Loki (All-Butcher)
 1016800: Loki (Loki Season 2)
 
-
 1017: HumanTorch
 10170: HumanTorch
 1017001: HumanTorch (Default)
@@ -104,6 +103,7 @@ Updated as of Season 5
 1022501: CaptainAmerica (Star Spangled Style)
 1022502: CaptainAmerica (Captain Klyntar)
 1022503: CaptainAmerica (Golden Age)
+1022504: CaptainAmerica (Capwolf)
 1022801: CaptainAmerica (Avengers: Infinity War)
 
 1023: RocketRaccoon
@@ -114,6 +114,7 @@ Updated as of Season 5
 1023300: RocketRaccoon (Bounty Hunter)
 1023301: RocketRaccoon (Wild Winter)
 1023302: RocketRaccoon (Sunshine Racoon)
+1023305: RocketRaccoon (Rocket of the Rafters)
 1023500: RocketRaccoon (Symbiote Raccoon) 
 1023801: RocketRaccoon (Guardians of the Galaxy Vol. 3)
 
@@ -236,6 +237,7 @@ Updated as of Season 5
 1034501: IronMan (Superior Iron Man)
 1034502: IronMan (Extrembiote Armor)
 1034503: IronMan (Big Shot)
+1034504: IronMan (Mark I )
 1034800: IronMan (Avengers: Endgame)
 
 1035: Venom
@@ -438,8 +440,10 @@ Updated as of Season 5
 10520: IronFist
 1052001: IronFist (Default)
 1052100: IronFist (Martial Arts Savant)
+1052101: IronFist (Will of Galacta)
 1052300: IronFist (Lions Gaze)
 1052301: IronFist (Binary Fist)
+1052302: IronFist (Shenloong Champion)
 1052500: IronFist (Sword Master)
 1052501: IronFist (Immortal Weapon of Agamotto)
 1052502: IronFist (Binary Fist)
@@ -475,9 +479,9 @@ Updated as of Season 5
 1056500: Angela (Skuld 2099)
 1056501: Angela (Odins Beautiful Daughter)
 
-1057: Professor X (UNCONFIRMED)
-10570: Professor X (UNCONFIRMED)
-1057001: Professor X (Default)
+1057: Deadpool (UNCONFIRMED)
+10570: Deadpool (UNCONFIRMED)
+1057001: Deadpool (Default)
 
 1058: Gambit
 10580: Gambit
@@ -513,6 +517,9 @@ Updated as of Season 5
 1065: Rogue (UNCONFIRMED)
 10650: Rogue (UNCONFIRMED)
 1065001: Rogue (Default)
+1065100: Rogue (Queens Defense)
+1065101: Rogue (Searing Spellstripe)
+1065300: Rogue (Rogue Redux)
 
 1066: UNKNOWN (UNCONFIRMED)
 10660: UNKNOWN (UNCONFIRMED)
