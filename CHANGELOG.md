@@ -858,6 +858,15 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.0.9c
+
+For CVS
+- Added Doctor Strange (+ Madness costume) jsons to 'SUBS-NEW' and 'ALL-LANGS-FOR-SUBS-NEW' to Season 5.5
+
+NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
 
 For General
