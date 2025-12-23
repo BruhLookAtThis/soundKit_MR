@@ -867,6 +867,13 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.0.9d
+
+For CVS
+- Updated 'CHARACTER-ID-LIST.txt' file
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
 
 For General
