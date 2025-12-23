@@ -215,6 +215,7 @@ Updated as of Season 5
 1032301: SquirrelGirl (Cheerful Dragoness)
 1032302: SquirrelGirl (Sunshine Squirrel)
 1032303: SquirrelGirl (Turbo Tailwind)
+1032304: SquirrelGirl (Tinsel Tail)
 1032500: SquirrelGirl (Urban Hunter)
 1032501: SquirrelGirl (Symbiote Squirrel)
 
@@ -324,6 +325,7 @@ Updated as of Season 5
 1041302: WinterSoldier (Winters Wraith (Blood Soldier))
 1041500: WinterSoldier (Revolution)
 1041501: WinterSoldier (Winters Veil)
+1041502: WinterSoldier (Winter Buckaroo)
 1041800: WinterSoldier (Thunderbolts)
 
 1042: PeniParker
@@ -334,6 +336,7 @@ Updated as of Season 5
 1042300: PeniParker (Yatsukahagi)
 1042301: PeniParker (Wasteland Mecha)
 1042302: PeniParker (Floral Frights)
+1042303: PeniParker (Snow-SPdr)
 1042500: PeniParker (VEN#M)
 
 1043: StarLord
@@ -341,6 +344,7 @@ Updated as of Season 5
 1043001: StarLord (Default)
 1043100: StarLord (JOVIAL STAR)
 1043300: StarLord (Lions Mane)
+1043301: StarLord (Starcracker)
 1043500: StarLord (MASTER OF THE SUN)
 1043501: StarLord (King of Spartax)
 1043502: StarLord (Starlit Outlaw)
@@ -470,6 +474,7 @@ Updated as of Season 5
 10550: DareDevil
 1055001: DareDevil (Default)
 1055500: DareDevil (Devil 2099)
+1055501: DareDevil (Not Daredevil)
 
 1056: Angela
 10560: Angela
@@ -479,8 +484,8 @@ Updated as of Season 5
 1056500: Angela (Skuld 2099)
 1056501: Angela (Odins Beautiful Daughter)
 
-1057: Deadpool (UNCONFIRMED)
-10570: Deadpool (UNCONFIRMED)
+1057: Deadpool - UNCONFIRMED
+10570: Deadpool - UNCONFIRMED
 1057001: Deadpool (Default)
 
 1058: Gambit
@@ -490,28 +495,28 @@ Updated as of Season 5
 1058101: Gambit (Sacrifical Pawn)
 1058300: Gambit (Thieves Guildmaster)
 
-1059: Elsa Bloodstone (UNCONFIRMED)
-10590: Elsa Bloodstone (UNCONFIRMED)
+1059: Elsa Bloodstone - UNCONFIRMED
+10590: Elsa Bloodstone - UNCONFIRMED
 1059001: Elsa Bloodstone (Default)
 
-1060: Colossus (UNCONFIRMED)
-10600: Colossus (UNCONFIRMED)
+1060: Colossus - UNCONFIRMED
+10600: Colossus - UNCONFIRMED
 1060001: Colossus (Default)
 
-1061: Locus (UNCONFIRMED)
-10610: Locus (UNCONFIRMED)
+1061: Locus - UNCONFIRMED
+10610: Locus - UNCONFIRMED
 1061001: Locus (Default)
 
-1062: Beast (UNCONFIRMED)
-10620: Beast (UNCONFIRMED)
+1062: Beast - UNCONFIRMED
+10620: Beast - UNCONFIRMED
 1062001: Beast (Default)
 
-1063: Nightcrawler (UNCONFIRMED)
-10630: Nightcrawler (UNCONFIRMED)
+1063: Nightcrawler - UNCONFIRMED
+10630: Nightcrawler - UNCONFIRMED
 1063001: Nightcrawler (Default)
 
-1064: Jubilee (UNCONFIRMED)
-10640: Jubilee (UNCONFIRMED)
+1064: Jubilee - UNCONFIRMED
+10640: Jubilee - UNCONFIRMED
 1064001: Jubilee (Default)
 
 1065: Rogue
@@ -521,28 +526,28 @@ Updated as of Season 5
 1065101: Rogue (Searing Spellstripe)
 1065300: Rogue (Rogue Redux)
 
-1066: UNKNOWN (UNCONFIRMED)
-10660: UNKNOWN (UNCONFIRMED)
+1066: UNKNOWN - UNCONFIRMED
+10660: UNKNOWN - UNCONFIRMED
 1066001: UNKNOWN (Default)
 
-1067: Armor (UNCONFIRMED)
-10670: Armor (UNCONFIRMED)
+1067: Armor - UNCONFIRMED
+10670: Armor - UNCONFIRMED
 1067001: Armor (Default)
 
-1068: Hive (UNCONFIRMED)
-10680: Hive (UNCONFIRMED)
+1068: Hive - UNCONFIRMED
+10680: Hive - UNCONFIRMED
 1068001: Hive (Default)
 
-1069: WhiteFox (UNCONFIRMED)
-10690: WhiteFox (UNCONFIRMED)
+1069: WhiteFox - UNCONFIRMED
+10690: WhiteFox - UNCONFIRMED
 1069001: WhiteFox (Default)
 
-1070: Forge (UNCONFIRMED)
-10700: Forge (UNCONFIRMED)
+1070: Forge - UNCONFIRMED
+10700: Forge - UNCONFIRMED
 1070001: Forge (Default)
 
-1071: Amaranth (UNCONFIRMED)
-10710: Amaranth (UNCONFIRMED)
+1071: Amaranth - UNCONFIRMED
+10710: Amaranth - UNCONFIRMED
 1071001: Amaranth (Default)
 
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
