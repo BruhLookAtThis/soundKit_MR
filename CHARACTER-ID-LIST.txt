@@ -137,9 +137,10 @@ Updated as of Season 5
 1025001: CloakDagger (Default)
 1025100: CloakDagger (Lemon Lime)
 1025300: CloakDagger (Dance Partner)
-1025302: CloakDagger (Polarity Bond)
-1025500: CloakDagger (Growth & Decay)
 1025301: CloakDagger (Twilight Duo)
+1025302: CloakDagger (Polarity Bond)
+1025303: CloakDagger (Ice Pas de Deux)
+1025500: CloakDagger (Growth & Decay)
 
 1026: BlackPanther
 10260: BlackPanther
@@ -299,6 +300,7 @@ Updated as of Season 5
 1039300: Thor (Worthy Waves)
 1039301: Thor (Lightning Fast)
 1039302: Thor (Azure Skies)
+1039303: Thor (God of Winter)
 1039500: Thor (HERALD OF THUNDER)
 1039501: Thor (Reborn from Ragnarok)
 1039502: Thor (Lord of Asgard)
