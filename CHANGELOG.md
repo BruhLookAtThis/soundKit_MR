@@ -874,6 +874,14 @@ For CVS
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.0.9e
+
+For CVS
+- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated CVS logic to accommodate Lady Loki subtitle processing
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
 
 For General
