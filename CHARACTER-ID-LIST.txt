@@ -59,6 +59,7 @@ Updated as of Season 5
 1017100: HumanTorch (First Family)
 1017101: HumanTorch (Blood Blaze)
 1017201: HumanTorch (Unknown)
+1017300: HumanTorch (Jack Of Hearts)
 1017500: HumanTorch (Negative Zone Gladiator)
 1017501: HumanTorch (Future Foundation)
 1017502: HumanTorch (Sunny Sizzler)
@@ -98,6 +99,7 @@ Updated as of Season 5
 10220: CaptainAmerica
 1022001: CaptainAmerica (Default)
 1022100: CaptainAmerica (Captain A.I.M.erica)
+1022101: CaptainAmerica (PLACEHOLDER-UNKNOWN)
 1022300: CaptainAmerica (Galactic Talon)
 1022500: CaptainAmerica (Captain Gladiator)
 1022501: CaptainAmerica (Star Spangled Style)
