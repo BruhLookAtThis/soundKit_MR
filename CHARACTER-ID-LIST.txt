@@ -41,8 +41,9 @@ Updated as of Season 5
 1015503: Storm (Symbiote Storm)
 
 1016: Loki
-10160: Loki
-1016001: Loki (Default)
+10160: Loki (Loki Only)
+10161: Loki (Lady Loki Only)
+1016001: Loki (Default + Lady Loki Voice)
 1016100: Loki (Frost Giant)
 1016101: Loki (IGNITE)
 1016300: Loki (Shin Sagi-Shi)
@@ -51,6 +52,7 @@ Updated as of Season 5
 1016303: Loki (Tidal Trickery)
 1016500: Loki (Presidental Attire)
 1016501: Loki (All-Butcher)
+1016502: Loki (Lady Loki)
 1016800: Loki (Loki Season 2)
 
 1017: HumanTorch
@@ -381,6 +383,7 @@ Updated as of Season 5
 1046101: AdamWarlock (Will of Galacta)
 1046300: AdamWarlock (Immortal Avatar Adam Warlock)
 1046301: AdamWarlock (Blood Soul)
+1046302: AdamWarlock (COSMIC WARLOCK)
 1046500: AdamWarlock (Magus)
 1046800: AdamWarlock (Guardians of the Galaxy Vol. 3)
 
@@ -472,6 +475,7 @@ Updated as of Season 5
 1054101: Phoenix (The Return of Jean Grey)
 1054102: Phoenix (Emerald Flames)
 1054300: Phoenix (Chaos Phoenix)
+1054301: Phoenix (Ice Phoenix)
 1054500: Phoenix (Dark Phoenix)
 
 1055: DareDevil
