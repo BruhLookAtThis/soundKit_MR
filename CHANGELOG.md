@@ -858,43 +858,16 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.9c
+UPDATE 2.0.9c-2.0.9g
+
+For General
+-Updated '.usmap' file
 
 For CVS
-- Added Doctor Strange (+ Madness costume) jsons to 'SUBS-NEW' and 'ALL-LANGS-FOR-SUBS-NEW' to Season 5.5
+- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated Subtitles
 
 NOTE: This is NOT heavily tested! 
-
------------------------------------------------------
------------------------------------------------------
-UPDATE 2.0.9d
-
-For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
-
------------------------------------------------------
------------------------------------------------------
-UPDATE 2.0.9e
-
-For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
-- Updated CVS logic to accommodate Lady Loki subtitle processing
-
------------------------------------------------------
------------------------------------------------------
-UPDATE 2.0.9f
-
-For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
-- Updated Subtitles
-
------------------------------------------------------
------------------------------------------------------
-UPDATE 2.0.9g
-
-For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
-- Updated Subtitles
 
 -----------------------------------------------------
 -----------------------------------------------------
