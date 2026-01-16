@@ -1,4 +1,4 @@
-Updated as of Season 5
+Updated as of Season 6
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -36,9 +36,10 @@ Updated as of Season 5
 1015100: Storm (Ivory Breeze)
 1015300: Storm (Queen of Orphans)
 1015500: Storm (Mohawk Rock)
-1015501: Storm (MAYBE - Ultimate Wind-Rider)
+1015501: Storm (Ultimate Wind-Rider)
 1015502: Storm (Goddess of Thunder)
 1015503: Storm (Symbiote Storm)
+1015504: Storm (Queen of Wakanda)
 
 1016: Loki
 10160: Loki (Loki Only)
@@ -85,6 +86,7 @@ Updated as of Season 5
 1020300: Mantis (Galactic Wings)
 1020301: Mantis (Jade Maiden)
 1020302: Mantis (Oceanic Harmony)
+1020305: Mantis (Galactic Gladiator)
 1020500: Mantis (Flora Maiden)
 1020800: Mantis (Guardians of the Galaxy Vol. 3)
 
@@ -154,6 +156,7 @@ Updated as of Season 5
 1026301: BlackPanther (Thrice-Cursed King)
 1026500: BlackPanther (Basts Chosen)
 1026501: BlackPanther (Damisa-Sarki)
+1026502: BlackPanther (King of Wakanda)
 
 1027: Groot
 10270: Groot
@@ -193,6 +196,7 @@ Updated as of Season 5
 1030100: MoonKnight (Golden Moonlight)
 1030100: MoonKnight (Blood Moon Knight)
 1030300: MoonKnight (Lunar General)
+1030301: MoonKnight (King of Clubs)
 1030500: MoonKnight (Mister Knight)
 1030501: MoonKnight (Phoenix Knight)
 1030800: MoonKnight (Fist of Vengeance)
@@ -254,9 +258,11 @@ Updated as of Season 5
 1035102: Venom (Hyper Orange)
 1035300: Venom (Snow Symbiote)
 1035301: Venom (Reborn King in Black)
+1035303: Venom (Space Corsair)
 1035500: Venom (Lingering Imprint)
 1035501: Venom (Space Knight)
 1035302: Venom (Gummy Surprise)
+1035800: Venom (Marvel Cosmic Invasion)
 
 1036: SpiderMan
 10360: SpiderMan
@@ -272,6 +278,7 @@ Updated as of Season 5
 1036505: SpiderMan (Man-Spider)
 1036508: SpiderMan (Iron Spider)
 1036800: SpiderMan (Spider-Man: No Way Home)
+1036801: SpiderMan (Marvel Cosmic Invasion)
 
 1037: Magneto
 10370: Magneto
@@ -332,6 +339,7 @@ Updated as of Season 5
 1041500: WinterSoldier (Revolution)
 1041501: WinterSoldier (Winters Veil)
 1041502: WinterSoldier (Winter Buckaroo)
+1041503: WinterSoldier (Bucky)
 1041800: WinterSoldier (Thunderbolts)
 
 1042: PeniParker
@@ -349,6 +357,7 @@ Updated as of Season 5
 10430: StarLord
 1043001: StarLord (Default)
 1043100: StarLord (JOVIAL STAR)
+1043102: StarLord (IGNITE Star-Lord (2025))
 1043300: StarLord (Lions Mane)
 1043301: StarLord (Starcracker)
 1043500: StarLord (MASTER OF THE SUN)
@@ -361,6 +370,7 @@ Updated as of Season 5
 1044001: Blade (Default)
 1044101: Blade (Will of Galacta)
 1044300: Blade (Polarity Edge)
+1044301: Blade (Vampire Slayer)
 1044500: Blade (Restful Recovery)
 1044800: Blade (Moon Knight)
 
@@ -382,7 +392,7 @@ Updated as of Season 5
 1046100: AdamWarlock (COSMIC JADE)
 1046101: AdamWarlock (Will of Galacta)
 1046300: AdamWarlock (Immortal Avatar Adam Warlock)
-1046301: AdamWarlock (Blood Soul)
+1046301: AdamWarlock (Blood Soul) 
 1046302: AdamWarlock (COSMIC WARLOCK)
 1046500: AdamWarlock (Magus)
 1046800: AdamWarlock (Guardians of the Galaxy Vol. 3)
@@ -397,6 +407,7 @@ Updated as of Season 5
 1047500: Jeff (Incognito Dolphin)
 1047501: Jeff (Devouring Duo)
 1047502: Jeff (Business Shark)
+1047800: Jeff (8-Bit Dash)
 
 1048: Psylocke
 10480: Psylocke
@@ -420,6 +431,7 @@ Updated as of Season 5
 1049301: Wolverine (Dog Brother X)
 1049500: Wolverine (Patch)
 1049501: Wolverine (Weapon X)
+1049503: Wolverine (Winter Soldier)
 1049800: Wolverine (Deadpool & Wolverine)
 
 1050: InvisibleWoman
@@ -427,8 +439,10 @@ Updated as of Season 5
 1050001: InvisibleWoman (Default)
 1050100: InvisibleWoman (First Family)
 1050101: InvisibleWoman (Blood Shield)
+1050103: InvisibleWoman (Will of Galacta)
 1050300: InvisibleWoman (The Life Fantastic)
 1050301: InvisibleWoman (Disappearing Dessert)
+1050302: InvisibleWoman (Prism Parade)
 1050500: InvisibleWoman (Malice)
 1050501: InvisibleWoman (Future Foundation Invisible Woman)
 1050502: InvisibleWoman (Azure Shade)
@@ -492,9 +506,12 @@ Updated as of Season 5
 1056500: Angela (Skuld 2099)
 1056501: Angela (Odins Beautiful Daughter)
 
-1057: Deadpool - UNCONFIRMED
-10570: Deadpool - UNCONFIRMED
+1057: Deadpool
+10570: Deadpool
 1057001: Deadpool (Default)
+1057100: Deadpool (X-Force?)
+1057101: Deadpool (Workwear Woes)
+1057300: Deadpool (Captain Pool)
 
 1058: Gambit
 10580: Gambit
