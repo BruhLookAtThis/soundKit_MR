@@ -858,7 +858,8 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.9c-2.0.9g
+UPDATE 2.0.9c-2.0.9g (PRE-RELEASE VERSION, THIS INCLUDES SFX SORTING FOR THOSE WHO HAVE WATCHED BOTH THE MAIN TUTORIAL VID AND THE 2.0.9 UPDATE VIDEO IN ITS DESCRIPTION)
+UPDATE 2.0.8g ("SAFE" VERSION, THIS DOES NOT INCLUDE SFX SORTING, FOR THOSE WHO ONLY WATCHED THE MAIN TUTORIAL VID)
 
 For General
 -Updated '.usmap' file
