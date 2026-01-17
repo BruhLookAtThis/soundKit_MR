@@ -880,7 +880,8 @@ For General
 
 For SMT
 - Enabled wem file name replacement (based on contents inside of '2-RENAMED-WEMs-Are-Here') for Option 1 Sub-Option 4.
-
+- Reworked Option 1 Sub-Option 2 to ALWAYS replace files with matching counterpart from '2-RENAMED-WEMs-Are-Here', removing larger source file size exception.
+- Option 1 Sub-Options 2 & 4 now automatically clear leftover files in the 0-TOOLS folder, fixing an earlier oversight.
 
 For CVS
 
