@@ -863,13 +863,29 @@ UPDATE 2.0.9c-2.0.9g (PRE-RELEASE VERSION, THIS INCLUDES SFX SORTING FOR THOSE W
 UPDATE 2.0.8g ("SAFE" VERSION, THIS DOES NOT INCLUDE SFX SORTING, FOR THOSE WHO ONLY WATCHED THE MAIN TUTORIAL VID)
 
 For General
--Updated '.usmap' file
+- Updated '.usmap' file
 
 For CVS
 - Updated 'CHARACTER-ID-LIST.txt' file
 - Updated Subtitles
 
 NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.9h (NOT RELEASED YET, BUG TESTING)
+
+For General
+
+
+For SMT
+- Enabled wem file name replacement (based on contents inside of '2-RENAMED-WEMs-Are-Here') for Option 1 Sub-Option 4.
+
+
+For CVS
+
+
+NOTE: This is NOT heavily tested!  
 
 -----------------------------------------------------
 -----------------------------------------------------
