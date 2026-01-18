@@ -875,18 +875,12 @@ NOTE: This is NOT heavily tested!
 -----------------------------------------------------
 UPDATE 2.0.9h
 
-For General
-
-
 For SMT
 - Enabled wem file name replacement (based on contents inside of '2-RENAMED-WEMs-Are-Here') for Option 1 Sub-Option 4.
 - Reworked Option 1 Sub-Option 2 to ALWAYS replace files with matching counterpart from '2-RENAMED-WEMs-Are-Here', removing larger source file size exception.
 - Option 1 Sub-Options 2 & 4 now automatically clear leftover files in the 0-TOOLS folder, fixing an earlier oversight.
 - Fixed incorrect output folder renaming when using Sub-Option 2 and 4 multiple times on the same .bnk file(s)
 - Fixed Option 1 Sub-Option 3 & 5 adding files that did not have a decimal change to the Update Log file.
-
-For CVS
-
 
 NOTE: This is NOT heavily tested!  
 
