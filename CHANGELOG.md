@@ -886,7 +886,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.9i (NOT RELEASED YET, BUG TESTING)
+UPDATE 2.0.9i
 
 For SMT
 - Fixed Option 106 not renaming files in the 'C-Modded-Wems-Here' folder.
