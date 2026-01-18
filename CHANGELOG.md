@@ -891,7 +891,16 @@ UPDATE 2.0.9i
 For SMT
 - Fixed Option 106 not renaming files in the 'C-Modded-Wems-Here' folder.
 
-NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.9j (NOT RELEASED YET, BUG TESTING)
+
+For CVS
+- Fixed Option 2/101 not properly outputting NPC subtitles.
+
+NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
