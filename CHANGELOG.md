@@ -873,7 +873,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.9h (NOT RELEASED YET, BUG TESTING)
+UPDATE 2.0.9h
 
 For General
 
