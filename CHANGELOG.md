@@ -915,6 +915,16 @@ NOTE: Because of the switch to .txt from .jsons, Wem ID updating will be pretty 
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.0
+
+For CVS
+- Fixed an issue where characters who had different voice files/lines for a DLC costume would not get separate subtitle files for those lines.
+- Updated Subtitles
+- 
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, BUG TESTING)
 
 For General
