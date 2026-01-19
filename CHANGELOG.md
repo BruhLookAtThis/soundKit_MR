@@ -897,8 +897,14 @@ NOTE: This is NOT heavily tested!
 -----------------------------------------------------
 UPDATE 2.0.9j (NOT RELEASED YET, BUG TESTING)
 
+For SMT
+- Updated all relevant options to accommodate change from .json files to .txt files for updating wem IDs
+- Rearranged Option 1s Sub-Options into relevant groupings
+
 For CVS
-- Fixed Option 2/101 not properly outputting NPC subtitles.
+- DRASTICALLY increased the time it takes to complete Option 2/101 (literally a 99% speed increase)
+- Script now outputs the subtitle files as .txt instead of .jsons
+- Fixed Option 2/101 not properly outputting NPC subtitles
 
 NOTE: This is NOT heavily tested!
 
