@@ -902,12 +902,16 @@ For SMT
 - Rearranged Option 1s Sub-Options into relevant groupings
 
 For CVS
-- DRASTICALLY increased the time it takes to complete Option 2/101 (literally a 99% speed increase)
+- DRASTICALLY increased the time it takes to complete Option 2/101 (literally a 90%+ speed increase)
 - Script now outputs the subtitle files as .txt instead of .jsons
 - Fixed Option 2/101 not properly outputting NPC subtitles
+- Swapped 'SUBS-NEW' and '.ALL-LANGS-FOR-SUBS-NEW-S6' files with the new .txt files. (Check NOTE below)
 
 NOTE: This is NOT heavily tested!
 NOTE: Written instructions not updated yet. Im lazy lol
+NOTE: Because of the switch to .txt from .jsons, Wem ID updating will be pretty much defunct until Season 6.5
+      This feature shouldnt really be important anyway, as the SUBS-OLD folder was reset to Season 5.5 anyway
+      And as far as I know, no wem IDs were changed since then.
 
 -----------------------------------------------------
 -----------------------------------------------------
