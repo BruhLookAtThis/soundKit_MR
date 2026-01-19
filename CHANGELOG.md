@@ -895,7 +895,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.0.9j (NOT RELEASED YET, BUG TESTING)
+UPDATE 2.0.9j
 
 For SMT
 - Updated all relevant options to accommodate change from .json files to .txt files for updating wem IDs
@@ -907,6 +907,7 @@ For CVS
 - Fixed Option 2/101 not properly outputting NPC subtitles
 
 NOTE: This is NOT heavily tested!
+NOTE: Written instructions not updated yet. Im lazy lol
 
 -----------------------------------------------------
 -----------------------------------------------------
