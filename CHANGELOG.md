@@ -935,9 +935,15 @@ For SMT
         If I can find a way around this logically, Ill do it in another update, but for the moment, I dont really care too much
 
 For CVS
-- Adjusted Option 2/101 to move the Media folder into the 2-RENAMED-WEMs-Are-Here folder at the end of operations to accommodate the SMT changes (well, its the other away around but yeah)
+- Adjusted Option 1/100 to move the Media folder into the 2-RENAMED-WEMs-Are-Here folder at the end of operations to accommodate the SMT changes (well, its the other away around but yeah)
+- Adjusted Option 1 to ignore missing SFX folders/files instead of giving a crazy amount of errors, which scared some people lol
   
 NOTE: This is ABSOLUTELY NOT heavily tested! Like moreso than other releases, Im too tired to run my typical checklist :p
+NOTE 2: This fix was implemented in order to get the 'expected' results when using Sub-Option 2 on the 'bnk_amb_timesquare.bnk' file
+        (I was looking for the full disco room soundtrack file). If you have already ran CVS AFTER the addition of the disco update files, then 
+        all you need to do to take advantage of this update is move the 'Media' folder out of '1-Put-MEDIA-LOCAL-WWISE-Here' and into '2-RENAMED-WEMs-Are-Here'.
+        If you havent run CVS after the disco update, then...well, go do that first lol
+        
 
 -----------------------------------------------------
 -----------------------------------------------------
