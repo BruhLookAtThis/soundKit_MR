@@ -927,6 +927,9 @@ NOTE: This is NOT heavily tested!
 -----------------------------------------------------
 UPDATE 2.1.1
 
+For General
+- Updated '.usmap' file
+- 
 For SMT
 - Adjusted Option 1s Sub-Option 2 to prioritize replacing the content of extracted audio files with the larger of any multiple matching files
 - Additionally, if extracted files have multiple matches, the longest name is used for the renaming process (This aspect also affects Sub-Option 3)
@@ -937,7 +940,10 @@ For SMT
 For CVS
 - Adjusted Option 1/100 to move the Media folder into the 2-RENAMED-WEMs-Are-Here folder at the end of operations to accommodate the SMT changes (well, its the other away around but yeah)
 - Adjusted Option 1 to ignore missing SFX folders/files instead of giving a crazy amount of errors, which scared some people lol
-  
+- Updated 'CHARACTER-ID-LIST.txt' file
+
+
+
 NOTE: This is ABSOLUTELY NOT heavily tested! Like moreso than other releases, Im too tired to run my typical checklist :p
 NOTE 2: This fix was implemented in order to get the 'expected' results when using Sub-Option 2 on the 'bnk_amb_timesquare.bnk' file
         (I was looking for the full disco room soundtrack file). If you have already ran CVS AFTER the addition of the disco update files, then 
