@@ -931,6 +931,8 @@ For SMT
 - Adjusted Option 1s Sub-Option 2 to prioritize replacing the content of extracted audio files with the larger of any multiple matching files
 - Additionally, if extracted files have multiple matches, the longest name is used for the renaming process (This aspect also affects Sub-Option 3)
 - Adjusted Option 1s Sub-Options 2 and 3 to rename overlapping extracted folders that dont contain 7-digit numbers
+- NOTE: For folders that dont contain a 7-digit number, they are appended with '_Old#' even on the very first run.
+        If I can find a way around this logically, Ill do it in another update, but for the moment, I dont really care too much
 
 For CVS
 - Adjusted Option 2/101 to move the Media folder into the 2-RENAMED-WEMs-Are-Here folder at the end of operations to accommodate the SMT changes (well, its the other away around but yeah)
