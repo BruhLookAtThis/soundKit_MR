@@ -925,7 +925,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.1 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.1.1
 
 For SMT
 - Adjusted Option 1s Sub-Option 2 to prioritize replacing the content of extracted audio files with the larger of any multiple matching files
