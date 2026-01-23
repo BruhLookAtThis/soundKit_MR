@@ -937,7 +937,7 @@ For SMT
 For CVS
 - Adjusted Option 2/101 to move the Media folder into the 2-RENAMED-WEMs-Are-Here folder at the end of operations to accommodate the SMT changes (well, its the other away around but yeah)
   
-NOTE: This is NOT heavily tested!
+NOTE: This is ABSOLUTELY NOT heavily tested! Like moreso than other releases, Im too tired to run my typical checklist :p
 
 -----------------------------------------------------
 -----------------------------------------------------
