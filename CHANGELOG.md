@@ -952,7 +952,7 @@ NOTE 2: This fix was implemented in order to get the 'expected' results when usi
         
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.2 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.1.2
 
 For SMT
 - Changed '0-Put-CUSTOM-WAVS-Here' to '0-Put-SOURCE-AUDIO-Here'
