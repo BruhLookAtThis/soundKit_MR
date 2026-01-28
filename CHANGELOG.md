@@ -950,6 +950,17 @@ NOTE 2: This fix was implemented in order to get the 'expected' results when usi
         all you need to do to take advantage of this update is move the 'Media' folder out of '1-Put-MEDIA-LOCAL-WWISE-Here' and into '2-RENAMED-WEMs-Are-Here'.
         If you havent run CVS after the disco update, then...well, go do that first lol
         
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.1.2 (NOT RELEASED YET, 'BUG TESTING')
+
+For SMT
+- Changed '0-Put-CUSTOM-WAVS-Here' to '0-Put-SOURCE-AUDIO-Here'
+- Fixed issue where Option 0 would not retain source audio channel count
+- Adjusted Option 0 to support .wem files. Useful for quickly amplifying their volume levels
+  Added 'vgmstream-cli.exe' to a '0_XTRA\0-TOOLS\0-VGCLI\' to enable this new feature
+
+NOTE: This is NOT heavily tested!  
 
 -----------------------------------------------------
 -----------------------------------------------------
