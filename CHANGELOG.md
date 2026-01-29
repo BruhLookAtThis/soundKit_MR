@@ -964,6 +964,18 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.2b
+
+For SMT
+- Fixed issue where using Option 1s Sub-Options would remove files crucial for Option 0 wem adjustment
+- Adjusted issue where audio files longer than 18 minutes would not work with Option 1s Sub-Options
+  NOTE: Currently, audio length is limited to 18 minutes when making modded bnks with this tool
+        A fix is being planned, but there are no guarantees it will come to fruition
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
