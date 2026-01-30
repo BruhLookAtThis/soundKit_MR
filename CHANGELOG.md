@@ -981,7 +981,10 @@ UPDATE 2.1.2c (NOT RELEASED YET, 'BUG TESTING')
 For SMT
 - Reverted 'fix' for 18+ minute audio files, kept getting soundTool crashes.
   NOTE: In my tests, 11 minutes is the longest an audio file can be without crashing anything
-        I have placed a note at the top of the scripts main menu about this  
+        I have placed a note at the top of the scripts main menu about this
+
+For CVS
+- Updated 'CHARACTER-ID-LIST.txt' file
 
 NOTE: This is NOT heavily tested!  
 
