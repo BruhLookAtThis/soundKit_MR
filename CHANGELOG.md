@@ -976,7 +976,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.3 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.1.3
 
 For SMT
 - Reverted 'fix' for 18+ minute audio files, kept getting soundTool crashes.
