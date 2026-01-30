@@ -976,12 +976,31 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.2c (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.1.3 (NOT RELEASED YET, 'BUG TESTING')
 
 For SMT
 - Reverted 'fix' for 18+ minute audio files, kept getting soundTool crashes.
   NOTE: In my tests, 11 minutes is the longest an audio file can be without crashing anything
         I have placed a note at the top of the scripts main menu about this
+- Added a new Option 107 (EXPERIMENTAL). This Option auto-renames your audio files to the wem IDs of key sounds.
+- These key sounds will be listed in in an 'AUDIO-ID-LIST.txt' file inside of the '0_XTRA' folder
+- It is completely user-editable. A community-contributed list will be available on the Rivals Audio Spreadsheet
+- Users will place their audio file(s) into 'x100-XTRAs-Are-Here\x107-ASSIGN-Wem-Stuff\A-Put-Audio-Files-To-ASSIGN-Here'
+- Then they will ensure whatever audio file they intend to replace is listed in the 'AUDIO-ID-LIST.txt' file
+- Then they will choose Option 107 from the main menu
+- Here, the script will show basic instructions, and below this, the current audio file that is being processed
+- Below that will be a list of entries from the 'AUDIO-ID-LIST.txt' file with a corresponding selection number
+  NOTE: All of these entries (should) be listed alphabetically, even if the 'AUDIO-ID-LIST.txt' file doesnt have them listed like so.
+- Upon choosing a number for their entry, the user will be taken to the Option 0 menu, where they can amplify the audio, if need be
+- After finishing there, the output wem file will be place into a folder in 2-Put-CUSTOM-WEMs-Here
+- This folder will be named after the 'AUDIO-ID-LIST.txt' entry, with the original name of the audio file appended
+  For example: If you placed 'MyStupidSong.wav' into A-Put-Audio-Files-To-ASSIGN-Here
+               And you selected 'Luna Snow (Default-P13) Ult (VO)-bnk_vo_1031001' in Option 107
+               Then your output wem will be inside of 'Luna Snow (Default-P13) Ult (VO)-bnk_vo_1031001-MyStupidSong'
+- This makes it extremely easy to determine what file is what song, for what character, and for what audio file
+- The namescheme of the entries also includes which .bnk file you should be using to compile your mod too  
+
+NOTE: Info Option for 107 is not made yet. I'm lazy lol.
 
 For CVS
 - Updated 'CHARACTER-ID-LIST.txt' file
