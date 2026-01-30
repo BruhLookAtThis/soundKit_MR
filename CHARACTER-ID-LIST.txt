@@ -36,7 +36,7 @@ Updated as of Season 6
 1015100: Storm (Ivory Breeze)
 1015300: Storm (Queen of Orphans)
 1015500: Storm (Mohawk Rock)
-1015501: Storm (Ultimate Wind-Rider)
+1015501: Storm (MAYBE - Ultimate Wind-Rider)
 1015502: Storm (Goddess of Thunder)
 1015503: Storm (Symbiote Storm)
 1015504: Storm (Queen of Wakanda)
@@ -110,7 +110,7 @@ Updated as of Season 6
 1022502: CaptainAmerica (Captain Klyntar)
 1022503: CaptainAmerica (Golden Age)
 1022504: CaptainAmerica (Capwolf)
-1022801: CaptainAmerica (Avengers: Infinity War)
+1022801: CaptainAmerica (Avengers - Infinity War)
 
 1023: RocketRaccoon
 10230: RocketRaccoon
@@ -134,6 +134,7 @@ Updated as of Season 6
 1024302: Hela (Yami no Karasu)
 1024303: Hela (Queen in Black)
 1024304: Hela (The Grim Lady)
+1024305: Hela (Disco Of The Dead)
 1024500: Hela (Goddess of Death)
 1024800: Hela (Merciful Queen)
 
@@ -215,6 +216,7 @@ Updated as of Season 6
 1031306: LunaSnow (Radiant Radiance)
 1031307: LunaSnow (Prismatic Pulse)
 1031308: LunaSnow (Cherry Delight)
+1031309: LunaSnow (Disco Pop)
 
 1032: SquirrelGirl
 10320: SquirrelGirl
@@ -277,6 +279,7 @@ Updated as of Season 6
 1036504: SpiderMan (Black Suit)
 1036505: SpiderMan (Man-Spider)
 1036508: SpiderMan (Iron Spider)
+1036509: SpiderMan (Groovy Swing)
 1036800: SpiderMan (Spider-Man: No Way Home)
 1036801: SpiderMan (Marvel Cosmic Invasion)
 
@@ -316,6 +319,7 @@ Updated as of Season 6
 1039501: Thor (Reborn from Ragnarok)
 1039502: Thor (Lord of Asgard)
 1039503: Thor (Majestic Raiment)
+1039504: Thor (Boogie Bolt)
 1039800: Thor (Thor: Love and Thunder)
 
 1040: MrFantastic
@@ -416,6 +420,7 @@ Updated as of Season 6
 1048300: Psylocke (Blood Kariudo)
 1048301: Psylocke (Fleeting Butterfly)
 1048302: Psylocke (Daring Daifuku)
+1048304: Psylocke (Psychedelic Pulse)
 1048500: Psylocke (Vengeance)
 1048501: Psylocke (Retro X-Uniform)
 1048502: Psylocke (Breezy Butterfly)
@@ -480,6 +485,7 @@ Updated as of Season 6
 1053101: EmmaFrost (Will of Galacta)
 1053102: EmmaFrost (Golden Diamond)
 1053300: EmmaFrost (Hellfire Protocol)
+1053301: EmmaFrost (Queen of Diamonds)
 1053500: EmmaFrost (X-Revolution)
 1053501: EmmaFrost (Phoenix Diamond)
 
@@ -502,7 +508,8 @@ Updated as of Season 6
 10560: Angela
 1056001: Angela (Default)
 1056100: Angela (Cerulean Lightbringer)
-1054101: Angela (Sirianas Silver)
+1056101: Angela (Sirianas Silver)
+1056300: Angela (Ace of Spades)
 1056500: Angela (Skuld 2099)
 1056501: Angela (Odins Beautiful Daughter)
 
@@ -592,7 +599,7 @@ Updated as of Season 6
 # BELOW ARE NPCs THAT DO NOT HAVE THEIR OWN VO .BNK FILE
 
 # THE VOICE CLIPS FOR THESE NPCs SHOULD ALL BE WITHIN THE bnk_vo_npc.bnk FILE
-# THEY MAY HAVE THEIR OWN, SEPARATED SFX .BNK FILES, THO
+# THEY MAY HAVE THEIR OWN, SEPARATED SFX .BNK FILES, THOUGH
 # DO NOT ADD "NPC_" TO THE NAME OF ANY NPCs THAT DONT HAVE VOICE FILES IN bnk_vo_npc.bnk
 # CURRENTLY THE SCRIPT STRUGGLES TO WORK IF SUCH IS THE CASE, SO JUST DONT DO IT.
 # I MIGHT FIX THIS IN THE FUTURE, IDK
