@@ -1011,6 +1011,9 @@ NOTE: This is NOT heavily tested!
 -----------------------------------------------------
 UPDATE 2.1.3b
 
+For General
+- Updated .usmap file
+
 For SMT
 - Slightly changed namescheme layout for 'AUDIO-ID-LIST.txt' file
 - Added note that Option 102 no longer exists on the main menu
