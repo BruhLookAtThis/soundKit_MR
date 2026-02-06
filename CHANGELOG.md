@@ -1009,6 +1009,25 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.3b
+
+For SMT
+- Slightly changed namescheme layout for 'AUDIO-ID-LIST.txt' file
+- Added note that Option 102 no longer exists on the main menu
+- Added link to new SFX Sorting Video Guide at the top of the main menu
+- Removed leftover 0-Put-CUSTOM-WAVS-Here folder from the download
+
+For CVS
+- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated 'AUDIO-ID-LIST.txt' file
+- Replaced '.ALL-LANGS-FOR-SUBS-NEW-S5.5' .jsons with .txt versions
+- Added Season 2.5, Season 4, and Season 5.5 txts to 'SUBS-OLD'
+  Theoretically, this should allow updating old mods again, but it will take much longer (again, in theory)
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
