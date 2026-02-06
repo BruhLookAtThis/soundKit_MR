@@ -1031,6 +1031,20 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.3c
+
+For General
+NOTE: Previous versions of scripts can be found within '3_XTRA/.OLD-STUFF'
+
+For SMT
+- Adjusted Option 0 to auto-sanitize files that have invalid characters in their name
+  Spaces, brackets, parenthesis, and other special characters that could cause errors will be removed
+  Hyphens and Underscores will not be affected
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
