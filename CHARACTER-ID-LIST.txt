@@ -165,6 +165,7 @@ Updated as of Season 6
 1027100: Groot (ABIES ALGAE)
 1027301: Groot (Yggroot Groot)
 1027302: Groot (Holiday Happiness)
+1027303: Groot (Mecha Flora)
 1027500: Groot (Carved Traveler)
 1027502: Groot (Big Buddy)
 1027800: Groot (Guardians of the Galaxy Vol. 3)
@@ -293,6 +294,7 @@ Updated as of Season 6
 1037302: Magneto (The Trial of Magneto)
 1037500: Magneto (Master of Magnetism)
 1037501: Magneto (King Magnus)
+1037502: Magneto (Seat of Autumn)
 
 1038: ScarletWitch
 10380: ScarletWitch
