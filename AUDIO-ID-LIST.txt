@@ -1,0 +1,20 @@
+# AUDIO-ID-LIST.txt entries. These are used by Option 107 to assign Wem IDs to your custom audio files
+# Format: Name (can include spaces, parentheses, hyphens, numbers): Wem ID Number
+# One entry per line. Lines starting with # are 'comments', which get ignored by the script.
+# Try to keep things in alphabetical order - Management
+#
+# Examples:
+Luna Snow Ult (VO) (Default-P13)-bnk_vo_1031001: 466157259
+Luna Snow Ult (SFX-Paid) (Cool Summer)-bnk_sfx_1031303: 852615448
+#
+# ADD YOUR OWN ENTRIES BELOW:
+
+Hela Ult (SFX) (Default)-bnk_sfx_1024001: 721245515
+Jeff Ult (SFX) (Default)-bnk_sfx_1047001: 108877760
+Luna Snow Ult (SFX-Def) (Cool Summer)-bnk_sfx_1031303: 231678522
+Luna Snow Ult (SFX-Paid) (Cool Summer)-bnk_sfx_1031303: 852615448
+Luna Snow Ult (VO) (Default-P13)-bnk_vo_1031001: 466157259
+Luna Snow Ult (VO) (Default-P2)-bnk_vo_1031001: 27720091
+Magneto Ult (SFX) (Default #1)-bnk_sfx_1037001: 884048673
+Magneto Ult (SFX) (Default #2)-bnk_sfx_1037001: 291065174
+Magneto Ult (SFX) (Default #3)-bnk_sfx_1037001: 587586351
