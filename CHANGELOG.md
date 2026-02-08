@@ -1054,6 +1054,9 @@ For SMT
   I kept forgetting what level I chose so this is mainly just for my dumbass
 - Added 'Press Q to return to main menu' options for Option 0 and Option 200
 
+For CVS
+- Updated 'SUBS-NEW' and '.ALL-LANGS-FOR-SUBS-NEW-S6' with the proper latest subtitle files
+  
 NOTE: This is NOT heavily tested!  
 
 -----------------------------------------------------
