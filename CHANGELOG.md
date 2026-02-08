@@ -1045,6 +1045,18 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.3d
+
+For SMT
+- Added Developer Option 200. This just amplifies the volume level of audio files, like Option 0 does,
+  but does not convert them to wem, and instead outputs those files to a '0_XTRA/0-DEV' folder
+- Adjusted Option 0 and Option 200 to display amplification level at the end of processing
+  I kept forgetting what level I chose so this is mainly just for my dumbass
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
