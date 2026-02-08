@@ -1052,6 +1052,7 @@ For SMT
   but does not convert them to wem, and instead outputs those files to a '0_XTRA/0-DEV' folder
 - Adjusted Option 0 and Option 200 to display amplification level at the end of processing
   I kept forgetting what level I chose so this is mainly just for my dumbass
+- Added 'Press Q to return to main menu' options for Option 0 and Option 200
 
 NOTE: This is NOT heavily tested!  
 
