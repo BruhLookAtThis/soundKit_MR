@@ -121,6 +121,7 @@ Updated as of Season 6
 1023301: RocketRaccoon (Wild Winter)
 1023302: RocketRaccoon (Sunshine Racoon)
 1023305: RocketRaccoon (Rocket of the Rafters)
+1023306: RocketRaccoon (Giant Panda)
 1023500: RocketRaccoon (Symbiote Raccoon) 
 1023801: RocketRaccoon (Guardians of the Galaxy Vol. 3)
 
@@ -174,7 +175,8 @@ Updated as of Season 6
 10280: Ultron
 1028001: Ultron (Default)
 1028100: Ultron (Mechanical Phantom)
-1028102: Ultron (Golden Ultron (Ranked skin))
+1028101: Ultron (Golden Ultron (Ranked skin))
+1028102: Ultron (Will of Galacta)
 1028300: Ultron (Wasteland Robot)
 1028500: Ultron (X-Tron)
 1028800: Ultron (Infinity Ultron)
@@ -228,6 +230,7 @@ Updated as of Season 6
 1032302: SquirrelGirl (Sunshine Squirrel)
 1032303: SquirrelGirl (Turbo Tailwind)
 1032304: SquirrelGirl (Tinsel Tail)
+1032305: SquirrelGirl (Red Panda)
 1032500: SquirrelGirl (Urban Hunter)
 1032501: SquirrelGirl (Symbiote Squirrel)
 
@@ -410,6 +413,7 @@ Updated as of Season 6
 1047300: Jeff (Cuddly Fuzzlefin)
 1047301: Jeff (Sunshine Shark)
 1047302: Jeff (Jeff O Lantern)
+1047307: Jeff (Duck Defender)
 1047500: Jeff (Incognito Dolphin)
 1047501: Jeff (Devouring Duo)
 1047502: Jeff (Business Shark)
@@ -528,10 +532,14 @@ Updated as of Season 6
 1058100: Gambit (Crimson Heart)
 1058101: Gambit (Sacrifical Pawn)
 1058300: Gambit (Thieves Guildmaster)
+1058302: Gambit (Mr.X)
 
-1059: Elsa Bloodstone - UNCONFIRMED
-10590: Elsa Bloodstone - UNCONFIRMED
-1059001: Elsa Bloodstone (Default)
+1059: ElsaBloodstone
+10590: ElsaBloodstone
+1059001: ElsaBloodstone (Default)
+1059100: ElsaBloodstone (Apex Huntress)
+1059101: ElsaBloodstone (Icy Edge)
+1059300: ElsaBloodstone (Young Blood)
 
 1060: Colossus - UNCONFIRMED
 10600: Colossus - UNCONFIRMED
@@ -559,6 +567,7 @@ Updated as of Season 6
 1065100: Rogue (Queens Defense)
 1065101: Rogue (Searing Spellstripe)
 1065300: Rogue (Rogue Redux)
+1065301: Rogue (Mrs.X)
 
 1066: UNKNOWN - UNCONFIRMED
 10660: UNKNOWN - UNCONFIRMED
