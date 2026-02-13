@@ -1064,7 +1064,8 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.1.3e
 
 For General
-
+- Updated .usmap file
+  
 For SMT
 - Updated Main Menu layout
 
