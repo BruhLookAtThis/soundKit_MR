@@ -1061,6 +1061,23 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.3e
+
+For General
+
+For SMT
+- Updated Main Menu layout
+
+For CVS
+- Updated Main Menu layout
+- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated 'AUDIO-ID-LIST.txt' file
+- Updated Subtitles
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
