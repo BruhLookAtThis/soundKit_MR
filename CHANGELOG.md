@@ -1082,17 +1082,22 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.1.4 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
-- Adjusted Main Menu
-- Added Info Option x (Largely empty for now)
   
 For SMT
+- Adjusted Main Menu
+- Added Info Option x (Largely empty for now)
 - Updated AUDIO-ID-LIST.txt file
 - Adjusted DEVELOPER Option 200 to output into '0_XTRA/0-DEV/DEV-200' folder
 - Adjusted DEVELOPER Option 200 to show processed file count at end of operations
+- Added DEV Option 203. This allows converting .wem files in '0-Put-CUSTOM-AUDIO-Here'
+  to .wav files, output into '0_XTRA\0-DEV\DEV-203-CONVERTED-WEMS'
+
+ (LARGELY IRRELEVANT FOR ANYONE BUT ME)
+- Adjusted aspects of code, mostly pertaining to folder references
 - Added DEV Option 201. Allows removing a user-specified appendage from all files in the
   '2-Put-CUSTOM-WEMs-Here'. Mainly for those of us using the Wwise AudioKinetic App to clean
   up the filenames quickly
-- (IRRELEVANT FOR ANYBODY BUT ME) Added DEV Option 202. This option copies bnks from '3-Your-MODDED-BNK-Is-Here' into
+- Added DEV Option 202. This option copies bnks from '3-Your-MODDED-BNK-Is-Here' into
   '0_XTRA\0-DEV\DEV-202\1-PUT-BNK-FILES-HERE', then automatically runs the z2_DoubleClickMe_RPK_AUTO_MR.bat
   file located there. Practically an auto-repaker, renamer, and organizer cause I'm lazy. Will eventually try
   to get this combined with Option 1 Sub-Option 1 so I can one-click create bnks and repak/organize
