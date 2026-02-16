@@ -1079,7 +1079,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.4 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.1.4
 
 For General
   
@@ -1105,7 +1105,8 @@ For SMT
 For CVS
 - Fixed Option 101s Filename and Subtitles txts having mismatched amount of lines
 
-NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested! Im tired af rn tryna upgrade this crap,
+      so if it explodes and nukes your neighborhood...RIP! You died never hitting Diamond III!
 
 -----------------------------------------------------
 -----------------------------------------------------
