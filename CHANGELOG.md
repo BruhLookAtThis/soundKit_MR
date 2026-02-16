@@ -1086,6 +1086,7 @@ For General
 - Added Info Option x (Largely empty for now)
   
 For SMT
+- Updated AUDIO-ID-LIST.txt file
 - Adjusted DEVELOPER Option 200 to output into '0_XTRA/0-DEV/DEV-200' folder
 - Adjusted DEVELOPER Option 200 to show processed file count at end of operations
 - Added DEV Option 201. Allows removing a user-specified appendage from all files in the
