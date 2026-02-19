@@ -1110,6 +1110,21 @@ NOTE: This is NOT heavily tested! Im tired af rn tryna upgrade this crap,
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.5 (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+
+For SMT
+- Added Option 100. This option clears all work folders of all files. These folders include:
+  - 
+- Replaced 0-Silent.wem with a smaller file size version
+
+For CVS
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
