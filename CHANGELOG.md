@@ -1120,6 +1120,7 @@ For SMT
 - Replaced 0-Silent.wem with a smaller file size version
 - Removed Option 203, added functionality to Option 200. If wem files are detected in
   '0-Put-CUSTOM-AUDIO-Here', script now asks user if they want to convert any .wems to .wav.
+- Adjusted script to only generate 'Option107-Temp' when needed, and delete afterwards
 
 For CVS
 - Added Option 198. This executes both Option 1 & 2 automatically 
