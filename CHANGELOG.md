@@ -1118,9 +1118,12 @@ For SMT
 - Added Option 100. This option clears all work folders of all files. These folders include:
   - 
 - Replaced 0-Silent.wem with a smaller file size version
-- Added Volume Amplification to Option 203
+- Removed Option 203, added functionality to Option 200. If wem files are detected in
+  '0-Put-CUSTOM-AUDIO-Here', script now asks user if they want to convert any .wems to .wav.
 
 For CVS
+- Added Option 198. This executes both Option 1 & 2 automatically 
+- Added Option 199. This executes both Option 100 & 101 automatically 
 
 NOTE: This is NOT heavily tested!  
 
