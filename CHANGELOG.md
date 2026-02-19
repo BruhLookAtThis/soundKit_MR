@@ -1118,6 +1118,7 @@ For SMT
 - Added Option 100. This option clears all work folders of all files. These folders include:
   - 
 - Replaced 0-Silent.wem with a smaller file size version
+- Added Volume Amplification to Option 203
 
 For CVS
 
