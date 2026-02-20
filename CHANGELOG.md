@@ -1122,7 +1122,11 @@ For SMT
   '0-Put-CUSTOM-AUDIO-Here', script now asks user if they want to convert any .wems to .wav.
 - Adjusted script to only generate 'Option107-Temp' when needed, and delete afterwards
 
+(LARGELY IRRELEVANT FOR ANYONE BUT ME)
+- Added Option 1 Sub-Option 302. This option automatically executes Option 1 Sub-Option 1 then Option 202
+
 For CVS
+- Updated 'CHARACTER-ID-LIST.txt' file
 - Added Option 198. This executes both Option 1 & 2 automatically 
 - Added Option 199. This executes both Option 100 & 101 automatically 
 
