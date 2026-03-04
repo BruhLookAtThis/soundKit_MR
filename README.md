@@ -46,7 +46,7 @@ SlimeCore / WispEnjoyer_
 
 Lazuli / Kara
 
-u/charles2404
+JohnnYoru
 
 --------------------------------------------------------------
 ## Licensing
@@ -68,7 +68,7 @@ This tool includes and redistributes the following open-source components:
 - **Project homepage**: https://github.com/vgmstream/vgmstream  
 - **Main developers/maintainers**: hcs, bnnm, and many contributors (see repository for full list).  
 - **Source code**: Available at https://github.com/vgmstream/vgmstream  
-- **Notes**: The following is on the vgstream licensing page:
+- **Full license text**: (The following is on the vgstream licensing page):
   
 Copyright (c) 2008-2025 Adam Gashlin, Fastelbja, Ronny Elfert, bnnm,
                         Christopher Snowhill, NicknineTheEagle, bxaimc,
