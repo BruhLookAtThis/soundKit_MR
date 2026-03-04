@@ -70,7 +70,7 @@ This tool includes and redistributes the following open-source components:
 - **Source code**: Available at https://github.com/vgmstream/vgmstream  
 - **Notes**: The following is on the vgstream licensing page:
   
-  Copyright (c) 2008-2025 Adam Gashlin, Fastelbja, Ronny Elfert, bnnm,
+Copyright (c) 2008-2025 Adam Gashlin, Fastelbja, Ronny Elfert, bnnm,
                         Christopher Snowhill, NicknineTheEagle, bxaimc,
                         Thealexbarney, CyberBotX, et al
 
@@ -101,5 +101,28 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 - **Version used**: 7.1.1  
 - **Source code**: https://github.com/FFmpeg/FFmpeg/releases/tag/n7.1.1  
 - FFmpeg is a trademark of Fabrice Bellard.
+
+### BNKTool (including BNK-Unpack.exe, BNK-Pack.exe, bnktool.exe)
+- **License**: MIT License
+- **Description**: Simple tool for extracting and repacking Wwise soundbanks (.bnk files), used for handling audio containers in modding workflows.
+- **Project homepage / Source code**: https://github.com/JohnnYoru/BNKTool
+- **Copyright holder**: Copyright (c) 2026 JohnnYoru
+- **Full license text**:
+
+MIT License
+Copyright (c) 2026 JohnnYoru
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 --------------------------------------------------------------
