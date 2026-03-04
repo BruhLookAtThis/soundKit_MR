@@ -40,13 +40,13 @@ MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they wil
 --------------------------------------------------------------
 CREDITS:
 
-BruhLookAtThis / ❕토 Tobi 비❕ (Spare Change?: https://linktr.ee/BruhLookAtThis)
+BruhLookAtThis / ❕토 Tobi 비❕ (Spare change?: https://ko-fi.com/bruhlookatthis )
 
 SlimeCore / WispEnjoyer_
 
-Lazuli / Kara
+senran.kagura / Kara
 
-JohnnYoru
+johnnyoru / JohnnYoru
 
 --------------------------------------------------------------
 ## Licensing
