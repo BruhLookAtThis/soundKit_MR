@@ -1110,7 +1110,25 @@ NOTE: This is NOT heavily tested! Im tired af rn tryna upgrade this crap,
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.5 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.1.5
+
+For SMT
+- Replaced backend SoundFileEditor with BNKTool, courtesy of JohnnYoru and auri thedarkdame
+- With this change, the 580MB limit is now removed, as well as the 11 minute duration limit
+  If you are still creating mods with Vorbis wems, I still recommend doing that just to save space
+- Updated Main Menu
+- Moving Warnings/Notes from Option 1 to Option Z
+
+For CVS
+- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated Main Menu
+- Moving Warnings/Notes from Main Menu to Option Z
+
+NOTE: This is NOT heavily tested!
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.1.6 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
 
