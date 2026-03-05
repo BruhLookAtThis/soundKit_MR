@@ -40,13 +40,15 @@ MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they wil
 --------------------------------------------------------------
 CREDITS:
 
-BruhLookAtThis / ❕토 Tobi 비❕ (Spare change?: https://ko-fi.com/bruhlookatthis )
+❕토 Tobi 비❕ (BruhLookAtThis) (Spare change?: https://ko-fi.com/bruhlookatthis )
 
-SlimeCore / WispEnjoyer_
+Evelyn | WispEnjoyer (wispenjoyer_)
 
-senran.kagura / Kara
+Kara (senran.kagura)
 
-johnnyoru / JohnnYoru
+JohnnYoru (johnnyoru)
+
+auri thedarkdame (thedarkdame)
 
 --------------------------------------------------------------
 ## Licensing
