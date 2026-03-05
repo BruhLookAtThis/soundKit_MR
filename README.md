@@ -40,7 +40,7 @@ MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they wil
 --------------------------------------------------------------
 CREDITS:
 
-❕토 Tobi 비❕ (BruhLookAtThis) (Spare change?: https://ko-fi.com/bruhlookatthis )
+❕토 Tobi 비❕ (BruhLookAtThis) [Buy Me A Coffee: https://ko-fi.com/bruhlookatthis ]
 
 Evelyn | WispEnjoyer (wispenjoyer_)
 
