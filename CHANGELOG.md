@@ -1133,7 +1133,7 @@ UPDATE 2.1.6 (NOT RELEASED YET, 'BUG TESTING')
 For General
 
 For SMT
-- Added Option 100. This option clears all work folders of all files. These folders include:
+- Added Option 199. This option clears all work folders of all files. These folders include:
   - 
 - Replaced 0-Silent.wem with a smaller file size version
 - Removed Option 203, added functionality to Option 200. If wem files are detected in
