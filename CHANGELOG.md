@@ -1133,17 +1133,46 @@ UPDATE 2.1.6 (NOT RELEASED YET, 'BUG TESTING')
 For General
 
 For SMT
-- Added Option 199. This option clears all work folders of all files. These folders include:
-  - 
+- Changed how Main Menu Info Options are accessed: Users now type "i" and then the number of the Option to access the Info page
+  For example: To see the info for Option 0, type "i0" and hit Enter
+- With that, cleared out the Info options list from the Main Menu
+    
+- Added Option 199. This option clears all work folders of all files and folders. These work folders include (as of the time of writing):
+1-Put-ORIGINAL-BNKs-Here
+2-Put-CUSTOM-WEMs-Here
+3-Your-MODDED-BNK-Is-Here
+A-Put-Files-To-Rename-Here
+B-RENAMED-FILES-Are-Here
+A-Put-Wems-To-TEST-Here
+B-Your-New-TEST-Wems-Are-Here
+A-Put-Wems-To-SILENCE-Here
+B-Your-New-SILENCED-Wems-Are-Here
+A-Put-Wems-To-REPLACE-Here
+B-Put-The-REPLACEMENT-Wem-Here
+C-Your-New-REPLACED-Wems-Are-Here
+A-Put-Modded-Bnk-Here
+B-Put-Vanilla-Bnk-Here
+C-Modded-Wems-Here
+D-Vanilla-Wems-Here
+A-Put-Audio-Files-To-ASSIGN-Here
+1-PUT-BNK-FILES-HERE
+2-FINAL-PAK-FILES-ARE-HERE
+DEV-200-AMPED-AUDIO
+
 - Replaced 0-Silent.wem with a smaller file size version
 - Removed Option 203, added functionality to Option 200. If wem files are detected in
   '0-Put-CUSTOM-AUDIO-Here', script now asks user if they want to convert any .wems to .wav.
 - Adjusted script to only generate 'Option107-Temp' when needed, and delete afterwards
+- Fixed Option 106 not renaming output wem files (how many times I gotta teach you this lesson old man???)
 
 (LARGELY IRRELEVANT FOR ANYONE BUT ME)
-- Added Option 1 Sub-Option 302. This option automatically executes Option 1 Sub-Option 1 then Option 202
+- Adjusted Option 202 to automatically execute Option 1 Sub-Option 1, automatically proceed to repak & rename, then automatically move to Paks folder
 
 For CVS
+- Changed how Main Menu Info Options are accessed: Users now type "i" and then the number of the Option to access the Info page
+  For example: To see the info for Option 100, type "i100" and hit Enter
+- With that, cleared out the Info options list from the Main Menu
+
 - Updated 'CHARACTER-ID-LIST.txt' file
 - Added Option 198. This executes both Option 1 & 2 automatically 
 - Added Option 199. This executes both Option 100 & 101 automatically 
