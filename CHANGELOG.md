@@ -1112,6 +1112,9 @@ NOTE: This is NOT heavily tested! Im tired af rn tryna upgrade this crap,
 -----------------------------------------------------
 UPDATE 2.1.5
 
+For General
+- Updated '.usmap' file
+
 For SMT
 - Replaced backend SoundFileEditor with BNKTool, courtesy of JohnnYoru and auri thedarkdame
 - With this change, the 580MB limit is now removed, as well as the 11 minute duration limit
