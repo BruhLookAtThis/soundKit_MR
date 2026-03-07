@@ -1131,7 +1131,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.6 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.1.6
 
 For General
 
