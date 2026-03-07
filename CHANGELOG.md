@@ -1128,7 +1128,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.6
+UPDATE 2.1.6 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
 
@@ -1174,6 +1174,7 @@ For CVS
 - With that, cleared out the Info options list from the Main Menu
 
 - Updated 'CHARACTER-ID-LIST.txt' file
+- Fixed Option 101 Filenames/Subtitles txt files mismatch entry count  (how many times I gotta teach you this lesson old man???)
 - Added Option 200. This executes both Option 1 & 2 automatically 
 - Added Option 201. This executes both Option 100 & 101 automatically 
 
