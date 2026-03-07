@@ -1174,8 +1174,8 @@ For CVS
 - With that, cleared out the Info options list from the Main Menu
 
 - Updated 'CHARACTER-ID-LIST.txt' file
-- Added Option 198. This executes both Option 1 & 2 automatically 
-- Added Option 199. This executes both Option 100 & 101 automatically 
+- Added Option 200. This executes both Option 1 & 2 automatically 
+- Added Option 201. This executes both Option 100 & 101 automatically 
 
 NOTE: This is NOT heavily tested!  
 
