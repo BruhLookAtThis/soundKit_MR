@@ -1133,8 +1133,6 @@ NOTE: This is NOT heavily tested!
 -----------------------------------------------------
 UPDATE 2.1.6
 
-For General
-
 For SMT
 - Changed how Main Menu Info Options are accessed: Users now type "i" and then the number of the Option to access the Info page
   For example: To see the info for Option 0, type "i0" and hit Enter
