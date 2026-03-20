@@ -1183,7 +1183,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.6b-d
+UPDATE 2.1.6b-e
 
 For General
 -Placed the now-old 2.1.6 SMT/CVS scripts in the 3_XTRA/.OLD-STUFF folder
