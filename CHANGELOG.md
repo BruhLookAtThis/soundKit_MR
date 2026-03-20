@@ -1183,12 +1183,23 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.6b
+UPDATE 2.1.6b-d
+
+For General
+-Placed the now-old 2.1.6 SMT/CVS scripts in the 3_XTRA/.OLD-STUFF folder
+-Added Season 7 .usmap file
+
+For SMT
+-Fixed an error with the correct Error folders not properly generating
+-Fixed Error folders being automatically created when executing Option 1 Sub-Option 1 even though there were no error files available to place into them
+-Replaced PCM Silent/Test wems with Vorbis versions (Basically just reduced their total size from 100MB to 14MB)
+-Updated version number in main menu
 
 For CVS
 -Fixed an issue where Option 2 was matching the wrong subtitles to filenames.
-
-NOTE: This is NOT heavily tested!  
+-Updated 'CHARACTER-ID-LIST.txt' file for Season 7
+-Updated Subtitle Folders
+-Updated version number in main menu
 
 -----------------------------------------------------
 -----------------------------------------------------
