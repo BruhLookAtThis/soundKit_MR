@@ -1,4 +1,4 @@
-Updated as of Season 6
+Updated as of Season 7
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -24,6 +24,7 @@ Updated as of Season 6
 1014001: ThePunisher (Default)
 1014100: ThePunisher (Camo)
 1014300: ThePunisher (Dangan Ronin Punisher)
+1014301: ThePunisher (MARAUDER MARKSMAN)
 1014500: ThePunisher (Thunderbolts)
 1014501: ThePunisher (Punisher 2099)
 1014503: ThePunisher (Franken-Castle)
@@ -54,6 +55,7 @@ Updated as of Season 6
 1016500: Loki (Presidental Attire)
 1016501: Loki (All-Butcher)
 1016502: Loki (Lady Loki)
+1016503: Loki (LOW-KEY LOKI)
 1016800: Loki (Loki Season 2)
 
 1017: HumanTorch
@@ -75,6 +77,8 @@ Updated as of Season 6
 1018101: DoctorStrange (Astral Wanderer)
 1018300: DoctorStrange (Sorcerer Immortal)
 1018302: DoctorStrange (Bleeker Street Strut)
+1018303: DoctorStrange (PHANTOM SORCERER)
+1018304: DoctorStrange (STEPHEN SANDERS - THE DOCTOR)
 1018500: DoctorStrange (God Of Magic)
 1018501: DoctorStrange (Sorcerer Supreme of the Galaxy)
 1018800: DoctorStrange (Doctor Strange in the Multiverse of Madness)
@@ -94,6 +98,7 @@ Updated as of Season 6
 10210: Hawkeye
 1021001: Hawkeye (Default)
 1021100: Hawkeye (Tigers Eye)
+1021102: Hawkeye (ARGENT ARCHER)
 1021300: Hawkeye (Galactic Fangs)
 1021301: Hawkeye (Old Man Hawkeye)
 1021500: Hawkeye (Ronin)
@@ -105,6 +110,7 @@ Updated as of Season 6
 1022100: CaptainAmerica (Captain A.I.M.erica)
 1022101: CaptainAmerica (PLACEHOLDER-UNKNOWN)
 1022300: CaptainAmerica (Galactic Talon)
+1022301: CaptainAmerica (CURSED CAPTAIN)
 1022500: CaptainAmerica (Captain Gladiator)
 1022501: CaptainAmerica (Star Spangled Style)
 1022502: CaptainAmerica (Captain Klyntar)
@@ -122,6 +128,7 @@ Updated as of Season 6
 1023302: RocketRaccoon (Sunshine Racoon)
 1023305: RocketRaccoon (Rocket of the Rafters)
 1023306: RocketRaccoon (Giant Panda)
+1023307: RocketRaccoon (ROCKY THE TRANSFER)
 1023500: RocketRaccoon (Symbiote Raccoon) 
 1023801: RocketRaccoon (Guardians of the Galaxy Vol. 3)
 
@@ -136,6 +143,7 @@ Updated as of Season 6
 1024303: Hela (Queen in Black)
 1024304: Hela (The Grim Lady)
 1024305: Hela (Disco Of The Dead)
+1024306: Hela (HELEN ANGERBODA - THE REBEL)
 1024500: Hela (Goddess of Death)
 1024800: Hela (Merciful Queen)
 
@@ -179,6 +187,7 @@ Updated as of Season 6
 1028102: Ultron (Will of Galacta)
 1028300: Ultron (Wasteland Robot)
 1028500: Ultron (X-Tron)
+1028502: Ultron (ODINFORCE ULTRON)
 1028800: Ultron (Infinity Ultron)
 
 1029: Magik
@@ -201,10 +210,12 @@ Updated as of Season 6
 1030100: MoonKnight (Blood Moon Knight)
 1030300: MoonKnight (Lunar General)
 1030301: MoonKnight (King of Clubs)
+1030302: MoonKnight (ECLIPSE KNIGHT)
 1030500: MoonKnight (Mister Knight)
 1030501: MoonKnight (Phoenix Knight)
 1030800: MoonKnight (Fist of Vengeance)
 1030801: MoonKnight (Moon Knight Mech)
+
 
 1031: LunaSnow
 10310: LunaSnow
@@ -220,6 +231,7 @@ Updated as of Season 6
 1031307: LunaSnow (Prismatic Pulse)
 1031308: LunaSnow (Cherry Delight)
 1031309: LunaSnow (Disco Pop)
+1031312: LunaSnow (Park Sun-Young - The Dancer)
 
 1032: SquirrelGirl
 10320: SquirrelGirl
@@ -249,12 +261,13 @@ Updated as of Season 6
 1034001: IronMan (Default)
 1034100: IronMan (ARMOR MODEL 42)
 1034300: IronMan (Blood Edge Armor)
+1034301: IronMan (IRON MARINER)
 1034500: IronMan (Steam Power)
 1034501: IronMan (Superior Iron Man)
 1034502: IronMan (Extrembiote Armor)
 1034503: IronMan (Big Shot)
 1034504: IronMan (Mark I )
-1034800: IronMan (Avengers: Endgame)
+1034800: IronMan (Avengers - Endgame)
 
 1035: Venom
 10350: Venom
@@ -276,7 +289,7 @@ Updated as of Season 6
 1036100: SpiderMan (SCARLET SPIDER)
 1036101: SpiderMan (Chasm)
 1036300: SpiderMan (Spider-Oni)
-1036500: SpiderMan (2099: SPIDER-PUNK)
+1036500: SpiderMan (2099 - SPIDER-PUNK)
 1036501: SpiderMan (Bag-Man Beyond)
 1036502: SpiderMan (Black Suit)
 1036503: SpiderMan (Marvels Spider-Man 2)
@@ -284,7 +297,7 @@ Updated as of Season 6
 1036505: SpiderMan (Man-Spider)
 1036508: SpiderMan (Iron Spider)
 1036509: SpiderMan (Groovy Swing)
-1036800: SpiderMan (Spider-Man: No Way Home)
+1036800: SpiderMan (Spider-Man - No Way Home)
 1036801: SpiderMan (Marvel Cosmic Invasion)
 
 1037: Magneto
@@ -304,8 +317,10 @@ Updated as of Season 6
 1038001: ScarletWitch (Default)
 1038100: ScarletWitch (WHITE WITCH)
 1038101: ScarletWitch (NYX WEAVER)
+1038102: ScarletWitch (WILL OF GALACTA)
 1038300: ScarletWitch (Immortal Sovereign)
 1038301: ScarletWitch (Phoenix Chaos)
+1038304: ScarletWitch (TWISTED CONJURER)
 1038500: ScarletWitch (Chaos Gown)
 1038501: ScarletWitch (Emporium Matron)
 1038502: ScarletWitch (Witch of the Evil Eye)
@@ -325,7 +340,8 @@ Updated as of Season 6
 1039502: Thor (Lord of Asgard)
 1039503: Thor (Majestic Raiment)
 1039504: Thor (Boogie Bolt)
-1039800: Thor (Thor: Love and Thunder)
+1039505: Thor (LOW-KEY THOR)
+1039800: Thor (Thor - Love and Thunder)
 
 1040: MrFantastic
 10400: MrFantastic
@@ -360,6 +376,7 @@ Updated as of Season 6
 1042301: PeniParker (Wasteland Mecha)
 1042302: PeniParker (Floral Frights)
 1042303: PeniParker (Snow-SPdr)
+1042305: PeniParker (BADLANDS LULLABY)
 1042500: PeniParker (VEN#M)
 
 1043: StarLord
@@ -393,7 +410,7 @@ Updated as of Season 6
 1045500: Namor (Savage Sub-Mariner)
 1045501: Namor (Retro X-Uniform)
 1045502: Namor (Phoenix King)
-1045800: Namor (Black Panther: Wakanda Forever)
+1045800: Namor (Black Panther - Wakanda Forever)
 
 1046: AdamWarlock
 10460: AdamWarlock
@@ -404,6 +421,7 @@ Updated as of Season 6
 1046301: AdamWarlock (Blood Soul) 
 1046302: AdamWarlock (COSMIC WARLOCK)
 1046500: AdamWarlock (Magus)
+1046501: AdamWarlock (LIVING TRIBUNAL)
 1046800: AdamWarlock (Guardians of the Galaxy Vol. 3)
 
 1047: Jeff
@@ -426,6 +444,7 @@ Updated as of Season 6
 1048300: Psylocke (Blood Kariudo)
 1048301: Psylocke (Fleeting Butterfly)
 1048302: Psylocke (Daring Daifuku)
+1048303: Psylocke (ONCE-CAPTIVE CORSAIR)
 1048304: Psylocke (Psychedelic Pulse)
 1048500: Psylocke (Vengeance)
 1048501: Psylocke (Retro X-Uniform)
@@ -470,6 +489,7 @@ Updated as of Season 6
 1051500: TheThing (Trench Coat)
 1051501: TheThing (Future Foundation The Thing)
 1051502: TheThing (Symbiote Thing)
+1051504: TheThing (FEAR ITSELF)
 1051800: TheThing (First Steps)
 
 1052: IronFist
@@ -494,6 +514,7 @@ Updated as of Season 6
 1053301: EmmaFrost (Queen of Diamonds)
 1053500: EmmaFrost (X-Revolution)
 1053501: EmmaFrost (Phoenix Diamond)
+1053502: EmmaFrost (BLACK QUEEN OF THE MARAUDERS)
 
 1054: Phoenix
 10540: Phoenix
@@ -503,12 +524,14 @@ Updated as of Season 6
 1054300: Phoenix (Chaos Phoenix)
 1054301: Phoenix (Ice Phoenix)
 1054500: Phoenix (Dark Phoenix)
+1054501: Phoenix (SEAT OF SPRING)
 
 1055: DareDevil
 10550: DareDevil
 1055001: DareDevil (Default)
 1055500: DareDevil (Devil 2099)
 1055501: DareDevil (Not Daredevil)
+1055800: DareDevil (DAREDEVIL BORN AGAIN SEASON 2)
 
 1056: Angela
 10560: Angela
@@ -518,6 +541,7 @@ Updated as of Season 6
 1056300: Angela (Ace of Spades)
 1056500: Angela (Skuld 2099)
 1056501: Angela (Odins Beautiful Daughter)
+1056502: Angela (DOOM ANGEL)
 
 1057: Deadpool
 10570: Deadpool
@@ -525,6 +549,7 @@ Updated as of Season 6
 1057100: Deadpool (X-Force?)
 1057101: Deadpool (Workwear Woes)
 1057300: Deadpool (Captain Pool)
+1057800: Deadpool (WADE WILSON THE SPIRIT SQUAD)
 
 1058: Gambit
 10580: Gambit
@@ -540,10 +565,13 @@ Updated as of Season 6
 1059100: ElsaBloodstone (Apex Huntress)
 1059101: ElsaBloodstone (Icy Edge)
 1059300: ElsaBloodstone (Young Blood)
-
-1060: Colossus - UNCONFIRMED
-10600: Colossus - UNCONFIRMED
-1060001: Colossus (Default)
+ 
+1060: WhiteFox
+10600: WhiteFox
+1060001: WhiteFox (Default)
+1060100: WhiteFox (ROSY RECON)
+1060101: WhiteFox (SECRET AGENT)
+1060500: WhiteFox (YOON JI-WOO - THE LEADER)
 
 1061: Locus - UNCONFIRMED
 10610: Locus - UNCONFIRMED
@@ -580,10 +608,6 @@ Updated as of Season 6
 1068: Hive - UNCONFIRMED
 10680: Hive - UNCONFIRMED
 1068001: Hive (Default)
-
-1069: WhiteFox - UNCONFIRMED
-10690: WhiteFox - UNCONFIRMED
-1069001: WhiteFox (Default)
 
 1070: Forge - UNCONFIRMED
 10700: Forge - UNCONFIRMED
