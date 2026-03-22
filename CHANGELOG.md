@@ -1201,6 +1201,8 @@ For CVS
 -Updated Subtitle Folders
 -Updated version number in main menu
 
+NOTE: This is NOT heavily tested!  
+
 -----------------------------------------------------
 -----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
