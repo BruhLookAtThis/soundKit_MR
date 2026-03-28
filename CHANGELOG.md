@@ -1205,6 +1205,19 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.7 (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+-Updated .usmap file
+
+For CVS
+-Fixed an issue with Option 1/100/200/201 where SFX folder output would always be empty
+-Updated 'CHARACTER-ID-LIST.txt' file
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
