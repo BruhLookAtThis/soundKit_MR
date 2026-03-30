@@ -1218,6 +1218,19 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.7b (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+
+For SMT
+-Updated Option 202 to clear '3-Your-MODDED-BNK-Is-Here' folder before processing.
+
+For CVS
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
