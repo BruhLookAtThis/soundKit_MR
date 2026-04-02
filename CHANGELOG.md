@@ -1186,20 +1186,20 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.1.6b-e
 
 For General
--Placed the now-old 2.1.6 SMT/CVS scripts in the 3_XTRA/.OLD-STUFF folder
--Added Season 7 .usmap file
+- Placed the now-old 2.1.6 SMT/CVS scripts in the 3_XTRA/.OLD-STUFF folder
+- Added Season 7 .usmap file
 
 For SMT
--Fixed an error with the correct Error folders not properly generating
--Fixed Error folders being automatically created when executing Option 1 Sub-Option 1 even though there were no error files available to place into them
--Replaced PCM Silent/Test wems with Vorbis versions (Basically just reduced their total size from 100MB to 14MB)
--Updated version number in main menu
+- Fixed an error with the correct Error folders not properly generating
+- Fixed Error folders being automatically created when executing Option 1 Sub-Option 1 even though there were no error files available to place into them
+- Replaced PCM Silent/Test wems with Vorbis versions (Basically just reduced their total size from 100MB to 14MB)
+- Updated version number in main menu
 
 For CVS
--Fixed an issue where Option 2 was matching the wrong subtitles to filenames.
--Updated 'CHARACTER-ID-LIST.txt' file for Season 7
--Updated Subtitle Folders
--Updated version number in main menu
+- Fixed an issue where Option 2 was matching the wrong subtitles to filenames.
+- Updated 'CHARACTER-ID-LIST.txt' file for Season 7
+- Updated Subtitle Folders
+- Updated version number in main menu
 
 NOTE: This is NOT heavily tested!  
 
@@ -1208,11 +1208,11 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.1.7
 
 For General
--Updated .usmap file
+- Updated .usmap file
 
 For CVS
--Fixed an issue with Option 1/100/200/201 where SFX folder output would always be empty
--Updated 'CHARACTER-ID-LIST.txt' file
+- Fixed an issue with Option 1/100/200/201 where SFX folder output would always be empty
+- Updated 'CHARACTER-ID-LIST.txt' file
 
 NOTE: This is NOT heavily tested!  
 
@@ -1221,13 +1221,13 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.1.7b
 
 For General
--Updated .usmap file
+- Updated .usmap file
 
 For SMT
--Updated Option 202 to clear '3-Your-MODDED-BNK-Is-Here' folder before processing.
+- Updated Option 202 to clear '3-Your-MODDED-BNK-Is-Here' folder before processing.
 
 For CVS
--Updated 'CHARACTER-ID-LIST.txt' file
+- Updated 'CHARACTER-ID-LIST.txt' file
 
 NOTE: This is NOT heavily tested!  
 
