@@ -1218,14 +1218,16 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.7b (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.1.7b
 
 For General
+-Updated .usmap file
 
 For SMT
 -Updated Option 202 to clear '3-Your-MODDED-BNK-Is-Here' folder before processing.
 
 For CVS
+-Updated 'CHARACTER-ID-LIST.txt' file
 
 NOTE: This is NOT heavily tested!  
 
