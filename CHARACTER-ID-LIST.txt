@@ -1,4 +1,4 @@
-Updated as of Season 7
+Updated as of Season 7.5
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -87,6 +87,7 @@ Updated as of Season 7
 10200: Mantis
 1020001: Mantis (Default)
 1020100: Mantis (KNOWHERE CORP)
+1020102: Mantis (BLACK n GOLD)
 1020300: Mantis (Galactic Wings)
 1020301: Mantis (Jade Maiden)
 1020302: Mantis (Oceanic Harmony)
@@ -246,6 +247,7 @@ Updated as of Season 7
 1032303: SquirrelGirl (Turbo Tailwind)
 1032304: SquirrelGirl (Tinsel Tail)
 1032305: SquirrelGirl (Red Panda)
+1032306: SquirrelGirl (MAUREEN ALLENE - THE PROGRAMMER)
 1032500: SquirrelGirl (Urban Hunter)
 1032501: SquirrelGirl (Symbiote Squirrel)
 
@@ -300,6 +302,7 @@ Updated as of Season 7
 1036505: SpiderMan (Man-Spider)
 1036508: SpiderMan (Iron Spider)
 1036509: SpiderMan (Groovy Swing)
+1036510: SpiderMan (PETER PARKER - THE PHOTOGRAPHER)
 1036800: SpiderMan (Spider-Man - No Way Home)
 1036801: SpiderMan (Marvel Cosmic Invasion)
 
@@ -353,6 +356,7 @@ Updated as of Season 7
 1040101: MrFantastic (Will of Galacta)
 1040300: MrFantastic (The Life Fantastic)
 1040301: MrFantastic (Dad-tastic Reed)
+1040302: MrFantastic (DANUM KET - THE PROFESSOR)
 1040500: MrFantastic (The Maker)
 1040501: MrFantastic (Future Foundation)
 1040800: MrFantastic (First Steps)
@@ -401,6 +405,7 @@ Updated as of Season 7
 1044101: Blade (Will of Galacta)
 1044300: Blade (Polarity Edge)
 1044301: Blade (Vampire Slayer)
+1044302: Blade (STARLIT SHADOW)
 1044500: Blade (Restful Recovery)
 1044800: Blade (Moon Knight)
 
@@ -437,6 +442,7 @@ Updated as of Season 7
 1047301: Jeff (Sunshine Shark)
 1047302: Jeff (Jeff O Lantern)
 1047307: Jeff (Duck Defender)
+1047308: Jeff (MAID TO CHOMP)
 1047500: Jeff (Incognito Dolphin)
 1047501: Jeff (Devouring Duo)
 1047502: Jeff (Business Shark)
@@ -451,6 +457,7 @@ Updated as of Season 7
 1048302: Psylocke (Daring Daifuku)
 1048303: Psylocke (ONCE-CAPTIVE CORSAIR)
 1048304: Psylocke (Psychedelic Pulse)
+1048309: Psylocke (CHOUKO TAKAHASHI - THE PRODIGY)
 1048500: Psylocke (Vengeance)
 1048501: Psylocke (Retro X-Uniform)
 1048502: Psylocke (Breezy Butterfly)
@@ -478,6 +485,7 @@ Updated as of Season 7
 1050300: InvisibleWoman (The Life Fantastic)
 1050301: InvisibleWoman (Disappearing Dessert)
 1050302: InvisibleWoman (Prism Parade)
+1050305: InvisibleWoman (RIANN LANDAU - THE DEBATER)
 1050500: InvisibleWoman (Malice)
 1050501: InvisibleWoman (Future Foundation Invisible Woman)
 1050502: InvisibleWoman (Azure Shade)
@@ -505,6 +513,7 @@ Updated as of Season 7
 1052300: IronFist (Lions Gaze)
 1052301: IronFist (Binary Fist)
 1052302: IronFist (Shenloong Champion)
+1052303: IronFist (LIN SHAO - THE KNOCKOUT)
 1052500: IronFist (Sword Master)
 1052501: IronFist (Immortal Weapon of Agamotto)
 1052502: IronFist (Binary Fist)
@@ -534,6 +543,7 @@ Updated as of Season 7
 1055: DareDevil
 10550: DareDevil
 1055001: DareDevil (Default)
+1055103: DareDevil (WILL OF GALACTA)
 1055500: DareDevil (Devil 2099)
 1055501: DareDevil (Not Daredevil)
 1055800: DareDevil (DAREDEVIL BORN AGAIN SEASON 2)
@@ -554,6 +564,7 @@ Updated as of Season 7
 1057100: Deadpool (X-Force?)
 1057101: Deadpool (Workwear Woes)
 1057300: Deadpool (Captain Pool)
+1057500: Deadpool (MAID-POOL)
 1057800: Deadpool (WADE WILSON THE SPIRIT SQUAD)
 
 1058: Gambit
@@ -561,6 +572,7 @@ Updated as of Season 7
 1058001: Gambit (Default)
 1058100: Gambit (Crimson Heart)
 1058101: Gambit (Sacrifical Pawn)
+1058102: Gambit (WILL OF GALACTA)
 1058300: Gambit (Thieves Guildmaster)
 1058302: Gambit (Mr.X)
 
@@ -578,9 +590,12 @@ Updated as of Season 7
 1060101: WhiteFox (SECRET AGENT)
 1060500: WhiteFox (YOON JI-WOO - THE LEADER)
 
-1061: Locus - UNCONFIRMED
-10610: Locus - UNCONFIRMED
-1061001: Locus (Default)
+1061: BlackCat
+10610: BlackCat
+1061001: BlackCat (Default)
+1061100: BlackCat (GILDED SHADOW)
+1061101: BlackCat (BEGUILING BLUE)
+1061300: BlackCat (URBAN PREDATOR)
 
 1062: Beast - UNCONFIRMED
 10620: Beast - UNCONFIRMED
