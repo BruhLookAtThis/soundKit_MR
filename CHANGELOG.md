@@ -1222,6 +1222,7 @@ UPDATE 2.1.7b-c
 
 For General
 -Updated .usmap file for Season 7 (Manhattan Update)
+-Updated .usmap file for Season 7.5 (Black Cat Update)
 
 For SMT
 -Updated Option 202 to clear '3-Your-MODDED-BNK-Is-Here' folder before processing.
