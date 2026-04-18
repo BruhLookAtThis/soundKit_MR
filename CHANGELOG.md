@@ -1234,6 +1234,27 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.1.8
+
+For General
+
+For SMT
+
+For CVS
+-Fixed Option 1/100 not organizing character voice folders into action-type subfolders
+-Fixed Option 1/100 not organizing character SFX/Display folders into a general folder for that character
+-Fixed Option 1/100 not organizing non-character SFX files into sound-type subfolders
+-Fixed Option 1/100 not renaming the 'TEMP_ORG' folder to '_OtherSFX'
+-Fixed Option 2/101 outputting subtitles as a "\" instead of the actual subtitle its supposed to be
+ NOTE: This is a little wonky, might contain extra quotation marks, but we in a much better spot than before
+
+-Updated 'CHARACTER-ID-LIST.txt' file (A DareDevil outfit was missing)
+-Updated SUBS folders
+
+NOTE: This is NOT heavily tested!
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
