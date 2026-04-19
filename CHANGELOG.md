@@ -1255,6 +1255,21 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UUPDATE 2.1.8b (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+
+For SMT
+
+(LARGELY IRRELEVANT FOR ANYONE BUT ME)
+-Adjusted DEV Option 202, it now moves folder-less pak files into ~mod-AUDIO
+
+For CVS
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
