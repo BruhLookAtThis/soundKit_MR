@@ -1258,13 +1258,38 @@ NOTE: This is NOT heavily tested!
 UUPDATE 2.1.8b (NOT RELEASED YET, 'BUG TESTING')
 
 For General
+-Updated usmap file
 
 For SMT
+-Fixed Option 1s Sub-Option 3 not organizing wems into action type subfolders
+-Fixed Option 1s Sub-Option 3 not moving action type subfolders out of the bank_streams folder
+ (and subsequently deleting the bank_streams folder and data.txt file)
 
 (LARGELY IRRELEVANT FOR ANYONE BUT ME)
 -Adjusted DEV Option 202, it now moves folder-less pak files into ~mod-AUDIO
+-Adjusted DEV Option 202 to use a 3-point organization system that works like so:
+
+ BnkFileName:FolderName:PakFileName
+
+ -This is backwards compatible with the previous formatting
+ -If there is no 3rd element, then the second will be used as both the folder and the pak file name
 
 For CVS
+-Updated 'CHARACTER-ID-LIST.txt' file
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.1.8c (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+
+For SMT
+-Added logs. Every executed Option is now output to a .txt file placed in 0_XTRA/0-LOGS-SMT
+
+For CVS
+-Added logs. Every executed Option is now output to a .txt file placed in 0_XTRA/0-LOGS-CVS
 
 NOTE: This is NOT heavily tested!  
 
