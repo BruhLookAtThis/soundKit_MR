@@ -1255,7 +1255,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UUPDATE 2.1.8b (NOT RELEASED YET, 'BUG TESTING')
+UUPDATE 2.1.8b
 
 For General
 -Updated usmap file
