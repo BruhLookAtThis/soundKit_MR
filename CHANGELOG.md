@@ -1281,7 +1281,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.1.9 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.1.9
 
 For General
 
@@ -1290,9 +1290,21 @@ For SMT
 -Fixed Option 107 appending wem file names onto the output folders instead of the wem itself 
 
 For CVS
--Added logs. Every executed Option now has its terminal logs output to a .txt file, placed in 1_XTRA/0-LOGS-CVS
 
 NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.2.0 (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+
+For SMT
+
+For CVS
+-Added logs. Every executed Option now has its terminal logs output to a .txt file, placed in 1_XTRA/0-LOGS-CVS
+
+NOTE: This is NOT heavily tested! 
 
 -----------------------------------------------------
 -----------------------------------------------------
