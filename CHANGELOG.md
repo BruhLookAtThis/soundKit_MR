@@ -1295,9 +1295,10 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.2.0 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.2.0
 
 For General
+- Added Updater .bat file. Double clicking this will download the latest release .zip of SoundKit_MR
 
 For SMT
 
