@@ -1309,6 +1309,25 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.2.1 (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+
+For SMT
+- (Mostly) fixed Option 1s Sub-Options 2 and 3 matching full name wem IDs with files that were technically for diff characters
+  - FOR EXAMPLE: If working with bnk_sfx_1029001, a wem ID like "257406618" could be matched with "257406618-sfx_1057001_trans1_right_impact_play.wem"
+  - Now, the script will try its best to match the new wem name with the corresponding bnk
+  - So if working with bnk_sfx_1029001, 257406618 will be matched to a name that also contains Magiks ID in it, like "257406618-sfx_1029001_trans1_e_impact_play"
+  - This also (mostly or somewhat) works with bnks that dont have any ID number in their name, like "bnk_impact_general.bnk"
+  - "48277740" will be matched with something like "48277740-impact_general_burst_projectile_play" instead of "48277740-sfx_1044001_left_shot_impact_play"
+- 
+
+For CVS
+
+NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
