@@ -1328,7 +1328,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.2.1
+UPDATE 2.2.1 (IF SOMETHING DOESNT WORK, TRY USING v2.2.0b)
 
 For General
 
