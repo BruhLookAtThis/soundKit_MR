@@ -1343,6 +1343,41 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.2.1b
+
+For General
+- Updated .usmap file
+
+For SMT
+
+For CVS
+- Updated 'CHARACTER-ID-LIST.txt' file
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.2.2 (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+- Updated .usmap file
+- Updated 'zz_INSTRUCTIONS_SMT_MR.txt' file 
+- Updated 'zz_INSTRUCTIONS_CVS_MR.txt' file
+
+For SMT
+- Updated Main Menu
+- Updated Info Options
+- Updated 'AUDIO-ID-LIST.txt' file
+
+For CVS
+- Updated Main Menu
+- Updated Info Options
+- Updated 'CHARACTER-ID-LIST.txt' file
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
