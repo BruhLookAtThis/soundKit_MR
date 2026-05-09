@@ -1349,8 +1349,11 @@ For General
 - Updated .usmap file
 
 For SMT
-
+- Updated Main Menu
+- Updated Info Option for Option 200
+  
 For CVS
+- Updated Main Menu
 - Updated 'CHARACTER-ID-LIST.txt' file
 
 NOTE: This is NOT heavily tested!  
