@@ -1352,6 +1352,7 @@ For SMT
   
 For CVS
 - Updated 'CHARACTER-ID-LIST.txt' file
+- Added some files and folders to the DEV-202-REPAKED-BNKS folder
 
 NOTE: This is NOT heavily tested!  
 
