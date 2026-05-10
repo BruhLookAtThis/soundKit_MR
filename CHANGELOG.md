@@ -1343,13 +1343,15 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.2.1b
+UPDATE 2.2.1b-c
 
 For General
 - Updated .usmap file
 
 For SMT
-  
+- Fixed issues in AUDIO-ID-LIST.txt listings
+- Adjusted Option 107 UI a little
+ 
 For CVS
 - Updated 'CHARACTER-ID-LIST.txt' file
 - Added some files and folders to the DEV-202-REPAKED-BNKS folder
