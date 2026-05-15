@@ -1343,7 +1343,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.2.1b-c
+UPDATE 2.2.1b-e
 
 For General
 - Updated .usmap file
@@ -1354,6 +1354,7 @@ For SMT
  
 For CVS
 - Updated 'CHARACTER-ID-LIST.txt' file
+- Updated Subtitle Stuff
 - Added some files and folders to the DEV-202-REPAKED-BNKS folder
 
 NOTE: This is NOT heavily tested!  
@@ -1368,7 +1369,6 @@ For General
 - Updated 'zz_INSTRUCTIONS_CVS_MR.txt' file
 
 For SMT
-- Option 201 now works with any file, regardless of extension
 - Updated Main Menu
 - Updated Info Options
 - Updated 'AUDIO-ID-LIST.txt' file
