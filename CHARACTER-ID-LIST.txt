@@ -18,6 +18,7 @@ Updated as of Season 8.0
 1011500: Hulk (Punk Rage)
 1011501: Hulk (Green Scar)
 1011502: Hulk (Joe Fixit)
+1011800: Hulk (INFINITY HULK)
 
 1014: ThePunisher
 10140: ThePunisher
@@ -95,6 +96,7 @@ Updated as of Season 8.0
 1020302: Mantis (Oceanic Harmony)
 1020305: Mantis (Galactic Gladiator)
 1020500: Mantis (Flora Maiden)
+1020501: Mantis (STARLIT MADONNA)
 1020800: Mantis (Guardians of the Galaxy Vol. 3)
 
 1021: Hawkeye
@@ -120,6 +122,7 @@ Updated as of Season 8.0
 1022502: CaptainAmerica (Captain Klyntar)
 1022503: CaptainAmerica (Golden Age)
 1022504: CaptainAmerica (Capwolf)
+1022505: CaptainAmerica (PRIMAL PATRIOT)
 1022801: CaptainAmerica (Avengers - Infinity War)
 
 1023: RocketRaccoon
@@ -354,6 +357,7 @@ Updated as of Season 8.0
 1039503: Thor (Majestic Raiment)
 1039504: Thor (Boogie Bolt)
 1039505: Thor (LOW-KEY THOR)
+1039506: Thor (UNWORTHY THOR)
 1039800: Thor (Thor - Love and Thunder)
 
 1040: MrFantastic
@@ -402,6 +406,7 @@ Updated as of Season 8.0
 1043300: StarLord (Lions Mane)
 1043301: StarLord (Starcracker)
 1043302: StarLord (GROOVY GUARDIAN)
+1043303: StarLord (GLORY GUNNER)
 1043500: StarLord (MASTER OF THE SUN)
 1043501: StarLord (King of Spartax)
 1043502: StarLord (Starlit Outlaw)
@@ -590,6 +595,7 @@ Updated as of Season 8.0
 1058300: Gambit (Thieves Guildmaster)
 1058302: Gambit (Mr.X)
 1058303: Gambit (ALLURING ACE)
+1058500: Gambit (BARRIER BUSTER)
 
 1059: ElsaBloodstone
 10590: ElsaBloodstone
@@ -613,8 +619,8 @@ Updated as of Season 8.0
 1061101: BlackCat (BEGUILING BLUE)
 1061300: BlackCat (URBAN PREDATOR)
 
-1062: DevilDinosaur - UNCONFIRMED
-10620: DevilDinosaur - UNCONFIRMED
+1062: DevilDinosaur
+10620: DevilDinosaur
 1062001: Devil Dinosaur (Default)
 1062100: Devil Dinosaur (TROPICAL BEAST)
 1062101: Devil Dinosaur (CORPORATE CRUNCHER)
