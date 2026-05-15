@@ -1368,6 +1368,7 @@ For General
 - Updated 'zz_INSTRUCTIONS_CVS_MR.txt' file
 
 For SMT
+- Option 201 now works with any file, regardless of extension
 - Updated Main Menu
 - Updated Info Options
 - Updated 'AUDIO-ID-LIST.txt' file
