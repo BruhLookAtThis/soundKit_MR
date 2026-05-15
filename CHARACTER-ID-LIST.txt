@@ -1,4 +1,4 @@
-Updated as of Season 7.5
+Updated as of Season 8.0
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -57,12 +57,14 @@ Updated as of Season 7.5
 1016502: Loki (Lady Loki)
 1016503: Loki (LOW-KEY LOKI)
 1016800: Loki (Loki Season 2)
+1016801: Loki (THE AVENGERS)
 
 1017: HumanTorch
 10170: HumanTorch
 1017001: HumanTorch (Default)
 1017100: HumanTorch (First Family)
 1017101: HumanTorch (Blood Blaze)
+1017102: HumanTorch (SILVER SPARK)
 1017201: HumanTorch (Unknown)
 1017300: HumanTorch (Jack Of Hearts)
 1017500: HumanTorch (Negative Zone Gladiator)
@@ -131,7 +133,7 @@ Updated as of Season 7.5
 1023305: RocketRaccoon (Rocket of the Rafters)
 1023306: RocketRaccoon (Giant Panda)
 1023307: RocketRaccoon (ROCKY THE TRANSFER)
-1023500: RocketRaccoon (Symbiote Raccoon) 
+1023500: RocketRaccoon (Symbiote Raccoon)
 1023801: RocketRaccoon (Guardians of the Galaxy Vol. 3)
 
 1024: Hela
@@ -206,6 +208,7 @@ Updated as of Season 7.5
 1029500: Magik (Eldritch Armor)
 1029501: Magik (Retro X-Uniform)
 1029502: Magik (Phoenix Demon)
+1029503: Magik (NETHERWORLD NOBLE)
 
 1030: MoonKnight
 10300: MoonKnight
@@ -217,6 +220,7 @@ Updated as of Season 7.5
 1030302: MoonKnight (ECLIPSE KNIGHT)
 1030500: MoonKnight (Mister Knight)
 1030501: MoonKnight (Phoenix Knight)
+1030502: MoonKnight (SUAVE SPECTOR)
 1030800: MoonKnight (Fist of Vengeance)
 1030801: MoonKnight (Moon Knight Mech)
 
@@ -273,6 +277,7 @@ Updated as of Season 7.5
 1034503: IronMan (Big Shot)
 1034504: IronMan (Mark I )
 1034800: IronMan (Avengers - Endgame)
+1034801: IronMan (THE AVENGERS)
 
 1035: Venom
 10350: Venom
@@ -286,6 +291,7 @@ Updated as of Season 7.5
 1035500: Venom (Lingering Imprint)
 1035501: Venom (Space Knight)
 1035302: Venom (Gummy Surprise)
+1035502: Venom (WAR OF THE REALMS)
 1035800: Venom (Marvel Cosmic Invasion)
 
 1036: SpiderMan
@@ -317,6 +323,7 @@ Updated as of Season 7.5
 1037500: Magneto (Master of Magnetism)
 1037501: Magneto (King Magnus)
 1037502: Magneto (Seat of Autumn)
+1037503: Magneto (UNTAMED OVERLORD)
 
 1038: ScarletWitch
 10380: ScarletWitch
@@ -368,6 +375,7 @@ Updated as of Season 7.5
 1041300: WinterSoldier (Blood Soldier)
 1041301: WinterSoldier (Polarity Soldier)
 1041302: WinterSoldier (Winters Wraith (Blood Soldier))
+1041304: WinterSoldier (STARLIT GUNSLINGER)
 1041500: WinterSoldier (Revolution)
 1041501: WinterSoldier (Winters Veil)
 1041502: WinterSoldier (Winter Buckaroo)
@@ -428,7 +436,7 @@ Updated as of Season 7.5
 1046100: AdamWarlock (COSMIC JADE)
 1046101: AdamWarlock (Will of Galacta)
 1046300: AdamWarlock (Immortal Avatar Adam Warlock)
-1046301: AdamWarlock (Blood Soul) 
+1046301: AdamWarlock (Blood Soul)
 1046302: AdamWarlock (COSMIC WARLOCK)
 1046500: AdamWarlock (Magus)
 1046501: AdamWarlock (LIVING TRIBUNAL)
@@ -443,6 +451,7 @@ Updated as of Season 7.5
 1047302: Jeff (Jeff O Lantern)
 1047307: Jeff (Duck Defender)
 1047308: Jeff (MAID TO CHOMP)
+1047309: Jeff (DEVIL LANDSHARK)
 1047500: Jeff (Incognito Dolphin)
 1047501: Jeff (Devouring Duo)
 1047502: Jeff (Business Shark)
@@ -503,6 +512,7 @@ Updated as of Season 7.5
 1051501: TheThing (Future Foundation The Thing)
 1051502: TheThing (Symbiote Thing)
 1051504: TheThing (FEAR ITSELF)
+1051505: TheThing (INFINITY THING)
 1051800: TheThing (First Steps)
 
 1052: IronFist
@@ -526,6 +536,7 @@ Updated as of Season 7.5
 1053102: EmmaFrost (Golden Diamond)
 1053300: EmmaFrost (Hellfire Protocol)
 1053301: EmmaFrost (Queen of Diamonds)
+1053304: EmmaFrost (GALA GLAM)
 1053500: EmmaFrost (X-Revolution)
 1053501: EmmaFrost (Phoenix Diamond)
 1053502: EmmaFrost (BLACK QUEEN OF THE MARAUDERS)
@@ -539,10 +550,12 @@ Updated as of Season 7.5
 1054301: Phoenix (Ice Phoenix)
 1054500: Phoenix (Dark Phoenix)
 1054501: Phoenix (SEAT OF SPRING)
+1054502: Phoenix (VERDANT VOGUE)
 
 1055: DareDevil
 10550: DareDevil
 1055001: DareDevil (Default)
+1055101: DareDevil (SHENLOONGS CREED)
 1055103: DareDevil (WILL OF GALACTA)
 1055500: DareDevil (Devil 2099)
 1055501: DareDevil (Not Daredevil)
@@ -564,6 +577,7 @@ Updated as of Season 7.5
 1057100: Deadpool (X-Force?)
 1057101: Deadpool (Workwear Woes)
 1057300: Deadpool (Captain Pool)
+1057301: Deadpool (MONSTER KING)
 1057500: Deadpool (MAID-POOL)
 1057800: Deadpool (WADE WILSON THE SPIRIT SQUAD)
 
@@ -575,6 +589,7 @@ Updated as of Season 7.5
 1058102: Gambit (WILL OF GALACTA)
 1058300: Gambit (Thieves Guildmaster)
 1058302: Gambit (Mr.X)
+1058303: Gambit (ALLURING ACE)
 
 1059: ElsaBloodstone
 10590: ElsaBloodstone
@@ -582,7 +597,8 @@ Updated as of Season 7.5
 1059100: ElsaBloodstone (Apex Huntress)
 1059101: ElsaBloodstone (Icy Edge)
 1059300: ElsaBloodstone (Young Blood)
- 
+1059500: ElsaBloodstone (BLOODY BUTLER)
+
 1060: WhiteFox
 10600: WhiteFox
 1060001: WhiteFox (Default)
@@ -597,9 +613,12 @@ Updated as of Season 7.5
 1061101: BlackCat (BEGUILING BLUE)
 1061300: BlackCat (URBAN PREDATOR)
 
-1062: Beast - UNCONFIRMED
-10620: Beast - UNCONFIRMED
-1062001: Beast (Default)
+1062: DevilDinosaur - UNCONFIRMED
+10620: DevilDinosaur - UNCONFIRMED
+1062001: Devil Dinosaur (Default)
+1062100: Devil Dinosaur (TROPICAL BEAST)
+1062101: Devil Dinosaur (CORPORATE CRUNCHER)
+1062500: Devil Dinosaur (CHRONO-ARMOR)
 
 1063: Nightcrawler - UNCONFIRMED
 10630: Nightcrawler - UNCONFIRMED
@@ -614,8 +633,10 @@ Updated as of Season 7.5
 1065001: Rogue (Default)
 1065100: Rogue (Queens Defense)
 1065101: Rogue (Searing Spellstripe)
+1065102: Rogue (WILL OF GALACTA)
 1065300: Rogue (Rogue Redux)
 1065301: Rogue (Mrs.X)
+1065500: Rogue (STARLIT REBEL)
 
 1066: UNKNOWN - UNCONFIRMED
 10660: UNKNOWN - UNCONFIRMED
@@ -650,6 +671,11 @@ Updated as of Season 7.5
 4019001: UltronDrone (Default)
 4024: ZombieWanda
 4025: ZombieNamor
+4037: Ratotoskr (PvE Boss)
+4038: Dracula (PvE Boss)
+4039: Kingpin (PvE Boss)
+4061: TheThing (TimeSquare)
+4063: Kingpin (PvE General)
 
 # BELOW ARE NPCs THAT DO NOT HAVE THEIR OWN VO .BNK FILE
 
@@ -664,6 +690,7 @@ Updated as of Season 7.5
 4016: NPC_GalactaBot
 4018: NPC_GalactaBotTank
 4032: NPC_Khonshu
+4062: NPC_Kingpin
 
 8021: NPC_LokiGhost
 8031: NPC_SpiderZeroAndMasterWeaver
