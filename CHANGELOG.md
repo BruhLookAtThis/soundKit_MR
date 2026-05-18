@@ -1381,6 +1381,13 @@ For SMT
   - 0-KEY.txt
   - AUDIO-ID-LIST.txt
   - PAK-NAME-LIST.txt
+- Created Option 999 (name subject to change, might make it Option 'u')
+  - This option lets users manually start a download of the above .txt files
+  - This is for when the (potentially outdated) files already existed on script startup (so auto-download did not trigger)
+  - (CONSIDERING THIS)
+  - Additionally, this might also download the latest soundKit and steal its .ps1 file, replacing yours
+  - The script will close after this is done successfully, and you can just start the new, updated script version
+  - Just need to also grab the latest .usmap out of the download too...might see if I can grab it from Saturns website lol
 
 - Added Sub-Option 0 to Option 202
   - This option allows cyclic processing for Option 202
