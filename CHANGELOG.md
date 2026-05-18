@@ -1381,6 +1381,8 @@ For SMT
   - 0-KEY.txt
   - AUDIO-ID-LIST.txt
   - PAK-NAME-LIST.txt
+  - Repak Rivals v2.5.6 (https://github.com/natimerry/repak-rivals/releases/tag/v2.5.6)
+    
 - Created Option 999 (name subject to change, might make it Option 'u')
   - This option lets users manually start a download of the above .txt files
   - This is for when the (potentially outdated) files already existed on script startup (so auto-download did not trigger)
@@ -1408,9 +1410,9 @@ For SMT
     
 - Added Sub-Option 1 to Option 202
   - This option allows setting game path AND automatically downloading and extracting repak-Rivals v2.5.6 (created by natimerry)
-  - USers will select this Sub-Option 1, and the script will attempt to automatically detect the Rivals install location
+  - Users will select this Sub-Option 1, and the script will attempt to automatically detect the Rivals install location
   - If this fails, a file explorer will pop up for them to manually select the game install location
-  - Once select, the script will then download and extract repak-rivals v2.5.6 into '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\'
+  - Once selected, the script will then download and extract repak-rivals v2.5.6 into '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\' IF it doesnt exist already
   - Now all components needed for Option 202 to function will be installed/assigned
  
 For CVS
