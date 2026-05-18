@@ -1374,6 +1374,22 @@ For SMT
 - Updated Main Menu
 - Updated Info Options
 - Updated 'AUDIO-ID-LIST.txt' file
+- Added Sub-Option 0 to Option 202
+  - This option allows cyclic processing for Option 202
+  - Users will place wems in numbered folders inside  of '2-Put-CUSTOM-WEMs-Here'
+  - For Example: '2-Put-CUSTOM-WEMs-Here\1\WEMFILES', '2-Put-CUSTOM-WEMs-Here\2\WEMFILES',
+  - Then they will create SUB-ID-LIST-#.txt file(s) in '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\'
+  - The '#' in this .txt file name will correspond to the # of the folder in '2-Put-CUSTOM-WEMs-Here'
+  - So if I have a '2-Put-CUSTOM-WEMs-Here\1\` folder, then I will also have a SUB-ID-LIST-1.txt file
+  - Anyway, inside of this SUB-ID-LIST-#.txt file will be a list of parameters that the user can edit
+  - These parameters will dteermine how files/folders of pak'd sound mods will be named
+  - There is more details inside of the SUB-ID-LIST-#.txt provided in the download
+  - Anyways, when selecting Option 202 in the script, users will be taken to a menu
+  - Here they can either press Enter to process normally, or press 0 and then hit Enter to go into Cyclic Mode
+  - Here, the script will match numbered folders to numbered SUB-ID-LIST-#.txt files
+  - Press Enter again, and the script will press each numbered folder one at a time
+  - So the wems in folder 1 will be processed and pak'd according to the parameters in the SUB-ID-LIST-#.txt file
+  - This is useful for people (aka ME) who create multiple variants of mods that use the same wem file IDs
 
 For CVS
 - Updated Main Menu
