@@ -1410,7 +1410,7 @@ For CVS
 - Updated Main Menu
 - Updated Info Options
 - Updated 'CHARACTER-ID-LIST.txt' file
-- (CONTEMPLATING THIS UPDATE, NOT SURE YET IF I WILL GO THROUGH WITH IT)
+- (CONTEMPLATING THIS STUFF BELOW, NOT SURE YET IF I WILL GO THROUGH WITH IT)
 - Fully integrated CVS into the SMT script
   - Now everything will be handled with a single .ps1 file, reducing any confusion and back-and-forth between directories
     
