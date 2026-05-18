@@ -1369,7 +1369,7 @@ For General
 - Updated .usmap file
 - Updated 'zz_INSTRUCTIONS_SMT_MR.txt' file 
 - Updated 'zz_INSTRUCTIONS_CVS_MR.txt' file*
-  NOTE: *Might be fusing the SMT and CVS scripts, so the Instructions would also get fused too if this happens
+  - NOTE: *Might be fusing the SMT and CVS scripts, so the Instructions would also get fused too if this happens
 
 For SMT
 - Updated Main Menu
