@@ -1,0 +1,8 @@
+# Files NOT listed = SFX (go to WwiseAudio\
+
+Language:
+bnk_vo_
+bnk_display_breath_
+
+Exceptions:
+bnk_sfx_1039303
