@@ -1368,33 +1368,52 @@ UPDATE 2.2.2 (NOT RELEASED YET, 'BUG TESTING')
 For General
 - Updated .usmap file
 - Updated 'zz_INSTRUCTIONS_SMT_MR.txt' file 
-- Updated 'zz_INSTRUCTIONS_CVS_MR.txt' file
+- Updated 'zz_INSTRUCTIONS_CVS_MR.txt' file*
+  NOTE: *Might be fusing the SMT and CVS scripts, so the Instructions would also get fused too if this happens
 
 For SMT
 - Updated Main Menu
 - Updated Info Options
 - Updated 'AUDIO-ID-LIST.txt' file
+- Renamed 'SUB-ID-LIST.txt' to 'PAK-NAME-LIST.txt'
+- Adjusted script to automatically download these files from the soundKit_MR github page IF they do not already exist
+  - CHARACTER-ID-LIST.txt
+  - 0-KEY.txt
+  - AUDIO-ID-LIST.txt
+  - PAK-NAME-LIST.txt
+
 - Added Sub-Option 0 to Option 202
   - This option allows cyclic processing for Option 202
   - Users will place wems in numbered folders inside  of '2-Put-CUSTOM-WEMs-Here'
   - For Example: '2-Put-CUSTOM-WEMs-Here\1\WEMFILES', '2-Put-CUSTOM-WEMs-Here\2\WEMFILES',
-  - Then they will create SUB-ID-LIST-#.txt file(s) in '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\'
+  - Then they will create PAK-NAME-LIST-#.txt file(s) in '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\'
   - The '#' in this .txt file name will correspond to the # of the folder in '2-Put-CUSTOM-WEMs-Here'
-  - So if I have a '2-Put-CUSTOM-WEMs-Here\1\` folder, then I will also have a SUB-ID-LIST-1.txt file
-  - Anyway, inside of this SUB-ID-LIST-#.txt file will be a list of parameters that the user can edit
+  - So if I have a '2-Put-CUSTOM-WEMs-Here\1\` folder, then I will also have a PAK-NAME-LIST-1.txt file
+  - Anyway, inside of this PAK-NAME-LIST-#.txt file will be a list of parameters that the user can edit
   - These parameters will dteermine how files/folders of pak'd sound mods will be named
-  - There is more details inside of the SUB-ID-LIST-#.txt provided in the download
+  - There is more details inside of the PAK-NAME-LIST-#.txt provided in the download
   - Anyways, when selecting Option 202 in the script, users will be taken to a menu
   - Here they can either press Enter to process normally, or press 0 and then hit Enter to go into Cyclic Mode
-  - Here, the script will match numbered folders to numbered SUB-ID-LIST-#.txt files
+  - Here, the script will match numbered folders to numbered PAK-NAME-LIST-#.txt files
   - Press Enter again, and the script will press each numbered folder one at a time
-  - So the wems in folder 1 will be processed and pak'd according to the parameters in the SUB-ID-LIST-#.txt file
+  - So the wems in folder 1 will be processed and pak'd according to the parameters in the PAK-NAME-LIST-#.txt file
   - This is useful for people (aka ME) who create multiple variants of mods that use the same wem file IDs
-
+    
+- Added Sub-Option 1 to Option 202
+  - This option allows setting game path AND automatically downloading and extracting repak-Rivals v2.5.6 (created by natimerry)
+  - USers will select this Sub-Option 1, and the script will attempt to automatically detect the Rivals install location
+  - If this fails, a file explorer will pop up for them to manually select the game install location
+  - Once select, the script will then download and extract repak-rivals v2.5.6 into '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\'
+  - Now all components needed for Option 202 to function will be installed/assigned
+ 
 For CVS
 - Updated Main Menu
 - Updated Info Options
 - Updated 'CHARACTER-ID-LIST.txt' file
+(CONTEMPLATING THIS UPDATE, NOT SURE YET IF I WILL GO THROUGH WITH IT)
+- Fully integrated CVS into the SMT script
+  - Now everything will be handled with a single .ps1 file, reducing any confusion and back-and-forth between directories
+    
 
 NOTE: This is NOT heavily tested!  
 
