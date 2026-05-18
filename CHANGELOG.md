@@ -1363,7 +1363,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 2.2.2 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.3.0 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
 - Updated .usmap file
