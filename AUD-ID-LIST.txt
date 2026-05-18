@@ -1,0 +1,23 @@
+# Format consists of 3 elements separated by colons, listed below
+# (1) The name of the bnk file that will be in 1-PUT-BNK-FILES-HERE
+# (2) The name of the folder that will contain your pak file, output into 2-FINAL-PAK-FILES-ARE-HERE
+# (3) The name of the pak file inside of the (2) folder
+# Below is an example of what to type when filling this list out:
+# BNK_FILENAME:FOLDER_NAME_YOU_WANT:PAK_FILE_NAME_YOU_WANT_99999999_P
+
+# Alternative Format cosnsists of 2 elements.
+# The 1st element remains the same
+# But the 2nd element will used for both folder name AND the file name
+# Below is an example
+# BNK_FILENAME:FOLDER_AND_PAK_FILE_NAME_YOU_WANT
+
+# You can use both types of formats within this file, doesnt matter.
+# That is all. List your presets below this line. Some examples are included, you can erase these
+
+bnk_amb_timesquare:TIMESQUARE_MOD:My_TimeSquare_AudioMod_99999999_P
+bnk_display_1035001:VENOM_EMOTE_MOD:My_Venom_Emote_AudioMod_99999999_P
+bnk_display_breath_1047001:JEFF_BREATH_MOD:My_Jeff_Breath_AudioMod_99999999_P
+bnk_sfx_1058001:My_Gambit_Ult_AudioMod_99999999_P
+bnk_ui_battle:My_Custom_Hitmarker_AudioMod_99999999_P
+bnk_vo_1011001:Hulk_SomebodyGetTheDoor_AudioMod_99999999_P
+bnk_vo_system:FoulMouthed_Galacta_AudioMod_99999999_P
