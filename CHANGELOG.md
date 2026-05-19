@@ -1374,46 +1374,55 @@ For General
 For SMT
 - Updated Main Menu
 - Updated Info Options
-- Updated 'AUDIO-ID-LIST.txt' file
-- Renamed 'SUB-ID-LIST.txt' to 'PAK-NAME-LIST.txt'
+- Renamed 'AUDIO-ID-LIST.txt' to '0-AUDIO-ID-LIST.txt'
+- Updated '0-AUDIO-ID-LIST.txt' file
+- Renamed 'CHARACTER-ID-LIST.txt' to '0-CHARACTER-ID-LIST.txt'
+- Renamed 'DEV-200-AMPED-AUDIO' to 'd200-AMPED-AUDIO'
+- Renamed 'DEV-202-REPAKED-BNKS' to 'd202-REPAKED-BNKS'
+- Renamed 'SUB-ID-LIST.txt' to '0-PAK-NAME-LIST.txt'
 - Adjusted script to automatically download these files from the soundKit_MR github page IF they do not already exist
   - CHARACTER-ID-LIST.txt
   - 0-KEY.txt
   - AUDIO-ID-LIST.txt
-  - PAK-NAME-LIST.txt
+  - 0-PAK-NAME-LIST.txt (Script also generates 0-PAK-NAME-LIST-1.txt, 0-PAK-NAME-LIST-2.txt, & 0-PAK-NAME-LIST-3.txtt)
   - Repak Rivals v2.5.6 (https://github.com/natimerry/repak-rivals/releases/tag/v2.5.6)
     
-- Created Option 999 (name subject to change, might make it Option 'u')
-  - This option lets users manually start a download of the above .txt files
+- Created Option 'u'
+  - This option lets users manually start a download of the above files
+    - NOTE: The 0-PAK-NAME-LIST.txt files will require a confirmation from the user
   - This is for when the (potentially outdated) files already existed on script startup (so auto-download did not trigger)
   - (CONSIDERING THIS)
   - Additionally, this might also download the latest soundKit and steal its .ps1 file, replacing yours
-  - The script will close after this is done successfully, and you can just start the new, updated script version
+  - The script will close after this is done successfully (and the user presses Enter), and you can just start the new, updated script version
   - Just need to also grab the latest .usmap out of the download too...might see if I can grab it from Saturns website lol
+
+- Upgraded Option 106 (Wem Isolation) to handle bnk file merging
+  - Changed this Option to have Sub-Option 1 (which performs Isolation) and Sub-Option 2 (which performs merging)
+  - Isolation works just like before, no changes were made to its process
+  - For Merging, users will place a modded .bnk OR .pak file in 
 
 - Added Sub-Option 0 to Option 202
   - This option allows cyclic processing for Option 202
   - Users will place wems in numbered folders inside  of '2-Put-CUSTOM-WEMs-Here'
   - For Example: '2-Put-CUSTOM-WEMs-Here\1\WEMFILES', '2-Put-CUSTOM-WEMs-Here\2\WEMFILES',
-  - Then they will create PAK-NAME-LIST-#.txt file(s) in '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\'
+  - Then they will create 0-PAK-NAME-LIST-#.txt file(s) in '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\'
   - The '#' in this .txt file name will correspond to the # of the folder in '2-Put-CUSTOM-WEMs-Here'
-  - So if I have a '2-Put-CUSTOM-WEMs-Here\1\` folder, then I will also have a PAK-NAME-LIST-1.txt file
-  - Anyway, inside of this PAK-NAME-LIST-#.txt file will be a list of parameters that the user can edit
+  - So if I have a '2-Put-CUSTOM-WEMs-Here\1\` folder, then I will also have a 0-PAK-NAME-LIST-1.txt file
+  - Anyway, inside of this 0-PAK-NAME-LIST-#.txt file will be a list of parameters that the user can edit
   - These parameters will dteermine how files/folders of pak'd sound mods will be named
-  - There is more details inside of the PAK-NAME-LIST-#.txt provided in the download
+  - There is more details inside of the 0-PAK-NAME-LIST-#.txt provided in the download
   - Anyways, when selecting Option 202 in the script, users will be taken to a menu
   - Here they can either press Enter to process normally, or press 0 and then hit Enter to go into Cyclic Mode
-  - Here, the script will match numbered folders to numbered PAK-NAME-LIST-#.txt files
+  - Here, the script will match numbered folders to numbered 0-PAK-NAME-LIST-#.txt files
   - Press Enter again, and the script will press each numbered folder one at a time
-  - So the wems in folder 1 will be processed and pak'd according to the parameters in the PAK-NAME-LIST-#.txt file
+  - So the wems in folder 1 will be processed and pak'd according to the parameters in the 0-PAK-NAME-LIST-#.txt file
   - This is useful for people (aka ME) who create multiple variants of mods that use the same wem file IDs
     
 - Added Sub-Option 1 to Option 202
   - This option allows setting game path AND automatically downloading and extracting repak-Rivals v2.5.6 (created by natimerry)
   - Users will select this Sub-Option 1, and the script will attempt to automatically detect the Rivals install location
   - If this fails, a file explorer will pop up for them to manually select the game install location
-  - Once selected, the script will then download and extract repak-rivals v2.5.6 into '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\' IF it doesnt exist already
-  - Now all components needed for Option 202 to function will be installed/assigned
+  - Your games Paks folder location will be saved to '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\0-CONFIG.txt'
  
 For CVS
 - Updated Main Menu
