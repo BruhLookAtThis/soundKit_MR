@@ -101,7 +101,8 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 - **Description**: Multimedia framework for decoding, encoding, and processing audio/video.  
 - **Project homepage**: https://ffmpeg.org  
 - **Version used**: 7.1.1  
-- **Source code**: https://github.com/FFmpeg/FFmpeg/releases/tag/n7.1.1  
+- **Source code**: https://github.com/FFmpeg/FFmpeg/releases/tag/n7.1.1
+- **Direct Download**: https://github.com/GyanD/codexffmpeg/releases/download/7.1.1/ffmpeg-7.1.1-essentials_build.zip
 - FFmpeg is a trademark of Fabrice Bellard.
 
 ### BNKTool (including BNK-Unpack.exe, BNK-Pack.exe, bnktool.exe)
