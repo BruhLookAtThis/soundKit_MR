@@ -1377,6 +1377,7 @@ For SMT (Will be 'SDKT' after SMT-CVS merge)
 - Renamed 'AUDIO-ID-LIST.txt' to '0-AUDIO-ID-LIST.txt'
 - Updated '0-AUDIO-ID-LIST.txt' file
 - Renamed 'CHARACTER-ID-LIST.txt' to '0-CHARACTER-ID-LIST.txt'
+- Renamed '0-LOGS-SMT' to '0-LOGS'
 - Renamed 'DEV-200-AMPED-AUDIO' to 'x100-AMPED-AUDIO'
   - Changed its Option # from 200 to 100
 - Renamed 'DEV-202-REPAKED-BNKS' to 'x102-REPAKED-BNKS'
@@ -1393,12 +1394,17 @@ For SMT (Will be 'SDKT' after SMT-CVS merge)
 - Moved '0-PAK-NAME-LIST.txt' + variants to '0_XTRA\0-TXTs\'
 
 - Adjusted script to automatically download these files from the soundKit_MR github page IF they do not already exist
-  - 0-CHARACTER-ID-LIST.txt
-  - 0-KEY.txt
-  - 0-AUDIO-ID-LIST.txt
-  - 0-DELETE-LIST.txt
-  - 0-PAK-NAME-LIST.txt (Script also generates 0-PAK-NAME-LIST-1.txt, 0-PAK-NAME-LIST-2.txt, & 0-PAK-NAME-LIST-3.txtt)
-  - Repak Rivals v2.5.6 (https://github.com/natimerry/repak-rivals/releases/tag/v2.5.6)
+  - 0-AUDIO-ID-LIST.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-AUDIO-ID-LIST.txt)
+  - BNKTool (https://github.com/JohnnYoru/BNKTool/releases/download/v1.0.0/Windows.zip)
+  - 0-CHARACTER-ID-LIST.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-CHARACTER-ID-LIST.txt)
+  - 0-DELETE-LIST.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-DELETE-LIST.txt)
+  - ffmpeg.exe/ffprobe.exe (https://github.com/GyanD/codexffmpeg/releases/download/7.1.1/ffmpeg-7.1.1-essentials_build.zip)
+  - header.bin (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/header.bin)
+  - 0-KEY.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-KEY.txt)
+  - 0-PAK-NAME-LIST.txt (And numbered variants) (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-PAK-NAME-LIST.txt)
+  - Repak Rivals v2.5.6 (https://github.com/natimerry/repak-rivals/releases/download/v2.5.6/repak_cli-x86_64-pc-windows-msvc.zip)
+  - 0-TESTS.zip (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-TESTS.zip)
+  - vgmstream-cli (https://github.com/vgmstream/vgmstream/releases/download/r2083/vgmstream-win64.zip)
     
 - Created Option 'u'
   - This option lets users manually start a download of the above files
@@ -1449,6 +1455,8 @@ For CVS (Will be 'SDKT' after SMT-CVS merge)
 - Updated Main Menu
 - Updated Info Options
 - Updated '0-CHARACTER-ID-LIST.txt' file
+- MOVED CVS SCRIPT INTO THE SAME DIRECTORY AS THE SMT SCRIPT
+  - This is to prep for an eventual merge of the two scripts
 - Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'  
 - Moved '0-DELETE-LIST.txt' to '0_XTRA\0-TXTs\' 
 - Moved/Renamed '1-Put-MEDIA-LOCAL-WWISE-Here' to '0_XTRA\0-CVS-INPUT'
