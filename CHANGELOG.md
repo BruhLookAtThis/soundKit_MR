@@ -1392,6 +1392,8 @@ For SMT (Will be 'SDKT' after SMT-CVS merge)
 - Moved '0-KEY.txt' to '0_XTRA\0-TXTs\'
 - Moved '0-CONFIG.txt' to '0_XTRA\0-TXTs\'
 - Moved '0-PAK-NAME-LIST.txt' + variants to '0_XTRA\0-TXTs\'
+- Moved 'SUBS-NEW' to '0_XTRA\0-TXTs\'
+- Moved 'SUBS-OLD' to '0_XTRA\0-TXTs\'
 
 - Adjusted script to automatically download these files from the soundKit_MR github page IF they do not already exist
   - 0-AUDIO-ID-LIST.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-AUDIO-ID-LIST.txt)
@@ -1457,7 +1459,7 @@ For CVS (Will be 'SDKT' after SMT-CVS merge)
 - Updated '0-CHARACTER-ID-LIST.txt' file
 - MOVED CVS SCRIPT INTO THE SAME DIRECTORY AS THE SMT SCRIPT
   - This is to prep for an eventual merge of the two scripts
-- Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'  
+- Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'
 - Moved '0-DELETE-LIST.txt' to '0_XTRA\0-TXTs\' 
 - Moved/Renamed '1-Put-MEDIA-LOCAL-WWISE-Here' to '0_XTRA\0-CVS-INPUT'
 - Moved/Renamed '2-RENAMED-WEMs-Are-Here' to '0_XTRA\0-CVS-OUTPUT's
@@ -1465,6 +1467,7 @@ For CVS (Will be 'SDKT' after SMT-CVS merge)
 - Moved/Renamed '5-ENG-FILES-With-JPN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-JPN-To-ENG'
 - Moved/Renamed '5-ENG-FILES-With-CHN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-CHN-To-ENG'
 - Moved/Renamed '0-LOGS-CVS' to '0_XTRA\0-LOGS'
+- 'list.txt' is now generated in '0_XTRA\0-TXTs\'
 
 - (CONTEMPLATING THIS STUFF BELOW, NOT SURE YET IF I WILL GO THROUGH WITH IT)
 - Fully integrated CVS into the SMT script
