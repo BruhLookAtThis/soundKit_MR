@@ -1371,19 +1371,22 @@ For General
 - Updated 'zz_INSTRUCTIONS_CVS_MR.txt' file*
   - NOTE: *Might be fusing the SMT and CVS scripts, so the Instructions would also get fused too if this happens
 
-For SMT
+For SMT (Now SDKT)
 - Updated Main Menu
 - Updated Info Options
 - Renamed 'AUDIO-ID-LIST.txt' to '0-AUDIO-ID-LIST.txt'
 - Updated '0-AUDIO-ID-LIST.txt' file
 - Renamed 'CHARACTER-ID-LIST.txt' to '0-CHARACTER-ID-LIST.txt'
-- Renamed 'DEV-200-AMPED-AUDIO' to 'd200-AMPED-AUDIO'
-- Renamed 'DEV-202-REPAKED-BNKS' to 'd202-REPAKED-BNKS'
+- Renamed 'DEV-200-AMPED-AUDIO' to 'x100-AMPED-AUDIO'
+  - Changed its Option # from 200 to 100
+- Renamed 'DEV-202-REPAKED-BNKS' to 'x102-REPAKED-BNKS'
+  - Changed its Option # from 202 to 102
 - Renamed 'SUB-ID-LIST.txt' to '0-PAK-NAME-LIST.txt'
 - Adjusted script to automatically download these files from the soundKit_MR github page IF they do not already exist
   - CHARACTER-ID-LIST.txt
   - 0-KEY.txt
-  - AUDIO-ID-LIST.txt
+  - 0-AUDIO-ID-LIST.txt
+  - 0-DELETE-LIST.txt
   - 0-PAK-NAME-LIST.txt (Script also generates 0-PAK-NAME-LIST-1.txt, 0-PAK-NAME-LIST-2.txt, & 0-PAK-NAME-LIST-3.txtt)
   - Repak Rivals v2.5.6 (https://github.com/natimerry/repak-rivals/releases/tag/v2.5.6)
     
@@ -1401,7 +1404,7 @@ For SMT
   - Isolation works just like before, no changes were made to its process
   - For Merging, users will place a modded .bnk OR .pak file in 
 
-- Added Sub-Option 0 to Option 202
+- Added Sub-Option 0 to Option 102
   - This option allows cyclic processing for Option 202
   - Users will place wems in numbered folders inside  of '2-Put-CUSTOM-WEMs-Here'
   - For Example: '2-Put-CUSTOM-WEMs-Here\1\WEMFILES', '2-Put-CUSTOM-WEMs-Here\2\WEMFILES',
@@ -1409,7 +1412,7 @@ For SMT
   - The '#' in this .txt file name will correspond to the # of the folder in '2-Put-CUSTOM-WEMs-Here'
   - So if I have a '2-Put-CUSTOM-WEMs-Here\1\` folder, then I will also have a 0-PAK-NAME-LIST-1.txt file
   - Anyway, inside of this 0-PAK-NAME-LIST-#.txt file will be a list of parameters that the user can edit
-  - These parameters will dteermine how files/folders of pak'd sound mods will be named
+  - These parameters will determine how files/folders of pakd sound mods will be named
   - There is more details inside of the 0-PAK-NAME-LIST-#.txt provided in the download
   - Anyways, when selecting Option 202 in the script, users will be taken to a menu
   - Here they can either press Enter to process normally, or press 0 and then hit Enter to go into Cyclic Mode
@@ -1418,16 +1421,16 @@ For SMT
   - So the wems in folder 1 will be processed and pak'd according to the parameters in the 0-PAK-NAME-LIST-#.txt file
   - This is useful for people (aka ME) who create multiple variants of mods that use the same wem file IDs
     
-- Added Sub-Option 1 to Option 202
+- Added Sub-Option 1 to Option 102
   - This option allows setting game path AND automatically downloading and extracting repak-Rivals v2.5.6 (created by natimerry)
   - Users will select this Sub-Option 1, and the script will attempt to automatically detect the Rivals install location
   - If this fails, a file explorer will pop up for them to manually select the game install location
   - Your games Paks folder location will be saved to '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\0-CONFIG.txt'
  
-For CVS
+For CVS (Now SDKT)
 - Updated Main Menu
 - Updated Info Options
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated '0-CHARACTER-ID-LIST.txt' file
 - (CONTEMPLATING THIS STUFF BELOW, NOT SURE YET IF I WILL GO THROUGH WITH IT)
 - Fully integrated CVS into the SMT script
   - Now everything will be handled with a single .ps1 file, reducing any confusion and back-and-forth between directories
