@@ -1367,11 +1367,11 @@ UPDATE 2.3.0 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
 - Updated .usmap file
-- Updated 'zz_INSTRUCTIONS_SMT_MR.txt' file 
+- Updated 'zz_INSTRUCTIONS_SMT_MR.txt' file*
 - Updated 'zz_INSTRUCTIONS_CVS_MR.txt' file*
-  - NOTE: *Might be fusing the SMT and CVS scripts, so the Instructions would also get fused too if this happens
+  - NOTE: *Will be fusing the SMT and CVS scripts, so the Instructions would also get fused too if this happens
 
-For SMT (Now SDKT)
+For SMT (Will be 'SDKT' after SMT-CVS merge)
 - Updated Main Menu
 - Updated Info Options
 - Renamed 'AUDIO-ID-LIST.txt' to '0-AUDIO-ID-LIST.txt'
@@ -1445,15 +1445,22 @@ For SMT (Now SDKT)
   - If this fails, a file explorer will pop up for them to manually select the game install location
   - Your games Paks folder location will be saved to '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\0-CONFIG.txt'
  
-For CVS (Now SDKT)
+For CVS (Will be 'SDKT' after SMT-CVS merge)
 - Updated Main Menu
 - Updated Info Options
 - Updated '0-CHARACTER-ID-LIST.txt' file
+- Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'  
+- Moved '0-DELETE-LIST.txt' to '0_XTRA\0-TXTs\' 
+- Moved/Renamed '1-Put-MEDIA-LOCAL-WWISE-Here' to '0_XTRA\0-CVS-INPUT'
+- Moved/Renamed '2-RENAMED-WEMs-Are-Here' to '0_XTRA\0-CVS-OUTPUT's
+- Moved/Renamed '3-SUBTITLEs-Are-Here' to '0_XTRA\0-CVS-OUTPUT'
+- Moved/Renamed '5-ENG-FILES-With-JPN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-JPN-To-ENG'
+- Moved/Renamed '5-ENG-FILES-With-CHN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-CHN-To-ENG'
+- Moved/Renamed '0-LOGS-CVS' to '0_XTRA\0-LOGS'
+
 - (CONTEMPLATING THIS STUFF BELOW, NOT SURE YET IF I WILL GO THROUGH WITH IT)
 - Fully integrated CVS into the SMT script
   - Now everything will be handled with a single .ps1 file, reducing any confusion and back-and-forth between directories
-- Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'  
-- Moved '0-DELETE-LIST.txt' to '0_XTRA\0-TXTs\'   
 
 NOTE: This is NOT heavily tested!  
 
