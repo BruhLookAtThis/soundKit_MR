@@ -1383,7 +1383,7 @@ For SMT (Now SDKT)
   - Changed its Option # from 202 to 102
 - Renamed 'SUB-ID-LIST.txt' to '0-PAK-NAME-LIST.txt'
 - Adjusted script to automatically download these files from the soundKit_MR github page IF they do not already exist
-  - CHARACTER-ID-LIST.txt
+  - 0-CHARACTER-ID-LIST.txt
   - 0-KEY.txt
   - 0-AUDIO-ID-LIST.txt
   - 0-DELETE-LIST.txt
@@ -1398,6 +1398,15 @@ For SMT (Now SDKT)
   - Additionally, this might also download the latest soundKit and steal its .ps1 file, replacing yours
   - The script will close after this is done successfully (and the user presses Enter), and you can just start the new, updated script version
   - Just need to also grab the latest .usmap out of the download too...might see if I can grab it from Saturns website lol
+
+- Moved/Renamed '0-TOOLS' to '0-TOOLS-ALL\0-BNKR'
+- Moved/Renamed '0-VGCLI' to '0-TOOLS-ALL\0-VGCLI'
+- Moved/Renamed '0-TESTS' to '0-TOOLS-ALL\0-TESTS'
+- Moved/Renamed '0-TEMP' to '0-TOOLS-ALL\0-TEMP' (generated on demand)
+- Moved '0-AUDIO-ID-LIST.txt' to '0_XTRA\0-TXTs\'
+- Moved '0-KEY.txt' to '0_XTRA\0-TXTs\'
+- Moved '0-CONFIG.txt' to '0_XTRA\0-TXTs\'
+- Moved '0-PAK-NAME-LIST.txt' + variants to '0_XTRA\0-TXTs\'
 
 - Upgraded Option 106 (Wem Isolation) to handle bnk file merging
   - Changed this Option to have Sub-Option 1 (which performs Isolation) and Sub-Option 2 (which performs merging)
@@ -1442,7 +1451,8 @@ For CVS (Now SDKT)
 - (CONTEMPLATING THIS STUFF BELOW, NOT SURE YET IF I WILL GO THROUGH WITH IT)
 - Fully integrated CVS into the SMT script
   - Now everything will be handled with a single .ps1 file, reducing any confusion and back-and-forth between directories
-    
+- Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'  
+- Moved '0-DELETE-LIST.txt' to '0_XTRA\0-TXTs\'   
 
 NOTE: This is NOT heavily tested!  
 
