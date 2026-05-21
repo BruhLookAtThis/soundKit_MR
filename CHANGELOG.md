@@ -1417,8 +1417,16 @@ For SMT (Now SDKT)
   - Anyways, when selecting Option 202 in the script, users will be taken to a menu
   - Here they can either press Enter to process normally, or press 0 and then hit Enter to go into Cyclic Mode
   - Here, the script will match numbered folders to numbered 0-PAK-NAME-LIST-#.txt files
-  - Press Enter again, and the script will press each numbered folder one at a time
+  - Press Enter again, and the script will process each numbered folder one at a time
   - So the wems in folder 1 will be processed and pak'd according to the parameters in the 0-PAK-NAME-LIST-#.txt file
+  - For each .pak, if a Paks folder path is not configured, the script will ask if you want to configure one
+    - If you select "y" (yes), it will let you do one of two things. Either you can paste the path address:
+      - In Steam: right-click Marvel Rivals -> Manage -> Browse local files.
+      - Copy the path from Explorer's address bar, then paste it below.
+    - OR if you leave the space and press Enter, a file explorer window will open:
+      - In Steam: right-click Marvel Rivals -> Manage -> Browse local files.
+      - Copy the path from Explorer's address bar, then paste it into the popup File Explorers address bar
+    - If you select "n" (No), it will output the paks/folders to the same directory that the .ps1 script itself is located  
   - This is useful for people (aka ME) who create multiple variants of mods that use the same wem file IDs
     
 - Added Sub-Option 1 to Option 102
