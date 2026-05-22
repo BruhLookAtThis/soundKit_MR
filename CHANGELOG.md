@@ -1367,22 +1367,39 @@ UPDATE 3.0.0 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
 - Updated .usmap file
-- Updated 'zz_INSTRUCTIONS_SMT_MR.txt' file*
-- Updated 'zz_INSTRUCTIONS_CVS_MR.txt' file*
-  - NOTE: *Will be fusing the SMT and CVS scripts, so the Instructions would also get fused too if this happens
+- Merged + Updated 'zz_INSTRUCTIONS_SMT_MR.txt' and 'zz_INSTRUCTIONS_CVS_MR.txt' into 'zz_INSTRUCTIONS_SDKT_MR.txt' file*
 
-For SMT (Will be 'SDKT' after SMT-CVS merge)
+For SMT  (Now 'SDKT' after SMT-CVS merge)
+- MERGED CVS INTO SMT
+- THIS MERGED SCRIPT WILL NOW BE CALLED 'SDKT'
+- MIGRATED Option S (Formerly known as Option 201) FROM THE OLD CVS SCRIPT INTO THE SDKT SCRIPT 
+- THIS IS NOW THE ONLY "CVS" OPTION AVAILABLE, FOR LOGISTICS REASONS. RIP OPTION 1, 2, 100, 101, AND 200 OF THE OLD CVS SCRIPT
+- THIS OPTION S COVERS EVERYTHING THAT CVS WAS ABLE TO DO, SO YOU WILL NOT BE MISSING OUT ON ANYTHING
+
+- Renamed 'CHARACTER-ID-LIST.txt' to '0-CHARACTER-ID-LIST.txt'
+- Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'
+- Moved '0-DELETE-LIST.txt' to '0_XTRA\0-TXTs\' 
+- Moved/Renamed '1-Put-MEDIA-LOCAL-WWISE-Here' to '0_XTRA\0-CVS-INPUT'
+- Moved/Renamed '2-RENAMED-WEMs-Are-Here' to '0_XTRA\0-CVS-OUTPUT's
+- Moved/Renamed '3-SUBTITLEs-Are-Here' to '0_XTRA\0-CVS-OUTPUT'
+- Moved/Renamed '5-ENG-FILES-With-JPN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-JPN-To-ENG'
+- Moved/Renamed '5-ENG-FILES-With-CHN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-CHN-To-ENG'
+- Moved/Renamed '0-LOGS-CVS' to '0_XTRA\0-LOGS'
+- 'list.txt' is now generated in '0_XTRA\0-TXTs\'
+
 - Updated Main Menu
 - Updated Info Options
 - Renamed 'AUDIO-ID-LIST.txt' to '0-AUDIO-ID-LIST.txt'
 - Updated '0-AUDIO-ID-LIST.txt' file
-- Renamed 'CHARACTER-ID-LIST.txt' to '0-CHARACTER-ID-LIST.txt'
+
 - Renamed '0-LOGS-SMT' to '0-LOGS'
-- Renamed 'DEV-200-AMPED-AUDIO' to 'x100-AMPED-AUDIO'
+- Renamed '0_XTRA_202' to '0_XTRA_101'
+- Renamed 'DEV-200-AMPED-AUDIO' to 'x100-AMPED-AUDIO-Stuff'
   - Changed its Option # from 200 to 100
-- Renamed 'DEV-202-REPAKED-BNKS' to 'x102-REPAKED-BNKS'
-  - Changed its Option # from 202 to 102
+- Renamed 'DEV-202-REPAKED-BNKS' to 'x101-REPAKED-BNKS-Stuff'
+  - Changed its Option # from 202 to 101
 - Renamed 'SUB-ID-LIST.txt' to '0-PAK-NAME-LIST.txt'
+- Changed 'Option 199' to 'Option c' (c = clear)
 
 - Moved/Renamed '0-TOOLS' to '0-TOOLS-ALL\0-BNKR'
 - Moved '0-VGCLI' to '0-TOOLS-ALL\0-VGCLI'
@@ -1395,7 +1412,7 @@ For SMT (Will be 'SDKT' after SMT-CVS merge)
 - Moved 'SUBS-NEW' to '0_XTRA\0-TXTs\'
 - Moved 'SUBS-OLD' to '0_XTRA\0-TXTs\'
 
-- Adjusted script to automatically download these files from the soundKit_MR github page IF they do not already exist
+- Adjusted script to automatically download these files from various Github pages IF they do not already exist
   - 0-AUDIO-ID-LIST.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-AUDIO-ID-LIST.txt)
   - BNKTool (https://github.com/JohnnYoru/BNKTool/releases/download/v1.0.0/Windows.zip)
   - 0-CHARACTER-ID-LIST.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-CHARACTER-ID-LIST.txt)
@@ -1403,36 +1420,38 @@ For SMT (Will be 'SDKT' after SMT-CVS merge)
   - ffmpeg.exe/ffprobe.exe (https://github.com/GyanD/codexffmpeg/releases/download/7.1.1/ffmpeg-7.1.1-essentials_build.zip)
   - header.bin (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/header.bin)
   - 0-KEY.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-KEY.txt)
-  - 0-PAK-NAME-LIST.txt (And numbered variants) (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-PAK-NAME-LIST.txt)
+  - 0-PAK-NAME-LIST.txt (and three numbered variants*) (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-PAK-NAME-LIST.txt)
   - Repak Rivals v2.5.6 (https://github.com/natimerry/repak-rivals/releases/download/v2.5.6/repak_cli-x86_64-pc-windows-msvc.zip)
   - 0-TESTS.zip (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-TESTS.zip)
   - vgmstream-cli (https://github.com/vgmstream/vgmstream/releases/download/r2083/vgmstream-win64.zip)
+
+  - *If files whose names start with '0-PAK-NAME-LIST-1', '0-PAK-NAME-LIST-2', or '0-PAK-NAME-LIST-3'
+  - already exist in the '0-TXTs' folder, then their variant is skipped
+  - For Example: If '0-PAK-NAME-LIST-1-MyCustom.txt' already exists, then '0-PAK-NAME-LIST-1.txt' will not be generated
     
 - Created Option 'u'
-  - This option lets users manually start a download of the above files
+  - This option lets users manually start a download of the above listed files
     - NOTE: The 0-PAK-NAME-LIST.txt files will require a confirmation from the user
-  - This is for when the (potentially outdated) files already existed on script startup (so auto-download did not trigger)
-  - (CONSIDERING THIS)
+  - This is for when the script startup auto-download does not trigger because the (potentially-outdated) files already existed
+  - The files downloaded with this option will OVERWRITE the above listed files
+
+  (CONSIDERING):
   - Additionally, this might also download the latest soundKit and steal its .ps1 file, replacing yours
   - The script will close after this is done successfully (and the user presses Enter), and you can just start the new, updated script version
   - Just need to also grab the latest .usmap out of the download too...might see if I can grab it from Saturns website lol
 
-- Upgraded Option 106 (Wem Isolation) to handle bnk file merging
-  - Changed this Option to have Sub-Option 1 (which performs Isolation) and Sub-Option 2 (which performs merging)
-  - Isolation works just like before, no changes were made to its process
-  - For Merging, users will place a modded .bnk OR .pak file in 
-
-- Added Sub-Option 0 to Option 102
-  - This option allows cyclic processing for Option 202
+- Renamed Option 202 to Option 101
+- Added Sub-Option 0 to Option 101
+  - This option allows cyclic processing for Option 102
   - Users will place wems in numbered folders inside  of '2-Put-CUSTOM-WEMs-Here'
   - For Example: '2-Put-CUSTOM-WEMs-Here\1\WEMFILES', '2-Put-CUSTOM-WEMs-Here\2\WEMFILES',
-  - Then they will create 0-PAK-NAME-LIST-#.txt file(s) in '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\'
+  - Then they will create 0-PAK-NAME-LIST-#.txt file(s) in '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_102\'
   - The '#' in this .txt file name will correspond to the # of the folder in '2-Put-CUSTOM-WEMs-Here'
   - So if I have a '2-Put-CUSTOM-WEMs-Here\1\` folder, then I will also have a 0-PAK-NAME-LIST-1.txt file
   - Anyway, inside of this 0-PAK-NAME-LIST-#.txt file will be a list of parameters that the user can edit
   - These parameters will determine how files/folders of pakd sound mods will be named
   - There is more details inside of the 0-PAK-NAME-LIST-#.txt provided in the download
-  - Anyways, when selecting Option 202 in the script, users will be taken to a menu
+  - Anyways, when selecting Option 101 in the script, users will be taken to a menu
   - Here they can either press Enter to process normally, or press 0 and then hit Enter to go into Cyclic Mode
   - Here, the script will match numbered folders to numbered 0-PAK-NAME-LIST-#.txt files
   - Press Enter again, and the script will process each numbered folder one at a time
@@ -1447,31 +1466,41 @@ For SMT (Will be 'SDKT' after SMT-CVS merge)
     - If you select "n" (No), it will output the paks/folders to the same directory that the .ps1 script itself is located  
   - This is useful for people (aka ME) who create multiple variants of mods that use the same wem file IDs
     
-- Added Sub-Option 1 to Option 102
+- Added Sub-Option 1 to Option 101
   - This option allows setting game path AND automatically downloading and extracting repak-Rivals v2.5.6 (created by natimerry)
   - Users will select this Sub-Option 1, and the script will attempt to automatically detect the Rivals install location
   - If this fails, a file explorer will pop up for them to manually select the game install location
-  - Your games Paks folder location will be saved to '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_202\0-CONFIG.txt'
- 
-For CVS (Will be 'SDKT' after SMT-CVS merge)
-- Updated Main Menu
-- Updated Info Options
-- Updated '0-CHARACTER-ID-LIST.txt' file
-- MOVED CVS SCRIPT INTO THE SAME DIRECTORY AS THE SMT SCRIPT
-  - This is to prep for an eventual merge of the two scripts
-- Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'
-- Moved '0-DELETE-LIST.txt' to '0_XTRA\0-TXTs\' 
-- Moved/Renamed '1-Put-MEDIA-LOCAL-WWISE-Here' to '0_XTRA\0-CVS-INPUT'
-- Moved/Renamed '2-RENAMED-WEMs-Are-Here' to '0_XTRA\0-CVS-OUTPUT's
-- Moved/Renamed '3-SUBTITLEs-Are-Here' to '0_XTRA\0-CVS-OUTPUT'
-- Moved/Renamed '5-ENG-FILES-With-JPN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-JPN-To-ENG'
-- Moved/Renamed '5-ENG-FILES-With-CHN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-CHN-To-ENG'
-- Moved/Renamed '0-LOGS-CVS' to '0_XTRA\0-LOGS'
-- 'list.txt' is now generated in '0_XTRA\0-TXTs\'
+  - Your games Paks folder location will be saved to '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_102\0-CONFIG.txt'
 
-- (CONTEMPLATING THIS STUFF BELOW, NOT SURE YET IF I WILL GO THROUGH WITH IT)
-- Fully integrated CVS into the SMT script
-  - Now everything will be handled with a single .ps1 file, reducing any confusion and back-and-forth between directories
+- Changed Option 106 (Wem Isolation) to Option 102
+- Added Sub-Option 0 (handles Wem ISOLATION, like before) and Sub-Option 1 (handles .bnk file MERGING) to Option 102
+  - Renamed 'A-Put-Modded-Bnk-Here' to 'A-Put-Modded-Bnks-Here'
+  - Renamed 'B-Put-Vanilla-Bnk-Here' to 'B-Put-Vanilla-Bnks-Here'
+  - Added 'A-Put-Modded-Bnks-Here\0-Put-PRIORITY-Bnk-or-Pak-For-Merging-Here' (Ignored by Isolation Sub-Option)
+  - Added 'A-Put-Modded-Bnks-Here\0-Put-SECONDARY-Bnk-or-Pak-For-Merging-Here' (Ignored by Isolation Sub-Option)
+  - Added 'B-Put-Vanilla-Bnks-Here\0-Put-Vanilla-Bnks-For-MERGING-Here' (Ignored by Isolation Sub-Option)
+  - Added 'E-Your-Merged-BNK-And-Pak-Files-Are-Here'
+  - For MERGING, users will:
+    - Place a modded .bnk OR .pak file that they want to take PRIORITY in '0-Put-PRIORITY-Bnk-or-Pak-For-Merging-Here'
+    - Place a modded .bnk (of the same name as the above .bnk) OR .pak file (containing the same .bnk as the above .pak) that they want to be SECONDARY in '0-Put-SECONDARY-Bnk-or-Pak-For-Merging-Here'
+    - Place a vanilla .bnk (of the same name(s)) in '0-Put-Vanilla-Bnks-For-MERGING-Here'
+    - Run Option 102 Sub-Option 2
+    - Script will output merged .bnk(s)/.pak(s) into 'E-Your-Merged-BNK-And-Pak-Files-Are-Here'
+    - The modded .wems from the PRIORITY/SECONDARY .bnk(s)/.pak(s) will be output into folders named after their characters in 'C-Modded-Wems-Here'
+      - These folders will have 'Priority-' and 'Secondary-' prefixed so you know they are from the Merge sub-option output
+
+- Merged Option 103 (Test Wems) and Option 104 (Silent Wems) into Option 103 (Now handles both functions)
+  - Renamed 'x103-TEST-Wem-Stuff' to 'x103-TEST-And-Silent-Wem-Stuff'
+  - Moved/Renamed 'x104-SILENT-Wem-Stuff\A-Put-Wems-To-SILENCE-Here' to 'x103-TEST-And-Silent-Wem-Stuff\C-Put-Wems-To-SILENCE-Here'
+  - Moved/Renamed 'x104-SILENT-Wem-Stuff\B-Your-New-SILENCED-Wems-Are-Here' to 'x103-TEST-And-Silent-Wem-Stuff\D-Your-New-SILENCED-Wems-Are-Here'
+  - Removed 'x104-SILENT-Wem-Stuff'
+
+- Changed Option 107 to Option 104
+  - Renamed 'x107-ASSIGN-Wem-Stuff' to 'x104-ASSIGN-Wem-Stuff'
+
+For CVS (Now 'SDKT' after SMT-CVS merge)
+
+- NO LONGER EXISTS AS A SEPARATE SCRIPT
 
 NOTE: This is NOT heavily tested!  
 
