@@ -1,4 +1,4 @@
-Updated as of Season 8.0
+Updated as of Season 8.0 (Sonic Trailblazer Luna Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -151,6 +151,7 @@ Updated as of Season 8.0
 1024304: Hela (The Grim Lady)
 1024305: Hela (Disco Of The Dead)
 1024306: Hela (HELEN ANGERBODA - THE REBEL)
+1024307: Hela (SAVAGE MONARCH)
 1024500: Hela (Goddess of Death)
 1024800: Hela (Merciful Queen)
 
@@ -194,6 +195,7 @@ Updated as of Season 8.0
 1028101: Ultron (Golden Ultron (Ranked skin))
 1028102: Ultron (Will of Galacta)
 1028300: Ultron (Wasteland Robot)
+1028302: Ultron (CYBERNETIC DRIP)
 1028500: Ultron (X-Tron)
 1028502: Ultron (ODINFORCE ULTRON)
 1028800: Ultron (Infinity Ultron)
@@ -243,6 +245,7 @@ Updated as of Season 8.0
 1031308: LunaSnow (Cherry Delight)
 1031309: LunaSnow (Disco Pop)
 1031312: LunaSnow (Park Sun-Young - The Dancer)
+1031313: LunaSnow (SONIC TRAILBLAZER)
 
 1032: SquirrelGirl
 10320: SquirrelGirl
@@ -396,6 +399,7 @@ Updated as of Season 8.0
 1042302: PeniParker (Floral Frights)
 1042303: PeniParker (Snow-SPdr)
 1042305: PeniParker (BADLANDS LULLABY)
+1042306: PeniParker (PENI PARKER - THE FRESHMAN)
 1042500: PeniParker (VEN#M)
 
 1043: StarLord
@@ -564,6 +568,7 @@ Updated as of Season 8.0
 1055103: DareDevil (WILL OF GALACTA)
 1055500: DareDevil (Devil 2099)
 1055501: DareDevil (Not Daredevil)
+1055502: DareDevil (SHADOWED START)
 1055800: DareDevil (DAREDEVIL BORN AGAIN SEASON 2)
 
 1056: Angela
