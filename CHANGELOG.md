@@ -1363,7 +1363,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 3.0.0 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.9.9-beta-1/3.0.0 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
 - Updated .usmap file
@@ -1433,7 +1433,8 @@ For SMT  (Now 'SDKT' after SMT-CVS merge)
   - This option lets users manually start a download of the above listed files
     - NOTE: The 0-PAK-NAME-LIST.txt files will require a confirmation from the user
   - This is for when the script startup auto-download does not trigger because the (potentially-outdated) files already existed
-  - The files downloaded with this option will OVERWRITE the above listed files
+  - The files downloaded with this option will OVERWRITE the above listed .txts
+  - This option can also rename "un-named" character folders in '0_XTRA\0-CVS-OUTPUT\Display\' and '0_XTRA\0-CVS-OUTPUT\SFX\'
 
   (CONSIDERING):
   - Additionally, this might also download the latest soundKit and steal its .ps1 file, replacing yours
