@@ -1363,6 +1363,30 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 2.2.2
+
+For General
+- Zipped the Misc-Tools folder in '3_XTRA\'
+  - Preparing for the next major update, so dont mind this
+
+For SMT
+- Added "i" (individual) and "a" (all) modes to Option 0/Option 200
+  - "i" mode allows users to individually amplify the volume of certain audio files
+  - "a" mode switches back to the mass amplification mode, where all remaining files will get the same amp level
+    - Users will choose Option 0/100, then press "i" and hit enter
+    - The script will then list every audio file available to amplify in a numbered order
+    - The user selects the number next to the file they want to individually amplify
+    - They then select the amp level and hit enter
+    - The script amplifies this file, then refreshes the list with the remaining files
+    - When the user is done with individual amplifications, they can type "a" to switch back to "all" mode
+    - This will allow them to apply a blanket amp level to the remaining audio files
+ 
+For CVS
+
+NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE 2.9.9-beta-1/3.0.0 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
