@@ -1409,8 +1409,6 @@ UPDATE 2.9.9-beta-1/3.0.0 (NOT RELEASED YET, `BUG TESTING`)
 
 For General
 - Updated .usmap file
-- Merged + Updated `zz_INSTRUCTIONS_SMT_MR.txt` and `zz_INSTRUCTIONS_CVS_MR.txt` into `zz_INSTRUCTIONS_SDKT_MR.txt` file*
-  - *INSTRUCTIONS FILE ISNT UPDATED WITH THE v2..9.9-beta-1 ADJUSTMENTS YET
 - Moved/Renamed `3_XTRA` to `0_XTRA\1-MISC-STUFF`
 - Renamed `Audio-Mod-Folder` to `2-MOD-Paking-Folder`
 - Renamed `Example-Mod-Files` to `1-EXAMPLE-Mod-Files`
@@ -1436,6 +1434,8 @@ For SMT  (Now `SDKT` after SMT-CVS merge)
 - MIGRATED Option S (Formerly known as Option 201) FROM THE OLD CVS SCRIPT INTO THE SDKT SCRIPT 
 - THIS IS NOW THE ONLY `CVS` OPTION AVAILABLE, FOR LOGISTICS REASONS. RIP OPTION 1, 2, 100, 101, AND 200 OF THE OLD CVS SCRIPT
 - THIS OPTION S COVERS EVERYTHING THAT CVS WAS ABLE TO DO, SO YOU WILL NOT BE MISSING OUT ON ANYTHING
+- Merged + Updated `zz_INSTRUCTIONS_SMT_MR.txt` and `zz_INSTRUCTIONS_CVS_MR.txt` into `zz_INSTRUCTIONS_SDKT_MR.txt` file*
+  - *INSTRUCTIONS FILE ISNT UPDATED WITH THE v2.9.9-beta-1 ADJUSTMENTS YET
 
 - Renamed `CHARACTER-ID-LIST.txt` to `0-CHARACTER-ID-LIST.txt`
 - Moved `0-CHARACTER-ID-LIST.txt` to `0_XTRA\0-TXTs\`
@@ -1447,17 +1447,15 @@ For SMT  (Now `SDKT` after SMT-CVS merge)
 - Moved/Renamed `5-ENG-FILES-With-CHN-AUDIO-Here` to `0_XTRA\0-CVS-XTRA\0-CHN-To-ENG`
 - Moved/Renamed `0-LOGS-CVS` to `0_XTRA\0-LOGS`
 - Renamed `0-LOGS-SMT` to `0-LOGS`
-- `list.txt` is now generated in `0_XTRA\0-TXTs\`
 
 - Updated Main Menu
 - Updated Info Options (STILL NEEDS WORK)
 
-- Renamed `0_XTRA_202` to `0_XTRA_101`
-- Renamed `DEV-200-AMPED-AUDIO` to `x100-AMPED-AUDIO-Stuff`
+- Moved/Renamed `DEV-200-AMPED-AUDIO` to `x100-XTRAs-Are-Here\x100-AMPED-AUDIO-Stuff`
   - Changed its Option # from 200 to 100
-- Renamed `DEV-202-REPAKED-BNKS` to `x101-REPAKED-BNKS-Stuff`
+- Moved/Renamed `DEV-202-REPAKED-BNKS` to `x100-XTRAs-Are-Here\x101-REPAKED-BNKS-Stuff`
   - Changed its Option # from 202 to Option 1s Sub-Options 6 (More on this below)
-- Renamed `SUB-ID-LIST.txt` to `0-PAK-NAME-LIST.txt`
+- Moved/Renamed `0_XTRA_202` to ``x100-XTRAs-Are-Here\x101-REPAKED-BNKS-Stuff\0_XTRA_101`  
 - Changed `Option 199` to `Option c` (c = clear)
 
 - Moved/Renamed `0-TOOLS` to `0-TOOLS-ALL\0-BNKR`
@@ -1465,11 +1463,12 @@ For SMT  (Now `SDKT` after SMT-CVS merge)
 - Moved `0-TESTS` to `0-TOOLS-ALL\0-TESTS`
 - Moved `0-TEMP` to `0-TOOLS-ALL\0-TEMP` (generated on demand)
 - Moved/Renamed/Updated `AUDIO-ID-LIST.txt` to `0_XTRA\0-TXTs\0-AUDIO-ID-LIST.txt`
+- Moved/Renamed `SUB-ID-LIST.txt` to `0_XTRA\0-TXTs\0-PAK-NAME-LIST.txt`
 - Moved `0-KEY.txt` to `0_XTRA\0-TXTs\`
 - Moved `0-CONFIG.txt` to `0_XTRA\0-TXTs\`
-- Moved `0-PAK-NAME-LIST.txt` + variants to `0_XTRA\0-TXTs\`
 - Moved `SUBS-NEW` to `0_XTRA\0-TXTs\`
 - Moved `SUBS-OLD` to `0_XTRA\0-TXTs\`
+- Moved `list.txt` generation to `0_XTRA\0-TXTs\`
 
 - Adjusted script to automatically download these files from various Github pages IF they do not already exist
   - 0-AUDIO-ID-LIST.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-AUDIO-ID-LIST.txt)
