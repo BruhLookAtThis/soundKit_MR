@@ -1410,6 +1410,7 @@ UPDATE 2.9.9-beta-1/3.0.0 (NOT RELEASED YET, 'BUG TESTING')
 For General
 - Updated .usmap file
 - Merged + Updated 'zz_INSTRUCTIONS_SMT_MR.txt' and 'zz_INSTRUCTIONS_CVS_MR.txt' into 'zz_INSTRUCTIONS_SDKT_MR.txt' file*
+  - *INSTRUCTIONS FILE ISNT UPDATED WITH THE v2..9.9-beta-1 ADJUSTMENTS YET
 - Moved/Renamed '3_XTRA' to '0_XTRA\1-MISC-STUFF'
 - Renamed 'Audio-Mod-Folder' to '2-MOD-Paking-Folder'
 - Renamed 'Example-Mod-Files' to '1-EXAMPLE-Mod-Files'
@@ -1449,7 +1450,7 @@ For SMT  (Now 'SDKT' after SMT-CVS merge)
 - 'list.txt' is now generated in '0_XTRA\0-TXTs\'
 
 - Updated Main Menu
-- Updated Info Options
+- Updated Info Options (STILL NEEDS WORK)
 - Renamed 'AUDIO-ID-LIST.txt' to '0-AUDIO-ID-LIST.txt'
 - Updated '0-AUDIO-ID-LIST.txt' file
 
