@@ -39,3 +39,4 @@ Luna Snow Ult (VO) (Default-P2)-bnk_vo_1031001: 27720091
 Magneto Ult (SFX) (Default #1)-bnk_sfx_1037001: 171598121
 Magneto Ult (SFX) (Default #2)-bnk_sfx_1037001: 361019606
 Magneto Ult (SFX) (Default #3)-bnk_sfx_1037001: 746053380
+White Fox Ult (SFX) (Default)-bnk_sfx_1060001: 565527808
