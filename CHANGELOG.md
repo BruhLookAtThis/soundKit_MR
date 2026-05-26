@@ -1539,6 +1539,9 @@ For SMT  (Now 'SDKT' after SMT-CVS merge)
     - Simply place them directly in 'A-Put-Modded-Bnks-Here', just like with the .bnk files
 
 - Merged Option 103 (Test Wems) and Option 104 (Silent Wems) into Option 103 (Now handles both functions)
+  - Test wems are now created with Sub-Option 1
+  - Silent wems are now created with Sub-Option 2
+  - Both Sub-Options now ask the user if they would like to move the output into the '2-Put-CUSTOM-WEMs-Here' folder
   - Renamed 'x103-TEST-Wem-Stuff' to 'x103-TEST-And-SILENT-Wem-Stuff'
   - Moved/Renamed 'x104-SILENT-Wem-Stuff\A-Put-Wems-To-SILENCE-Here' to 'x103-TEST-And-SILENT-Wem-Stuff\C-Put-Wems-To-SILENCE-Here'
   - Moved/Renamed 'x104-SILENT-Wem-Stuff\B-Your-New-SILENCED-Wems-Are-Here' to 'x103-TEST-And-SILENT-Wem-Stuff\D-Your-New-SILENCED-Wems-Are-Here'
