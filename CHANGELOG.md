@@ -1445,6 +1445,7 @@ For SMT  (Now 'SDKT' after SMT-CVS merge)
 - Moved/Renamed '5-ENG-FILES-With-JPN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-JPN-To-ENG'
 - Moved/Renamed '5-ENG-FILES-With-CHN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-CHN-To-ENG'
 - Moved/Renamed '0-LOGS-CVS' to '0_XTRA\0-LOGS'
+- Renamed '0-LOGS-SMT' to '0-LOGS'
 - 'list.txt' is now generated in '0_XTRA\0-TXTs\'
 
 - Updated Main Menu
@@ -1452,7 +1453,6 @@ For SMT  (Now 'SDKT' after SMT-CVS merge)
 - Renamed 'AUDIO-ID-LIST.txt' to '0-AUDIO-ID-LIST.txt'
 - Updated '0-AUDIO-ID-LIST.txt' file
 
-- Renamed '0-LOGS-SMT' to '0-LOGS'
 - Renamed '0_XTRA_202' to '0_XTRA_101'
 - Renamed 'DEV-200-AMPED-AUDIO' to 'x100-AMPED-AUDIO-Stuff'
   - Changed its Option # from 200 to 100
