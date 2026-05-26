@@ -1425,7 +1425,7 @@ For General
     - (You can use subfolders if you wanna put things in groups. Some example folders are included, you can rename these if you want)
   - Run the 'z1_RunMeInPowershell_BNK_MR.ps1' or 'z2_DoubleClickMe_BNK_MR.bat' file
   - Press 1 in the terminal window
-  - The script will update all of your .bnks to the latest versions, outputting them into '2-NEW-WORK-BNKS-ARE-HERE(\YourSubfoldersIfAny)'
+  - The script will update all of your .bnks to the latest versions (that you placed in '0-PUT-ALL-NEW-BNKS-HERE'), outputting them into '2-NEW-WORK-BNKS-ARE-HERE(\YourSubfoldersIfAny)'
   - Useful for quickly grabbing the latest .bnks for when you need to recompile mods after a game update
     - (I use 76 bnks myself. I am NOT going to manually pick those out every game update lol)
 
@@ -1440,7 +1440,7 @@ For SMT  (Now 'SDKT' after SMT-CVS merge)
 - Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'
 - Moved '0-DELETE-LIST.txt' to '0_XTRA\0-TXTs\' 
 - Moved/Renamed '1-Put-MEDIA-LOCAL-WWISE-Here' to '0_XTRA\0-CVS-INPUT'
-- Moved/Renamed '2-RENAMED-WEMs-Are-Here' to '0_XTRA\0-CVS-OUTPUT's
+- Moved/Renamed '2-RENAMED-WEMs-Are-Here' to '0_XTRA\0-CVS-OUTPUT'
 - Moved/Renamed '3-SUBTITLEs-Are-Here' to '0_XTRA\0-CVS-OUTPUT'
 - Moved/Renamed '5-ENG-FILES-With-JPN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-JPN-To-ENG'
 - Moved/Renamed '5-ENG-FILES-With-CHN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-CHN-To-ENG'
