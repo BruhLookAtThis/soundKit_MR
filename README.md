@@ -1,33 +1,32 @@
 OVERVIEW
 --------------------------------------------------------------
 
-(GRAB THE LATEST repak_cli (or repak-GUI) .zip FROM HERE: https://github.com/natimerry/repak-rivals/releases)
+(GRAB THE UassetTool.exe v1.5 .zip FROM HERE: https://github.com/XzantGaming/UAssetToolRivals/releases/download/v1.5/UAssetTool-win-x64.zip)
 
 (GRAB AN FMODEL DOWNLOAD FROM HERE: https://fmodel.app/download)
 
-1. Each folder has their own instructions
-2. The CVS (Chara-Voice-Sorter) folder is for:
+1. Written instructions are included
+
+2. The SDKT (Soundkit Modding Tool) folder is for:
    
    a. Extracting and labeling most character voices (+ some Emote, MVP, Lobby, etc SFX) from the game
-   
+
    b. Extracting and organizing most, if not all, character voice subtitles from the game
    
    c. Replacing most English character voices with their Japanese or Chinese counterparts
 
-3. The SMT (Sound Modding Tool) folder is for:
-   
-   a. Replacing ingame audio files with your custom files
+   d. Replacing ingame audio files with your custom files
 
-   b. Extracting vanilla audio files from bnk files
+   e. Extracting vanilla audio files from bnk files
 
-   c. Other, miscellaneous operations
+   f. Other, miscellaneous operations
    
    Audio that has been logged can be found here:
 
    (For Marvel Rivals)
    https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0
 
-5. The 3_XTRA folder contains:
+5. The \0_XTRA\1-MISC-STUFF\ folder contains:
    
    a. Various misc tools that may assist you in the modding process. Each contain their own instructions.
    
@@ -35,7 +34,7 @@ OVERVIEW
    
    c. FModel AES key for Marvel Rivals
 
-MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they will be labeled as so)
+MAKE SURE YOU READ THE INSTRUCTIONS (If theyre outdated, they will be labeled as so)
 
 --------------------------------------------------------------
 CREDITS:
@@ -59,6 +58,8 @@ auri thedarkdame (thedarkdame)
 - **Project homepage**: https://github.com/BruhLookAtThis/soundKit_MR
 - **Main developers/maintainers**: BruhLookAtThis  
 - **Source code**: Available at https://github.com/BruhLookAtThis/soundKit_MR/releases
+
+--------------------------------------------------------------
 
 ## Third-Party Dependencies / Licensing
 
@@ -84,17 +85,7 @@ Portions Copyright (c) 2005-2007 Paul Hsieh
 Portions Copyright (C) 2000-2004 Leshade Entis, Entis-soft.
 Portions Public Domain originating with Sun Microsystems
 
-Permission to use, copy, modify, and distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+--------------------------------------------------------------
 
 ### FFmpeg / ffprobe
 - **License**: GNU Lesser General Public License version 2.1 or later (LGPL v2.1+)
@@ -105,6 +96,8 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 - **Direct Download**: https://github.com/GyanD/codexffmpeg/releases/download/7.1.1/ffmpeg-7.1.1-essentials_build.zip
 - FFmpeg is a trademark of Fabrice Bellard.
 
+--------------------------------------------------------------
+
 ### BNKTool (including BNK-Unpack.exe, BNK-Pack.exe, bnktool.exe)
 - **License**: MIT License
 - **Description**: Simple tool for extracting and repacking Wwise soundbanks (.bnk files), used for handling audio containers in modding workflows.
@@ -112,20 +105,12 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 - **Copyright holder**: Copyright (c) 2026 JohnnYoru
 - **Full license text**:
 
- MIT License.
- Copyright (c) 2026 JohnnYoru.
- Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+--------------------------------------------------------------
+
+### UAssetToolRivals (including UassetTools.exe)
+- **License**: GPL-3.0 license
+- **Description**: A CLI tool for parsing, editing, and converting Unreal Engine 5 assets. Built on UAssetAPI with extensions for Zen/IoStore support, texture handling, and NiagaraSystem editing. Optimized for Marvel Rivals modding.
+- **Project homepage / Source code**: https://github.com/XzantGaming/UAssetToolRivals
+- **Copyright holder**: Copyright (c) 2026 XzantGaming
 
 --------------------------------------------------------------
