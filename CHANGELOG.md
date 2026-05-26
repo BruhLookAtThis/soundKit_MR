@@ -1498,9 +1498,25 @@ For SMT  (Now `SDKT` after SMT-CVS merge)
     - NOTE: This will require a confirmation from the user
     - If this is done, the script will also download the latest `CHANGELOG.md` file into `0_XTRA\1-MISC-STUFF\`
   - This option also downloads the latest .usmap file, placing it into `0_XTRA\1-MISC-STUFF\`
-  
+
+- Option 1 Sub-Option 3 now properly adds `_OLD#` appendage to existing folders that will overlap with a new output folder
+
 - Renamed Option 202 to Option 1s Sub-Option 6
   - This functions the same as before
+  - If a Paks folder path is not configured, the script will ask if you want to configure one
+    - If you select `y` (yes), it will let you do one of two things (if auto-detection of the `Paks` folder doesnt work):
+      1. Either you can paste the path address:
+         - In Steam: right-click Marvel Rivals -> Manage -> Browse local files.
+         - Copy the path from Explorer`s address bar, then paste it below.
+    - OR
+      2. If you leave the space blank and press Enter, a file explorer window will open:
+         - In Steam: right-click Marvel Rivals -> Manage -> Browse local files.
+         - Copy the path from Explorers address bar, then paste it into the popup File Explorers address bar
+         - Or you can just navigate to your games install location in the popup file explorer
+    - Your games `Paks` folder location will be saved to `0_XTRA\0-TXTs\0-CONFIG.txt`     
+    - If you select `N` (No), it will output the paks/folders to the same directory that the .ps1 script itself is located  
+  - When processing is finished, the script will ask the user if they want to open the output folder
+
 - Added Sub-Option 7 to Option 1
   - This option is a cyclic/group processing version of Option 1s Sub-Option 6 (formerly SMTs Option 202)
   - Users will place wems in numbered folders inside  of `2-Put-CUSTOM-WEMs-Here`
@@ -1518,44 +1534,41 @@ For SMT  (Now `SDKT` after SMT-CVS merge)
     - For Example: `2-Put-CUSTOM-WEMs-Here\1\` will be matched to `0-PAK-NAME-LIST-1.txt` (they both have `1`)
   - Press Enter again, and the script will process each numbered folder/.txt pair, one at a time
   - So the wems in folder 1 will be processed and pakd according to the parameters in the `0-PAK-NAME-LIST-1.txt` file
-  - For each .pak, if a Paks folder path is not configured, the script will ask if you want to configure one
-    - If you select `y` (yes), it will let you do one of two things (if auto-detection of the `Paks` folder doesnt work):
-      1. Either you can paste the path address:
-         - In Steam: right-click Marvel Rivals -> Manage -> Browse local files.
-         - Copy the path from Explorer`s address bar, then paste it below.
-    - OR
-      2. If you leave the space blank and press Enter, a file explorer window will open:
-         - In Steam: right-click Marvel Rivals -> Manage -> Browse local files.
-         - Copy the path from Explorers address bar, then paste it into the popup File Explorers address bar
-         - Or you can just navigate to your games install location in the popup file explorer
-    - Your games `Paks` folder location will be saved to `0_XTRA\0-TXTs\0-CONFIG.txt`     
-    - If you select `N` (No), it will output the paks/folders to the same directory that the .ps1 script itself is located  
   - This is useful for people (aka ME) who create multiple variants of mods that use the same wem file IDs
+  - Just as with Sub-Option 6, the script will ask the user about output location (script directory or Paks folder)
+  - In either choice, the script will ask the user if they want to open the output folder
+
 - Added Sub-Option 8 to Option 1
   - This option allows paking any .bnk files in the `3-Your-MODDED-BNK-Is-Here`
   - Users will also be prompted to move these pakd bnks into the `~mods-AUDIO` folder in their games Paks folder
   - If they choose not no, the paks will be left in `3-Your-MODDED-BNK-Is-Here\Packed-Bnks-Here`
+  - In either choice, the script will ask the user if they want to open the output folder
 
 - Changed Option 106 (Wem Isolation) to Option 102
-- Added Sub-Option 1 (handles Wem ISOLATION, like before) and Sub-Option 2 (handles .bnk file MERGING) to Option 102
   - Renamed `A-Put-Modded-Bnk-Here` to `A-Put-Modded-Files-Here`
   - Renamed `B-Put-Vanilla-Bnk-Here` to `B-Put-Vanilla-Bnks-Here`
   - Added `A-Put-Modded-Bnks-Here\For-MERGING-Put-PRIORITY-File-Here` (Ignored by Isolation Sub-Option)
   - Added `A-Put-Modded-Bnks-Here\For-MERGING-Put-SECONDARY-File-Here` (Ignored by Isolation Sub-Option)
   - Added `B-Put-Vanilla-Bnks-Here\For-MERGING-Put-VANILLA-BNKs-Here` (Ignored by Isolation Sub-Option)
   - Added `E-Your-Merged-Files-Are-Here`
-  - For MERGING, users will:
+
+- Added Sub-Option 1 (handles Wem ISOLATION, like before)
+  - For this ISOLATION process:
+    - Now allows .pak files as input, just like the MERGE option does
+    - Simply place them directly in `A-Put-Modded-Bnks-Here`, just like with the .bnk files
+
+- Added Sub-Option 2 (handles .bnk file MERGING) to Option 102  
+  - For this MERGING process, users will:
     - Place a modded .bnk OR .pak file that they want to take PRIORITY in `For-MERGING-Put-PRIORITY-File-Here`
     - Place a modded .bnk (of the same name as the above .bnk) OR .pak file (containing the same .bnk as the above .pak) that they want to be SECONDARY in `For-MERGING-Put-SECONDARY-File-Here`
     - Place a vanilla .bnk (of the same name(s)) in `For-MERGING-Put-VANILLA-BNKs-Here`
       - The script will tell you exactly which vanilla .bnks will be needed for the operation
-    - Run Option 102 Sub-Option 2
-    - The script will output merged .bnk(s)/.pak(s) into `E-Your-Merged-Files-Are-Here`
+    - Press enter once the vanilla bnk(s) is placed
+    - The script will output merged .bnk(s) into `E-Your-Merged-Files-Are-Here`
+    - The script will ask the user if they want to pak the merged bnk(s)
+    - If yes, the script will also ask the user if they want to open the output folder
     - The modded .wems from the PRIORITY/SECONDARY .bnk(s)/.pak(s) will be output into folders named after their characters in `C-Modded-Wems-Here`
       - These folders will have `Priority-` and `Secondary-` prefixed so you know they are from the Merge sub-option output
-  - For ISOLATION
-    - Now allows .pak files as input, just like the MERGE option does
-    - Simply place them directly in `A-Put-Modded-Bnks-Here`, just like with the .bnk files
 
 - Merged Option 103 (Test Wems) and Option 104 (Silent Wems) into Option 103 (Now handles both functions)
   - Test wems are now created with Sub-Option 1
@@ -1568,6 +1581,9 @@ For SMT  (Now `SDKT` after SMT-CVS merge)
 
 - Changed Option 107 to Option 104
   - Renamed `x107-ASSIGN-Wem-Stuff` to `x104-ASSIGN-Wem-Stuff`
+  - Now shows summaries of all changes/skips throughout the process
+
+- Option 105 now offers to move output files into the `2-Put-CUSTOM-WEMs-Here` folder
 
 For CVS (Now `SDKT` after SMT-CVS merge)
 
