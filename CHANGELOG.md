@@ -414,11 +414,11 @@ UPDATE 1.1.9-beta10
 
 For General
 - Removed Character ID List Json from main directory to avoid confusion
-  The Character ID List txt in the '1_Extras' is what you should be editing if you want to add character/costume entries
+  The Character ID List txt in the `1_Extras` is what you should be editing if you want to add character/costume entries
 
 For CVS
 - Updated Character Costume List
-- Script now auto-generates '1-Put-Media-Local-And-WWise-Folders-Here' folder upon startup
+- Script now auto-generates `1-Put-Media-Local-And-WWise-Folders-Here` folder upon startup
 
 For SMT 1.1.9-beta10
 - Added Option 6
@@ -427,11 +427,11 @@ For SMT 1.1.9-beta10
   It then deletes any .wem files between the two (or more) that have BOTH a matching name & a matching file size
   This leaves behind only the modded .wem files (assuming they are a different size than the vanilla .wem files, which is almost guaranteed to be the case)
 
-- Added a 'x6-ISOLATED-Wem-Stuff-Is-In-Here-(OPTIONAL)' folder (with 'A-Put-Modded-Bnk-Here' and a 'B-Put-Vanilla-Bnk-Here' subfolders) to accomodate this new Option 6
-- Renamed 'x0-OPTIONAL-Stuff-Is-In-Here' to 'x1-OPTIONAL-Stuff-Is-In-Here'
+- Added a `x6-ISOLATED-Wem-Stuff-Is-In-Here-(OPTIONAL)` folder (with `A-Put-Modded-Bnk-Here` and a `B-Put-Vanilla-Bnk-Here` subfolders) to accomodate this new Option 6
+- Renamed `x0-OPTIONAL-Stuff-Is-In-Here` to `x1-OPTIONAL-Stuff-Is-In-Here`
 - Removed Option 1s old Sub-Option 2 (because it is largely useless now that Option 6 is added)
 - Renamed Option 1s Sub-Option 3 (which was for extracting/replacing *VANILLA* bnk files) to Sub-Option 2
-- Changed Option 1s now-Sub-Option 2 so that it exports extracted .bnks to a 'x0-EXTRACTED-Bnk-Folders-Are-Here' folder
+- Changed Option 1s now-Sub-Option 2 so that it exports extracted .bnks to a `x0-EXTRACTED-Bnk-Folders-Are-Here` folder
   (This was just done to declutter the main directory)
 
 ### I AM JUST NOW BECOMING AWARE OF WEMS CONVERTED FROM WAVS NOT BEING PLAYABLE IN FOOBAR. THIS DOES NOT AFFECT INGAME PERFORMANCE, BUT ITS KINDA LAME, SO I WILL SEE IF I CAN FIX IT IN A FUTURE UPDATE!
@@ -480,10 +480,10 @@ For CVS
 UPDATE 1.1.9-beta12c
 
 For General
-- Changed 'WWiseAudio' in the _Premade-Audio-Mod-Folder folder to 'WwiseAudio'
+- Changed `WWiseAudio` in the _Premade-Audio-Mod-Folder folder to `WwiseAudio`
 
 For SMT
-- Added 'q' Option for exiting the terminal
+- Added `q` Option for exiting the terminal
 
 - NOTE: Long file path issue is present. Please dont try to run CVS in some long, complex directory
         Ill try to fix this, or at least alleviate it, in future updates
@@ -521,40 +521,40 @@ For General
 
 For SMT
 - Changed how Option 106 works (VERY EXPERIMENTAL update):
-  1. Modded .bnk is placed into 'A-Put-Modded-Bnk-Here'
-  2. Vanilla .bnk with the same name is placed into 'B-Put-Vanilla-Bnk-Here'
+  1. Modded .bnk is placed into `A-Put-Modded-Bnk-Here`
+  2. Vanilla .bnk with the same name is placed into `B-Put-Vanilla-Bnk-Here`
   3. Option 106 is ran
-  4. Modded .wem files are separated into a folder (named after the .bnk) in 'C-Modded-Wems-Here'
+  4. Modded .wem files are separated into a folder (named after the .bnk) in `C-Modded-Wems-Here`
      - If the Modded .bnk is from an older season, the wem IDs for its .wem files will be updated
-  6. Corresponding Vanilla .wem files are separated into a folder (named after the .bnk) in 'D-Vanilla-Wems-Here'
+  6. Corresponding Vanilla .wem files are separated into a folder (named after the .bnk) in `D-Vanilla-Wems-Here`
   7. Both Modded and Vanilla .wems are renamed to the full CVS format, if applicable
   8. However, Vanilla wems are also replaced with the full-sized CVS variant as well, if applicable
   9. Any files between these same-named folders that isnt present in BOTH folders is deleted
 
      This way, users will be able to hear the vanilla line that has been replaced by the modded .wem file
 
-  10. Folders in 'C-Modded-Wems-Here' or 'D-Vanilla-Wems-Here' that have a 7-digit number in their name
+  10. Folders in `C-Modded-Wems-Here` or `D-Vanilla-Wems-Here` that have a 7-digit number in their name
       - matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
 
-     i.e. If 'bnk_vo_1011001' is the folder name, it will become 'Hulk (Default)-bnk_vo_1011001'
+     i.e. If `bnk_vo_1011001` is the folder name, it will become `Hulk (Default)-bnk_vo_1011001`
 
   NOTE: Some unused files may be left over will be leftover after processing. Its usually a very minimal amount of these.
 
 - Changed how Option 102 works (VERY EXPERIMENTAL update):
-  1. Firstly, 'x102-SEARCH-Wem-Stuff-Is-Here' is changed to 'x102-RENAMED-File-Stuff'
-  2. This option now acts as a renamer/organizer for exported 'special' sfx/display .wems from FModel
-  3. The user exports these files, and places them into 'A-Put-Files-To-Rename-Here'
+  1. Firstly, `x102-SEARCH-Wem-Stuff-Is-Here` is changed to `x102-RENAMED-File-Stuff`
+  2. This option now acts as a renamer/organizer for exported `special` sfx/display .wems from FModel
+  3. The user exports these files, and places them into `A-Put-Files-To-Rename-Here`
   4. Option 102 is ran, and the wems are renamed into a state that can be used for creating modded bnks
   5. Too much to explain here, so just read the Info about this Option in the script or in the instructions file
      - Since the old Option 102 is largely irrelevant, it has been completely overwritten
      - In addition, the TXTP files have been deleted since they are now wasted space
   
 - Changed how Option 1s Sub-Option 2 outputs folders
-  1. Firstly, 'x0-EXTRACTED-Bnk-Folders-Are-Here' is changed to '4-Your-EXTRACTED-BNKs-Are-Here'
-  2. Secondly, folders output to '4-Your-EXTRACTED-BNKs-Are-Here' that have a 7-digit number in their name
+  1. Firstly, `x0-EXTRACTED-Bnk-Folders-Are-Here` is changed to `4-Your-EXTRACTED-BNKs-Are-Here`
+  2. Secondly, folders output to `4-Your-EXTRACTED-BNKs-Are-Here` that have a 7-digit number in their name
      - matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
-  3. If the same .bnk file is processed multiple times without the user clearing out the '4-Your-EXTRACTED-BNKs-Are-Here' folder,
-     - the script will append '_Old#' to the older bnk folder(s)
+  3. If the same .bnk file is processed multiple times without the user clearing out the `4-Your-EXTRACTED-BNKs-Are-Here` folder,
+     - the script will append `_Old#` to the older bnk folder(s)
 
 - Added ability for Sub-Option 2 to replace wems in display_breath files with their full counterparts
 
@@ -570,12 +570,12 @@ For SMT
      - This will happen regardless of if it finds a match to update or not
      - Im doing this to phase out the use of hexadecimals, as they are the least useful of the two formats when it comes to Rivals   
 
-  NOTE: This relies on the contents of '0_XTRA\0-CVS\1_XTRA\SUBs-NEW-*' and '0_XTRA\0-CVS\1_XTRA\SUBs-OLD-*'
+  NOTE: This relies on the contents of `0_XTRA\0-CVS\1_XTRA\SUBs-NEW-*` and `0_XTRA\0-CVS\1_XTRA\SUBs-OLD-*`
         Do not remove or modify these folders unless you *KNOW* what you are doing (Chances are, you dont. So Dont touch em.)
         Read the Info for Option 1 for more details about updating your subtitle folders for future seasons
 
 - Changed how Option 102 outputs folders
-  1. Folders output to 'x102-SEARCH-Wem-Stuff' that have a 7-digit number in their name
+  1. Folders output to `x102-SEARCH-Wem-Stuff` that have a 7-digit number in their name
      matching an entry in the CHARACTER-ID-LIST.txt will have the costume name prepended to the folder name
 
 - Changed how Option 103 functions
@@ -584,32 +584,32 @@ For SMT
   3. "_test#" was changed to "-test#"
 
 - Changed various folder names
-  1. '4-Dupe-ID-Wems-Are-Here' changed to 'x202-DUPE-ID-Wems-Here'
-  2. '5-Invalid-Name-Wems-Are-Here' changed to 'x203-INVALID-NAME-Wems-Here'
-  3. '6-Wems-With-No-Bnk-Match-Here' changed to 'x204-Wems-With-NO-BNK-MATCH-Here'
+  1. `4-Dupe-ID-Wems-Are-Here` changed to `x202-DUPE-ID-Wems-Here`
+  2. `5-Invalid-Name-Wems-Are-Here` changed to `x203-INVALID-NAME-Wems-Here`
+  3. `6-Wems-With-No-Bnk-Match-Here` changed to `x204-Wems-With-NO-BNK-MATCH-Here`
      
-- All error files are now placed into a 'x200-ERROR-FILEs-Are-Here' folder instead of the main directory
+- All error files are now placed into a `x200-ERROR-FILEs-Are-Here` folder instead of the main directory
   - This was done to declutter the space
 
 For CVS
 - Changed Option names
 - Changed some folder names
-  1. '1-Put-Media-Local-And-WWise-Folders-Here' changed to '1-Put-MEDIA-LOCAL-WWISE-Here'
-  2. '3-Transcribed-Jsons-Will-Be-Here' changed to '3-SUBTITLEs-Are-Here'
-  3. '5-ENG-Voices-Are-Now-JPN-Here' changed to '5-ENG-FILES-With-JPN-AUDIO-Here'
-  4. '5-ENG-Voices-Are-Now-CHN-Here' changed to '5-ENG-FILES-With-CHN-AUDIO-Here'
+  1. `1-Put-Media-Local-And-WWise-Folders-Here` changed to `1-Put-MEDIA-LOCAL-WWISE-Here`
+  2. `3-Transcribed-Jsons-Will-Be-Here` changed to `3-SUBTITLEs-Are-Here`
+  3. `5-ENG-Voices-Are-Now-JPN-Here` changed to `5-ENG-FILES-With-JPN-AUDIO-Here`
+  4. `5-ENG-Voices-Are-Now-CHN-Here` changed to `5-ENG-FILES-With-CHN-AUDIO-Here`
 
-- Changed subtitles folder in 1_XTRA to 'SUBs-NEW'. It contains subtitle .jsons from Season 3
-- Added 'SUBs-OLD' in 1_XTRA to accomodate Options of the SMT script
-  This 'SUBs-OLD' folder contains the subtitle .jsons from Season 2.5
-- Moved non-English folders from both of these folders into '.ALL-LANGS-FOR-SUBS-OLD-*' and '.ALL-LANGS-FOR-SUBS-NEW-*' folders
-  (EDIT: Also moved these two folders into an '.Unused' folder to declutter a bit)
+- Changed subtitles folder in 1_XTRA to `SUBs-NEW`. It contains subtitle .jsons from Season 3
+- Added `SUBs-OLD` in 1_XTRA to accomodate Options of the SMT script
+  This `SUBs-OLD` folder contains the subtitle .jsons from Season 2.5
+- Moved non-English folders from both of these folders into `.ALL-LANGS-FOR-SUBS-OLD-*` and `.ALL-LANGS-FOR-SUBS-NEW-*` folders
+  (EDIT: Also moved these two folders into an `.Unused` folder to declutter a bit)
   This was done to decrease workload on the SMT Options
-  You can add a language back if you need to. I believe only 'ja' and 'Hans'/'zH-Hans' will be of any use
+  You can add a language back if you need to. I believe only `ja` and `Hans`/`zH-Hans` will be of any use
 - Deleted Filename/Subtitles .jsons from this folder, leaving only the full .jsons behind (these contain both Filenames AND Subtitles)
 - Changed Option 2 and Option 101 to create .json files for each NPCs voicelines
-  - Their .json filenames will begin with 'NPC_'
-  - Certain NPCs like 'Galacta' and 'UltronDrone' do not follow this namescheme
+  - Their .json filenames will begin with `NPC_`
+  - Certain NPCs like `Galacta` and `UltronDrone` do not follow this namescheme
   - I will try to iron this out at a later date, but its no big issue at the moment
   
 - NOTE: Long file path issue has been alleviated a bit, but still, I advise you dont try to run CVS or SMT in some long, complex directory.
@@ -619,7 +619,7 @@ For CVS
 UPDATE 2.0.0b
 
 For CVS
-- Changed '8031: NPC_SpiderZero_VoiceID' to '8031: NPC_SpiderZeroAndMasterWeaver' in the CHARACTER-ID-LIST.txt file
+- Changed `8031: NPC_SpiderZero_VoiceID` to `8031: NPC_SpiderZeroAndMasterWeaver` in the CHARACTER-ID-LIST.txt file
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
@@ -639,10 +639,10 @@ For SMT
 UPDATE 2.0.2
 
 For General
-- Updated 'SUBs-NEW' folder for Season 3.5
+- Updated `SUBs-NEW` folder for Season 3.5
 - Updated .usmap file for Season 3.5
-- Updated 'CHARACTER-ID-LIST.txt' file for Season 3.5
-- Updated '.ALL-LANGS-FOR-SUBS-NEW-S3' with Season 3.5 files, renamed to '.ALL-LANGS-FOR-SUBS-NEW-S3.5'
+- Updated `CHARACTER-ID-LIST.txt` file for Season 3.5
+- Updated `.ALL-LANGS-FOR-SUBS-NEW-S3` with Season 3.5 files, renamed to `.ALL-LANGS-FOR-SUBS-NEW-S3.5`
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
@@ -656,7 +656,7 @@ For SMT
 UPDATE 2.0.3b
 
 For SMT
-- Adjusted Option 1s file name sanitization to 'only' replace spaces in the file name with hyphens
+- Adjusted Option 1s file name sanitization to `only` replace spaces in the file name with hyphens
   - This should allow you to keep apostrophes, exclamation marks, @s, etc in the name if you so wish
  
 NOTE: NOT EXTENSIVELY TESTED
@@ -666,7 +666,7 @@ NOTE: NOT EXTENSIVELY TESTED
 UPDATE 2.0.4
 
 For SMT
-- It has recently been discovered that trying to process more than 580MB of wems in the '2-Put-CUSTOM-WEMs-Here' folder does not work
+- It has recently been discovered that trying to process more than 580MB of wems in the `2-Put-CUSTOM-WEMs-Here` folder does not work
 - Adjusted Option 1s Sub-Options 1 & 3 to throw an error if more than 580MB of wems detected in that folder, cancelling any operations
   - Users must now reduce the amount of files in that folder until it is under 580MB before they can proceed
   - Realistically, nobody should come close to hitting this limit unless they are processing a metric f**kton of wems for MULTIPLE .bnk files
@@ -682,16 +682,16 @@ NOTE: NOT EXTENSIVELY TESTED
 UPDATE 2.0.5
 
 For General
-- Updated '.usmap' file for Season 4
+- Updated `.usmap` file for Season 4
 
 For SMT
 - Changed Sanitization logs from Red to Green to reduce confusion
 - Changed "Summary of Files Moved to Error Folders" to "Summary of Files Moved to Error Folders -> OR <- Files That Were Sanitized" to reduce confusion
 
 For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
-- Updated 'SUBS-NEW' folder
-- Updated '.ALL-LANGS-FOR-SUBS-NEW-S4' folder
+- Updated `CHARACTER-ID-LIST.txt` file
+- Updated `SUBS-NEW` folder
+- Updated `.ALL-LANGS-FOR-SUBS-NEW-S4` folder
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
@@ -704,8 +704,8 @@ For CVS
   It will split it up characters that have multiple voices under the same 4-digit ID
   It accomplishes this by utitlizing 5 digits of the ID instead
   This is because the 5th digit (typically) separates these different entities
-  For instance, Cloak & Dagger are '1025', but Dagger is '10250' and Cloak is '10251'
-- Updated 'CHARACTER-ID-LIST.txt' file to included these 5-Digit ID numbers
+  For instance, Cloak & Dagger are `1025`, but Dagger is `10250` and Cloak is `10251`
+- Updated `CHARACTER-ID-LIST.txt` file to included these 5-Digit ID numbers
   Future dual-voice characters should have their 5-digit IDs listed here for compatibility with Option 201
 
 NOTE: This is NOT heavily tested AT ALL! Like, WHATSOEVER! Ill get to that later, way too tired rn 
@@ -723,7 +723,7 @@ For SMT
 - This option will update outdated wem IDs without creating a bnk file
 
 For CVS
-- Removed '-Filenames.json' and '-Subtitles.json' files out of the 'SUBS-NEW' folder
+- Removed `-Filenames.json` and `-Subtitles.json` files out of the `SUBS-NEW` folder
 
 NOTE: This is NOT heavily tested!
 
@@ -735,8 +735,8 @@ For General
 - Updated .usmap file
 
 For CVS
-- Updated subtitle jsons in the 'SUBS-NEW' & '.ALL-LANGS-FOR-SUBS-NEW-S4' folders
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated subtitle jsons in the `SUBS-NEW` & `.ALL-LANGS-FOR-SUBS-NEW-S4` folders
+- Updated `CHARACTER-ID-LIST.txt` file
 
 NOTE: This is NOT heavily tested!
 
@@ -745,9 +745,9 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.0.8
 
 For SMT
-- Updated Option 102 to handle any file structured like 'NAME_HERE (######)'
-  Previously this was too restrictive, but now it can work with files like 'bnk_ui_share (236255246).wem'
-- Updated Option 102 to handle any file type, so long as the name is structured like 'NAME_HERE (######)'
+- Updated Option 102 to handle any file structured like `NAME_HERE (######)`
+  Previously this was too restrictive, but now it can work with files like `bnk_ui_share (236255246).wem`
+- Updated Option 102 to handle any file type, so long as the name is structured like `NAME_HERE (######)`
   Sometimes, files can be exported as wavs instead of wems. Now the script can handle those wav files too.
 
 ----------------------------------------------------------------------------------------------------------
@@ -766,13 +766,13 @@ For General
 - Updated .usmap file
 
 For SMT (Accidentally deleted the logs for the Phantom updates in 2.0.8b, so writing this here, or at least what I remember)
-- Fixed Option 102 to work with any file formatted like so: 'Base_Name (#####)'
+- Fixed Option 102 to work with any file formatted like so: `Base_Name (#####)`
 - This allows for a much wider range of extracted files to be rewritten properly
 - Adjusted Option 105 to handle files with any extension, not just .wem files.
 
 For CVS
-- Updated subtitle jsons in the 'SUBS-NEW' & '.ALL-LANGS-FOR-SUBS-NEW-S4' folders
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated subtitle jsons in the `SUBS-NEW` & `.ALL-LANGS-FOR-SUBS-NEW-S4` folders
+- Updated `CHARACTER-ID-LIST.txt` file
 
 NOTE: This is NOT heavily tested!
 
@@ -785,7 +785,7 @@ For General
 - Added version number to script(s) main menu
 
 For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated `CHARACTER-ID-LIST.txt` file
 
 NOTE: This is NOT heavily tested!
   
@@ -814,17 +814,17 @@ For SMT
 For CVS
 - Integrated SFX Renaming & Organization for Option 1 (EXPERIMENTAL)
   NOTE: THIS NOW REQUIRES YOU TO DO THE FOLLOWING:
-  - In Fmodel, Navigate to 'Marvel/Content/Marvel/'
-  - Select the Wwise folder, then Export it as '.json'
-  - Select the Wwise folder again, right click it, then choose 'Save Folder's Packages Audio'
-  - This will export into a 'WwiseAudio' folder, just like you got when exporting the
-  - 'Media' folder.
+  - In Fmodel, Navigate to `Marvel/Content/Marvel/`
+  - Select the Wwise folder, then Export it as `.json`
+  - Select the Wwise folder again, right click it, then choose `Save Folder`s Packages Audio`
+  - This will export into a `WwiseAudio` folder, just like you got when exporting the
+  - `Media` folder.
   - You can do both of these exports and then move that whole WwiseAudio folder into
-    the '1-Put-MEDIA-LOCAL-WWISE-Here' folder.
-  NOTE: I have added a '0-DELETE-LIST.txt' file in '1_XTRA\0-DATA\' specifically for this new function
+    the `1-Put-MEDIA-LOCAL-WWISE-Here` folder.
+  NOTE: I have added a `0-DELETE-LIST.txt` file in `1_XTRA\0-DATA\` specifically for this new function
         You can ignore this file, but for anyone curious, this file contains a list of
         text strings that are present in some filenames that are saved after you do
-       'Save Folder's Packages Audio'
+       `Save Folder`s Packages Audio`
         Files with these text strings in their name are essentially worthless, therefore I have them auto-deleted to save you some space.
        At the time of writing, those entries are:
        - (Chinese(CN))
@@ -834,11 +834,11 @@ For CVS
        - vo_
 
        The first 4 are absolutely worthless, as those files do not contain ID numbers that we can utilize.
-       From the little testing I've done, 'vo_' is also worthless, tho I may potentially find a use for those files in the futue. BIG maybe tho.
+       From the little testing I`ve done, `vo_` is also worthless, tho I may potentially find a use for those files in the futue. BIG maybe tho.
    
 - Integrated Dev Option 201 into Option 2 and Option 101
   Removed Dev Option 201 from the menu selection
-- Tweaked 'CHARACTER-ID-LIST.txt' contents to specify 5-digit outputs being 'ONLY' for the parenthesied character (Wait...WTF Was This? Lol I Forgot)
+- Tweaked `CHARACTER-ID-LIST.txt` contents to specify 5-digit outputs being `ONLY` for the parenthesied character (Wait...WTF Was This? Lol I Forgot)
 
 NOTE: This is NOT heavily tested!
 
@@ -850,9 +850,9 @@ For General
 - Updated .usmap file
 
 For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
-- Updated 'SUBS-NEW' and 'ALL-LANGS-FOR-SUBS-NEW' to Season 5.5
-- Updated 'SUBS-OLD' and 'ALL-LANGS-FOR-SUBS-OLD' to Season 5
+- Updated `CHARACTER-ID-LIST.txt` file
+- Updated `SUBS-NEW` and `ALL-LANGS-FOR-SUBS-NEW` to Season 5.5
+- Updated `SUBS-OLD` and `ALL-LANGS-FOR-SUBS-OLD` to Season 5
 
 NOTE: This is NOT heavily tested! 
 
@@ -863,10 +863,10 @@ UPDATE 2.0.9c-2.0.9g (PRE-RELEASE VERSION, THIS INCLUDES SFX SORTING FOR THOSE W
 UPDATE 2.0.8g ("SAFE" VERSION, THIS DOES NOT INCLUDE SFX SORTING, FOR THOSE WHO ONLY WATCHED THE MAIN TUTORIAL VID)
 
 For General
-- Updated '.usmap' file
+- Updated `.usmap` file
 
 For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated `CHARACTER-ID-LIST.txt` file
 - Updated Subtitles
 
 NOTE: This is NOT heavily tested! 
@@ -876,8 +876,8 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.0.9h
 
 For SMT
-- Enabled wem file name replacement (based on contents inside of '2-RENAMED-WEMs-Are-Here') for Option 1 Sub-Option 4.
-- Reworked Option 1 Sub-Option 2 to ALWAYS replace files with matching counterpart from '2-RENAMED-WEMs-Are-Here', removing larger source file size exception.
+- Enabled wem file name replacement (based on contents inside of `2-RENAMED-WEMs-Are-Here`) for Option 1 Sub-Option 4.
+- Reworked Option 1 Sub-Option 2 to ALWAYS replace files with matching counterpart from `2-RENAMED-WEMs-Are-Here`, removing larger source file size exception.
 - Option 1 Sub-Options 2 & 4 now automatically clear leftover files in the 0-TOOLS folder, fixing an earlier oversight.
 - Fixed incorrect output folder renaming when using Sub-Option 2 and 4 multiple times on the same .bnk file(s)
 - Fixed Option 1 Sub-Option 3 & 5 adding files that did not have a decimal change to the Update Log file.
@@ -889,7 +889,7 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.0.9i
 
 For SMT
-- Fixed Option 106 not renaming files in the 'C-Modded-Wems-Here' folder.
+- Fixed Option 106 not renaming files in the `C-Modded-Wems-Here` folder.
 
 NOTE: This is NOT heavily tested! 
 
@@ -905,7 +905,7 @@ For CVS
 - DRASTICALLY increased the time it takes to complete Option 2/101 (literally a 90%+ speed increase)
 - Script now outputs the subtitle files as .txt instead of .jsons
 - Fixed Option 2/101 not properly outputting NPC subtitles
-- Swapped 'SUBS-NEW' and '.ALL-LANGS-FOR-SUBS-NEW-S6' files with the new .txt files. (Check NOTE below)
+- Swapped `SUBS-NEW` and `.ALL-LANGS-FOR-SUBS-NEW-S6` files with the new .txt files. (Check NOTE below)
 
 NOTE: This is NOT heavily tested!
 NOTE: Written instructions not updated yet. Im lazy lol
@@ -928,26 +928,26 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.1.1
 
 For General
-- Updated '.usmap' file
+- Updated `.usmap` file
 - 
 For SMT
 - Adjusted Option 1s Sub-Option 2 to prioritize replacing the content of extracted audio files with the larger of any multiple matching files
 - Additionally, if extracted files have multiple matches, the longest name is used for the renaming process (This aspect also affects Sub-Option 3)
 - Adjusted Option 1s Sub-Options 2 and 3 to rename overlapping extracted folders that dont contain 7-digit numbers
-- NOTE: For folders that dont contain a 7-digit number, they are appended with '_Old#' even on the very first run.
+- NOTE: For folders that dont contain a 7-digit number, they are appended with `_Old#` even on the very first run.
         If I can find a way around this logically, Ill do it in another update, but for the moment, I dont really care too much
 
 For CVS
 - Adjusted Option 1/100 to move the Media folder into the 2-RENAMED-WEMs-Are-Here folder at the end of operations to accommodate the SMT changes (well, its the other away around but yeah)
 - Adjusted Option 1 to ignore missing SFX folders/files instead of giving a crazy amount of errors, which scared some people lol
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated `CHARACTER-ID-LIST.txt` file
 
 
 
 NOTE: This is ABSOLUTELY NOT heavily tested! Like moreso than other releases, Im too tired to run my typical checklist :p
-NOTE 2: This fix was implemented in order to get the 'expected' results when using Sub-Option 2 on the 'bnk_amb_timesquare.bnk' file
+NOTE 2: This fix was implemented in order to get the `expected` results when using Sub-Option 2 on the `bnk_amb_timesquare.bnk` file
         (I was looking for the full disco room soundtrack file). If you have already ran CVS AFTER the addition of the disco update files, then 
-        all you need to do to take advantage of this update is move the 'Media' folder out of '1-Put-MEDIA-LOCAL-WWISE-Here' and into '2-RENAMED-WEMs-Are-Here'.
+        all you need to do to take advantage of this update is move the `Media` folder out of `1-Put-MEDIA-LOCAL-WWISE-Here` and into `2-RENAMED-WEMs-Are-Here`.
         If you havent run CVS after the disco update, then...well, go do that first lol
         
 ----------------------------------------------------------------------------------------------------------
@@ -955,10 +955,10 @@ NOTE 2: This fix was implemented in order to get the 'expected' results when usi
 UPDATE 2.1.2
 
 For SMT
-- Changed '0-Put-CUSTOM-WAVS-Here' to '0-Put-SOURCE-AUDIO-Here'
+- Changed `0-Put-CUSTOM-WAVS-Here` to `0-Put-SOURCE-AUDIO-Here`
 - Fixed issue where Option 0 would not retain source audio channel count
 - Adjusted Option 0 to support .wem files. Useful for quickly amplifying their volume levels
-  Added 'vgmstream-cli.exe' to a '0_XTRA\0-TOOLS\0-VGCLI\' to enable this new feature
+  Added `vgmstream-cli.exe` to a `0_XTRA\0-TOOLS\0-VGCLI\` to enable this new feature
 
 NOTE: This is NOT heavily tested!  
 
@@ -979,31 +979,31 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.1.3
 
 For SMT
-- Reverted 'fix' for 18+ minute audio files, kept getting soundTool crashes.
+- Reverted `fix` for 18+ minute audio files, kept getting soundTool crashes.
   NOTE: In my tests, 11 minutes is the longest an audio file can be without crashing anything
         I have placed a note at the top of the scripts main menu about this
 - Added a new Option 107 (EXPERIMENTAL). This Option auto-renames your audio files to the wem IDs of key sounds.
-- These key sounds will be listed in in an 'AUDIO-ID-LIST.txt' file inside of the '0_XTRA' folder
+- These key sounds will be listed in in an `AUDIO-ID-LIST.txt` file inside of the `0_XTRA` folder
 - It is completely user-editable. A community-contributed list will be available on the Rivals Audio Spreadsheet
-- Users will place their audio file(s) into 'x100-XTRAs-Are-Here\x107-ASSIGN-Wem-Stuff\A-Put-Audio-Files-To-ASSIGN-Here'
-- Then they will ensure whatever audio file they intend to replace is listed in the 'AUDIO-ID-LIST.txt' file
+- Users will place their audio file(s) into `x100-XTRAs-Are-Here\x107-ASSIGN-Wem-Stuff\A-Put-Audio-Files-To-ASSIGN-Here`
+- Then they will ensure whatever audio file they intend to replace is listed in the `AUDIO-ID-LIST.txt` file
 - Then they will choose Option 107 from the main menu
 - Here, the script will show basic instructions, and below this, the current audio file that is being processed
-- Below that will be a list of entries from the 'AUDIO-ID-LIST.txt' file with a corresponding selection number
-  NOTE: All of these entries (should) be listed alphabetically, even if the 'AUDIO-ID-LIST.txt' file doesnt have them listed like so.
+- Below that will be a list of entries from the `AUDIO-ID-LIST.txt` file with a corresponding selection number
+  NOTE: All of these entries (should) be listed alphabetically, even if the `AUDIO-ID-LIST.txt` file doesnt have them listed like so.
 - Upon choosing a number for their entry, the user will be taken to the Option 0 menu, where they can amplify the audio, if need be
 - After finishing there, the output wem file will be place into a folder in 2-Put-CUSTOM-WEMs-Here
-- This folder will be named after the 'AUDIO-ID-LIST.txt' entry, with the original name of the audio file appended
-  For example: If you placed 'MyStupidSong.wav' into A-Put-Audio-Files-To-ASSIGN-Here
-               And you selected 'Luna Snow (Default-P13) Ult (VO)-bnk_vo_1031001' in Option 107
-               Then your output wem will be inside of 'Luna Snow (Default-P13) Ult (VO)-bnk_vo_1031001-MyStupidSong'
+- This folder will be named after the `AUDIO-ID-LIST.txt` entry, with the original name of the audio file appended
+  For example: If you placed `MyStupidSong.wav` into A-Put-Audio-Files-To-ASSIGN-Here
+               And you selected `Luna Snow (Default-P13) Ult (VO)-bnk_vo_1031001` in Option 107
+               Then your output wem will be inside of `Luna Snow (Default-P13) Ult (VO)-bnk_vo_1031001-MyStupidSong`
 - This makes it extremely easy to determine what file is what song, for what character, and for what audio file
 - The namescheme of the entries also includes which .bnk file you should be using to compile your mod too  
 
-NOTE: Info Option for 107 is not made yet. I'm lazy lol.
+NOTE: Info Option for 107 is not made yet. I`m lazy lol.
 
 For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated `CHARACTER-ID-LIST.txt` file
 
 NOTE: This is NOT heavily tested!  
 
@@ -1015,16 +1015,16 @@ For General
 - Updated .usmap file
 
 For SMT
-- Slightly changed namescheme layout for 'AUDIO-ID-LIST.txt' file
+- Slightly changed namescheme layout for `AUDIO-ID-LIST.txt` file
 - Added note that Option 102 no longer exists on the main menu
 - Added link to new SFX Sorting Video Guide at the top of the main menu
 - Removed leftover 0-Put-CUSTOM-WAVS-Here folder from the download
 
 For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
-- Updated 'AUDIO-ID-LIST.txt' file
-- Replaced '.ALL-LANGS-FOR-SUBS-NEW-S5.5' .jsons with .txt versions
-- Added Season 2.5, Season 4, and Season 5.5 txts to 'SUBS-OLD'
+- Updated `CHARACTER-ID-LIST.txt` file
+- Updated `AUDIO-ID-LIST.txt` file
+- Replaced `.ALL-LANGS-FOR-SUBS-NEW-S5.5` .jsons with .txt versions
+- Added Season 2.5, Season 4, and Season 5.5 txts to `SUBS-OLD`
   Theoretically, this should allow updating old mods again, but it will take much longer (again, in theory)
 
 NOTE: This is NOT heavily tested!  
@@ -1034,7 +1034,7 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.1.3c
 
 For General
-NOTE: Previous versions of scripts can be found within '3_XTRA/.OLD-STUFF'
+NOTE: Previous versions of scripts can be found within `3_XTRA/.OLD-STUFF`
 
 For SMT
 - Adjusted Option 0 to auto-sanitize files that have invalid characters in their name
@@ -1049,13 +1049,13 @@ UPDATE 2.1.3d
 
 For SMT
 - Added Developer Option 200. This just amplifies the volume level of audio files, like Option 0 does,
-  but does not convert them to wem, and instead outputs those files to a '0_XTRA/0-DEV' folder
+  but does not convert them to wem, and instead outputs those files to a `0_XTRA/0-DEV` folder
 - Adjusted Option 0 and Option 200 to display amplification level at the end of processing
   I kept forgetting what level I chose so this is mainly just for my dumbass
-- Added 'Press Q to return to main menu' options for Option 0 and Option 200
+- Added `Press Q to return to main menu` options for Option 0 and Option 200
 
 For CVS
-- Updated 'SUBS-NEW' and '.ALL-LANGS-FOR-SUBS-NEW-S6' with the proper latest subtitle files
+- Updated `SUBS-NEW` and `.ALL-LANGS-FOR-SUBS-NEW-S6` with the proper latest subtitle files
   
 NOTE: This is NOT heavily tested!  
 
@@ -1071,8 +1071,8 @@ For SMT
 
 For CVS
 - Updated Main Menu layout
-- Updated 'CHARACTER-ID-LIST.txt' file
-- Updated 'AUDIO-ID-LIST.txt' file
+- Updated `CHARACTER-ID-LIST.txt` file
+- Updated `AUDIO-ID-LIST.txt` file
 - Updated Subtitles
 
 NOTE: This is NOT heavily tested!  
@@ -1087,19 +1087,19 @@ For SMT
 - Adjusted Main Menu
 - Added Info Option x (Largely empty for now)
 - Updated AUDIO-ID-LIST.txt file
-- Adjusted DEVELOPER Option 200 to output into '0_XTRA/0-DEV/DEV-200-AMPED-AUDIO' folder
+- Adjusted DEVELOPER Option 200 to output into `0_XTRA/0-DEV/DEV-200-AMPED-AUDIO` folder
 - Adjusted DEVELOPER Option 200 to show processed file count at end of operations
-- Added DEV Option 203. This allows converting .wem files in '0-Put-CUSTOM-AUDIO-Here'
-  to .wav files, output into '0_XTRA\0-DEV\DEV-203-CONVERTED-WEMS'
+- Added DEV Option 203. This allows converting .wem files in `0-Put-CUSTOM-AUDIO-Here`
+  to .wav files, output into `0_XTRA\0-DEV\DEV-203-CONVERTED-WEMS`
 
  (LARGELY IRRELEVANT FOR ANYONE BUT ME)
 - Adjusted aspects of code, mostly pertaining to folder references
 - Added DEV Option 201. Allows removing a user-specified appendage from all files in the
-  '2-Put-CUSTOM-WEMs-Here'. Mainly for those of us using the Wwise AudioKinetic App to clean
+  `2-Put-CUSTOM-WEMs-Here`. Mainly for those of us using the Wwise AudioKinetic App to clean
   up the filenames quickly
-- Added DEV Option 202. This option copies bnks from '3-Your-MODDED-BNK-Is-Here' into
-  '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\1-PUT-BNK-FILES-HERE', then automatically runs the z2_DoubleClickMe_RPK_AUTO_MR.bat
-  file located there. Practically an auto-repaker, renamer, and organizer cause I'm lazy. Will eventually try
+- Added DEV Option 202. This option copies bnks from `3-Your-MODDED-BNK-Is-Here` into
+  `0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\1-PUT-BNK-FILES-HERE`, then automatically runs the z2_DoubleClickMe_RPK_AUTO_MR.bat
+  file located there. Practically an auto-repaker, renamer, and organizer cause I`m lazy. Will eventually try
   to get this combined with Option 1 Sub-Option 1 so I can one-click create bnks and repak/organize
 
 For CVS
@@ -1113,7 +1113,7 @@ NOTE: This is NOT heavily tested! Im tired af rn tryna upgrade this crap,
 UPDATE 2.1.5
 
 For General
-- Updated '.usmap' file
+- Updated `.usmap` file
 
 For SMT
 - Replaced backend SoundFileEditor with BNKTool, courtesy of JohnnYoru and auri thedarkdame
@@ -1123,7 +1123,7 @@ For SMT
 - Moving Warnings/Notes from Option 1 to Option Z
 
 For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated `CHARACTER-ID-LIST.txt` file
 - Updated Main Menu
 - Moving Warnings/Notes from Main Menu to Option Z
 
@@ -1162,8 +1162,8 @@ DEV-200-AMPED-AUDIO
 
 - Replaced 0-Silent.wem with a smaller file size version
 - Removed Option 203, added functionality to Option 200. If wem files are detected in
-  '0-Put-CUSTOM-AUDIO-Here', script now asks user if they want to convert any .wems to .wav.
-- Adjusted script to only generate 'Option107-Temp' when needed, and delete afterwards
+  `0-Put-CUSTOM-AUDIO-Here`, script now asks user if they want to convert any .wems to .wav.
+- Adjusted script to only generate `Option107-Temp` when needed, and delete afterwards
 - Fixed Option 106 not renaming output wem files (how many times I gotta teach you this lesson old man???)
 
 (LARGELY IRRELEVANT FOR ANYONE BUT ME)
@@ -1174,7 +1174,7 @@ For CVS
   For example: To see the info for Option 100, type "i100" and hit Enter
 - With that, cleared out the Info options list from the Main Menu
 
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated `CHARACTER-ID-LIST.txt` file
 - Fixed Option 101 Filenames/Subtitles txt files mismatch entry count  (how many times I gotta teach you this lesson old man???)
 - Added Option 200. This executes both Option 1 & 2 automatically 
 - Added Option 201. This executes both Option 100 & 101 automatically 
@@ -1197,7 +1197,7 @@ For SMT
 
 For CVS
 -Fixed an issue where Option 2 was matching the wrong subtitles to filenames.
--Updated 'CHARACTER-ID-LIST.txt' file for Season 7
+-Updated `CHARACTER-ID-LIST.txt` file for Season 7
 -Updated Subtitle Folders
 -Updated version number in main menu
 
@@ -1212,7 +1212,7 @@ For General
 
 For CVS
 -Fixed an issue with Option 1/100/200/201 where SFX folder output would always be empty
--Updated 'CHARACTER-ID-LIST.txt' file
+-Updated `CHARACTER-ID-LIST.txt` file
 
 NOTE: This is NOT heavily tested!  
 
@@ -1225,10 +1225,10 @@ For General
 -Updated .usmap file for Season 7.5 (Black Cat Update)
 
 For SMT
--Updated Option 202 to clear '3-Your-MODDED-BNK-Is-Here' folder before processing.
+-Updated Option 202 to clear `3-Your-MODDED-BNK-Is-Here` folder before processing.
 
 For CVS
--Updated 'CHARACTER-ID-LIST.txt' file
+-Updated `CHARACTER-ID-LIST.txt` file
 
 NOTE: This is NOT heavily tested!  
 
@@ -1244,11 +1244,11 @@ For CVS
 -Fixed Option 1/100 not organizing character voice folders into action-type subfolders
 -Fixed Option 1/100 not organizing character SFX/Display folders into a general folder for that character
 -Fixed Option 1/100 not organizing non-character SFX files into sound-type subfolders
--Fixed Option 1/100 not renaming the 'TEMP_ORG' folder to '_OtherSFX'
+-Fixed Option 1/100 not renaming the `TEMP_ORG` folder to `_OtherSFX`
 -Fixed Option 2/101 outputting subtitles as a "\" instead of the actual subtitle its supposed to be
  NOTE: This is a little wonky, might contain extra quotation marks, but we in a much better spot than before
 
--Updated 'CHARACTER-ID-LIST.txt' file (A DareDevil outfit was missing)
+-Updated `CHARACTER-ID-LIST.txt` file (A DareDevil outfit was missing)
 -Updated SUBS folders
 
 NOTE: This is NOT heavily tested!
@@ -1275,7 +1275,7 @@ For SMT
  -If there is no 3rd element, then the second will be used as both the folder and the pak file name
 
 For CVS
--Updated 'CHARACTER-ID-LIST.txt' file
+-Updated `CHARACTER-ID-LIST.txt` file
 
 NOTE: This is NOT heavily tested!  
 
@@ -1354,7 +1354,7 @@ For SMT
 - Adjusted Main Menu
  
 For CVS
-- Updated 'CHARACTER-ID-LIST.txt' file
+- Updated `CHARACTER-ID-LIST.txt` file
 - Updated Subtitle Stuff
 - Added some files and folders to the DEV-202-REPAKED-BNKS folder
 - Adjusted Main Menu
@@ -1366,7 +1366,7 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.2.2
 
 For General
-- Zipped the Misc-Tools folder in '3_XTRA\'
+- Zipped the Misc-Tools folder in `3_XTRA\`
   - Preparing for the next major update, so dont mind this
 
 For SMT
@@ -1394,84 +1394,82 @@ For General
 For SMT
  
 For CVS
-- Adjusted Options 1/100/200/201 to automatically move the Media folder out of '2-RENAMED-WEMs-Are-Here' and into '1-Put-MEDIA-LOCAL-WWISE-Here' IF:
-  - There is no Media folder in '1-Put-MEDIA-LOCAL-WWISE-Here'
-- If '1-Put-MEDIA-LOCAL-WWISE-Here' already has a Media folder, then '2-RENAMED-WEMs-Are-Here' is deleted before Options 1/100/200/201 begin processing
+- Adjusted Options 1/100/200/201 to automatically move the Media folder out of `2-RENAMED-WEMs-Are-Here` and into `1-Put-MEDIA-LOCAL-WWISE-Here` IF:
+  - There is no Media folder in `1-Put-MEDIA-LOCAL-WWISE-Here`
+- If `1-Put-MEDIA-LOCAL-WWISE-Here` already has a Media folder, then `2-RENAMED-WEMs-Are-Here` is deleted before Options 1/100/200/201 begin processing
 - Options 1/100/200/201 now warn the user if they do not have a Media folder available to use
   - They are given the option to proceed (NOT RECOMMENDED UNLESS YOU KNOW WHAT YOU ARE DOING)
-    - Subtitles and SFX may still be organized if you decide to proceed and have the necessary files within '1-Put-MEDIA-LOCAL-WWISE-Here'
+    - Subtitles and SFX may still be organized if you decide to proceed and have the necessary files within `1-Put-MEDIA-LOCAL-WWISE-Here`
 
 NOTE: This is NOT heavily tested! 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-1/3.0.0 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 2.9.9-beta-1/3.0.0 (NOT RELEASED YET, `BUG TESTING`)
 
 For General
 - Updated .usmap file
-- Merged + Updated 'zz_INSTRUCTIONS_SMT_MR.txt' and 'zz_INSTRUCTIONS_CVS_MR.txt' into 'zz_INSTRUCTIONS_SDKT_MR.txt' file*
+- Merged + Updated `zz_INSTRUCTIONS_SMT_MR.txt` and `zz_INSTRUCTIONS_CVS_MR.txt` into `zz_INSTRUCTIONS_SDKT_MR.txt` file*
   - *INSTRUCTIONS FILE ISNT UPDATED WITH THE v2..9.9-beta-1 ADJUSTMENTS YET
-- Moved/Renamed '3_XTRA' to '0_XTRA\1-MISC-STUFF'
-- Renamed 'Audio-Mod-Folder' to '2-MOD-Paking-Folder'
-- Renamed 'Example-Mod-Files' to '1-EXAMPLE-Mod-Files'
-- Renamed 'Misc-Tools' to '3-RANDOM-Tools'
-- Renamed 'File-In-Folder-Lister_v1.1.0' to '2-FILE-IN-FOLDER-Lister_v1.1.0'
-- Renamed 'Folder-Path-Maker_v1' to '3-FOLDER-PATH-Maker_v1'
-- Added '1-WORK-BNK-Updater' to '1-MISC-STUFF'
-  - To use this tool, extract the 'WwiseAudio' folder from FModel as 'uassets' (this will give you latest .bnk files)
-  - Place the English .bnk files in '0_XTRA\1-MISC-STUFF\3-RANDOM-Tools\1-WORK-BNK-Updater\0-PUT-ALL-NEW-BNKS-HERE\English(US)'
+- Moved/Renamed `3_XTRA` to `0_XTRA\1-MISC-STUFF`
+- Renamed `Audio-Mod-Folder` to `2-MOD-Paking-Folder`
+- Renamed `Example-Mod-Files` to `1-EXAMPLE-Mod-Files`
+- Renamed `Misc-Tools` to `3-RANDOM-Tools`
+- Renamed `File-In-Folder-Lister_v1.1.0` to `2-FILE-IN-FOLDER-Lister_v1.1.0`
+- Renamed `Folder-Path-Maker_v1` to `3-FOLDER-PATH-Maker_v1`
+- Added `1-WORK-BNK-Updater` to `1-MISC-STUFF`
+  - To use this tool, extract the `WwiseAudio` folder from FModel as `uassets` (this will give you latest .bnk files)
+  - Place the English .bnk files in `0_XTRA\1-MISC-STUFF\3-RANDOM-Tools\1-WORK-BNK-Updater\0-PUT-ALL-NEW-BNKS-HERE\English(US)`
     - You can delete the Chinese and Japanese .bnks
-  - Place the remaining .bnk files in '0_XTRA\1-MISC-STUFF\3-RANDOM-Tools\1-WORK-BNK-Updater\0-PUT-ALL-NEW-BNKS-HERE\'
-  - Place all vanilla .bnks that you use for your mod making in '1-PUT-ALL-WORK-BNKS-HERE'
+  - Place the remaining .bnk files in `0_XTRA\1-MISC-STUFF\3-RANDOM-Tools\1-WORK-BNK-Updater\0-PUT-ALL-NEW-BNKS-HERE\`
+  - Place all vanilla .bnks that you use for your mod making in `1-PUT-ALL-WORK-BNKS-HERE`
     - (You can use subfolders if you wanna put things in groups. Some example folders are included, you can rename these if you want)
-  - Run the 'z1_RunMeInPowershell_BNK_MR.ps1' or 'z2_DoubleClickMe_BNK_MR.bat' file
+  - Run the `z1_RunMeInPowershell_BNK_MR.ps1` or `z2_DoubleClickMe_BNK_MR.bat` file
   - Press 1 in the terminal window
-  - The script will update all of your .bnks to the latest versions (that you placed in '0-PUT-ALL-NEW-BNKS-HERE'), outputting them into '2-NEW-WORK-BNKS-ARE-HERE(\YourSubfoldersIfAny)'
+  - The script will update all of your .bnks to the latest versions (that you placed in `0-PUT-ALL-NEW-BNKS-HERE`), outputting them into `2-NEW-WORK-BNKS-ARE-HERE(\YourSubfoldersIfAny)`
   - Useful for quickly grabbing the latest .bnks for when you need to recompile mods after a game update
     - (I use 76 bnks myself. I am NOT going to manually pick those out every game update lol)
 
-For SMT  (Now 'SDKT' after SMT-CVS merge)
+For SMT  (Now `SDKT` after SMT-CVS merge)
 - MERGED CVS INTO SMT
-- THIS MERGED SCRIPT WILL NOW BE CALLED 'SDKT'
+- THIS MERGED SCRIPT WILL NOW BE CALLED `SDKT`
 - MIGRATED Option S (Formerly known as Option 201) FROM THE OLD CVS SCRIPT INTO THE SDKT SCRIPT 
 - THIS IS NOW THE ONLY "CVS" OPTION AVAILABLE, FOR LOGISTICS REASONS. RIP OPTION 1, 2, 100, 101, AND 200 OF THE OLD CVS SCRIPT
 - THIS OPTION S COVERS EVERYTHING THAT CVS WAS ABLE TO DO, SO YOU WILL NOT BE MISSING OUT ON ANYTHING
 
-- Renamed 'CHARACTER-ID-LIST.txt' to '0-CHARACTER-ID-LIST.txt'
-- Moved '0-CHARACTER-ID-LIST.txt' to '0_XTRA\0-TXTs\'
-- Moved '0-DELETE-LIST.txt' to '0_XTRA\0-TXTs\' 
-- Moved/Renamed '1-Put-MEDIA-LOCAL-WWISE-Here' to '0_XTRA\0-CVS-INPUT'
-- Moved/Renamed '2-RENAMED-WEMs-Are-Here' to '0_XTRA\0-CVS-OUTPUT'
-- Moved/Renamed '3-SUBTITLEs-Are-Here' to '0_XTRA\0-CVS-OUTPUT'
-- Moved/Renamed '5-ENG-FILES-With-JPN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-JPN-To-ENG'
-- Moved/Renamed '5-ENG-FILES-With-CHN-AUDIO-Here' to '0_XTRA\0-CVS-XTRA\0-CHN-To-ENG'
-- Moved/Renamed '0-LOGS-CVS' to '0_XTRA\0-LOGS'
-- Renamed '0-LOGS-SMT' to '0-LOGS'
-- 'list.txt' is now generated in '0_XTRA\0-TXTs\'
+- Renamed `CHARACTER-ID-LIST.txt` to `0-CHARACTER-ID-LIST.txt`
+- Moved `0-CHARACTER-ID-LIST.txt` to `0_XTRA\0-TXTs\`
+- Moved `0-DELETE-LIST.txt` to `0_XTRA\0-TXTs\` 
+- Moved/Renamed `1-Put-MEDIA-LOCAL-WWISE-Here` to `0_XTRA\0-CVS-INPUT`
+- Moved/Renamed `2-RENAMED-WEMs-Are-Here` to `0_XTRA\0-CVS-OUTPUT`
+- Moved/Renamed `3-SUBTITLEs-Are-Here` to `0_XTRA\0-CVS-OUTPUT`
+- Moved/Renamed `5-ENG-FILES-With-JPN-AUDIO-Here` to `0_XTRA\0-CVS-XTRA\0-JPN-To-ENG`
+- Moved/Renamed `5-ENG-FILES-With-CHN-AUDIO-Here` to `0_XTRA\0-CVS-XTRA\0-CHN-To-ENG`
+- Moved/Renamed `0-LOGS-CVS` to `0_XTRA\0-LOGS`
+- Renamed `0-LOGS-SMT` to `0-LOGS`
+- `list.txt` is now generated in `0_XTRA\0-TXTs\`
 
 - Updated Main Menu
 - Updated Info Options (STILL NEEDS WORK)
-- Renamed 'AUDIO-ID-LIST.txt' to '0-AUDIO-ID-LIST.txt'
-- Updated '0-AUDIO-ID-LIST.txt' file
 
-- Renamed '0_XTRA_202' to '0_XTRA_101'
-- Renamed 'DEV-200-AMPED-AUDIO' to 'x100-AMPED-AUDIO-Stuff'
+- Renamed `0_XTRA_202` to `0_XTRA_101`
+- Renamed `DEV-200-AMPED-AUDIO` to `x100-AMPED-AUDIO-Stuff`
   - Changed its Option # from 200 to 100
-- Renamed 'DEV-202-REPAKED-BNKS' to 'x101-REPAKED-BNKS-Stuff'
-  - Changed its Option # from 202 to 101
-- Renamed 'SUB-ID-LIST.txt' to '0-PAK-NAME-LIST.txt'
-- Changed 'Option 199' to 'Option c' (c = clear)
+- Renamed `DEV-202-REPAKED-BNKS` to `x101-REPAKED-BNKS-Stuff`
+  - Changed its Option # from 202 to Option 1s Sub-Options 6-8
+- Renamed `SUB-ID-LIST.txt` to `0-PAK-NAME-LIST.txt`
+- Changed `Option 199` to `Option c` (c = clear)
 
-- Moved/Renamed '0-TOOLS' to '0-TOOLS-ALL\0-BNKR'
-- Moved '0-VGCLI' to '0-TOOLS-ALL\0-VGCLI'
-- Moved '0-TESTS' to '0-TOOLS-ALL\0-TESTS'
-- Moved '0-TEMP' to '0-TOOLS-ALL\0-TEMP' (generated on demand)
-- Moved '0-AUDIO-ID-LIST.txt' to '0_XTRA\0-TXTs\'
-- Moved '0-KEY.txt' to '0_XTRA\0-TXTs\'
-- Moved '0-CONFIG.txt' to '0_XTRA\0-TXTs\'
-- Moved '0-PAK-NAME-LIST.txt' + variants to '0_XTRA\0-TXTs\'
-- Moved 'SUBS-NEW' to '0_XTRA\0-TXTs\'
-- Moved 'SUBS-OLD' to '0_XTRA\0-TXTs\'
+- Moved/Renamed `0-TOOLS` to `0-TOOLS-ALL\0-BNKR`
+- Moved `0-VGCLI` to `0-TOOLS-ALL\0-VGCLI`
+- Moved `0-TESTS` to `0-TOOLS-ALL\0-TESTS`
+- Moved `0-TEMP` to `0-TOOLS-ALL\0-TEMP` (generated on demand)
+- Moved/Renamed/Updated `AUDIO-ID-LIST.txt` to `0_XTRA\0-TXTs\0-AUDIO-ID-LIST.txt`
+- Moved `0-KEY.txt` to `0_XTRA\0-TXTs\`
+- Moved `0-CONFIG.txt` to `0_XTRA\0-TXTs\`
+- Moved `0-PAK-NAME-LIST.txt` + variants to `0_XTRA\0-TXTs\`
+- Moved `SUBS-NEW` to `0_XTRA\0-TXTs\`
+- Moved `SUBS-OLD` to `0_XTRA\0-TXTs\`
 
 - Adjusted script to automatically download these files from various Github pages IF they do not already exist
   - 0-AUDIO-ID-LIST.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-AUDIO-ID-LIST.txt)
@@ -1479,9 +1477,9 @@ For SMT  (Now 'SDKT' after SMT-CVS merge)
   - 0-DELETE-LIST.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-DELETE-LIST.txt)
   - 0-KEY.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-KEY.txt)
   - 0-PAK-NAME-LIST.txt (and three numbered variants*) (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-PAK-NAME-LIST.txt)
-    - *If files whose names start with '0-PAK-NAME-LIST-1', '0-PAK-NAME-LIST-2', or '0-PAK-NAME-LIST-3'
-    - already exist in the '0-TXTs' folder, then their variant is skipped
-    - For Example: If '0-PAK-NAME-LIST-1-MyCustom.txt' already exists, then '0-PAK-NAME-LIST-1.txt' will not be generated
+    - *If files whose names start with `0-PAK-NAME-LIST-1`, `0-PAK-NAME-LIST-2`, or `0-PAK-NAME-LIST-3`
+    - already exist in the `0-TXTs` folder, then their variant is skipped
+    - For Example: If `0-PAK-NAME-LIST-1-MyCustom.txt` already exists, then `0-PAK-NAME-LIST-1.txt` will not be generated
   - 0-TESTS.zip (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-TESTS.zip)
   - 1-MISC-STUFF (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/1-MISC-STUFF.zip)
   - BNKTool (https://github.com/JohnnYoru/BNKTool/releases/download/v1.0.0/Windows.zip)
@@ -1490,25 +1488,28 @@ For SMT  (Now 'SDKT' after SMT-CVS merge)
   - vgmstream-cli (https://github.com/vgmstream/vgmstream/releases/download/r2083/vgmstream-win64.zip)
   - zz_INSTRUCTIONS_SDKT_MR.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/zz_INSTRUCTIONS_SDKT_MR.txt)  
     
-- Created Option 'u'
+- Created Option `u`
   - This option lets users manually start a download of the above listed files
     - NOTE: The 0-PAK-NAME-LIST.txt files will require a confirmation from the user
   - This is for when the script startup auto-download does not trigger because the (potentially-outdated) files already existed
   - The files downloaded with this option will OVERWRITE the above listed .txts
-  - This option can also rename "un-named" character folders in '0_XTRA\0-CVS-OUTPUT\Display\' and '0_XTRA\0-CVS-OUTPUT\SFX\'
-  - This option can also download the latest soundKits .ps1 file, placing it into '0_XTRA\1-MISC-STUFF\'
-    If this is done, the script will also download the latest 'CHANGELOG.md' file
-  - This option also downloads the latest .usmap file, placing it into '0_XTRA\1-MISC-STUFF\'
+  - This option can also rename "un-named" character folders in `0_XTRA\0-CVS-OUTPUT\Display\` and `0_XTRA\0-CVS-OUTPUT\SFX\`* 
+    - This will only happen if the information for them available in `0-CHARACTER-ID-LIST.txt`
+  - This option can also download the latest soundKits .ps1 file, placing it into `0_XTRA\1-MISC-STUFF\`
+    - NOTE: This will require a confirmation from the user
+    - If this is done, the script will also download the latest `CHANGELOG.md` file into `0_XTRA\1-MISC-STUFF\`
+  - This option also downloads the latest .usmap file, placing it into `0_XTRA\1-MISC-STUFF\`
+  
 
 - Renamed Option 202 to Option 1s Sub-Option 6
   - This functions the same as before
 - Added Sub-Option 7 to Option 1
   - This option is a cyclic/group processing version of Option 1s Sub-Option 6
-  - Users will place wems in numbered folders inside  of '2-Put-CUSTOM-WEMs-Here'
-  - For Example: '2-Put-CUSTOM-WEMs-Here\1\WEMFILES.wem', '2-Put-CUSTOM-WEMs-Here\2\WEMFILES.wem',
-  - Then they will create 0-PAK-NAME-LIST-#.txt file(s) (if not already generated by the script) in '0_XTRA\0-TXTs\'
-  - The '#' in this .txt file name will correspond to the # of the folder in '2-Put-CUSTOM-WEMs-Here'
-  - So if I have a '2-Put-CUSTOM-WEMs-Here\1\' folder, then I will also have a 0-PAK-NAME-LIST-1.txt file
+  - Users will place wems in numbered folders inside  of `2-Put-CUSTOM-WEMs-Here`
+  - For Example: `2-Put-CUSTOM-WEMs-Here\1\WEMFILES.wem`, `2-Put-CUSTOM-WEMs-Here\2\WEMFILES.wem`,
+  - Then they will create 0-PAK-NAME-LIST-#.txt file(s) (if not already generated by the script) in `0_XTRA\0-TXTs\`
+  - The `#` in this .txt file name will correspond to the # of the folder in `2-Put-CUSTOM-WEMs-Here`
+  - So if I have a `2-Put-CUSTOM-WEMs-Here\1\` folder, then I will also have a 0-PAK-NAME-LIST-1.txt file
     - You can add a hyphen after the number to add notes to your file
     - For Example: 0-PAK-NAME-LIST-1-ForLowVolumeMods.txt
   - Anyway, inside of this 0-PAK-NAME-LIST-#.txt file will be a list of parameters that the user can edit
@@ -1516,60 +1517,60 @@ For SMT  (Now 'SDKT' after SMT-CVS merge)
   - There is more details inside of the 0-PAK-NAME-LIST-#.txt provided in the download, so just read that
   - Continuing, when selecting this sub-option in the script, users will be taken to a menu
   - Here, the script will match numbered folders to numbered 0-PAK-NAME-LIST-#.txt files
-    - For Example: '2-Put-CUSTOM-WEMs-Here\1\' will be matched to 0-PAK-NAME-LIST-1.txt (they both have '1')
+    - For Example: `2-Put-CUSTOM-WEMs-Here\1\` will be matched to 0-PAK-NAME-LIST-1.txt (they both have `1`)
   - Press Enter again, and the script will process each numbered folder/.txt one at a time
-  - So the wems in folder 1 will be processed and pak'd according to the parameters in the 0-PAK-NAME-LIST-1.txt file
+  - So the wems in folder 1 will be processed and pak`d according to the parameters in the 0-PAK-NAME-LIST-1.txt file
   - For each .pak, if a Paks folder path is not configured, the script will ask if you want to configure one
     - If you select "y" (yes), it will let you do one of two things (if auto-detection doesnt work):
       1. Either you can paste the path address:
          - In Steam: right-click Marvel Rivals -> Manage -> Browse local files.
-         - Copy the path from Explorer's address bar, then paste it below.
+         - Copy the path from Explorer`s address bar, then paste it below.
     - OR
       2. If you leave the space blank and press Enter, a file explorer window will open:
          - In Steam: right-click Marvel Rivals -> Manage -> Browse local files.
-         - Copy the path from Explorer's address bar, then paste it into the popup File Explorers address bar
-    - Your games Paks folder location will be saved to '0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_102\0-CONFIG.txt'     
+         - Copy the path from Explorer`s address bar, then paste it into the popup File Explorers address bar
+    - Your games Paks folder location will be saved to `0_XTRA\0-DEV\DEV-202-REPAKED-BNKS\0_XTRA_102\0-CONFIG.txt`     
     - If you select "n" (No), it will output the paks/folders to the same directory that the .ps1 script itself is located  
   - This is useful for people (aka ME) who create multiple variants of mods that use the same wem file IDs
 - Added Sub-Option 8 to Option 1
-  - This option allows paking any .bnk files in the '3-Your-MODDED-BNK-Is-Here'
+  - This option allows paking any .bnk files in the `3-Your-MODDED-BNK-Is-Here`
   - Users will also be prompted to move these pakd bnks into the ~mods-AUDIO folder in their games Paks folder
-  - If they choose not no, the paks will be left in '3-Your-MODDED-BNK-Is-Here\Packed-Bnks-Here'
+  - If they choose not no, the paks will be left in `3-Your-MODDED-BNK-Is-Here\Packed-Bnks-Here`
 
 - Changed Option 106 (Wem Isolation) to Option 102
 - Added Sub-Option 1 (handles Wem ISOLATION, like before) and Sub-Option 2 (handles .bnk file MERGING) to Option 102
-  - Renamed 'A-Put-Modded-Bnk-Here' to 'A-Put-Modded-Files-Here'
-  - Renamed 'B-Put-Vanilla-Bnk-Here' to 'B-Put-Vanilla-Bnks-Here'
-  - Added 'A-Put-Modded-Bnks-Here\For-MERGING-Put-PRIORITY-File-Here' (Ignored by Isolation Sub-Option)
-  - Added 'A-Put-Modded-Bnks-Here\For-MERGING-Put-SECONDARY-File-Here' (Ignored by Isolation Sub-Option)
-  - Added 'B-Put-Vanilla-Bnks-Here\For-MERGING-Put-VANILLA-BNKs-Here' (Ignored by Isolation Sub-Option)
-  - Added 'E-Your-Merged-Files-Are-Here'
+  - Renamed `A-Put-Modded-Bnk-Here` to `A-Put-Modded-Files-Here`
+  - Renamed `B-Put-Vanilla-Bnk-Here` to `B-Put-Vanilla-Bnks-Here`
+  - Added `A-Put-Modded-Bnks-Here\For-MERGING-Put-PRIORITY-File-Here` (Ignored by Isolation Sub-Option)
+  - Added `A-Put-Modded-Bnks-Here\For-MERGING-Put-SECONDARY-File-Here` (Ignored by Isolation Sub-Option)
+  - Added `B-Put-Vanilla-Bnks-Here\For-MERGING-Put-VANILLA-BNKs-Here` (Ignored by Isolation Sub-Option)
+  - Added `E-Your-Merged-Files-Are-Here`
   - For MERGING, users will:
-    - Place a modded .bnk OR .pak file that they want to take PRIORITY in 'For-MERGING-Put-PRIORITY-File-Here'
-    - Place a modded .bnk (of the same name as the above .bnk) OR .pak file (containing the same .bnk as the above .pak) that they want to be SECONDARY in 'For-MERGING-Put-SECONDARY-File-Here'
-    - Place a vanilla .bnk (of the same name(s)) in 'For-MERGING-Put-VANILLA-BNKs-Here'
+    - Place a modded .bnk OR .pak file that they want to take PRIORITY in `For-MERGING-Put-PRIORITY-File-Here`
+    - Place a modded .bnk (of the same name as the above .bnk) OR .pak file (containing the same .bnk as the above .pak) that they want to be SECONDARY in `For-MERGING-Put-SECONDARY-File-Here`
+    - Place a vanilla .bnk (of the same name(s)) in `For-MERGING-Put-VANILLA-BNKs-Here`
       - The script will tell you exactly which .bnks will be needed for the operation
     - Run Option 102 Sub-Option 2
-    - Script will output merged .bnk(s)/.pak(s) into 'E-Your-Merged-Files-Are-Here'
-    - The modded .wems from the PRIORITY/SECONDARY .bnk(s)/.pak(s) will be output into folders named after their characters in 'C-Modded-Wems-Here'
-      - These folders will have 'Priority-' and 'Secondary-' prefixed so you know they are from the Merge sub-option output
+    - Script will output merged .bnk(s)/.pak(s) into `E-Your-Merged-Files-Are-Here`
+    - The modded .wems from the PRIORITY/SECONDARY .bnk(s)/.pak(s) will be output into folders named after their characters in `C-Modded-Wems-Here`
+      - These folders will have `Priority-` and `Secondary-` prefixed so you know they are from the Merge sub-option output
   - For ISOLATION
     - Now allows .pak files as input, just like the MERGE option does
-    - Simply place them directly in 'A-Put-Modded-Bnks-Here', just like with the .bnk files
+    - Simply place them directly in `A-Put-Modded-Bnks-Here`, just like with the .bnk files
 
 - Merged Option 103 (Test Wems) and Option 104 (Silent Wems) into Option 103 (Now handles both functions)
   - Test wems are now created with Sub-Option 1
   - Silent wems are now created with Sub-Option 2
-  - Both Sub-Options now ask the user if they would like to move the output into the '2-Put-CUSTOM-WEMs-Here' folder
-  - Renamed 'x103-TEST-Wem-Stuff' to 'x103-TEST-And-SILENT-Wem-Stuff'
-  - Moved/Renamed 'x104-SILENT-Wem-Stuff\A-Put-Wems-To-SILENCE-Here' to 'x103-TEST-And-SILENT-Wem-Stuff\C-Put-Wems-To-SILENCE-Here'
-  - Moved/Renamed 'x104-SILENT-Wem-Stuff\B-Your-New-SILENCED-Wems-Are-Here' to 'x103-TEST-And-SILENT-Wem-Stuff\D-Your-New-SILENCED-Wems-Are-Here'
-  - Removed 'x104-SILENT-Wem-Stuff'
+  - Both Sub-Options now ask the user if they would like to move the output into the `2-Put-CUSTOM-WEMs-Here` folder
+  - Renamed `x103-TEST-Wem-Stuff` to `x103-TEST-And-SILENT-Wem-Stuff`
+  - Moved/Renamed `x104-SILENT-Wem-Stuff\A-Put-Wems-To-SILENCE-Here` to `x103-TEST-And-SILENT-Wem-Stuff\C-Put-Wems-To-SILENCE-Here`
+  - Moved/Renamed `x104-SILENT-Wem-Stuff\B-Your-New-SILENCED-Wems-Are-Here` to `x103-TEST-And-SILENT-Wem-Stuff\D-Your-New-SILENCED-Wems-Are-Here`
+  - Removed `x104-SILENT-Wem-Stuff`
 
 - Changed Option 107 to Option 104
-  - Renamed 'x107-ASSIGN-Wem-Stuff' to 'x104-ASSIGN-Wem-Stuff'
+  - Renamed `x107-ASSIGN-Wem-Stuff` to `x104-ASSIGN-Wem-Stuff`
 
-For CVS (Now 'SDKT' after SMT-CVS merge)
+For CVS (Now `SDKT` after SMT-CVS merge)
 
 - NO LONGER EXISTS AS A SEPARATE SCRIPT
 
@@ -1577,7 +1578,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
+UPDATE X.X.X (NOT RELEASED YET, `BUG TESTING`)
 
 For General
 
