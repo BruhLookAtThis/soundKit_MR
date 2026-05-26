@@ -1383,6 +1383,24 @@ For SMT
  
 For CVS
 
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.2.3
+
+For General
+
+For SMT
+ 
+For CVS
+- Adjusted Options 1/100/200/201 to automatically move the Media folder out of '2-RENAMED-WEMs-Are-Here' and into '1-Put-MEDIA-LOCAL-WWISE-Here' IF:
+  - There is no Media folder in '1-Put-MEDIA-LOCAL-WWISE-Here'
+- If '1-Put-MEDIA-LOCAL-WWISE-Here' already has a Media folder, then '2-RENAMED-WEMs-Are-Here' is deleted before Options 1/100/200/201 begin processing
+- Options 1/100/200/201 now warn the user if they do not have a Media folder available to use
+  - They are given the option to proceed (NOT RECOMMENDED UNLESS YOU KNOW WHAT YOU ARE DOING)
+    - Subtitles and SFX may still be organized if you decide to proceed and have the necessary files within '1-Put-MEDIA-LOCAL-WWISE-Here'
+
 NOTE: This is NOT heavily tested! 
 
 ----------------------------------------------------------------------------------------------------------
