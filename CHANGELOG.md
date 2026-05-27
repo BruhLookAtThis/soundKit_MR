@@ -1479,12 +1479,14 @@ For SMT  (Now `SDKT` after SMT-CVS merge)
     - *If files whose names start with `0-PAK-NAME-LIST-1`, `0-PAK-NAME-LIST-2`, or `0-PAK-NAME-LIST-3`
     - already exist in the `0-TXTs` folder, then their variant is skipped
     - For Example: If `0-PAK-NAME-LIST-1-MyCustom.txt` already exists, then `0-PAK-NAME-LIST-1.txt` will not be generated
+  - 0-SUBS.zip (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-SUBS.zip)  
   - 0-TESTS.zip (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-TESTS.zip)
   - 1-MISC-STUFF (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/1-MISC-STUFF.zip)
   - BNKTool (https://github.com/JohnnYoru/BNKTool/releases/download/v1.0.0/Windows.zip)
   - ffmpeg.exe/ffprobe.exe (https://github.com/GyanD/codexffmpeg/releases/download/7.1.1/ffmpeg-7.1.1-essentials_build.zip)
   - UassetTool (https://github.com/XzantGaming/UAssetToolRivals/releases/tag/v1.5)
   - vgmstream-cli (https://github.com/vgmstream/vgmstream/releases/download/r2083/vgmstream-win64.zip)
+  - z2_DoubleClickMe_SDKT_MR.bat (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/z2_DoubleClickMe_SDKT_MR.bat)
   - zz_INSTRUCTIONS_SDKT_MR.txt (https://github.com/BruhLookAtThis/soundKit_MR/blob/main/zz_INSTRUCTIONS_SDKT_MR.txt)  
     
 - Created Option `u`
