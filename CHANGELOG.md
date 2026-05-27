@@ -1405,7 +1405,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-1/3.0.0 (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-1 (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
 - Updated .usmap file
@@ -1589,7 +1589,7 @@ For CVS (Now `SDKT` after SMT-CVS merge)
 
 - NO LONGER EXISTS AS A SEPARATE SCRIPT
 
-NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING. 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
