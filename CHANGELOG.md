@@ -1408,6 +1408,7 @@ NOTE: This is NOT heavily tested!
 UPDATE 2.2.3b
 
 For General
+- Updated .usmap file
 
 For SMT
  
