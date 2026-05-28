@@ -489,6 +489,7 @@ Updated as of Season 8.0 (Sonic Trailblazer Luna Update)
 1049100: Wolverine (Lone Wolf)
 1049300: Wolverine (Blood Berserker)
 1049301: Wolverine (Dog Brother X)
+1049302: Wolverine (X-2099)
 1049500: Wolverine (Patch)
 1049501: Wolverine (Weapon X)
 1049503: Wolverine (Winter Soldier)
@@ -623,6 +624,7 @@ Updated as of Season 8.0 (Sonic Trailblazer Luna Update)
 1061100: BlackCat (GILDED SHADOW)
 1061101: BlackCat (BEGUILING BLUE)
 1061300: BlackCat (URBAN PREDATOR)
+1061500: BlackCat (WILD CARD)
 
 1062: DevilDinosaur
 10620: DevilDinosaur
