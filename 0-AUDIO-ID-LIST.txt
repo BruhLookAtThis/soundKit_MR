@@ -29,14 +29,14 @@ Invis Ult (SFX) (Default #2)-bnk_sfx_1050001: 538929320
 Invis Ult (SFX) (Default #3)-bnk_sfx_1050001: 764483124
 Invis Ult (SFX) (The Life Fantastic)-bnk_sfx_1050300: 445919709
 Jeff Ult (SFX) (Default)-bnk_sfx_1047001: 108877760
-Luna Snow Ult (SFX) (2099 Outfit)-bnk_sfx_1031301: 578280857
 Luna Snow Ult (SFX-Def) (Cool Summer)-bnk_sfx_1031303: 231678522
 Luna Snow Ult (SFX-Paid) (Cool Summer)-bnk_sfx_1031303: 852615448
-Luna Snow Ult (SFX) (Cool Summer)-bnk_sfx_1031303 [Background Music. Advised To Mute This]: 107773070
-Luna Snow Ult (SFX) (Default)-bnk_sfx_1031001: 627292950
 Luna Snow Ult (VO) (Default-P13)-bnk_vo_1031001: 466157259
 Luna Snow Ult (VO) (Default-P2)-bnk_vo_1031001: 27720091
 Magneto Ult (SFX) (Default #1)-bnk_sfx_1037001: 171598121
 Magneto Ult (SFX) (Default #2)-bnk_sfx_1037001: 361019606
 Magneto Ult (SFX) (Default #3)-bnk_sfx_1037001: 746053380
+Spider-Man Ult (SFX) (Default #3)-bnk_sfx_1036001: 1011974188
+Spider-Man Ult (SFX) (Default #3)-bnk_sfx_1036001: 650517315
+Spider-Man Ult (SFX) (Default #3)-bnk_sfx_1036001: 638544950
 White Fox Ult (SFX) (Default)-bnk_sfx_1060001: 565527808
