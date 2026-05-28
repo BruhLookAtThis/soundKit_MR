@@ -1405,6 +1405,19 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.2.3b
+
+For General
+
+For SMT
+ 
+For CVS
+- Adjusted Options 1/100/200/201 to (hopefully) solve the "Cannot find path 'blah\blah\blah (SFX) .wem' because it does not exist" error
+
+NOTE: This is NOT heavily tested! 
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-1 (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
