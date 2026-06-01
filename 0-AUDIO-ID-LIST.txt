@@ -14,6 +14,7 @@ Luna Snow Ult (SFX-Paid) (Cool Summer)-bnk_sfx_1031303: 852615448
 #
 # ADD YOUR OWN ENTRIES BELOW:
 
+Black Cat Ult (SFX) (Default)-bnk_sfx_1061001: 397381782
 Blade Ult (SFX) (Default)-bnk_sfx_1044001 [Recommend Using Voice File Instead]: 360973071
 Blade Ult (VO) (Default-P2)-bnk_vo_1044001 [For Ally]: 333815783
 Blade Ult (VO) (Default-P13)-bnk_vo_1044001 [For You And Enemy]: 691392153
