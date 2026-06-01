@@ -1,4 +1,4 @@
-# These AUDIO-ID-LIST.txt entries are used by Option 107 to assign Wem IDs to your custom audio files
+# These AUDIO-ID-LIST.txt entries are used by Option 107 (pre-2.9.9/3.0.0. Later versions use Option 104) to assign Wem IDs to your custom audio files
 #
 # FORMATTING:
 # CharaName, Action, Sound Type (+ Other Details), Costume (+ File Variant), Bnk File Used, [Optional Note], Wem ID"
@@ -39,4 +39,5 @@ Magneto Ult (SFX) (Default #3)-bnk_sfx_1037001: 746053380
 Spider-Man Ult (SFX) (Default #3)-bnk_sfx_1036001: 1011974188
 Spider-Man Ult (SFX) (Default #3)-bnk_sfx_1036001: 650517315
 Spider-Man Ult (SFX) (Default #3)-bnk_sfx_1036001: 638544950
+Ultron Ult (SFX) (Default)-bnk_sfx_1028001: 292001799
 White Fox Ult (SFX) (Default)-bnk_sfx_1060001: 565527808
