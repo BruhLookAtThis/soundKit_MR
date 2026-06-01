@@ -1,4 +1,5 @@
-# These AUDIO-ID-LIST.txt entries are used by Option 107 (pre-2.9.9/3.0.0. Later versions use Option 104) to assign Wem IDs to your custom audio files
+# These AUDIO-ID-LIST.txt entries are used by Option 107 (pre-2.9.9/3.0.0) or Option 104 (2.9.9/3.0.0+)
+# of soundKit_MR to assign Wem IDs to your custom audio files
 #
 # FORMATTING:
 # CharaName, Action, Sound Type (+ Other Details), Costume (+ File Variant), Bnk File Used, [Optional Note], Wem ID"
