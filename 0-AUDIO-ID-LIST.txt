@@ -18,9 +18,9 @@ Black Cat Ult (SFX) (Default)-bnk_sfx_1061001: 397381782
 Blade Ult (SFX) (Default)-bnk_sfx_1044001 [Recommend Using Voice File Instead]: 360973071
 Blade Ult (VO) (Default-P2)-bnk_vo_1044001 [For Ally]: 333815783
 Blade Ult (VO) (Default-P13)-bnk_vo_1044001 [For You And Enemy]: 691392153
-Captain America Ult (SFX) (Default #1)-bnk_sfx_1022001 [Recommend Using Voice File Instead]: 273043934
-Captain America Ult (SFX) (Default #2)-bnk_sfx_1022001 [Recommend Using Voice File Instead]: 792722882
-Captain America Ult (SFX) (Default #3)-bnk_sfx_1022001 [Recommend Using Voice File Instead]: 862302510
+Captain America Ult (SFX) (Default #1)-bnk_sfx_1022001: 273043934
+Captain America Ult (SFX) (Default #2)-bnk_sfx_1022001: 792722882
+Captain America Ult (SFX) (Default #3)-bnk_sfx_1022001: 862302510
 Captain America Ult (VO) (Default-P2)-bnk_vo_1022001 [For Ally]: 969168918
 Captain America Ult (VO) (Default-P13)-bnk_vo_1022001 [For You And Enemy]: 329678144
 CnD-Cloak Ult (SFX) (Default #1)-bnk_sfx_1025001: 266082429
@@ -43,6 +43,7 @@ Invis Ult (SFX-Def) (Dessert)-bnk_sfx_1050301 [Ult Confirmed]: 67023095
 Invis Ult (SFX-Paid) (Dessert)-bnk_sfx_1050301 [Ult Confirmed]: 871780507
 Invis Ult (SFX) (Prism)-bnk_sfx_1050302 [Ult Confirmed]: 62688439
 Invis Ult (SFX) (The Life Fantastic)-bnk_sfx_1050300 [Ult Confirmed]: 445919709
+Iron Fist Ult (SFX) (Default)-bnk_sfx_1052001 [CAN play music beyond Ult Duration (13s)]: 1007381206
 Jeff Ult (SFX) (Default)-bnk_sfx_1047001: 108877760
 Luna Snow Ult (SFX) (2099)-bnk_sfx_1031301: 578280857
 Luna Snow Ult (SFX) (Abyssal)-bnk_sfx_1031305: 457242042
@@ -69,4 +70,4 @@ Spider-Man Ult (SFX) (Default #3)-bnk_sfx_1036001: 1011974188
 Spider-Man Ult (SFX) (Default #3)-bnk_sfx_1036001: 650517315
 Spider-Man Ult (SFX) (Default #3)-bnk_sfx_1036001: 638544950
 Ultron Ult (SFX) (Default)-bnk_sfx_1028001: 292001799
-White Fox Ult (SFX) (Default)-bnk_sfx_1060001: 565527808
+White Fox Ult (SFX) (Default)-bnk_sfx_1060001 [CAN play music beyond Ult Duration (11s)]: 565527808
