@@ -14,6 +14,14 @@ Luna Snow Ult (SFX-Paid) (Cool Summer)-bnk_sfx_1031303: 852615448
 #
 # ADD YOUR OWN ENTRIES BELOW:
 
+Blade Ult (SFX) (Default)-bnk_sfx_1044001 [Recommend Using Voice File Instead]: 360973071
+Blade Ult (VO) (Default-P2)-bnk_vo_1044001 [For Ally]: 333815783
+Blade Ult (VO) (Default-P13)-bnk_vo_1044001 [For You And Enemy]: 691392153
+Captain America Ult (SFX) (Default #1)-bnk_sfx_1022001 [Recommend Using Voice File Instead]: 273043934
+Captain America Ult (SFX) (Default #2)-bnk_sfx_1022001 [Recommend Using Voice File Instead]: 792722882
+Captain America Ult (SFX) (Default #3)-bnk_sfx_1022001 [Recommend Using Voice File Instead]: 862302510
+Captain America Ult (VO) (Default-P2)-bnk_vo_1022001 [For Ally]: 969168918
+Captain America Ult (VO) (Default-P13)-bnk_vo_1022001 [For You And Enemy]: 329678144
 CnD-Cloak Ult (SFX) (Default #1)-bnk_sfx_1025001: 266082429
 CnD-Cloak Ult (SFX) (Default #2)-bnk_sfx_1025001: 85833736
 CnD-Cloak Ult (SFX) (Default #3)-bnk_sfx_1025001: 1015740915
@@ -25,15 +33,34 @@ DareDevil Ult (SFX) (Default #2)-bnk_sfx_1055001: 731885516
 DareDevil Ult (SFX) (Default #3)-bnk_sfx_1055001: 142795049
 Gambit Ult (SFX) (Default)-bnk_sfx_1058001 [WARNING - High Pitch & Tempo]: 548337811
 Hela Ult (SFX) (Default)-bnk_sfx_1024001: 721245515
-Invis Ult (SFX) (Default #1)-bnk_sfx_1050001: 349424081
-Invis Ult (SFX) (Default #2)-bnk_sfx_1050001: 538929320
-Invis Ult (SFX) (Default #3)-bnk_sfx_1050001: 764483124
-Invis Ult (SFX) (The Life Fantastic)-bnk_sfx_1050300: 445919709
+Invis Ult (SFX) (Azure #1)-bnk_sfx_1050502 [Ult Confirmed]: 384950245
+Invis Ult (SFX) (Azure #2)-bnk_sfx_1050502 [Ult Confirmed]: 419342148
+Invis Ult (SFX) (Default #1)-bnk_sfx_1050001 [Ult Confirmed]: 349424081
+Invis Ult (SFX) (Default #2)-bnk_sfx_1050001 [Ult Confirmed]: 538929320
+Invis Ult (SFX) (Default #3)-bnk_sfx_1050001 [Ult Confirmed]: 764483124
+Invis Ult (SFX-Def) (Dessert)-bnk_sfx_1050301 [Ult Confirmed]: 67023095
+Invis Ult (SFX-Paid) (Dessert)-bnk_sfx_1050301 [Ult Confirmed]: 871780507
+Invis Ult (SFX) (Prism)-bnk_sfx_1050302 [Ult Confirmed]: 62688439
+Invis Ult (SFX) (The Life Fantastic)-bnk_sfx_1050300 [Ult Confirmed]: 445919709
 Jeff Ult (SFX) (Default)-bnk_sfx_1047001: 108877760
+Luna Snow Ult (SFX) (2099)-bnk_sfx_1031301: 578280857
+Luna Snow Ult (SFX) (Abyssal)-bnk_sfx_1031305: 457242042
+Luna Snow Ult (SFX-Def) (Cherry)-bnk_sfx_1031308: 373441187
+Luna Snow Ult (SFX-Paid) (Cherry #1)-bnk_sfx_1031308: 536501256
+Luna Snow Ult (SFX-Paid) (Cherry #2)-bnk_sfx_1031308: 642894159
 Luna Snow Ult (SFX-Def) (Cool Summer)-bnk_sfx_1031303: 231678522
 Luna Snow Ult (SFX-Paid) (Cool Summer)-bnk_sfx_1031303: 852615448
-Luna Snow Ult (VO) (Default-P13)-bnk_vo_1031001: 466157259
-Luna Snow Ult (VO) (Default-P2)-bnk_vo_1031001: 27720091
+Luna Snow Ult (SFX-Paid) (Cool Summer)-bnk_sfx_1031303 [Background Audio]: 107773070
+Luna Snow Ult (SFX) (Default)-bnk_sfx_1031001: 627292950
+Luna Snow Ult (SFX-Def) (Disco)-bnk_sfx_1031309: 329662602
+Luna Snow Ult (SFX-Paid) (Disco)-bnk_sfx_1031309: 119854404
+Luna Snow Ult (SFX-Def) (Sonic)-bnk_sfx_1031313: 77138013
+Luna Snow Ult (SFX-Paid) (Sonic)-bnk_sfx_1031313: 735579568 
+Luna Snow Ult (VO) (Default-P2)-bnk_vo_1031001 [For Ally]: 27720091
+Luna Snow Ult (VO) (Default-P13)-bnk_vo_1031001 [For You And Enemy]: 466157259
+Magik Ult (SFX) (Default)-bnk_vo_1029001: 428491921
+Magik Ult (SFX) (Default)-bnk_vo_1029001: 794623671
+Magik Ult (SFX) (Default)-bnk_vo_1029001: 1046256076
 Magneto Ult (SFX) (Default #1)-bnk_sfx_1037001: 171598121
 Magneto Ult (SFX) (Default #2)-bnk_sfx_1037001: 361019606
 Magneto Ult (SFX) (Default #3)-bnk_sfx_1037001: 746053380
