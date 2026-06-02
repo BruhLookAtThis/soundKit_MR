@@ -18,9 +18,9 @@ Black Cat Ult (SFX) (Default)-bnk_sfx_1061001: 397381782
 Blade Ult (SFX) (Default)-bnk_sfx_1044001 [Recommend Using Voice File Instead]: 360973071
 Blade Ult (VO) (Default-P2)-bnk_vo_1044001 [For Ally]: 333815783
 Blade Ult (VO) (Default-P13)-bnk_vo_1044001 [For You And Enemy]: 691392153
-Captain America Ult (SFX) (Default #1)-bnk_sfx_1022001: 273043934
-Captain America Ult (SFX) (Default #2)-bnk_sfx_1022001: 792722882
-Captain America Ult (SFX) (Default #3)-bnk_sfx_1022001: 862302510
+Captain America Ult (SFX) (Default #1)-bnk_sfx_1022001 [CAN play music beyond Ult Duration (10s)]: 273043934
+Captain America Ult (SFX) (Default #2)-bnk_sfx_1022001 [CAN play music beyond Ult Duration (10s)]: 792722882
+Captain America Ult (SFX) (Default #3)-bnk_sfx_1022001 [CAN play music beyond Ult Duration (10s)]: 862302510
 Captain America Ult (VO) (Default-P2)-bnk_vo_1022001 [For Ally]: 969168918
 Captain America Ult (VO) (Default-P13)-bnk_vo_1022001 [For You And Enemy]: 329678144
 CnD-Cloak Ult (SFX) (Default #1)-bnk_sfx_1025001: 266082429
