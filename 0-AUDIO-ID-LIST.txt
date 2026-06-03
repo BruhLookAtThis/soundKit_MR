@@ -23,9 +23,9 @@ Captain America Ult (SFX) (Default #2)-bnk_sfx_1022001 [CAN play music beyond Ul
 Captain America Ult (SFX) (Default #3)-bnk_sfx_1022001 [CAN play music beyond Ult Duration (10s)]: 862302510
 Captain America Ult (VO) (Default-P2)-bnk_vo_1022001 [For Ally]: 969168918
 Captain America Ult (VO) (Default-P13)-bnk_vo_1022001 [For You And Enemy]: 329678144
-CnD-Cloak Ult (SFX) (Default #1)-bnk_sfx_1025001: 266082429
-CnD-Cloak Ult (SFX) (Default #2)-bnk_sfx_1025001: 85833736
-CnD-Cloak Ult (SFX) (Default #3)-bnk_sfx_1025001: 1015740915
+CnD-Cloak Ult (SFX) (Default #1)-bnk_sfx_1025001 [Music cuts after final dash]: 266082429
+CnD-Cloak Ult (SFX) (Default #2)-bnk_sfx_1025001 [Music cuts after final dash]: 85833736
+CnD-Cloak Ult (SFX) (Default #3)-bnk_sfx_1025001 [Music cuts after final dash]: 1015740915
 CnD-Dagger Ult (SFX) (Default #1)-bnk_sfx_1025001: 248321154
 CnD-Dagger Ult (SFX) (Default #2)-bnk_sfx_1025001: 662759624
 CnD-Dagger Ult (SFX) (Default #3)-bnk_sfx_1025001: 762290958
