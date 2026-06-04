@@ -1609,6 +1609,33 @@ NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING.
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-2 
+(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- Adjusted Option U to place all optional download prompts at the very beginning of processed
+- Adjusted Option S to auto-delete existing 0-CVS-XTRA folders upon process start
+
+NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING.
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-3
+(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- Fixed a peculiar issue with certain .wavs not being able to get converted to .wem
+- Changed all y/N output relocation prompts to MOVE files instead of copying them
+- All Options that handle audio conversion now force 48KHz
+
+NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING.
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, `BUG TESTING`)
 
 For General
