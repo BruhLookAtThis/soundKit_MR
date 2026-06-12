@@ -1,4 +1,4 @@
-Updated as of Season 8.0 (Samurai Iron Man Update)
+Updated as of Season 8.5 (Cyclops Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -36,6 +36,7 @@ Updated as of Season 8.0 (Samurai Iron Man Update)
 10150: Storm
 1015001: Storm (Default)
 1015100: Storm (Ivory Breeze)
+1015101: Storm (WILL OF GALACTA)
 1015300: Storm (Queen of Orphans)
 1015500: Storm (Mohawk Rock)
 1015501: Storm (MAYBE - Ultimate Wind-Rider)
@@ -185,6 +186,7 @@ Updated as of Season 8.0 (Samurai Iron Man Update)
 1027301: Groot (Yggroot Groot)
 1027302: Groot (Holiday Happiness)
 1027303: Groot (Mecha Flora)
+1027304: Groot (IRONWOOD SERPENT)
 1027500: Groot (Carved Traveler)
 1027502: Groot (Big Buddy)
 1027800: Groot (Guardians of the Galaxy Vol. 3)
@@ -211,6 +213,7 @@ Updated as of Season 8.0 (Samurai Iron Man Update)
 1029302: Magik (Rosy Resilience - Punkchild)
 1029303: Magik (New Millenia Might)
 1029304: Magik (INFERNAL IDOL)
+1029305: Magik (SOULLESS SWORD)
 1029500: Magik (Eldritch Armor)
 1029501: Magik (Retro X-Uniform)
 1029502: Magik (Phoenix Demon)
@@ -560,6 +563,7 @@ Updated as of Season 8.0 (Samurai Iron Man Update)
 1054102: Phoenix (Emerald Flames)
 1054300: Phoenix (Chaos Phoenix)
 1054301: Phoenix (Ice Phoenix)
+1054503: Phoenix (WHITE CROWN PHOENIX)
 1054500: Phoenix (Dark Phoenix)
 1054501: Phoenix (SEAT OF SPRING)
 1054502: Phoenix (VERDANT VOGUE)
@@ -635,9 +639,11 @@ Updated as of Season 8.0 (Samurai Iron Man Update)
 1062101: Devil Dinosaur (CORPORATE CRUNCHER)
 1062500: Devil Dinosaur (CHRONO-ARMOR)
 
-1063: Nightcrawler - UNCONFIRMED
-10630: Nightcrawler - UNCONFIRMED
-1063001: Nightcrawler (Default)
+1063: Cyclops
+10630: Cyclops
+1063001: Cyclops (Default)
+1063101: Cyclops (FUTURISTIC FOCUS)
+1063500: Cyclops (WEAPON M)
 
 1064: Jubilee - UNCONFIRMED
 10640: Jubilee - UNCONFIRMED
