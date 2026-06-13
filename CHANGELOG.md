@@ -1636,6 +1636,31 @@ NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING.
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-4 (6-10-2026)
+
+For SMT
+- Moved\Renamed `x100-XTRAs-Are-Here\x101-REPAKED-BNKS-Stuff` to `0_XTRA\0-TOOLS-ALL\0-PAKR`
+- Added Option 101
+- This is an integrated version of the `1-WORK-BNK-Updater` tool from `0_XTRA\1-MISC-STUFF\3-RANDOM-Tools\`
+  - All of its relevant folders are now in `x100-XTRAs-Are-Here\x101-BNK-UPDATER`
+    - To use this Option, first, freshly extracted .bnk file(s) will be placed into `0-PUT-ALL-NEW-BNKS-HERE` (Subfolders are supported)
+    - Then the users' work .bnks will be placed into `1-PUT-ALL-WORK-BNKS-HERE` (Subfolders are supported)
+    - Then the user will select Option 101, and press Enter to process
+    - Once done, fresh copies of their work .bnk files, copied from `0-PUT-ALL-NEW-BNKS-HERE`, will be in `2-NEW-WORK-BNKS-ARE-HERE`
+      
+- Added a `d` Option that takes users to the Developer Options menu
+- Moved DEV Option 201 from the main menu to the Developer Options menu
+- Added Option 202
+  - This option is for easily unpaking .pak files
+  - Users will place their .pak file(s) in `x100-XTRAs-Are-Here\x202-UNPAKER\0-Place-Pak-Files-Here`
+  - Then the user will select Option `d` from the main menu to be taken to the Developer Options menu
+  - There, they will select DEV Option 202, and press Enter to process
+  - Their extracted files will be in folders named after the .pak file `1-UnPaked-Files-Here`
+
+NOTE: This is NOT heavily tested! 
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, `BUG TESTING`)
 
 For General
