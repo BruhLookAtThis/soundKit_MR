@@ -1639,7 +1639,7 @@ NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING.
 UPDATE 2.9.9-beta-4 (6-10-2026)
 (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
-For SMT
+For SDKT
 - Moved\Renamed `x100-XTRAs-Are-Here\x101-REPAKED-BNKS-Stuff` to `0_XTRA\0-TOOLS-ALL\0-PAKR`
 - Added Option 101
 - This is an integrated version of the `1-WORK-BNK-Updater` tool from `0_XTRA\1-MISC-STUFF\3-RANDOM-Tools\`
@@ -1662,12 +1662,11 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE X.X.X (NOT RELEASED YET, `BUG TESTING`)
+UPDATE X.X.X (DD-MM-YYYY)
+(NOT RELEASED YET, `BUG TESTING`)
 
 For General
 
-For SMT
-
-For CVS
+For SDKT
 
 NOTE: This is NOT heavily tested!  
