@@ -1637,6 +1637,7 @@ NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING.
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-4 (6-10-2026)
+(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SMT
 - Moved\Renamed `x100-XTRAs-Are-Here\x101-REPAKED-BNKS-Stuff` to `0_XTRA\0-TOOLS-ALL\0-PAKR`
