@@ -1662,7 +1662,29 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE X.X.X (DD-MM-YYYY)
+UPDATE 2.9.9-beta-4 (06-25-2026)
+(NOT RELEASED YET, `BUG TESTING`)
+
+For SDKT
+- Added Option 1 Sub-Option 9
+  - This option allows the processing of Media wem files
+  - To use this option, users place their Vorbis .wems into `2-Put-CUSTOM-WEMs-Here`
+  - Then they select the sub-option and it will sanitize copies of their wems and pak them
+  - The .pak will be output into `5-Your-MEDIA-PAK-Is-Here`, with the option to move it to ~mods-AUDIO
+    
+- Added `variant` (`v`) processing to Option 0 and Option 100
+  - This allows amplifying all input files multiple times at different levels
+  - To use this option, users will select Option 0/100, then type `v` and hit enter
+  - Next, they will type multiple amplification levels, separated by a comma
+    - For Example: `0.6, 0.8, 1.0`
+  - The script will then amplify all source files at each level
+  - They will be output into a folder named `#.#-variant`
+
+NOTE: This is NOT heavily tested!  
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE X.X.X (MM-DD-YYYY)
 (NOT RELEASED YET, `BUG TESTING`)
 
 For General
