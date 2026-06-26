@@ -1668,7 +1668,8 @@ UPDATE 2.9.9-beta-5 (06-25-2026)
 For SDKT
 - Added Option 1 Sub-Option 9
   - This option allows the processing of Media wem files
-  - To use this option, users place their Vorbis .wems into `2-Put-CUSTOM-WEMs-Here`
+  - To use this option, users place their VORBIS .wems into `2-Put-CUSTOM-WEMs-Here`
+    - IMPORTANT: Your Media .wems MUST be Vorbis! Check [here](<https://discord.com/channels/1419106202511609958/1419106204512424000/1489047502182289429>) for instructions on how to do that, I haven't updated the Option 1 info page with the steps yet
   - Then they select the sub-option and it will sanitize copies of their wems and pak them
   - The .pak will be output into `5-Your-MEDIA-PAK-Is-Here`, with the option to move it to ~mods-AUDIO
     
@@ -1680,7 +1681,7 @@ For SDKT
   - The script will then amplify all source files at each level
   - They will be output into a folder named `#.#-variant`
 
-NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested! 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
