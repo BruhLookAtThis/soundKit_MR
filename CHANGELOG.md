@@ -1662,8 +1662,8 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-4 (06-25-2026)
-(NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-5 (06-25-2026)
+(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SDKT
 - Added Option 1 Sub-Option 9
