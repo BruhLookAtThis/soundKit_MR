@@ -1691,11 +1691,26 @@ For General
 
 For SMT
 - (Hopefully) Enabled SMT to work "in" paths that have spaces and special characters in them
-  - The fix works by copying all the SMT work files/folders to a temporary path (on the same drive) first
+  - The fix works by copying all relevant the SMT work files/folders to a temporary path (on the same drive) first
   - There, all processing is done, then the results are copied back to the main tool folder
   - The temp folder is deleted once all processing is done
 
 For CVS
+
+NOTE: This is NOT heavily tested! 
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-6 (06-26-2026)
+(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- (Hopefully) Enabled SDKT to work "in" paths that have spaces and special characters in them
+  - The fix works by copying all relevant the SDKT work files/folders to a temporary path (on the same drive) first
+  - There, all processing is done, then the results are copied back to the main tool folder
+  - The temp folder is deleted once all processing is done
 
 NOTE: This is NOT heavily tested! 
 
