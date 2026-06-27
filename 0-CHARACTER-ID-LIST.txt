@@ -1,4 +1,4 @@
-Updated as of Season 8.5 (Beach Update)
+Updated as of Season 8.5 (Summer Widow Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -275,6 +275,7 @@ Updated as of Season 8.5 (Beach Update)
 1033500: BlackWidow (Red Runway Veil)
 1033501: BlackWidow (Mrs. Barnes)
 1033503: BlackWidow (MIDNIGHT SUSPENSE)
+1033504: BlackWidow (AQUATIC ASSASSIN)
 1033800: BlackWidow (White Suit)
 
 1034: IronMan
@@ -496,6 +497,7 @@ Updated as of Season 8.5 (Beach Update)
 10490: Wolverine
 1049001: Wolverine (Default)
 1049100: Wolverine (Lone Wolf)
+1049101: Wolverine (WILL OF GALACTA)
 1049300: Wolverine (Blood Berserker)
 1049301: Wolverine (Dog Brother X)
 1049302: Wolverine (X-2099)
@@ -578,6 +580,7 @@ Updated as of Season 8.5 (Beach Update)
 1055001: DareDevil (Default)
 1055101: DareDevil (SHENLOONGS CREED)
 1055103: DareDevil (WILL OF GALACTA)
+1055300: DareDevil (SONAR SAVIOR)
 1055500: DareDevil (Devil 2099)
 1055501: DareDevil (Not Daredevil)
 1055502: DareDevil (SHADOWED START)
@@ -718,6 +721,7 @@ Updated as of Season 8.5 (Beach Update)
 4032: NPC_Khonshu
 4062: NPC_Kingpin
 
+8012: NPC_ManhattanDrone
 8021: NPC_LokiGhost
 8031: NPC_SpiderZeroAndMasterWeaver
 8032: NPC_TrainNPCs
