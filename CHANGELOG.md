@@ -1690,7 +1690,10 @@ UPDATE 2.2.4 (6-26-2026)
 For General
 
 For SMT
-- (Hopefully) Enabled the tool to work with paths that have spaces and special characters in them 
+- (Hopefully) Enabled SMT to work "in" paths that have spaces and special characters in them
+  - The fix works by copying all the SMT work files/folders to a temporary path (on the same drive) first
+  - There, all processing is done, then the results are copied back to the main tool folder
+  - The temp folder is deleted once all processing is done
 
 For CVS
 
