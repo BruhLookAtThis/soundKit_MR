@@ -1716,6 +1716,50 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-7 (06-29-2026)
+(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- Added Vorbis .wem creation to Option 0 via integration with AudioKinetic WWise Launcher
+ - By default, the script creates 'PCM' .wems
+ - However, 'Vorbis' .wems are not only much smaller in file size, but can handle longer audio for mods too
+ - To use this new feature, users must
+  
+ 1. Go to https://www.audiokinetic.com/en/download/
+ 2. Log in/create an account
+ 3. Download the Audio Kinetic Launcher
+ 4. Open the AudioKineticLauncher .exe that you just downloaded
+ 5. Agree with the Terms, and let it install
+ 6. Once done, it will open the AudioKineticLauncher app
+ 7. On the left side bar, go to 'Wwise'
+ 8. At the bottom under 'INSTALL A NEW VERSION', click the 'Latest' box and change it to 'All'
+ 9. Next to this in the 'Major' box, select '2023.1'
+ 10. Next to this in the 'Version' box, select '2023.1.0'
+ 11. Click 'Install' (it's possible you may need to log in again, do that, then continue)
+ 12. Under 'Packages', have 'Authoring' checked
+ 13. Under 'Platform', have 'Microsoft/Windows' checked
+ 14. Under 'Target Directory', pick a destination for the install
+
+- NOTE: I HIGHLY RECOMMEND YOU CHOOSE A DESTINATION THAT WON'T BE MOVED/DELETED/RENAMED, etc
+
+ 15. Click 'Next'
+ 16. On the top right, click 'Select None'
+ 17. Click 'Install'
+ 18. When it's done and say 'Install Operation Completed Successfully', you can close this app
+
+ 19. In the main menu, type '0' to go to Option 0
+ 20. At the Option 0 menu, type 's' and press Enter to begin setup for Vorbis .wems
+ 21. Follow the on-screen prompts to point the script to your WwiseConsole.exe
+ 22. Once finished, your output wems will now be Vorbis instead of PCM
+
+- Updated several Info Options and general menu UI
+
+NOTE: This is NOT heavily tested! 
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY)
 (NOT RELEASED YET, `BUG TESTING`)
 
