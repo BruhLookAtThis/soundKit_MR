@@ -1760,6 +1760,19 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-8 (07-02-2026)
+(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- Removed the `Display` folder output from Option S
+  - Now ALL sorted SFX, including all `display` files, will be in the `SFX` folder
+
+NOTE: This is NOT heavily tested! 
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY)
 (NOT RELEASED YET, `BUG TESTING`)
 
