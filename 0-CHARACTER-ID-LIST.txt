@@ -1,4 +1,4 @@
-Updated as of Season 8.5 (Summer Widow Update)
+Updated as of Season 8.5 (Summer White Fox Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -58,6 +58,7 @@ Updated as of Season 8.5 (Summer Widow Update)
 1016501: Loki (All-Butcher)
 1016502: Loki (Lady Loki)
 1016503: Loki (LOW-KEY LOKI)
+1016504: Loki (Lady Loki - SEASIDE SIREN)
 1016800: Loki (Loki Season 2)
 1016801: Loki (THE AVENGERS)
 
@@ -120,6 +121,7 @@ Updated as of Season 8.5 (Summer Widow Update)
 1022300: CaptainAmerica (Galactic Talon)
 1022301: CaptainAmerica (CURSED CAPTAIN)
 1022302: CaptainAmerica (BRETT HENDRICK - THE STAR)
+1022303: CaptainAmerica (SEASIDE SENTINEL)
 1022500: CaptainAmerica (Captain Gladiator)
 1022501: CaptainAmerica (Star Spangled Style)
 1022502: CaptainAmerica (Captain Klyntar)
@@ -631,6 +633,7 @@ Updated as of Season 8.5 (Summer Widow Update)
 1060100: WhiteFox (ROSY RECON)
 1060101: WhiteFox (SECRET AGENT)
 1060500: WhiteFox (YOON JI-WOO - THE LEADER)
+1060501: WhiteFox (COASTAL KUMIHO)
 
 1061: BlackCat
 10610: BlackCat
