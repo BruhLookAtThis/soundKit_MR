@@ -1419,7 +1419,8 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-1 (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+UPDATE 2.9.9-beta-1 
+- (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
 - Updated .usmap file
@@ -1610,7 +1611,7 @@ NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING.
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-2 
-(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+- (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
 
@@ -1623,7 +1624,7 @@ NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING.
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-3
-(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+- (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
 
@@ -1637,7 +1638,7 @@ NOTE: This is NOT heavily tested! MEANT FOR BETA TESTING.
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-4 (6-10-2026)
-(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+- (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SDKT
 - Moved\Renamed `x100-XTRAs-Are-Here\x101-REPAKED-BNKS-Stuff` to `0_XTRA\0-TOOLS-ALL\0-PAKR`
@@ -1663,7 +1664,7 @@ NOTE: This is NOT heavily tested!
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-5 (06-25-2026)
-(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+- (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SDKT
 - Added Option 1 Sub-Option 9
@@ -1702,7 +1703,7 @@ NOTE: This is NOT heavily tested!
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-6 (06-26-2026)
-(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+- (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
 
@@ -1717,7 +1718,7 @@ NOTE: This is NOT heavily tested!
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-7 (06-29-2026)
-(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+- (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
 
@@ -1761,7 +1762,7 @@ NOTE: This is NOT heavily tested!
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-8 (07-02-2026)
-(THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+- (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
 
@@ -1788,7 +1789,7 @@ NOTE: This is NOT heavily tested!
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-9 (07-03-2026)
-(NOT RELEASED YET, THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+- (NOT RELEASED YET, THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
 
@@ -1822,7 +1823,7 @@ NOTE: This is NOT heavily tested!
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY)
-(NOT RELEASED YET, `BUG TESTING`)
+- (NOT RELEASED YET, `BUG TESTING`)
 
 For General
 
