@@ -1739,7 +1739,7 @@ For SDKT
  9. Next to this in the 'Major' box, select '2023.1'
  10. Next to this in the 'Version' box, select '2023.1.0'
  11. Click 'Install' (it's possible you may need to log in again, do that, then continue)
- 12. Under 'Packages', have 'Authoring' checked
+ 12. Under 'Packages', only have 'Authoring' checked
  13. Under 'Platform', have 'Microsoft/Windows' checked
  14. Under 'Target Directory', pick a destination for the install
 
