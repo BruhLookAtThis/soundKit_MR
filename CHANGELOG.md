@@ -1813,10 +1813,12 @@ For SDKT
     - (For Sub-Option 6, the script will only use the non-numbered txt, of course)
   - Or if users want to use the default .txts, they can just press Enter instead of choosing a number
           
-- Added `q` inputs for more Option 1 Sub-Options
+- Added a `q` to `cancel` input to Option 1 Sub-Option 7
 - Adjusted all Option 1 Sub-Options that do NOT use group folders to ignore any folders whos names are JUST a number in `2-Put-CUSTOM-WEMs-Here`
   - So folders like `2-Put-CUSTOM-WEMs-Here\1\`, `2-Put-CUSTOM-WEMs-Here\2\`, & `2-Put-CUSTOM-WEMs-Here\3\` are ignored
   - This is to prevent `Duplicate wem ID` errors from occurring when we don't intend for that to happen
+ 
+- Adjusted some Option menu UI
 
 NOTE: This is NOT heavily tested! 
 
