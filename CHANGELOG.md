@@ -1750,6 +1750,8 @@ For SDKT
  17. Click 'Install'
  18. When it's done and say 'Install Operation Completed Successfully', you can close this app
 
+- NOW: Open SoundKit
+
  19. In the main menu, type '0' to go to Option 0
  20. At the Option 0 menu, type 's' and press Enter to begin setup for Vorbis .wems
  21. Follow the on-screen prompts to point the script to your WwiseConsole.exe
