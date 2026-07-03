@@ -1787,6 +1787,40 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-9 (07-03-2026)
+(NOT RELEASED YET, THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- Added `0-PAK-NAME-LIST` folder support to Option 1 Sub-Option 6 and 7 (teehee)
+  - Now, if you have different groups of 0-PAK-NAME-LIST.txt files tailored for specific renamings, they can be placed into selectable folders
+  - For example:
+    - 0-TXTs\
+      - 0-PAK-NAME-LIST-MyMods\
+        - 0-PAK-NAME-LIST-MyMods.txt
+        - 0-PAK-NAME-LIST-1-MyMods-LoVolume.txt
+        - 0-PAK-NAME-LIST-2-MyMods-MidVolume.txt
+        - 0-PAK-NAME-LIST-3-MyMods-HiVolume.txt
+      - 0-PAK-NAME-LIST-YourMods\
+        - 0-PAK-NAME-LIST-YourMods.txt
+        - 0-PAK-NAME-LIST-1-YourMods-LoVolume.txt
+        - 0-PAK-NAME-LIST-2-YourMods-MidVolume.txt
+        - 0-PAK-NAME-LIST-3-YourMods-HiVolume.txt
+  - Each folder will show up in a numbered list when choosing Option 1 Sub-Option 6 and 7 (teehee)
+  - Users can select the number of the folder whos .txts they want to use
+    - (For Sub-Option 6, the script will only use the non-numbered txt, of course)
+  - Or if users want to use the default .txts, they can just press Enter instead of choosing a number
+          
+- Added `q` inputs for more Option 1 Sub-Options
+- Adjusted all Option 1 Sub-Options that do NOT use group folders to ignore any folders whos names are JUST a number in `2-Put-CUSTOM-WEMs-Here`
+  - So folders like `2-Put-CUSTOM-WEMs-Here\1\`, `2-Put-CUSTOM-WEMs-Here\2\`, & `2-Put-CUSTOM-WEMs-Here\3\` are ignored
+  - This is to prevent `Duplicate wem ID` errors from occurring when we don't intend for that to happen
+
+NOTE: This is NOT heavily tested! 
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY)
 (NOT RELEASED YET, `BUG TESTING`)
 
