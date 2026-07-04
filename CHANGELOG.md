@@ -1791,7 +1791,7 @@ NOTE: This is NOT heavily tested!
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 UPDATE 2.9.9-beta-9 (07-03-2026)
-### (NOT RELEASED YET, THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
 
@@ -1819,6 +1819,14 @@ For SDKT
 - Adjusted all Option 1 Sub-Options that do NOT use group folders to ignore any folders whos names are JUST a number in `2-Put-CUSTOM-WEMs-Here`
   - So folders like `2-Put-CUSTOM-WEMs-Here\1\`, `2-Put-CUSTOM-WEMs-Here\2\`, & `2-Put-CUSTOM-WEMs-Here\3\` are ignored
   - This is to prevent `Duplicate wem ID` errors from occurring when we don't intend for that to happen
+
+- Added `Media` subfolder REQUIREMENT for processing Media .wems with Option 1 Sub-Option 9
+  - Users will now HAVE to place Media .wems into a `Media` folder inside of `2-Put-CUSTOM-WEMs-Here` to create Media mods
+  - These folders can have custom names by adding a hyphen to the folder name and typing your custom text after that hyphen
+    - For example: `Media-MyMusicMods` or `Media-Season8MusicMod`
+  - .pak files will now be named after the `Media` folder that the modded .wems were in
+    - For example: `Media-MyMusicMods_9999999_P.pak`
+  - You can have multiple `Media` folders present to create multiple Media mods at once
  
 - Adjusted some Option menu UI
 
