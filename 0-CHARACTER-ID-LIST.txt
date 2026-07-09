@@ -1,4 +1,4 @@
-Updated as of Season 8.5 (Summer White Fox Update)
+Updated as of Season 9.0 (Jubilee Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -98,6 +98,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1020301: Mantis (Jade Maiden)
 1020302: Mantis (Oceanic Harmony)
 1020305: Mantis (Galactic Gladiator)
+1020306: Mantis (AKKABAN ACOLYTE)
 1020307: Mantis (MANDY CELESTINE - THE GREETER)
 1020500: Mantis (Flora Maiden)
 1020501: Mantis (STARLIT MADONNA)
@@ -118,6 +119,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1022001: CaptainAmerica (Default)
 1022100: CaptainAmerica (Captain A.I.M.erica)
 1022101: CaptainAmerica (PLACEHOLDER-UNKNOWN)
+1022102: CaptainAmerica (Will of Galacta)
 1022300: CaptainAmerica (Galactic Talon)
 1022301: CaptainAmerica (CURSED CAPTAIN)
 1022302: CaptainAmerica (BRETT HENDRICK - THE STAR)
@@ -141,6 +143,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1023305: RocketRaccoon (Rocket of the Rafters)
 1023306: RocketRaccoon (Giant Panda)
 1023307: RocketRaccoon (ROCKY THE TRANSFER)
+1023308: RocketRaccoon (GOLDEN ARTIFICER)
 1023500: RocketRaccoon (Symbiote Raccoon)
 1023801: RocketRaccoon (Guardians of the Galaxy Vol. 3)
 
@@ -172,6 +175,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1025304: CloakDagger (DARING DUO)
 1025305: CloakDagger (COASTAL COUPLE)
 1025500: CloakDagger (Growth & Decay)
+1025501: CloakDagger (STORIED SURVIVORS)
 
 1026: BlackPanther
 10260: BlackPanther
@@ -205,6 +209,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1028302: Ultron (CYBERNETIC DRIP)
 1028500: Ultron (X-Tron)
 1028502: Ultron (ODINFORCE ULTRON)
+1028503: Ultron (ULTRON-15)
 1028800: Ultron (Infinity Ultron)
 
 1029: Magik
@@ -286,6 +291,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1034100: IronMan (ARMOR MODEL 42)
 1034300: IronMan (Blood Edge Armor)
 1034301: IronMan (IRON MARINER)
+1034302:  IronMan (IRON PHARAOH)
 1034500: IronMan (Steam Power)
 1034501: IronMan (Superior Iron Man)
 1034502: IronMan (Extrembiote Armor)
@@ -308,6 +314,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1035501: Venom (Space Knight)
 1035302: Venom (Gummy Surprise)
 1035502: Venom (WAR OF THE REALMS)
+1035503: Venom (VENOM BLOOM)
 1035800: Venom (Marvel Cosmic Invasion)
 
 1036: SpiderMan
@@ -379,6 +386,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1040001: MrFantastic (Default)
 1040100: MrFantastic (First Family)
 1040101: MrFantastic (Will of Galacta)
+1040102: MrFantastic (RED-Y 4 ACTION)
 1040300: MrFantastic (The Life Fantastic)
 1040301: MrFantastic (Dad-tastic Reed)
 1040302: MrFantastic (DANUM KET - THE PROFESSOR)
@@ -449,6 +457,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1045500: Namor (Savage Sub-Mariner)
 1045501: Namor (Retro X-Uniform)
 1045502: Namor (Phoenix King)
+1045503: Namor (LORD OF ATLANTIS)
 1045800: Namor (Black Panther - Wakanda Forever)
 
 1046: AdamWarlock
@@ -506,6 +515,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1049500: Wolverine (Patch)
 1049501: Wolverine (Weapon X)
 1049503: Wolverine (Winter Soldier)
+1049504: Wolverine (BLOODLESS BERSERKER)
 1049800: Wolverine (Deadpool & Wolverine)
 
 1050: InvisibleWoman
@@ -605,6 +615,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1057101: Deadpool (Workwear Woes)
 1057300: Deadpool (Captain Pool)
 1057301: Deadpool (MONSTER KING)
+1057302: Deadpool (DEAD MUMMY)
 1057500: Deadpool (MAID-POOL)
 1057800: Deadpool (WADE WILSON THE SPIRIT SQUAD)
 
@@ -626,6 +637,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1059101: ElsaBloodstone (Icy Edge)
 1059300: ElsaBloodstone (Young Blood)
 1059500: ElsaBloodstone (BLOODY BUTLER)
+1059503: ElsaBloodstone (PRIMAL PREDATOR)
 
 1060: WhiteFox
 10600: WhiteFox
@@ -656,9 +668,11 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1063101: Cyclops (FUTURISTIC FOCUS)
 1063500: Cyclops (WEAPON M)
 
-1064: Jubilee - UNCONFIRMED
-10640: Jubilee - UNCONFIRMED
+1064: Jubilee
+10640: Jubilee
 1064001: Jubilee (Default)
+1064101: Jubilee (CRIMSON CROWN)
+1064500: Jubilee (MIDNIGHT MUTANT)
 
 1065: Rogue
 10650: Rogue
@@ -669,6 +683,7 @@ Updated as of Season 8.5 (Summer White Fox Update)
 1065300: Rogue (Rogue Redux)
 1065301: Rogue (Mrs.X)
 1065500: Rogue (STARLIT REBEL)
+1065501: Rogue (RAIDER PRIME)
 
 1066: UNKNOWN - UNCONFIRMED
 10660: UNKNOWN - UNCONFIRMED
