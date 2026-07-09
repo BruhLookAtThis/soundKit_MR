@@ -1844,6 +1844,8 @@ For SDKT
 - Upgraded Option 102 to automatically retrieve required vanilla .bnk(s) from `x100-XTRAs-Are-Here\x101-BNK-UPDATER\0-PUT-ALL-NEW-BNKS-HERE`
   - For voice .bnk(s), it only checks the `English(US)` folder
 - Added prompt in Option 102 to move vanilla .bnk(s)/output modded .wems used in the current operation over to `1-Put-ORIGINAL-BNKs-Here` and `2-Put-CUSTOM-WEMs-Here`
+- Upgraded Option S to automatically clear the `SUBS-NEW` folder on start, then populate it with a freshly made `en` folder
+  - This will automatically provide the latest filenames/subtitles for use with wem ID-updating options 
 
 NOTE: This is NOT heavily tested! 
 
