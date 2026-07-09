@@ -1864,6 +1864,19 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-10b (07-09-2026)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- Fixed Option 1 Sub-Option 9 overwriting output paks when multiple wems were in a single `Media` folder
+- Changed Option 1 Sub-Option 8 and 9 to remember `send to ~mods-AUDIO` choice. Script no longer asks you every operation if you want to move your .pak files to that folder
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY)
 ### (NOT RELEASED YET, `BUG TESTING`)
 
