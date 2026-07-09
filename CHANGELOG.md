@@ -1840,12 +1840,14 @@ UPDATE 2.9.9-beta-10 (07-08-2026)
 For General
 
 For SDKT
+- DRASTICALLY increased the speed of Option S processing. Now it should complete in 1/3rd of the time
+- Upgraded Option S to automatically clear the `SUBS-NEW` folder on start, then populate it with a freshly made `en` folder
+  - This will automatically provide the latest filenames/subtitles for use with the wem ID-updating options 
 - Upgraded DEV Option 202 to support .pak files inside of subfolders within `0-Place-Pak-Files-Here`
 - Upgraded Option 102 to automatically retrieve required vanilla .bnk(s) from `x100-XTRAs-Are-Here\x101-BNK-UPDATER\0-PUT-ALL-NEW-BNKS-HERE`
   - For voice .bnk(s), it only checks the `English(US)` folder
+  - If they can't be found, the script will let you know that you need to place them manually
 - Added prompt in Option 102 to move vanilla .bnk(s)/output modded .wems used in the current operation over to `1-Put-ORIGINAL-BNKs-Here` and `2-Put-CUSTOM-WEMs-Here`
-- Upgraded Option S to automatically clear the `SUBS-NEW` folder on start, then populate it with a freshly made `en` folder
-  - This will automatically provide the latest filenames/subtitles for use with wem ID-updating options 
 
 NOTE: This is NOT heavily tested! 
 
