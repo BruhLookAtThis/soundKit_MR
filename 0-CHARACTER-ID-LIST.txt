@@ -685,26 +685,6 @@ Updated as of Season 9.0 (Jubilee Update)
 1065500: Rogue (STARLIT REBEL)
 1065501: Rogue (RAIDER PRIME)
 
-1066: UNKNOWN - UNCONFIRMED
-10660: UNKNOWN - UNCONFIRMED
-1066001: UNKNOWN (Default)
-
-1067: Armor - UNCONFIRMED
-10670: Armor - UNCONFIRMED
-1067001: Armor (Default)
-
-1068: Hive - UNCONFIRMED
-10680: Hive - UNCONFIRMED
-1068001: Hive (Default)
-
-1070: Forge - UNCONFIRMED
-10700: Forge - UNCONFIRMED
-1070001: Forge (Default)
-
-1071: Amaranth - UNCONFIRMED
-10710: Amaranth - UNCONFIRMED
-1071001: Amaranth (Default)
-
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
 
 # Galacta has bnk_vo_system.bnk, bnk_vo_practice_level.bnk & bnk_vo_tutorial_level.bnk
