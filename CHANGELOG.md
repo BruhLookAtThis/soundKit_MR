@@ -1877,6 +1877,33 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-11 (07-09-2026)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- Swapped around Option 1 Sub-Option 4 and Option 1 Sub-Option 5
+- Fixed Wem ID Updating for Option 1 Sub-Option 4 and Option 1 Sub-Option 5
+- Upgraded this newly swapped Sub-Option 5 to create modded .pak files instead of stopping at only a modded .bnk
+- Cleaned up some backend stuff
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-12 (07-09-2026) (NOT RELEASED YET, IN DEVELOPMENT PHASE)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- 
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY)
 ### (NOT RELEASED YET, `BUG TESTING`)
 
