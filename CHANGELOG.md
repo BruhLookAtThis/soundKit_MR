@@ -1887,6 +1887,7 @@ For SDKT
 - Fixed Wem ID Updating for Option 1 Sub-Option 4 and Option 1 Sub-Option 5
 - Upgraded this newly swapped Sub-Option 5 to create modded .pak files instead of stopping at only a modded .bnk
 - Cleaned up some backend stuff
+- Added Season 9 subtitles to SUBS-NEW and season 8.5 subtitles to SUBS-OLD
 
 NOTE: This is NOT heavily tested!
 
