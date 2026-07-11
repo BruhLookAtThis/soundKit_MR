@@ -1877,7 +1877,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-11 (07-09-2026)
+UPDATE 2.9.9-beta-11 (07-10-2026)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
@@ -1896,7 +1896,28 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-12 (07-09-2026) (NOT RELEASED YET, IN DEVELOPMENT PHASE)
+UPDATE 2.2.5 (07-10-2026)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+- Updated .usmap file
+
+For SMT
+- Fixed Wem ID Updating for Option 1 Sub-Option 4 and Option 1 Sub-Option 5
+- Updated files now also retain custom suffixes
+- Also added support for updating files in `0-Put-CUSTOM-AUDIO-Here` to Sub-Option 5
+- Additionally, file extensions are now ignored, allowing updating decimals for .wav, .mp3, .flac, whatever
+
+For CVS
+- Added Season 9 subtitles to SUBS-NEW and season 8.5 subtitles to SUBS-OLD
+- Removed `.ALL-LANGS-FOR-SUBS-NEW-*` and `.ALL-LANGS-FOR-SUBS-OLD-*` folders
+- Updated `CHARACTER-ID-LIST.txt` file
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-12 (07-11-2026) (NOT RELEASED YET, IN DEVELOPMENT PHASE)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
