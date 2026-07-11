@@ -1917,7 +1917,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-12 (07-11-2026) (NOT RELEASED YET, IN DEVELOPMENT PHASE)
+UPDATE 2.9.9-beta-12 (07-11-2026)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
