@@ -68,8 +68,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1017100: HumanTorch (First Family)
 1017101: HumanTorch (Blood Blaze)
 1017102: HumanTorch (SILVER SPARK)
-1017201: HumanTorch (Unknown)
-1017300: HumanTorch (Jack Of Hearts)
+1017301: HumanTorch (Jack Of Hearts)
 1017500: HumanTorch (Negative Zone Gladiator)
 1017501: HumanTorch (Future Foundation)
 1017502: HumanTorch (Sunny Sizzler)
@@ -81,6 +80,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1018100: DoctorStrange (Master of Black Magic)
 1018101: DoctorStrange (Astral Wanderer)
 1018300: DoctorStrange (Sorcerer Immortal)
+1018301: DoctorStrange (OLD MAN STRANGE)
 1018302: DoctorStrange (Bleeker Street Strut)
 1018303: DoctorStrange (PHANTOM SORCERER)
 1018304: DoctorStrange (STEPHEN SANDERS - THE DOCTOR)
@@ -93,6 +93,7 @@ Updated as of Season 9.0 (Jubilee Update)
 10200: Mantis
 1020001: Mantis (Default)
 1020100: Mantis (KNOWHERE CORP)
+1020101: Mantis (Will of Galacta)
 1020102: Mantis (BLACK n GOLD)
 1020300: Mantis (Galactic Wings)
 1020301: Mantis (Jade Maiden)
@@ -108,17 +109,18 @@ Updated as of Season 9.0 (Jubilee Update)
 10210: Hawkeye
 1021001: Hawkeye (Default)
 1021100: Hawkeye (Tigers Eye)
+1021101: Hawkeye (Will of Galacta)
 1021102: Hawkeye (ARGENT ARCHER)
 1021300: Hawkeye (Galactic Fangs)
 1021301: Hawkeye (Old Man Hawkeye)
 1021500: Hawkeye (Ronin)
 1021501: Hawkeye (Freefall)
+1021502: Hawkeye (Binary Arrow)
 
 1022: CaptainAmerica
 10220: CaptainAmerica
 1022001: CaptainAmerica (Default)
 1022100: CaptainAmerica (Captain A.I.M.erica)
-1022101: CaptainAmerica (PLACEHOLDER-UNKNOWN)
 1022102: CaptainAmerica (Will of Galacta)
 1022300: CaptainAmerica (Galactic Talon)
 1022301: CaptainAmerica (CURSED CAPTAIN)
@@ -181,8 +183,10 @@ Updated as of Season 9.0 (Jubilee Update)
 10260: BlackPanther
 1026001: BlackPanther (Default)
 1026100: BlackPanther (ORISHA BLOOD)
+1026101: BlackPanther (Golden Panther)
 1026300: BlackPanther (Galactic Claw)
 1026301: BlackPanther (Thrice-Cursed King)
+1026302: BlackPanther (Phoenix Panther)
 1026500: BlackPanther (Basts Chosen)
 1026501: BlackPanther (Damisa-Sarki)
 1026502: BlackPanther (King of Wakanda)
@@ -196,6 +200,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1027303: Groot (Mecha Flora)
 1027304: Groot (IRONWOOD SERPENT)
 1027500: Groot (Carved Traveler)
+1027501: Groot (Symbiote Flora)
 1027502: Groot (Big Buddy)
 1027800: Groot (Guardians of the Galaxy Vol. 3)
 
@@ -217,6 +222,7 @@ Updated as of Season 9.0 (Jubilee Update)
 10291: Magik (DarkChylde Only)
 1029001: Magik (Default)
 1029100: Magik (AMETHEYST ARMOR)
+1029101: Magik (WILL OF GALACTA)
 1029300: Magik (Punkchild)
 1029301: Magik (Frozen Demon)
 1029302: Magik (Rosy Resilience - Punkchild)
@@ -232,7 +238,7 @@ Updated as of Season 9.0 (Jubilee Update)
 10300: MoonKnight
 1030001: MoonKnight (Default)
 1030100: MoonKnight (Golden Moonlight)
-1030100: MoonKnight (Blood Moon Knight)
+1030101: MoonKnight (Blood Moon Knight)
 1030300: MoonKnight (Lunar General)
 1030301: MoonKnight (King of Clubs)
 1030302: MoonKnight (ECLIPSE KNIGHT)
@@ -281,6 +287,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1033300: BlackWidow (Lions Heartbeat)
 1033500: BlackWidow (Red Runway Veil)
 1033501: BlackWidow (Mrs. Barnes)
+1033502: BlackWidow (Phoenix Widow)
 1033503: BlackWidow (MIDNIGHT SUSPENSE)
 1033504: BlackWidow (AQUATIC ASSASSIN)
 1033800: BlackWidow (White Suit)
@@ -291,7 +298,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1034100: IronMan (ARMOR MODEL 42)
 1034300: IronMan (Blood Edge Armor)
 1034301: IronMan (IRON MARINER)
-1034302:  IronMan (IRON PHARAOH)
+1034302: IronMan (IRON PHARAOH)
 1034500: IronMan (Steam Power)
 1034501: IronMan (Superior Iron Man)
 1034502: IronMan (Extrembiote Armor)
@@ -307,6 +314,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1035100: Venom (CYAN CLASH)
 1035101: Venom (ANTI-VENOM)
 1035102: Venom (Hyper Orange)
+1035103: Venom (Pink Bubble)
 1035300: Venom (Snow Symbiote)
 1035301: Venom (Reborn King in Black)
 1035303: Venom (Space Corsair)
@@ -322,6 +330,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1036001: SpiderMan (Default)
 1036100: SpiderMan (SCARLET SPIDER)
 1036101: SpiderMan (Chasm)
+1036102: SpiderMan (BLACK & GOLD)
 1036300: SpiderMan (Spider-Oni)
 1036301: SpiderMan (COASTAL WALL-CRAWLER)
 1036500: SpiderMan (2099 - SPIDER-PUNK)
@@ -341,6 +350,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1037001: Magneto (Default)
 1037100: Magneto (UNCANNY BLACKSTEEL)
 1037101: Magneto (Will of Glacata)
+1037102: Magneto (BLACK & GOLD)
 1037300: Magneto (Binary Sword)
 1037301: Magneto (Temporal Tyrant)
 1037302: Magneto (The Trial of Magneto)
@@ -427,6 +437,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1043001: StarLord (Default)
 1043100: StarLord (JOVIAL STAR)
 1043102: StarLord (IGNITE Star-Lord (2025))
+1043103: StarLord (Luminous Legend)
 1043300: StarLord (Lions Mane)
 1043301: StarLord (Starcracker)
 1043302: StarLord (GROOVY GUARDIAN)
@@ -439,7 +450,9 @@ Updated as of Season 9.0 (Jubilee Update)
 1044: Blade
 10440: Blade
 1044001: Blade (Default)
+1044100: Blade (Daybreak)
 1044101: Blade (Will of Galacta)
+1044102: Blade (Emerald Blade)
 1044300: Blade (Polarity Edge)
 1044301: Blade (Vampire Slayer)
 1044302: Blade (STARLIT SHADOW)
@@ -465,6 +478,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1046001: AdamWarlock (Default)
 1046100: AdamWarlock (COSMIC JADE)
 1046101: AdamWarlock (Will of Galacta)
+1046102: AdamWarlock (King in White)
 1046300: AdamWarlock (Immortal Avatar Adam Warlock)
 1046301: AdamWarlock (Blood Soul)
 1046302: AdamWarlock (COSMIC WARLOCK)
@@ -514,6 +528,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1049302: Wolverine (X-2099)
 1049500: Wolverine (Patch)
 1049501: Wolverine (Weapon X)
+1049502: Wolverine (Weapon PhoeniX)
 1049503: Wolverine (Winter Soldier)
 1049504: Wolverine (BLOODLESS BERSERKER)
 1049800: Wolverine (Deadpool & Wolverine)
@@ -578,7 +593,8 @@ Updated as of Season 9.0 (Jubilee Update)
 1054: Phoenix
 10540: Phoenix
 1054001: Phoenix (Default)
-1054101: Phoenix (The Return of Jean Grey)
+1054100: Phoenix (The Return of Jean Grey)
+1054101: Phoenix (Emerald Flames)
 1054102: Phoenix (Emerald Flames)
 1054300: Phoenix (Chaos Phoenix)
 1054301: Phoenix (Ice Phoenix)
@@ -590,7 +606,9 @@ Updated as of Season 9.0 (Jubilee Update)
 1055: DareDevil
 10550: DareDevil
 1055001: DareDevil (Default)
+1055100: DareDevil (FEARLESS ORIGIN)
 1055101: DareDevil (SHENLOONGS CREED)
+1055102: DareDevil (Twilight Aurora)
 1055103: DareDevil (WILL OF GALACTA)
 1055300: DareDevil (SONAR SAVIOR)
 1055500: DareDevil (Devil 2099)
@@ -613,6 +631,18 @@ Updated as of Season 9.0 (Jubilee Update)
 1057001: Deadpool (Default)
 1057100: Deadpool (X-Force?)
 1057101: Deadpool (Workwear Woes)
+1057102: Deadpool (VIRTUS.PRO)
+1057103: Deadpool (NRG SHOCK)
+1057104: Deadpool (SPACESTATION GAMING)
+1057105: Deadpool (NAVI)
+1057106: Deadpool (TSM)
+1057107: Deadpool (TEAM HERETICS)
+1057108: Deadpool (REJECT)
+1057109: Deadpool (SENTINELS)
+1057110: Deadpool (GEN.G)
+1057111: Deadpool (LIQUID CITADEL)
+1057112: Deadpool (FLYQUEST)
+1057113: Deadpool (100 THIEVES)
 1057300: Deadpool (Captain Pool)
 1057301: Deadpool (MONSTER KING)
 1057302: Deadpool (DEAD MUMMY)
@@ -665,12 +695,14 @@ Updated as of Season 9.0 (Jubilee Update)
 1063: Cyclops
 10630: Cyclops
 1063001: Cyclops (Default)
+1063100: Cyclops (SHADOWED GAZE)
 1063101: Cyclops (FUTURISTIC FOCUS)
 1063500: Cyclops (WEAPON M)
 
 1064: Jubilee
 10640: Jubilee
 1064001: Jubilee (Default)
+1064100: Jubilee (COOL COMBUSTION)
 1064101: Jubilee (CRIMSON CROWN)
 1064500: Jubilee (MIDNIGHT MUTANT)
 
@@ -732,3 +764,36 @@ Updated as of Season 9.0 (Jubilee Update)
 8062: NPC_RatotoSkr
 8063: NPC_Bats
 8072: NPC_HydraNPCs
+
+# AUTO-DETECTED NPCS BELOW. MAY NEED TO BE MANUALLY SORTED INTO THE ABOVE NPC CATEGORIES (NO INDIVIDUAL BNK or INDIVIDUAL BNK)
+
+4020: DecayedUndead
+40200: DecayedUndead
+
+4021: BerserkUndead
+40210: BerserkUndead
+
+4022: ExplosiveUndead
+40220: ExplosiveUndead
+
+4023: UndeadSentinel
+40230: UndeadSentinel
+
+4026: ExplodingUndead
+40260: ExplodingUndead
+
+4027: PlagueUndead
+40270: PlagueUndead
+
+4028: StickyUndead
+40280: StickyUndead
+
+4036: Capwolf
+40360: Capwolf
+
+4050: Runner
+40500: Runner
+
+4051: DraculaHunter
+40510: DraculaHunter
+
