@@ -1923,8 +1923,13 @@ UPDATE 2.9.9-beta-12 (07-11-2026) (NOT RELEASED YET, IN DEVELOPMENT PHASE)
 For General
 
 For SDKT
+- Updated Option 1 Sub-Option 4 & 5 to prompt users if they want to rename their files to the default filename
+  - If they select `y` (yes), the script will rename their wems to whatever wem ID filename match is found in the `SUBS-NEW` txts
+  - If they select `n` (no), then the custom name, if present, will remain as-is (the wem ID will still be updated, if necessary)
+  
 - Updated Option S and Option U to automatically update the `0-CHARACTER-ID-LIST.txt` file with new characters/costumes
   - This requires the latest `Game.json` file to be in `\0_XTRA\0-CVS-INPUT\Localization\Game\en`
+  
 - Updated Option 1 Sub-Option 2 and 3 + Option 102 Sub-Options 1 and 2 to create .wav file versions of the extracted bnk folders
   - These folders will have the same names as the originals, just wwith `-WAVs` appended
   - Option 102 Sub-Option 1s `-WAV` folders will not move if you select `y` on the transfer prompt
