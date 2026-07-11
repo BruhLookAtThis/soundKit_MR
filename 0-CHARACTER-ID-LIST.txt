@@ -766,3 +766,33 @@ Updated as of Season 9.0 (Jubilee Update)
 8072: NPC_HydraNPCs
 
 # AUTO-DETECTED NPCS BELOW. MAY NEED TO BE MANUALLY SORTED INTO THE ABOVE NPC CATEGORIES (NO INDIVIDUAL BNK or INDIVIDUAL BNK)
+
+4020: DecayedUndead
+40200: DecayedUndead
+
+4021: BerserkUndead
+40210: BerserkUndead
+
+4022: ExplosiveUndead
+40220: ExplosiveUndead
+
+4023: UndeadSentinel
+40230: UndeadSentinel
+
+4026: ExplodingUndead
+40260: ExplodingUndead
+
+4027: PlagueUndead
+40270: PlagueUndead
+
+4028: StickyUndead
+40280: StickyUndead
+
+4036: Capwolf
+40360: Capwolf
+
+4050: Runner
+40500: Runner
+
+4051: DraculaHunter
+40510: DraculaHunter
