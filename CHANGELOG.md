@@ -1885,6 +1885,7 @@ For General
 For SDKT
 - Swapped around Option 1 Sub-Option 4 and Option 1 Sub-Option 5
 - Fixed Wem ID Updating for Option 1 Sub-Option 4 and Option 1 Sub-Option 5
+- Also added support for updating files in `0-Put-CUSTOM-AUDIO-Here`
 - Upgraded this newly swapped Sub-Option 5 to create modded .pak files instead of stopping at only a modded .bnk
 - Cleaned up some backend stuff
 - Added Season 9 subtitles to SUBS-NEW and season 8.5 subtitles to SUBS-OLD
@@ -1899,7 +1900,8 @@ UPDATE 2.9.9-beta-12 (07-09-2026) (NOT RELEASED YET, IN DEVELOPMENT PHASE)
 For General
 
 For SDKT
-- 
+- Updated Option S and Option U to automatically update the `0-CHARACTER-ID-LIST.txt` file with new characters/costumes
+  - This requires the latest `Game.json` file to be in `\0_XTRA\0-CVS-INPUT\Localization\Game\en`
 
 NOTE: This is NOT heavily tested!
 
