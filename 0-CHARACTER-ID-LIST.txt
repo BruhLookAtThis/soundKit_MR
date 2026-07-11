@@ -692,12 +692,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1062101: Devil Dinosaur (CORPORATE CRUNCHER)
 1062500: Devil Dinosaur (CHRONO-ARMOR)
 
-1063: Cyclops
-10630: Cyclops
-1063001: Cyclops (Default)
-1063100: Cyclops (SHADOWED GAZE)
-1063101: Cyclops (FUTURISTIC FOCUS)
-1063500: Cyclops (WEAPON M)
+
 
 1064: Jubilee
 10640: Jubilee
