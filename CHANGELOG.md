@@ -1939,8 +1939,22 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE X.X.X (MM-DD-YYYY)
-### (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-13 (07-11-2026)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- Updated Option 1 Sub-Option 4 to skip files with invalid names
+  - Made this for me cause I drag my whole project folders in `0-Put-CUSTOM-AUDIO-Here` when I update Wem IDs
+  - Should be harmless to everyone else since any bnk/pak-making Options still catch these invalid files
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
+### 
 
 For General
 
