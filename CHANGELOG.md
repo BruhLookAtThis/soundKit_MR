@@ -1931,9 +1931,9 @@ For SDKT
   - This requires the latest `Game.json` file to be in `\0_XTRA\0-CVS-INPUT\Localization\Game\en`
   
 - Updated Option 1 Sub-Option 2 and 3 + Option 102 Sub-Options 1 and 2 to create .wav file versions of the extracted bnk folders
-  - These folders will have the same names as the originals, just wwith `-WAVs` appended
-  - Option 102 Sub-Option 1s `-WAV` folders will not move if you select `y` on the transfer prompt
-  - Thats because, obviously, wav files cant be injected into bnks
+  - These folders will have the same names as the originals, just with `-WAVs` appended
+  - The Option 102 Sub-Options `-WAV` folders will not move if you select `y` on any transfer prompts
+  - Thats because, obviously, .wav files cant be injected into .bnks/.paks
 
 NOTE: This is NOT heavily tested!
 
