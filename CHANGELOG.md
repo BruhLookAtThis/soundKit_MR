@@ -1945,7 +1945,10 @@ UPDATE 2.9.9-beta-13 (07-11-2026)
 For General
 
 For SDKT
-- Updated Option 1 Sub-Option 4 to skip files with invalid names
+- Updated Option 0 to correctly apply WwiseConsole.exe setup immediately
+  - The script was saving the .exe path but not applying it, requiring a script relaunch to actually start making Vorbis .wems
+  - This should be fixed now
+- Updated Option 1 Sub-Option 4 to skip moving files with invalid names
   - Made this for me cause I drag my whole project folders in `0-Put-CUSTOM-AUDIO-Here` when I update Wem IDs
   - Should be harmless to everyone else since any bnk/pak-making Options still catch these invalid files
 
