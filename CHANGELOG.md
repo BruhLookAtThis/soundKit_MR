@@ -1956,7 +1956,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-14 (07-11-2026)
+UPDATE 2.9.9-beta-14 (07-11-2026) (NOT RELEASED YET, `BUG TESTING`)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
@@ -1966,6 +1966,24 @@ For SDKT
   - Dr.Strange uses different wem IDs for his default voice and his Madness costume voice
   - I believe Wanda also has this sort of deal
   - Shoulds be futureproofed for any other characters that will recieve alternate voice files
+- Updated Option 1 Sub-Option 4 & 5 to choose default costume filenames if an alt costume shares a newer wem ID with it
+  - Not really important, made this for myself really
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.2.5b (07-11-2026) (NOT RELEASED YET, `BUG TESTING`)
+
+For General
+
+For SMT
+- Updated Option 1 Sub-Option 4 & 5 to correctly update characters who have alternative voice files
+  - Dr.Strange uses different wem IDs for his default voice and his Madness costume voice
+  - I believe Wanda also has this sort of deal
+  - Shoulds be futureproofed for any other characters that will recieve alternate voice files
+- Updated Option 1 Sub-Option 4 & 5 to choose default costume filenames if an alt costume shares a newer wem ID with it
+  - Not really important, made this for myself really
 
 NOTE: This is NOT heavily tested!
 
