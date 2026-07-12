@@ -1956,7 +1956,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-14 (07-11-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-14 (07-11-2026)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For General
@@ -1973,7 +1973,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.2.5b (07-11-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.2.5b (07-11-2026)
 
 For General
 
