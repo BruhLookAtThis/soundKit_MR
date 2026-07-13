@@ -1987,6 +1987,18 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-15 (07-12-2026) (NOT RELEASED YET, `BUG TESTING`)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For General
+
+For SDKT
+- Added CVS-OUTPUT auto-organization to script startup
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
