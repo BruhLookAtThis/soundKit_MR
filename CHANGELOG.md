@@ -2007,7 +2007,7 @@ For SDKT
     - Example 1a: `\x100-XTRA-OPTIONS\x102-ISOLATE-MERGE\C-Modded-Wems-Here\MyMod_99999999_P\bnk_sfx_1031001\627292950-sfx_1031001_q_music_lvup_play.wem`
     - Example 1b: `\x100-XTRA-OPTIONS\x102-ISOLATE-MERGE\C-Modded-Wems-Here\MyMod_99999999_P\bnk_vo_1031001\2430858-vo_10310096_occupied_celebrate_02_play.wem`
   - Made this because I was updating a lot of audio mods, and want to make it easier to determine which isolated .wems belonged to which extracted .pak file
-- Fixed Option 1 Sub-Option 6 & 7 making separate .pak files for `0-PAK-NAME-LIST.txt` entries that shared an assigned output .pak name
+- Fixed Option 1 Sub-Option 5-8 making separate .pak files for `0-PAK-NAME-LIST.txt` entries that shared an assigned output .pak name
   - These .bnks are now merged into one .pak file
   - NOTE: Highly recommend you do NOT merge multiple .bnks into a single .pak though, to keep customizability open to mod users
 
