@@ -1993,7 +1993,8 @@ UPDATE 2.9.9-beta-15 (07-12-2026) (NOT RELEASED YET, `BUG TESTING`)
 For General
 
 For SDKT
-- Added CVS-OUTPUT auto-organization to script startup
+- Added auto-download for the `0-CHARACTER-ID-LIST.txt` file even if one already exists to script startup
+- With that, added CVS-OUTPUT auto-organization to script startup
 - Added `q` (quit) as an input selection on more Options
 - Changed Option 101 Sub-Option 1 to append .pak file name to output wem 
 
