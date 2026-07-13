@@ -1997,7 +1997,7 @@ For SDKT
 - Renamed `x103-TEST-And-SILENT-Wem-Stuff` to `x103-TEST-SILENT`
 - Renamed `x104-ASSIGN-Wem-Stuff` to `x104-ASSIGNER`
 - Renamed `x105-REPLACED-Wem-Stuff` to `x105-REPLACER`
-- Added auto-download for the `0-CHARACTER-ID-LIST.txt` file even if one already exists to script startup
+- Added auto-download for the `0-CHARACTER-ID-LIST.txt` file (even if one already exists) to script startup
 - With that, added CVS-OUTPUT auto-organization to script startup
 - Added `q` (quit) as an input selection on more Options
 - Changed Option 101 Sub-Option 1 to use input .pak file name for associated output .wem folders
