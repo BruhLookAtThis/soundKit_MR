@@ -1994,7 +1994,8 @@ For General
 
 For SDKT
 - Added CVS-OUTPUT auto-organization to script startup
-- Adjust Option 102 to only move folders/files used during operations after user selects `y` on move prompt
+- Added `q` (quit) as an input selection on more Options
+- Changed Option 101 Sub-Option 1 to append .pak file name to output wem 
 
 NOTE: This is NOT heavily tested!
 
