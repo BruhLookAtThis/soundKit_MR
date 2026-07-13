@@ -1996,7 +1996,10 @@ For SDKT
 - Added auto-download for the `0-CHARACTER-ID-LIST.txt` file even if one already exists to script startup
 - With that, added CVS-OUTPUT auto-organization to script startup
 - Added `q` (quit) as an input selection on more Options
-- Changed Option 101 Sub-Option 1 to append .pak file name to output wem 
+- Changed Option 101 Sub-Option 1 to use input .pak file name for output wem folders
+  - Character costume/.bnk information will be in the name of a .txt file placed within this output folder
+  - This only affects input .pak files. Input .bnks will keep the same output folder naming as they already have
+  - Made this because I was updating a lot of audio mods, and want to make it easier to determine which isolated .wems belonged to which extracted .pak file 
 
 NOTE: This is NOT heavily tested!
 
