@@ -1991,12 +1991,21 @@ UPDATE 2.9.9-beta-15 (07-12-2026) (NOT RELEASED YET, `BUG TESTING`)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SDKT
+- Renamed `x100-XTRAs-Are-Here` to `x100-XTRA-OPTIONS`
+- Renamed `x100-AMPED-AUDIO-Stuff` to `x100-AMPED-AUDIO`
+- Renamed `x102-ISOLATE-And-MERGE-Wem-Stuff` to `x102-ISOLATE-MERGE`
+- Renamed `x103-TEST-And-SILENT-Wem-Stuff` to `x103-TEST-SILENT`
+- Renamed `x104-ASSIGN-Wem-Stuff` to `x104-ASSIGNER`
+- Renamed `x105-REPLACED-Wem-Stuff` to `x105-REPLACER`
 - Added auto-download for the `0-CHARACTER-ID-LIST.txt` file even if one already exists to script startup
 - With that, added CVS-OUTPUT auto-organization to script startup
 - Added `q` (quit) as an input selection on more Options
-- Changed Option 101 Sub-Option 1 to use input .pak file name for output wem folders
+- Changed Option 101 Sub-Option 1 to use input .pak file name for associated output .wem folders
   - Character costume/.bnk information will be inside of a `Output_Information.txt` file placed within this output folder
   - This only affects input .pak files. Input .bnks will keep the same output folder naming as they already have
+  - If an input .pak contains multiple .bnk files, the output .wems will be placed into subfolders named after these .bnks within the pak-named output folder
+    - Example 1a: `\x100-XTRA-OPTIONS\x102-ISOLATE-MERGE\C-Modded-Wems-Here\MyMod_99999999_P\bnk_sfx_1031001\627292950-sfx_1031001_q_music_lvup_play.wem`
+    - Example 1b: `\x100-XTRA-OPTIONS\x102-ISOLATE-MERGE\C-Modded-Wems-Here\MyMod_99999999_P\bnk_vo_1031001\2430858-vo_10310096_occupied_celebrate_02_play.wem`
   - Made this because I was updating a lot of audio mods, and want to make it easier to determine which isolated .wems belonged to which extracted .pak file
 - Fixed Option 1 Sub-Option 6 & 7 making separate .pak files for `0-PAK-NAME-LIST.txt` entries that shared an assigned output .pak name
 
