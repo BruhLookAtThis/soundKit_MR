@@ -1994,6 +1994,7 @@ For General
 
 For SDKT
 - Added CVS-OUTPUT auto-organization to script startup
+- Adjust Option 102 to only move folders/files used during operations after user selects `y` on move prompt
 
 NOTE: This is NOT heavily tested!
 
