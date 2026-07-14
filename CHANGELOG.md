@@ -2015,6 +2015,27 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-16 (07-14-2026)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For SDKT
+- Renamed `0_XTRA` to `0_DATA`
+- Renamed/Moved `0-Put-CUSTOM-AUDIO-Here` to `A-INPUT\0-Put-CUSTOM-AUDIO-Here`
+- Renamed/Moved `1-Put-ORIGINAL-BNKs-Here` to `A-INPUT\1-Put-ORIGINAL-BNKs-Here`
+- Renamed/Moved `2-Put-CUSTOM-WEMs-Here` to `A-INPUT\2-Put-CUSTOM-WEMs-Here`
+- Renamed/Moved `3-Your-MODDED-BNK-Is-Here` to `B-OUTPUT\3-Your-MODDED-BNK-Is-Here`
+- Renamed/Moved `4-Your-EXTRACTED-BNKs-Are-Here` to `B-OUTPUT\4-Your-EXTRACTED-BNKs-Are-Here`
+- Renamed/Moved `5-Your-MEDIA-PAK-Is-Here` to `B-OUTPUT\5-Your-MEDIA-PAK-Is-Here`
+- Renamed `x100-XTRA-OPTIONS` to `X-TRA-OPTIONS`
+- Renamed `x200-ERROR-FILEs-Are-Here` to `C-ERROR`
+- Renamed `x202-DUPE-ID-Wems-Here` to `x200-DUPE-ID-Wems-Here`
+- Renamed `x203-INVALID-NAME-Wems-Here` to `x201-INVALID-NAME-Wems-Here`
+- Renamed `x204-Wems-With-NO-BNK-MATCH-Here` to `x202-Wems-With-NO-BNK-MATCH-Here`
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
