@@ -719,6 +719,10 @@ Updated as of Season 9.0 (Jubilee Update)
 1065500: Rogue (STARLIT REBEL)
 1065501: Rogue (RAIDER PRIME)
 
+1066: TheHood
+10660: TheHood
+1066001: TheHood (Default)
+
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
 
 # Galacta has bnk_vo_system.bnk, bnk_vo_practice_level.bnk & bnk_vo_tutorial_level.bnk
