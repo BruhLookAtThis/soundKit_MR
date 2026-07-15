@@ -2036,6 +2036,18 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-17 (07-14-2026) (NOT RELEASED YET, `BUG TESTING`)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For SDKT
+- Renamed/Moved `x200-DUPE-ID-Wems-Here` to `x300-DUPE-ID-Wems-Here`
+- Renamed/Moved `x201-INVALID-NAME-Wems-Here` to `x301-INVALID-NAME-Wems-Here`
+- Renamed/Moved `x202-Wems-With-NO-BNK-MATCH-Here` to `x302-Wems-With-NO-BNK-MATCH-Here`
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
