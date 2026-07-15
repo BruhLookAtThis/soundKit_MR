@@ -2045,6 +2045,8 @@ For SDKT
 - Renamed/Moved `x202-Wems-With-NO-BNK-MATCH-Here` to `x302-Wems-With-NO-BNK-MATCH-Here`
 - Added a prompt to all Options that produce .wav versions of output .wems
 - Changed Option 103 Sub-Option 1 and 2 to move files instead of copying them if move prompt agreed to
+- Added DEV Option 200 for finding Media .wems easier
+- Added DEV Option 203 for quickly updating .pak files
 
 NOTE: This is NOT heavily tested!
 
