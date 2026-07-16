@@ -576,7 +576,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1052303: IronFist (LIN SHAO - THE KNOCKOUT)
 1052500: IronFist (Sword Master)
 1052501: IronFist (Immortal Weapon of Agamotto)
-1052502: IronFist (Binary Fist)
+1052502: IronFist (PHOENIX FIST)
 
 1053: EmmaFrost
 10530: EmmaFrost
