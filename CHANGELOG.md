@@ -2048,6 +2048,15 @@ For SDKT
 - Added EXPERIMENTAL DEV Option 203 for finding Media .wems easier
 - Added DEV Option 200 for quickly updating .pak files
 
+- Updated Option C to clear these folders too
+  - E-Your-Merged-Files-Are-Here
+  - x202-UNPAKER (and it's subfolders)
+  - x200-PAK-UPDATER (and it's subfolders)
+  - 6-Your-UPDATED-PAKS-Are-Here
+  - 4-Your-EXTRACTED-BNKs-Are-Here
+  - 5-Your-MEDIA-PAK-Is-Here
+  - A-Put-Audio-Files-To-ASSIGN-Here
+
 NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
