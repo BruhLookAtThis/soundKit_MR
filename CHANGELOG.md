@@ -2036,7 +2036,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-17 (07-14-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-17 (07-20-2026)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SDKT
@@ -2059,6 +2059,7 @@ For SDKT
 - Added a prompt to all Options that produce .wav versions of output .wems
   
 NOTE: This is NOT heavily tested!
+NOTE 2: Included an older version of the script that does not include the Option 203 or .wav prompt features (beta-16b). Leaving that here in case I need to go back to it, you can ignore this and delete the included `.IGNORE` folder
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
