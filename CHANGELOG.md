@@ -2044,7 +2044,8 @@ For SDKT
 - Renamed/Moved `x201-INVALID-NAME-Wems-Here` to `x301-INVALID-NAME-Wems-Here`
 - Renamed/Moved `x202-Wems-With-NO-BNK-MATCH-Here` to `x302-Wems-With-NO-BNK-MATCH-Here`
 - Changed Option 103 Sub-Option 1 and 2 to move files instead of copying them if move prompt agreed to
-- Added DEV Option 200 for quickly updating .pak files
+
+- Added (EXPERIMENTAL) DEV Option 200 for quickly updating .pak files
   - To use DEV Option 200, users will:
     - Place old .pak file(s) in `\X-TRA-OPTIONS\x200-PAK-UPDATER\A-Put-Old-Paks-Here`
     - Ensure `0_DATA\0-TXTs\SUBS-OLD` and `0_DATA\0-TXTs\SUBS-NEW` have their respective .txt files
@@ -2068,7 +2069,7 @@ For SDKT
   - B-Matched-JSONS-Here
 
 - Renamed Option 201 to Option 299
-- Added a new EXPERIMENTAL DEV Option 201 for finding Media .wems easier
+- Added (EXPERIMENTAL) DEV Option 201 for finding Media .wems easier
   - To use Option 201 Sub-Option 1:
     - Input a character ID (4 digits) or a costume ID (7 digits)
     - The script will search inside of every .json file in `0_DATA\0-CVS-INPUT\Marvel\` or `0_DATA\0-CVS-INPUT\Wwise\` whose name contains a match for the input number
