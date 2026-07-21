@@ -2054,8 +2054,21 @@ For SDKT
   - 4-Your-EXTRACTED-BNKs-Are-Here
   - 5-Your-MEDIA-PAK-Is-Here
   - A-Put-Audio-Files-To-ASSIGN-Here
+  - A-Matched-WEMS-Here
+  - B-Matched-JSONS-Here
 
 - Added EXPERIMENTAL DEV Option 203 for finding Media .wems easier
+  - To use Option 203 Sub-Option 1:
+    - Input a character ID (4 digits) or a costume ID (7 digits)
+    - The script will search inside of every .json file in `0_DATA\0-CVS-INPUT\Marvel\` or `0_DATA\0-CVS-INPUT\Wwise\` whose name contains a match for the input number
+    - If the matched .json(s) have a valid `MediaId` entry, the script will copy those .wem(s) into `\X-TRA-OPTIONS\x203-FINDER\A-Matched-WEMS-Here\SEARCHED_ID\`
+      - EXAMPLE: If you search `1029`, all matched .wems will be copied into `\X-TRA-OPTIONS\x203-FINDER\A-Matched-WEMS-Here\1029\`
+  - To use Option 203 Sub-Option 2:
+    - Input a wem ID number
+    - The script will search for every .json file in `0_DATA\0-CVS-INPUT\Marvel\` or `0_DATA\0-CVS-INPUT\Wwise\` whose `MediaId` entry(s) contains a match for the input number
+    - If a .json(s) have a matching `MediaId` entry, the script will copy those .json(s) into `\X-TRA-OPTIONS\x203-FINDER\B-Matched-JSONS-Here\SEARCHED_ID\`
+      - EXAMPLE: If you search `144105724`, all .jsons containing that ID in a `MediaId` entry will be copied into `\X-TRA-OPTIONS\x203-FINDER\B-Matched-JSONS-Here\144105724\`
+
 - Added a prompt to all Options that produce .wav versions of output .wems
   
 NOTE: This is NOT heavily tested! DEFINITELY not this time, Im tired af uploading this
