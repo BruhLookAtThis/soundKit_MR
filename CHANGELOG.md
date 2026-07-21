@@ -2058,7 +2058,7 @@ For SDKT
 - Added EXPERIMENTAL DEV Option 203 for finding Media .wems easier
 - Added a prompt to all Options that produce .wav versions of output .wems
   
-NOTE: This is NOT heavily tested!
+NOTE: This is NOT heavily tested! DEFINITELY not this time, Im tired af uploading this
 NOTE 2: Included an older version of the script that does not include the Option 203 or .wav prompt features (beta-16b). Leaving that here in case I need to go back to it, you can ignore this and delete the included `.IGNORE` folder
 
 ----------------------------------------------------------------------------------------------------------
