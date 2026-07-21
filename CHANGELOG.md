@@ -2045,6 +2045,16 @@ For SDKT
 - Renamed/Moved `x202-Wems-With-NO-BNK-MATCH-Here` to `x302-Wems-With-NO-BNK-MATCH-Here`
 - Changed Option 103 Sub-Option 1 and 2 to move files instead of copying them if move prompt agreed to
 - Added DEV Option 200 for quickly updating .pak files
+  - To use DEV Option 200, users will:
+    - Place old .pak file(s) in `\X-TRA-OPTIONS\x200-PAK-UPDATER\A-Put-Old-Paks-Here`
+    - Ensure `0_DATA\0-TXTs\SUBS-OLD` and `0_DATA\0-TXTs\SUBS-NEW` have their respective .txt files
+    - Ensure `\X-TRA-OPTIONS\x101-BNK-UPDATER\0-PUT-ALL-NEW-BNKS-HERE` contains the latest vanilla .bnk files
+    - OR Ensure `\X-TRA-OPTIONS\x200-PAK-UPDATER\B-Put-Vanilla-BNKs-Here` contains the latest vanilla .bnk files you need
+    - Choose Option d to go to the DEVELOPER Options menu
+    - Choose Option 200, press Enter to begin processing
+    - Updated .Pak files will be output to `\X-TRA-OPTIONS\x200-PAK-UPDATER\C-Your-UPDATED-PAKs-Are-Here`
+      - Users will have the option to move these .paks to `Paks\~mods-AUDIO-UPDATED` (if no `Paks` folder is setup up, users can set one up at this step)
+    - Any .wems that cannot be injected into a vanilla .bnk for this updating process will be sent to `C-ERROR\x303-PAK-UPDATER-INJECTION-ERRORS\<PakBaseName>\` for user review
 
 - Updated Option C to clear these folders too
   - E-Your-Merged-Files-Are-Here
@@ -2057,17 +2067,18 @@ For SDKT
   - A-Matched-WEMS-Here
   - B-Matched-JSONS-Here
 
-- Added EXPERIMENTAL DEV Option 203 for finding Media .wems easier
-  - To use Option 203 Sub-Option 1:
+- Renamed Option 201 to Option 299
+- Added a new EXPERIMENTAL DEV Option 201 for finding Media .wems easier
+  - To use Option 201 Sub-Option 1:
     - Input a character ID (4 digits) or a costume ID (7 digits)
     - The script will search inside of every .json file in `0_DATA\0-CVS-INPUT\Marvel\` or `0_DATA\0-CVS-INPUT\Wwise\` whose name contains a match for the input number
-    - If the matched .json(s) have a valid `MediaId` entry, the script will copy those .wem(s) into `\X-TRA-OPTIONS\x203-FINDER\A-Matched-WEMS-Here\SEARCHED_ID\`
-      - EXAMPLE: If you search `1029`, all matched .wems will be copied into `\X-TRA-OPTIONS\x203-FINDER\A-Matched-WEMS-Here\1029\`
-  - To use Option 203 Sub-Option 2:
+    - If the matched .json(s) have a valid `MediaId` entry, the script will copy those .wem(s) into `\X-TRA-OPTIONS\x201-FINDER\A-Matched-WEMS-Here\<SearchedCharaID>\`
+      - EXAMPLE: If you search `1029`, all matched .wems will be copied into `\X-TRA-OPTIONS\x201-FINDER\A-Matched-WEMS-Here\1029\`
+  - To use Option 201 Sub-Option 2:
     - Input a wem ID number
     - The script will search for every .json file in `0_DATA\0-CVS-INPUT\Marvel\` or `0_DATA\0-CVS-INPUT\Wwise\` whose `MediaId` entry(s) contains a match for the input number
-    - If a .json(s) have a matching `MediaId` entry, the script will copy those .json(s) into `\X-TRA-OPTIONS\x203-FINDER\B-Matched-JSONS-Here\SEARCHED_ID\`
-      - EXAMPLE: If you search `144105724`, all .jsons containing that ID in a `MediaId` entry will be copied into `\X-TRA-OPTIONS\x203-FINDER\B-Matched-JSONS-Here\144105724\`
+    - If a .json(s) have a matching `MediaId` entry, the script will copy those .json(s) into `\X-TRA-OPTIONS\x201-FINDER\B-Matched-JSONS-Here\<SearchedWemID>\`
+      - EXAMPLE: If you search `144105724`, all .jsons containing that ID in a `MediaId` entry will be copied into `\X-TRA-OPTIONS\x201-FINDER\B-Matched-JSONS-Here\144105724\`
 
 - Added a prompt to all Options that produce .wav versions of output .wems
   
