@@ -2043,9 +2043,7 @@ For SDKT
 - Renamed/Moved `x200-DUPE-ID-Wems-Here` to `x300-DUPE-ID-Wems-Here`
 - Renamed/Moved `x201-INVALID-NAME-Wems-Here` to `x301-INVALID-NAME-Wems-Here`
 - Renamed/Moved `x202-Wems-With-NO-BNK-MATCH-Here` to `x302-Wems-With-NO-BNK-MATCH-Here`
-- Added a prompt to all Options that produce .wav versions of output .wems
 - Changed Option 103 Sub-Option 1 and 2 to move files instead of copying them if move prompt agreed to
-- Added EXPERIMENTAL DEV Option 203 for finding Media .wems easier
 - Added DEV Option 200 for quickly updating .pak files
 
 - Updated Option C to clear these folders too
@@ -2057,6 +2055,9 @@ For SDKT
   - 5-Your-MEDIA-PAK-Is-Here
   - A-Put-Audio-Files-To-ASSIGN-Here
 
+- Added EXPERIMENTAL DEV Option 203 for finding Media .wems easier
+- Added a prompt to all Options that produce .wav versions of output .wems
+  
 NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
