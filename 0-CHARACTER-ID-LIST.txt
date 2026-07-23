@@ -1,4 +1,4 @@
-Updated as of Season 9.0 (Jubilee Update)
+Updated as of Season 9.0 (Thebes Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -165,6 +165,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1024305: Hela (Disco Of The Dead)
 1024306: Hela (HELEN ANGERBODA - THE REBEL)
 1024307: Hela (SAVAGE MONARCH)
+1024308: Hela (CONSORT OF KHONSHU)
 1024500: Hela (Goddess of Death)
 1024800: Hela (Merciful Queen)
 
@@ -522,6 +523,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1048503: Psylocke (Phantom Purple - Vengeance)
 1048504: Psylocke (Violet Veil)
 1048505: Psylocke (Moonlight Mirage)
+1048506: Psylocke (PINNED BUTTERFLY)
 
 1049: Wolverine
 10490: Wolverine
@@ -616,6 +618,7 @@ Updated as of Season 9.0 (Jubilee Update)
 1055101: DareDevil (SHENLOONGS CREED)
 1055102: DareDevil (Twilight Aurora)
 1055103: DareDevil (WILL OF GALACTA)
+1055104: DareDevil (IGNITE DAREDEVIL (2026))
 1055300: DareDevil (SONAR SAVIOR)
 1055500: DareDevil (Devil 2099)
 1055501: DareDevil (Not Daredevil)
