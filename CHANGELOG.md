@@ -2088,19 +2088,28 @@ NOTE 2: Included an older version of the script that does not include the Option
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-18 (07-24-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-18 (07-24-2026)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SDKT
 - Removed auto-download for the `0-CHARACTER-ID-LIST.txt` file (even if one already exists) to script startup
   - This is to avoid any download limits in the future. Just use Option U (or Option S, but thats a much longer process) to get the latest version
+- Removed 0-SUBS.zip and 1-MISC-STUFF.zip downloads from script
+- Added auto-generation of these folders to script startup:
 
+`\0_DATA\1-MISC-STUFF\`
+`\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\Chinese(CN)\`
+`\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\English(US)\`
+`\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\Japanese(JP)\`
+`\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\Media\`
+
+- All previous downloads that landed in the old unzipped `1-MISC-STUFF` land in the new script-generation `1-MISC-STUFF`
+- Added auto-download of `FModel_AES_Key.txt` into `\0_DATA\1-MISC-STUFF\`
 - Added `Encrypt.json` support to the auto-0-CHARACTER-ID-LIST.txt-updater
   - Just place the `Encrypt.json` (which can be found/extracted at `Marvel/Content/Localization/Encrypt/en/`) into `\0_DATA\0-CVS-INPUT\Localization`, just like the Game.json file
   - This `Encrypt.json` file, whenever it actually exists (pretty sure it only gets add when certain updates go live for the game) may contain character costumes/IDs that the Game.json does not
   - Like in todays case, only `Encrypt.json` contains the data for Luna Snows "Carmine Cassette" costume
   - Anyways, after placing the file and reopening the script
-
 - Fixed Option 1 Sub-Option 7 required a non-numbered `0-PAK-NAME-LIST` file to be inside of a `0-PAK-NAME-LIST` folder in order to function
 
 - Added Developer Option 204 (mainly for myself teehee)
@@ -2152,8 +2161,6 @@ For SDKT
 - All output folders will be placed into `\B-OUTPUT\7-Your-ORGANIZED-Wems-Are-Here`
 - So in that last example, `CnD-SuperMod` would be placed into `7-Your-ORGANIZED-Wems-Are-Here`
 - This option also supports .wem filenames with `sfx_<digits>` and `display_<digits>` structures
-
-
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
