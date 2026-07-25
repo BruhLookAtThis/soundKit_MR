@@ -2097,11 +2097,11 @@ For SDKT
 - Removed 0-SUBS.zip and 1-MISC-STUFF.zip downloads from script
 - Added auto-generation of these folders to script startup:
 
-- `\0_DATA\1-MISC-STUFF\`
-- `\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\Chinese(CN)\`
-- `\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\English(US)\`
-- `\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\Japanese(JP)\`
-- `\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\Media\`
+  - `\0_DATA\1-MISC-STUFF\`
+  - `\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\Chinese(CN)\`
+  - `\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\English(US)\`
+  - `\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\Japanese(JP)\`
+  - `\0_DATA\1-MISC-STUFF\2-EXAMPLE-Mod-Pak-Folder\Marvel\Content\WwiseAudio\Media\`
 
 - All previous downloads that landed in the old unzipped `1-MISC-STUFF` land in the new script-generation `1-MISC-STUFF`
 - Added auto-download of `FModel_AES_Key.txt` into `\0_DATA\1-MISC-STUFF\`
