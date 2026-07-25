@@ -1,8 +1,6 @@
 OVERVIEW
 --------------------------------------------------------------
 
-(GRAB THE UassetTool.exe v1.5 .zip FROM HERE: https://github.com/XzantGaming/UAssetToolRivals/releases/download/v1.5/UAssetTool-win-x64.zip)
-
 (GRAB AN FMODEL DOWNLOAD FROM HERE: https://fmodel.app/download)
 
 1. Written instructions are included
@@ -26,7 +24,7 @@ OVERVIEW
    (For Marvel Rivals)
    https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0
 
-5. The \0_XTRA\1-MISC-STUFF\ folder contains:
+5. The \0_DATA\1-MISC-STUFF\ folder contains:
    
    a. Various misc tools that may assist you in the modding process. Each contain their own instructions.
    
@@ -48,6 +46,8 @@ Kara (senran.kagura)
 JohnnYoru (johnnyoru)
 
 auri thedarkdame (thedarkdame)
+
+Xzant (XzantGaming)
 
 --------------------------------------------------------------
 ## Licensing
