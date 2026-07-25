@@ -2101,6 +2101,8 @@ For SDKT
   - Like in todays case, only `Encrypt.json` contains the data for Luna Snows "Carmine Cassette" costume
   - Anyways, after placing the file and reopening the script
 
+- Fixed Option 1 Sub-Option 7 required a non-numbered `0-PAK-NAME-LIST` file to be inside of a `0-PAK-NAME-LIST` folder in order to function
+
 - Added Developer Option 204 (mainly for myself teehee)
 - This option lets you organize wem files within the `1`, `2`, and `3` inside `\A-INPUT\2-Put-CUSTOM-WEMs-Here`
   - To use this option, users will create `1`, `2`, and `3` folders inside `\A-INPUT\2-Put-CUSTOM-WEMs-Here`
