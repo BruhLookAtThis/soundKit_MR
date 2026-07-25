@@ -2088,6 +2088,64 @@ NOTE 2: Included an older version of the script that does not include the Option
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-18 (07-24-2026) (NOT RELEASED YET, `BUG TESTING`)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For SDKT
+- Added Developer Option 204 (mainly for myself teehee)
+- This option lets you organize wem files within the `1`, `2`, and `3` inside `\A-INPUT\2-Put-CUSTOM-WEMs-Here`
+  - To use this option, users will create `1`, `2`, and `3` folders inside `\A-INPUT\2-Put-CUSTOM-WEMs-Here`
+    - (Typically, in my work pipeline, I use Option 0s `v` mode to create 3 volume level variants of my wems)
+    - (This generates 3 folders in `\2-Put-CUSTOM-WEMs-Here` which I then just rename to `1`, `2`, and `3`
+  - They will place their wems in those folders (if they werent there already from Option 0)
+  - They will then go into `\0_DATA\0-TXTs\0-WEM-FOLDER-NAME-LIST\` (or `-` and extra words can be appended to that last folder, i.e. `0-WEM-FOLDER-NAME-LIST-CoolMods`
+  - In this folder, they will open the `0-WEM-FOLDER-NAME-LIST.txt` (or `0-WEM-FOLDER-NAME-LIST-*.txt`) file
+  - In there, they will see a layout similar to that found in the `0-PAK-NAME-LIST` file, with example lines. Here is one example:
+ 
+1:vo_1011:My_Hulk_Mod
+
+  - Like the `0-PAK-NAME-LIST` file, this layout defines what is organized and how it is organized but sections separated by a colon
+  - Section 1 represents which of the `1`, `2`, and `3` folders the script should look inside.
+    - In the example line, the script will look in the `1` folder
+  - Section 2 is the character wem file identifier. Every default-named (non-breath voice) wem file has `vo_########` in its filename
+    - This section will group and organize wems based on if their filename matches this exact layout
+    - So if `vo_1011` is in this section, then a wem named `4243424-vo_10114356_jump_play.wem` will be matched and group because it has `vo_1011` in its name
+  - Section 3 represents the name of the folder that your organized .wems will be output into
+    - In the example line, the script will placed your wems into a folder named `My_Hulk_Mod`
+      
+- That is all three REQUIRED sections needed in this `0-WEM-FOLDER-NAME-LIST.txt` for Option 204 to function
+- However, you can further organize your wems by adding a 4th section. Look at this example line:
+
+2:vo_1041:1041---Winter-Spanish:Hola_Bucky_Mod
+
+  - Section 1 and 2 function the same as before.
+  - However, Section 3 and Section 4 are now both folder functions, similar to how things work for the `0-PAK-NAME-LIST` file (except the 4th section is another folder here)
+  - So: The script will look in the `2` folder for wems with `vo_1041` in their name
+  - Then: It will create a folder named `1041---Winter-Spanish`
+  - THEN: It will create a folder inside of `1041---Winter-Spanish` named `Hola_Bucky_Mod`
+  - THEN: It will move the wem files into the `Hola_Bucky_Mod` folder
+  - Simple right? This added section is merely for further folder organization
+  - YOU CAN STICK TO THE 3-SECTION LAYOUT IF YOU DO NOT NEED THIS FOURTH SECTION
+
+- If you want to precisely organize "double"/"multi" characters (aka people who have multiple forms that share the same 4-digit ID like Loki/Lady Loki, Cloak/Dagger, Bruce/Hulk/MonsterHulk), you can use 5-digits in Section 2 instead of 4
+- Look at this example line:
+
+3:vo_10251:CnD-SuperMod:ThisIsMyCloak_Mod_Obviously
+3:vo_10250:CnD-SuperMod:ThisIsMyDagger_Mod_OfCourse
+
+  - Here, we can see section 2 has 5 digits (10251 and 10250) instead of the usual 4
+  - So this will place any wems matching those FIVE digits in their own Section 4 folder
+  - They both will be inside of the same section 3 folder because both section 3s are `CnD-SuperMod`. You can change that if you want to
+  - Simple, right? If not, TOO BAD!!!! I made this for my own use, thats why its a `Developer Option` bahahaha
+
+- All output folders will be placed into `\B-OUTPUT\7-Your-ORGANIZED-Wems-Are-Here`
+- So in that last example, `CnD-SuperMod` would be placed into `7-Your-ORGANIZED-Wems-Are-Here`
+- I "have not" tested this function with `display` or `display_breath` wems, but if they dont work, I will update the script later to support them
+  - (Pretty sure it doesnt work atm, when I tested my full batch of wems, my Ultron & Jeff `display`\`display_breath` wems didnt get organized
+  - 
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
