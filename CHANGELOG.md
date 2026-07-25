@@ -2092,6 +2092,15 @@ UPDATE 2.9.9-beta-18 (07-24-2026) (NOT RELEASED YET, `BUG TESTING`)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SDKT
+- Removed auto-download for the `0-CHARACTER-ID-LIST.txt` file (even if one already exists) to script startup
+  - This is to avoid any download limits in the future. Just use Option U (or Option S, but thats a much longer process) to get the latest version
+
+- Added `Encrypt.json` support to the auto-0-CHARACTER-ID-LIST.txt-updater
+  - Just place the `Encrypt.json` (which can be found/extracted at `Marvel/Content/Localization/Encrypt/en/`) into `\0_DATA\0-CVS-INPUT\Localization`, just like the Game.json file
+  - This `Encrypt.json` file, whenever it actually exists (pretty sure it only gets add when certain updates go live for the game) may contain character costumes/IDs that the Game.json does not
+  - Like in todays case, only `Encrypt.json` contains the data for Luna Snows "Carmine Cassette" costume
+  - Anyways, after placing the file and reopening the script
+
 - Added Developer Option 204 (mainly for myself teehee)
 - This option lets you organize wem files within the `1`, `2`, and `3` inside `\A-INPUT\2-Put-CUSTOM-WEMs-Here`
   - To use this option, users will create `1`, `2`, and `3` folders inside `\A-INPUT\2-Put-CUSTOM-WEMs-Here`
@@ -2140,9 +2149,9 @@ For SDKT
 
 - All output folders will be placed into `\B-OUTPUT\7-Your-ORGANIZED-Wems-Are-Here`
 - So in that last example, `CnD-SuperMod` would be placed into `7-Your-ORGANIZED-Wems-Are-Here`
-- I "have not" tested this function with `display` or `display_breath` wems, but if they dont work, I will update the script later to support them
-  - (Pretty sure it doesnt work atm, when I tested my full batch of wems, my Ultron & Jeff `display`\`display_breath` wems didnt get organized
-  - 
+- This option also supports .wem filenames with `sfx_<digits>` and `display_<digits>` structures
+
+
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
