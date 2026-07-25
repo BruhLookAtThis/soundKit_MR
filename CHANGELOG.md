@@ -2088,7 +2088,7 @@ NOTE 2: Included an older version of the script that does not include the Option
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-18 (07-24-2026)
+UPDATE 2.9.9-beta-18 (07-24-2026) (NOT RELEASED YET, `BUG TESTING`)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SDKT
