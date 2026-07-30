@@ -1983,6 +1983,8 @@ For SMT
   - I believe Wanda also has this sort of deal
   - Shoulds be futureproofed for any other characters that will recieve alternate voice files
 
+For CVS
+
 NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
@@ -2161,6 +2163,19 @@ For SDKT
 - All output folders will be placed into `\B-OUTPUT\7-Your-ORGANIZED-Wems-Are-Here`
 - So in that last example, `CnD-SuperMod` would be placed into `7-Your-ORGANIZED-Wems-Are-Here`
 - This option also supports .wem filenames with `sfx_<digits>` and `display_<digits>` structures
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.2.5e (07-30-2026)
+
+For General
+
+For SMT
+
+For CVS
+- Decreased processing time for Option 100 (and, by proxy, all options that organize wems)
+  
+NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
