@@ -2186,7 +2186,7 @@ For General
 For SMT
 
 For CVS
-- Further decreased processing time for Option 100 (and, by proxy, all options that organize wems)
+- Decreased processing time for all wem-organizing options
 - Adjusted all wem-organizing options to move (instead of copy) sfx wems from the source folder to the output folder during processing (saves a lot of storage space)
   
 NOTE: This is NOT heavily tested!
@@ -2197,7 +2197,7 @@ UPDATE 2.9.9-beta-19 (07-30-2026)
 ### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
 
 For SDKT
-- Further decreased processing time for Option 100 (and, by proxy, all options that organize wems)
+- Decreased processing time for all wem-organizing options
 - Adjusted all wem-organizing options to move (instead of copy) sfx wems from the source folder to the output folder during processing (saves a lot of storage space)
 
 NOTE: This is NOT heavily tested!
