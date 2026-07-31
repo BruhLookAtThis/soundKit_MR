@@ -1,4 +1,4 @@
-Updated as of Season 9.0 (Thebes Update)
+Updated as of Season 9.0 (Age of Ultron Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -19,6 +19,7 @@ Updated as of Season 9.0 (Thebes Update)
 1011501: Hulk (Green Scar)
 1011502: Hulk (Joe Fixit)
 1011800: Hulk (INFINITY HULK)
+1011801: Hulk (SPIDER-MAN - BRAND NEW DAY)
 
 1014: ThePunisher
 10140: ThePunisher
@@ -219,6 +220,7 @@ Updated as of Season 9.0 (Thebes Update)
 1028500: Ultron (X-Tron)
 1028502: Ultron (ODINFORCE ULTRON)
 1028503: Ultron (ULTRON-15)
+1028504: Ultron (AVENGERS - AGE OF ULTRON)
 1028800: Ultron (Infinity Ultron)
 
 1029: Magik
@@ -349,6 +351,7 @@ Updated as of Season 9.0 (Thebes Update)
 1036510: SpiderMan (PETER PARKER - THE PHOTOGRAPHER)
 1036800: SpiderMan (Spider-Man - No Way Home)
 1036801: SpiderMan (Marvel Cosmic Invasion)
+1036802: SpiderMan (SPIDER-MAN - BRAND NEW DAY)
 
 1037: Magneto
 10370: Magneto
@@ -379,6 +382,7 @@ Updated as of Season 9.0 (Thebes Update)
 1038502: ScarletWitch (Witch of the Evil Eye)
 1038800: ScarletWitch (Doctor Strange in the Multiverse of Madness)
 1038801: ScarletWitch (The Queen Of The Dead)
+1038803: ScarletWitch (AVENGERS - AGE OF ULTRON)
 
 1039: Thor
 10390: Thor
@@ -424,6 +428,7 @@ Updated as of Season 9.0 (Thebes Update)
 1041502: WinterSoldier (Winter Buckaroo)
 1041503: WinterSoldier (Bucky)
 1041800: WinterSoldier (Thunderbolts)
+1041802: WinterSoldier (CAPTAIN AMERICA - THE WINTER SOLDIER)
 
 1042: PeniParker
 10420: PeniParker
@@ -698,10 +703,10 @@ Updated as of Season 9.0 (Thebes Update)
 
 1062: DevilDinosaur
 10620: DevilDinosaur
-1062001: Devil Dinosaur (Default)
-1062100: Devil Dinosaur (TROPICAL BEAST)
-1062101: Devil Dinosaur (CORPORATE CRUNCHER)
-1062500: Devil Dinosaur (CHRONO-ARMOR)
+1062001: DevilDinosaur (Default)
+1062100: DevilDinosaur (TROPICAL BEAST)
+1062101: DevilDinosaur (CORPORATE CRUNCHER)
+1062500: DevilDinosaur (CHRONO-ARMOR)
 1062501: DevilDinosaur (JEFF THE DINOSAUR)
 
 1063: Cyclops
