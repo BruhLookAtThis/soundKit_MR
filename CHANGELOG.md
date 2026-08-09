@@ -2214,6 +2214,33 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-21 (08-09-2026)
+### (THIS VERSION IS MEANT FOR BUG TESTING. REPORT ANY ISSUES TO @BruhLookAtThis on Discord/ @BruhiookAtThis on Twitter)
+
+For SDKT
+- Adjusted the script to work in folder paths that include spaces, brackets, and some other special characters
+- IT IS STILL RECOMMENDED TO AVOID PATHS WITH ANY OF THESE ELEMENTS IN THEM
+
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.2.6b (08-09-2026)
+
+For General
+
+For SMT
+- Adjusted the script to work in folder paths that include spaces, brackets, and some other special characters
+- IT IS STILL RECOMMENDED TO AVOID PATHS WITH ANY OF THESE ELEMENTS IN THEM
+
+For CVS
+- Adjusted the script to work in folder paths that include spaces, brackets, and some other special characters
+- IT IS STILL RECOMMENDED TO AVOID PATHS WITH ANY OF THESE ELEMENTS IN THEM
+  
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
