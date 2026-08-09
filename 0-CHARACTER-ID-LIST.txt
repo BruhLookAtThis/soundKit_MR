@@ -1,4 +1,4 @@
-Updated as of Season 9.0 (Age of Ultron Update)
+Updated as of Season 9.5 (The Hood Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -27,6 +27,7 @@ Updated as of Season 9.0 (Age of Ultron Update)
 1014100: ThePunisher (Camo)
 1014300: ThePunisher (Dangan Ronin Punisher)
 1014301: ThePunisher (MARAUDER MARKSMAN)
+1014302: ThePunisher (SANDSTORM SOLDIER)
 1014500: ThePunisher (Thunderbolts)
 1014501: ThePunisher (Punisher 2099)
 1014503: ThePunisher (Franken-Castle)
@@ -251,6 +252,7 @@ Updated as of Season 9.0 (Age of Ultron Update)
 1030500: MoonKnight (Mister Knight)
 1030501: MoonKnight (Phoenix Knight)
 1030502: MoonKnight (SUAVE SPECTOR)
+1030503: MoonKnight (FIST OF KHONSHU)
 1030800: MoonKnight (Fist of Vengeance)
 1030801: MoonKnight (Moon Knight Mech)
 
@@ -511,6 +513,7 @@ Updated as of Season 9.0 (Age of Ultron Update)
 1047500: Jeff (Incognito Dolphin)
 1047501: Jeff (Devouring Duo)
 1047502: Jeff (Business Shark)
+1047505: Jeff (JEFF-POOL)
 1047800: Jeff (8-Bit Dash)
 
 1048: Psylocke
@@ -586,6 +589,7 @@ Updated as of Season 9.0 (Age of Ultron Update)
 1052301: IronFist (Binary Fist)
 1052302: IronFist (Shenloong Champion)
 1052303: IronFist (LIN SHAO - THE KNOCKOUT)
+1052306: IronFist (FURIOUS FLOW)
 1052500: IronFist (Sword Master)
 1052501: IronFist (Immortal Weapon of Agamotto)
 1052502: IronFist (PHOENIX FIST)
@@ -681,6 +685,7 @@ Updated as of Season 9.0 (Age of Ultron Update)
 1059001: ElsaBloodstone (Default)
 1059100: ElsaBloodstone (Apex Huntress)
 1059101: ElsaBloodstone (Icy Edge)
+1059102: ElsaBloodstone (WILL OF GALACTA)
 1059300: ElsaBloodstone (Young Blood)
 1059500: ElsaBloodstone (BLOODY BUTLER)
 1059503: ElsaBloodstone (PRIMAL PREDATOR)
@@ -737,6 +742,9 @@ Updated as of Season 9.0 (Age of Ultron Update)
 1066: TheHood
 10660: TheHood
 1066001: TheHood (Default)
+1066100: TheHood (OBLIVION'S WHISPER)
+1066101: TheHood (SAPPHIRE SANDS)
+1066500: TheHood (SINFUL BLACKOUT)
 
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
 
