@@ -2221,7 +2221,7 @@ For SDKT
 - Adjusted the script to work in folder paths that include spaces, brackets, and some other special characters
 - IT IS STILL RECOMMENDED TO AVOID PATHS WITH ANY OF THESE ELEMENTS IN THEM
 
-NOTE: This is NOT heavily tested!
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
