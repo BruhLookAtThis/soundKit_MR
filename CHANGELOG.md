@@ -2265,6 +2265,7 @@ For SDKT
 - Renamed `1-Put-ORIGINAL-BNKs-Here` to `1-Put-BNKs-And-PAKs-Here`
 - Integrated Dev Option 202 into Option 1 Sub-Option 1 and Sub-Option 2
   - Users can now place `.pak` files directly into `1-Put-BNKs-And-PAKs-Here` and have thier `.bnk`s extracted
+- Removed `x202-UNPAKER`, `0-Place-Pak-Files-Here`, and `1-UnPaked-Files-Here`
 
 NOTE: This is NOT heavily tested!  
 
