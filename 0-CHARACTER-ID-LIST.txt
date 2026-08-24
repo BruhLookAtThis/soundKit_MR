@@ -45,6 +45,7 @@ Updated as of Season 9.5 (The Hood Update)
 1015502: Storm (Goddess of Thunder)
 1015503: Storm (Symbiote Storm)
 1015504: Storm (Queen of Wakanda)
+1015802: Storm (SACRED SKIES)
 
 1016: Loki
 10160: Loki (Loki Only)
@@ -240,6 +241,7 @@ Updated as of Season 9.5 (The Hood Update)
 1029501: Magik (Retro X-Uniform)
 1029502: Magik (Phoenix Demon)
 1029503: Magik (NETHERWORLD NOBLE)
+1029504: Magik (SOUL SURFER)
 
 1030: MoonKnight
 10300: MoonKnight
@@ -382,6 +384,7 @@ Updated as of Season 9.5 (The Hood Update)
 1038500: ScarletWitch (Chaos Gown)
 1038501: ScarletWitch (Emporium Matron)
 1038502: ScarletWitch (Witch of the Evil Eye)
+1038503: ScarletWitch (SEASIDE SORCERESS)
 1038800: ScarletWitch (Doctor Strange in the Multiverse of Madness)
 1038801: ScarletWitch (The Queen Of The Dead)
 1038803: ScarletWitch (AVENGERS - AGE OF ULTRON)
@@ -424,6 +427,7 @@ Updated as of Season 9.5 (The Hood Update)
 1041300: WinterSoldier (Blood Soldier)
 1041301: WinterSoldier (Polarity Soldier)
 1041302: WinterSoldier (Winters Wraith (Blood Soldier))
+1041303: WinterSoldier (SUMMER SOLDIER)
 1041304: WinterSoldier (STARLIT GUNSLINGER)
 1041500: WinterSoldier (Revolution)
 1041501: WinterSoldier (Winters Veil)
@@ -455,6 +459,7 @@ Updated as of Season 9.5 (The Hood Update)
 1043301: StarLord (Starcracker)
 1043302: StarLord (GROOVY GUARDIAN)
 1043303: StarLord (GLORY GUNNER)
+1043304: StarLord (STAR SWIMMER)
 1043500: StarLord (MASTER OF THE SUN)
 1043501: StarLord (King of Spartax)
 1043502: StarLord (Starlit Outlaw)
@@ -620,6 +625,7 @@ Updated as of Season 9.5 (The Hood Update)
 1054500: Phoenix (Dark Phoenix)
 1054501: Phoenix (SEAT OF SPRING)
 1054502: Phoenix (VERDANT VOGUE)
+1054504: Phoenix (VIRIDIAN VOGUE)
 
 1055: DareDevil
 10550: DareDevil
@@ -633,6 +639,7 @@ Updated as of Season 9.5 (The Hood Update)
 1055500: DareDevil (Devil 2099)
 1055501: DareDevil (Not Daredevil)
 1055502: DareDevil (SHADOWED START)
+1055503: DareDevil (ATTORNEY AT LAW)
 1055800: DareDevil (DAREDEVIL BORN AGAIN SEASON 2)
 
 1056: Angela
@@ -705,6 +712,7 @@ Updated as of Season 9.5 (The Hood Update)
 1061101: BlackCat (BEGUILING BLUE)
 1061300: BlackCat (URBAN PREDATOR)
 1061500: BlackCat (WILD CARD)
+1061501: BlackCat (COASTAL CAT)
 
 1062: DevilDinosaur
 10620: DevilDinosaur
@@ -719,6 +727,7 @@ Updated as of Season 9.5 (The Hood Update)
 1063001: Cyclops (Default)
 1063100: Cyclops (SHADOWED GAZE)
 1063101: Cyclops (FUTURISTIC FOCUS)
+1063300: Cyclops (ELEGANT EYE)
 1063500: Cyclops (WEAPON M)
 
 1064: Jubilee
