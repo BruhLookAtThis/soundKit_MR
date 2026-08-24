@@ -2264,8 +2264,10 @@ For SDKT
 - Renamed `0-CVS-OUTPUT` to `0-DATA-OUTPUT`
 - Renamed `0-CVS-XTRA` to `0-DATA-XTRA`
 - Renamed `1-Put-ORIGINAL-BNKs-Here` to `1-Put-BNKs-And-PAKs-Here`
-- Integrated Dev Option 202 into Option 1 Sub-Option 1 and Sub-Option 2
-  - Users can now place `.pak` files directly into `1-Put-BNKs-And-PAKs-Here` and have thier `.bnk`s extracted
+- Changed Dev Option 202 to Option 1 Sub-Option 10
+  - `.pak` Extractions are output into `4-Your-EXTRACTED-BNKs-Are-Here` within a subfolder named after the `.pak` that was used
+- Added `.pak` support to Option 1 Sub-Option 2 and Sub-Option 3
+  - Users can now place `.pak` files directly into `1-Put-BNKs-And-PAKs-Here` and have the `.bnk`(s), and subsequently the `.wem`s extracted from them
   - `.pak` Extractions are output into `4-Your-EXTRACTED-BNKs-Are-Here` within a subfolder named after the `.pak` that was used
   - Inside of that folder will be another subfolder using the typical extracted-bnk namescheme (<CharaName>-<CostumeName>-<BnkFile>)
 - Removed `x202-UNPAKER`, `0-Place-Pak-Files-Here`, and `1-UnPaked-Files-Here`
