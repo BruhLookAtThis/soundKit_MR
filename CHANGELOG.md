@@ -1558,7 +1558,7 @@ For SMT  (Now `SDKT` after SMT-CVS merge)
 - Added Sub-Option 8 to Option 1
   - This option allows paking any .bnk files in the `3-Your-MODDED-BNK-Is-Here`
   - Users will also be prompted to move these pakd bnks into the `~mods-AUDIO` folder in their games Paks folder
-  - If they choose not no, the paks will be left in `3-Your-MODDED-BNK-Is-Here\Packed-Bnks-Here`
+  - If they choose not to, the paks will be left in `3-Your-MODDED-BNK-Is-Here\Packed-Bnks-Here`
   - In either choice, the script will ask the user if they want to open the output folder
 
 - Changed Option 106 (Wem Isolation) to Option 102
@@ -1756,6 +1756,7 @@ For SDKT
  20. At the Option 0 menu, type 's' and press Enter to begin setup for Vorbis .wems
  21. Follow the on-screen prompts to point the script to your WwiseConsole.exe
  22. Once finished, your output wems will now be Vorbis instead of PCM
+ 23. Set paths will be saved in `\0_DATA\0-TXTs\0-CONFIG.txt`
 
 - Updated several Info Options and general menu UI
 
