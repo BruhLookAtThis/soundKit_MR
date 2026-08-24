@@ -2251,6 +2251,25 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-21c (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
+### 
+
+For General
+
+For SDKT
+- Added `0-FFMPEG` in `0-TOOLS-ALL`
+  - Moved `ffmpeg.exe` and `ffprobe.exe` into this new folder
+- Renamed `0-CVS-INPUT` to `0-DATA-INPUT`
+- Renamed `0-CVS-OUTPUT` to `0-DATA-OUTPUT`
+- Renamed `0-CVS-XTRA` to `0-DATA-XTRA`
+- Renamed `1-Put-ORIGINAL-BNKs-Here` to `1-Put-BNKs-And-PAKs-Here`
+- Integrated Dev Option 202 into Option 1 Sub-Option 1 and Sub-Option 2
+  - Users can now place `.pak` files directly into `1-Put-BNKs-And-PAKs-Here` and have thier `.bnk`s extracted
+
+NOTE: This is NOT heavily tested!  
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
