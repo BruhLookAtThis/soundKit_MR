@@ -2252,7 +2252,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-22 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-22 (08-24-2026)
 ### 
 
 For General
@@ -2273,6 +2273,19 @@ For SDKT
 - Removed `x202-UNPAKER`, `0-Place-Pak-Files-Here`, and `1-UnPaked-Files-Here`
 
 NOTE: This is NOT heavily tested!  
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-22b (08-??-2026) (NOT RELEASED YET, `BUG TESTING`)
+### 
+
+For General
+
+For SDKT
+- Added `CHANGELOG.md` to auto-download on startup list and Option U (which force-overwrites any existing versions)
+  - `CHANGELOG.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/CHANGELOG.md
+
+NOTE: This is NOT heavily tested! 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
