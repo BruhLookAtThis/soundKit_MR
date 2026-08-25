@@ -2267,9 +2267,9 @@ For SDKT
 - Changed Dev Option 202 to Option 1 Sub-Option 10
   - `.pak` Extractions are output into `4-Your-EXTRACTED-BNKs-Are-Here` within a subfolder named after the `.pak` that was used
 - Added `.pak` support to Option 1 Sub-Option 2 and Sub-Option 3
-  - Users can now place `.pak` files directly into `1-Put-BNKs-And-PAKs-Here` and have the `.bnk`(s), and subsequently the `.wem`s extracted from them
+  - Users can now place `.pak` files directly into `1-Put-BNKs-And-PAKs-Here` and have the `.bnk`(s), and subsequently the `.wem`s, extracted from them
   - `.pak` Extractions are output into `4-Your-EXTRACTED-BNKs-Are-Here` within a subfolder named after the `.pak` that was used
-  - Inside of that folder will be another subfolder using the typical extracted-bnk namescheme (<CharaName>-<CostumeName>-<BnkFile>)
+  - Inside of that folder will be another subfolder using the typical extracted-bnk namescheme `(<CharaName>-<CostumeName>-<BnkFile>)`
 - Removed `x202-UNPAKER`, `0-Place-Pak-Files-Here`, and `1-UnPaked-Files-Here`
 
 NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
