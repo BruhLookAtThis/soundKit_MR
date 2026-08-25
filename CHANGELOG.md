@@ -2272,7 +2272,7 @@ For SDKT
   - Inside of that folder will be another subfolder using the typical extracted-bnk namescheme (<CharaName>-<CostumeName>-<BnkFile>)
 - Removed `x202-UNPAKER`, `0-Place-Pak-Files-Here`, and `1-UnPaked-Files-Here`
 
-NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
@@ -2285,7 +2285,7 @@ For SDKT
 - Added `CHANGELOG.md` to auto-download on startup list and Option U (which force-overwrites any existing versions)
   - `CHANGELOG.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/CHANGELOG.md
 
-NOTE: This is NOT heavily tested! 
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
