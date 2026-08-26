@@ -17,16 +17,6 @@ https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQ
 https://discord.gg/mrm
 
 ----------------------------------------------------------------
-FIRSTLY BEFORE YOU DO ANYTHING HERE:
-----------------------------------------------------------------
-
-1. Go into the '0_XTRA\0-(CVS)' folder
-2. Read the Instructions (specifically for Option 1 of that .ps1 file in there)
-3. Run the .ps1 script there and choose option 1 (after following the setup steps of course)
-4. Once the Option 1 is completely done processing, you can come back to this tools script
-5. This is all done to make Option 1 of THIS script a better experience
-
-----------------------------------------------------------------
 BASICS:
 ----------------------------------------------------------------
 
@@ -34,6 +24,7 @@ BASICS:
 2. Click 'Run In Powershell'
 3. A Powershell window will open
 4. Select one of the Info Options to learn what each option does, how to use them, and extra notes it may have
+   - To do this, type "i" + the number/letter of the Option you want to learn about
 
 ----------------------------------------------------------------
 WARNINGS:
