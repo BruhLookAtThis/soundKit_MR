@@ -1,4 +1,4 @@
-Updated as of Season 9.5 (The Hood Update)
+Updated as of Season 9.5 (Peni Liquid Shell Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -288,6 +288,7 @@ Updated as of Season 9.5 (The Hood Update)
 1032304: SquirrelGirl (Tinsel Tail)
 1032305: SquirrelGirl (Red Panda)
 1032306: SquirrelGirl (MAUREEN ALLENE - THE PROGRAMMER)
+1032308: SquirrelGirl (ACORN DIVINITY)
 1032500: SquirrelGirl (Urban Hunter)
 1032501: SquirrelGirl (Symbiote Squirrel)
 
@@ -447,6 +448,7 @@ Updated as of Season 9.5 (The Hood Update)
 1042303: PeniParker (Snow-SPdr)
 1042305: PeniParker (BADLANDS LULLABY)
 1042306: PeniParker (PENI PARKER - THE FRESHMAN)
+1042307: PeniParker (LIQUID SHELL)
 1042500: PeniParker (VEN#M)
 
 1043: StarLord
@@ -651,6 +653,7 @@ Updated as of Season 9.5 (The Hood Update)
 1056500: Angela (Skuld 2099)
 1056501: Angela (Odins Beautiful Daughter)
 1056502: Angela (DOOM ANGEL)
+1056503: Angela (QUEEN OF HEL)
 
 1057: Deadpool
 10570: Deadpool
