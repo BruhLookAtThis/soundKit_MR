@@ -2290,6 +2290,9 @@ For CVS
 - "Fixed" Options 1, 100, 200 (DEV), and 201 (DEV) giving you a warning about a missing `Media` folder even if you had one within a subfolder in `1-Put-MEDIA-LOCAL-WWISE-Here`
   - I instruct users to manually place the `Media` folder at the root of `1-Put-MEDIA-LOCAL-WWISE-Here`, but I havent done this in a millenia since I removed that requirement for the `beta soundKit` versions, so I am porting that change to these older soundKit versions
 - Adjusted UI elements
+- Updated `CHARACTER-ID-LIST.txt` list
+- Updated `.usmap` file
+- Updated `SUBS-NEW` and `SUBS-OLD` folders
   
 NOTE: This is NOT heavily tested!
 
