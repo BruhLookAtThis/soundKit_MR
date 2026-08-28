@@ -2276,7 +2276,7 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.2.7 (08-27-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.2.7 
 
 For General
 
@@ -2293,6 +2293,21 @@ For CVS
 - Updated `CHARACTER-ID-LIST.txt` list
 - Updated `.usmap` file
 - Updated `SUBS-NEW` and `SUBS-OLD` folders
+  
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.2.7b (08-27-2026) (NOT RELEASED YET, `BUG TESTING`)
+
+For General
+
+For SMT
+- Adjusted UI elements
+  
+For CVS
+- Drastically increased the processing speed of Option 1, 100, 200, and 201
+  - Should be 2-2.5x faster now
   
 NOTE: This is NOT heavily tested!
 
