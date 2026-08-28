@@ -2276,7 +2276,22 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-22b (08-??-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.2.7 (08-27-2026) (NOT RELEASED YET, `BUG TESTING`)
+
+For General
+
+For SMT
+
+For CVS
+- Adjusted all Options of the script to automatically download `0-CHARACTER-ID-LIST.txt`, delete the users existing `CHARACTER-ID-LIST.txt` (if download successful), then rename the downlaoded `0-CHARACTER-ID-LIST.txt` to `CHARACTER-ID-LIST.txt`
+  - `0-CHARACTER-ID-LIST.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-CHARACTER-ID-LIST.txt
+- Adjusted backend wem sorting logic of Options 1, 100, 200 (DEV), and 201 (DEV)
+  
+NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-22b (??-??-2026) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
 For General
