@@ -2287,6 +2287,8 @@ For CVS
 - Adjusted all Options of the script to automatically download `0-CHARACTER-ID-LIST.txt`, delete the users existing `CHARACTER-ID-LIST.txt` (if download successful), then rename the downlaoded `0-CHARACTER-ID-LIST.txt` to `CHARACTER-ID-LIST.txt`
   - `0-CHARACTER-ID-LIST.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-CHARACTER-ID-LIST.txt
 - Adjusted backend wem sorting logic of Options 1, 100, 200 (DEV), and 201 (DEV)
+- "Fixed" Options 1, 100, 200 (DEV), and 201 (DEV) giving you a warning about a missing `Media` folder even if you had one within a subfolder in `1-Put-MEDIA-LOCAL-WWISE-Here`
+  - I instruct users to manually place the `Media` folder at the root of `1-Put-MEDIA-LOCAL-WWISE-Here`, but I havent done this in a millenia since I removed that requirement for the `beta soundKit` versions, so I am porting that change to these older soundKit versions
 - Adjusted UI elements
   
 NOTE: This is NOT heavily tested!
