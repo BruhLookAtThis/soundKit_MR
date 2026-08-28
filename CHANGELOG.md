@@ -2281,11 +2281,13 @@ UPDATE 2.2.7 (08-27-2026) (NOT RELEASED YET, `BUG TESTING`)
 For General
 
 For SMT
-
+- Adjusted UI elements
+  
 For CVS
 - Adjusted all Options of the script to automatically download `0-CHARACTER-ID-LIST.txt`, delete the users existing `CHARACTER-ID-LIST.txt` (if download successful), then rename the downlaoded `0-CHARACTER-ID-LIST.txt` to `CHARACTER-ID-LIST.txt`
   - `0-CHARACTER-ID-LIST.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/0-CHARACTER-ID-LIST.txt
 - Adjusted backend wem sorting logic of Options 1, 100, 200 (DEV), and 201 (DEV)
+- Adjusted UI elements
   
 NOTE: This is NOT heavily tested!
 
