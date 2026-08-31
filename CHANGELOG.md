@@ -2313,12 +2313,13 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-22b (??-??-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-22b (08-30-2026)
 ### 
 
-For General
-
-For SDKT
+### For General
+- Adjusted `z2_DoubleClickMe_SDKT_MT.bat` to work more reliably
+  
+### For SDKT
 - Added `CHANGELOG.md` to auto-download on startup list and Option U (which force-overwrites any existing versions)
   - `CHANGELOG.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/CHANGELOG.md
 
@@ -2329,8 +2330,8 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
-For General
+### For General
 
-For SDKT
+### For SDKT
 
-NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
