@@ -25,6 +25,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 10140: ThePunisher
 1014001: ThePunisher (Default)
 1014100: ThePunisher (Camo)
+1014102: ThePunisher (VENGEFUL VIGILANTE)
 1014300: ThePunisher (Dangan Ronin Punisher)
 1014301: ThePunisher (MARAUDER MARKSMAN)
 1014302: ThePunisher (SANDSTORM SOLDIER)
@@ -62,6 +63,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1016502: Loki (Lady Loki)
 1016503: Loki (LOW-KEY LOKI)
 1016504: Loki (Lady Loki - SEASIDE SIREN)
+1016507: Loki (THE CHRONICLER)
 1016800: Loki (Loki Season 2)
 1016801: Loki (THE AVENGERS)
 
@@ -92,6 +94,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1018500: DoctorStrange (God Of Magic)
 1018501: DoctorStrange (Sorcerer Supreme of the Galaxy)
 1018800: DoctorStrange (Doctor Strange in the Multiverse of Madness)
+1018801: DoctorStrange (ASTRAL ARCANA)
 
 1020: Mantis
 10200: Mantis
@@ -118,6 +121,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1021300: Hawkeye (Galactic Fangs)
 1021301: Hawkeye (Old Man Hawkeye)
 1021302: Hawkeye (BED-STUY'S BEST)
+1021305: Hawkeye (THUNDERBOLTS)
 1021500: Hawkeye (Ronin)
 1021501: Hawkeye (Freefall)
 1021502: Hawkeye (Binary Arrow)
@@ -138,6 +142,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1022503: CaptainAmerica (Golden Age)
 1022504: CaptainAmerica (Capwolf)
 1022505: CaptainAmerica (PRIMAL PATRIOT)
+1022506: CaptainAmerica (ASTRAL AEGIS)
 1022801: CaptainAmerica (Avengers - Infinity War)
 
 1023: RocketRaccoon
@@ -185,6 +190,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1025305: CloakDagger (COASTAL COUPLE)
 1025500: CloakDagger (Growth & Decay)
 1025501: CloakDagger (STORIED SURVIVORS)
+1025502: CloakDagger (DREAMY DUO)
 
 1026: BlackPanther
 10260: BlackPanther
@@ -206,6 +212,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1027302: Groot (Holiday Happiness)
 1027303: Groot (Mecha Flora)
 1027304: Groot (IRONWOOD SERPENT)
+1027305: Groot (GROOTLACTUS)
 1027500: Groot (Carved Traveler)
 1027501: Groot (Symbiote Flora)
 1027502: Groot (Big Buddy)
@@ -218,6 +225,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1028101: Ultron (Golden Ultron (Ranked skin))
 1028102: Ultron (Will of Galacta)
 1028300: Ultron (Wasteland Robot)
+1028301: Ultron (B-BOY PRIME)
 1028302: Ultron (CYBERNETIC DRIP)
 1028500: Ultron (X-Tron)
 1028502: Ultron (ODINFORCE ULTRON)
@@ -281,6 +289,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 10320: SquirrelGirl
 1032001: SquirrelGirl (Default)
 1032100: SquirrelGirl (ARTIC LEMMUS)
+1032101: SquirrelGirl (WILL OF GALACTA)
 1032300: SquirrelGirl (Nut Rocker)
 1032301: SquirrelGirl (Cheerful Dragoness)
 1032302: SquirrelGirl (Sunshine Squirrel)
@@ -288,6 +297,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1032304: SquirrelGirl (Tinsel Tail)
 1032305: SquirrelGirl (Red Panda)
 1032306: SquirrelGirl (MAUREEN ALLENE - THE PROGRAMMER)
+1032307: SquirrelGirl (SAVAGE SQUIRREL)
 1032308: SquirrelGirl (ACORN DIVINITY)
 1032500: SquirrelGirl (Urban Hunter)
 1032501: SquirrelGirl (Symbiote Squirrel)
@@ -473,6 +483,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1044100: Blade (Daybreak)
 1044101: Blade (Will of Galacta)
 1044102: Blade (Emerald Blade)
+1044103: Blade (SILVERED SLAYER)
 1044300: Blade (Polarity Edge)
 1044301: Blade (Vampire Slayer)
 1044302: Blade (STARLIT SHADOW)
@@ -540,6 +551,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1048504: Psylocke (Violet Veil)
 1048505: Psylocke (Moonlight Mirage)
 1048506: Psylocke (PINNED BUTTERFLY)
+1048507: Psylocke (BUSINESS ELITE)
 
 1049: Wolverine
 10490: Wolverine
@@ -610,6 +622,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1053300: EmmaFrost (Hellfire Protocol)
 1053301: EmmaFrost (Queen of Diamonds)
 1053302: EmmaFrost (WHITE WAVE QUEEN)
+1053303: EmmaFrost (GLITTERING GODDESS)
 1053304: EmmaFrost (GALA GLAM)
 1053500: EmmaFrost (X-Revolution)
 1053501: EmmaFrost (Phoenix Diamond)
@@ -689,6 +702,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1058303: Gambit (ALLURING ACE)
 1058304: Gambit (DEAD MAN'S HAND)
 1058500: Gambit (BARRIER BUSTER)
+1058800: Gambit (X-MEN '97 SEASON 2)
 
 1059: ElsaBloodstone
 10590: ElsaBloodstone
@@ -705,6 +719,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1060001: WhiteFox (Default)
 1060100: WhiteFox (ROSY RECON)
 1060101: WhiteFox (SECRET AGENT)
+1060302: WhiteFox (COSMIC KUMIHO)
 1060500: WhiteFox (YOON JI-WOO - THE LEADER)
 1060501: WhiteFox (COASTAL KUMIHO)
 
@@ -750,6 +765,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1065301: Rogue (Mrs.X)
 1065500: Rogue (STARLIT REBEL)
 1065501: Rogue (RAIDER PRIME)
+1065800: Rogue (X-MEN '97 SEASON 2)
 
 1066: TheHood
 10660: TheHood
@@ -758,12 +774,20 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1066101: TheHood (SAPPHIRE SANDS)
 1066500: TheHood (SINFUL BLACKOUT)
 
+1067: GorrTheGodButcher
+10670: GorrTheGodButcher
+1067001: GorrTheGodButcher (Default)
+1067100: GorrTheGodButcher (BLUE REQUIEM)
+1067101: GorrTheGodButcher (GODS' GRAVEYARD)
+1067300: GorrTheGodButcher (DIVINE DESTROYER)
+
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
 
 # Galacta has bnk_vo_system.bnk, bnk_vo_practice_level.bnk & bnk_vo_tutorial_level.bnk
 # UltronDrone has bnk_vo_4019001.bnk
 
 4016001: Galacta Bot (SFX)
+
 4017: Galacta
 4017001: Galacta (Default)
 4018001: Knull (SFX)
