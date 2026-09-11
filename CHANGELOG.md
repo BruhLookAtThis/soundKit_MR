@@ -2332,8 +2332,10 @@ UPDATE 2.2.7c (09-11-2026)
 For General
 
 For SMT
+- Adjusted `z2_DoubleClickMe_SMT_MR.bat` to work more reliably
   
 For CVS
+- Adjusted `z2_DoubleClick_CVS_MR.bat` to work more reliably
 - Updated `CHARACTER-ID-LIST.txt` list
   
 NOTE: This is NOT heavily tested!
