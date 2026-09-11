@@ -2342,6 +2342,20 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 2.9.9-beta-23 (09-11-2026) (NOT RELEASED YET, `BUG TESTING`)
+### 
+
+### For General
+
+### For SDKT
+- Updated DEV Option 200 to ignore non-audio files in input folder
+  - Also copies input items directly to the output folder upon successful processing, including non-audio files
+  - I mainly just added this for myself so I can throw my update download files into the script, have things update, and zip them right back up, no hassle
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
