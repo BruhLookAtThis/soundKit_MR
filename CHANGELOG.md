@@ -2342,7 +2342,7 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-23 (09-15-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-23 (09-15-2026)
 ### 
 
 ### For General
@@ -2365,6 +2365,8 @@ UPDATE 2.9.9-beta-23 (09-15-2026) (NOT RELEASED YET, `BUG TESTING`)
     - Inputting `1.0, 0.8` would output `1.0` files into a `1.0-variant` folder & `0.8` files into a `0.8-variant` folder
     - Now, inputting `1.0 (1), 0.8 (2)` would output `1.0` files into a `1` folder & `0.8` files into a `2` folder
   - This adjustment was made to easily streamline the next modding step, which would be creating output `.pak` variants
+ 
+- Updated `SUBS-NEW` files, moved Season 9.5 `.txt`s into `SUBS-OLD`
 
 NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
 
