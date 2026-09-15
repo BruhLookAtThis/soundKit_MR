@@ -2378,3 +2378,24 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 ### For SDKT
 
 NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+## UPDATE 2.9.9-beta-24 (09-15-2026) (NOT RELEASED YET, `BUG TESTING`)
+
+### For General
+
+### For SDKT
+- (Theoretically) increased the processing speed of wem ID-updating options
+- Adjusted wem ID-updating Options to output a `0-WEMS-THAT-NEED-REVIEW.txt` in the same direcotry of that the script is located
+  - This file will contain wems that could not be reliably updated, and will need manual intervention
+- Updated `PAK-NAME-LIST` functionality to automatically append `_99999999_P` to output `.pak` files if its missing in the `PAK-NAME-LIST` listing
+  - Script also rewrites `_<9s>_P` appendages on `.pak`s made from listings that do not have at least 8 `9`s
+    - So the listing `bnk_vo_1031001:MyMod_999_P` gets its `.pak` named to `MyMod_99999999_P.pak` instead of `MyMod_999_P.pak`
+- Updated `PAK-NAME-LIST` functionality to accept pure wem IDs as the first parameter, for use with `Media` mods
+  - Users can now have `Media` mods auto-renamed/organized based off `PAK-NAME-LIST` entries. For example:
+    - If users have `3243243.wem` inside of `\A-INPUT\2-Put-CUSTOM-WEMs-Here\Media\`, and `3243243:MyMediaMod` in their `PAK-NAME-LIST` file, then the script will output `MyMediaMod_99999999_P.pak`
+  - If there is not `PAK-NAME-LIST` listing, then the script will name the `.pak` file normally (directly matching the `.wem`s parent folder within `2-Put-CUSTOM-WEMs-Here`)
+
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
