@@ -2,10 +2,14 @@
 CREDITS:
 ----------------------------------------------------------------
 
-BruhLookAtThis / ❕토 Tobi 비❕ (Spare Change?: https://linktr.ee/BruhLookAtThis)
-SlimeCore_ / WispEnjoyer
-Lazuli / Kara
-u/charles2404
+- Tobi (BruhlookAtThis) - SoundKit Creator [Buy Me A Coffee](<https://ko-fi.com/bruhlookatthis>)
+- Wispenjoyer_ - Research
+- Kara - Research
+- Fabrice Bellard - FFmpeg/FFmprobe
+- JohnnYoru - BNKTool
+- Auri The Dark Dame - Special Thanks
+- XzantGaming - UassetTool
+- Pas2k - wav2wem
 
 ----------------------------------------------------------------
 CREATOR NOTES:
