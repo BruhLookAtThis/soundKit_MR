@@ -113,7 +113,8 @@ Portions Public Domain originating with Sun Microsystems
 ### UAssetToolRivals (including UassetTools.exe)
 - **License**: GPL-3.0 license
 - **Description**: A CLI tool for parsing, editing, and converting Unreal Engine 5 assets. Built on UAssetAPI with extensions for Zen/IoStore support, texture handling, and NiagaraSystem editing. Optimized for Marvel Rivals modding.
-- **Project homepage / Source code**: https://github.com/XzantGaming/UAssetToolRivals
+- **Project homepage**: https://github.com/XzantGaming/UAssetToolRivals
+- **Source code**: https://github.com/XzantGaming/UAssetToolRivals/releases
 - **Copyright holder**: Copyright (c) 2026 XzantGaming
 
 --------------------------------------------------------------
