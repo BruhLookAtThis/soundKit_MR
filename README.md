@@ -1,4 +1,4 @@
-THIS PROJECT WILL SOON-ISH BE ABANDONED
+THIS PROJECT MAY SOON-ISH BE ABANDONED
 --------------------------------------------------------------
 1. Work is being done on a new tool called [XzoundCore](<https://github.com/XzantGaming/XzoundWave-Rivals-Sound-Toolkit>) (WIP Title lol), a tool made by the creator of [Repak-X](<https://github.com/XzantGaming/Repak-X>), **XzantGaming**
 2. It (hopefully) will implement all features of the soundKit Beta while providing a FAR easier/smoother experience to audio modding
@@ -64,7 +64,7 @@ Xzant (XzantGaming)
 - **Description**: soundKit_MR is a tool kit for modding sounds in Marvel Rivals, including organizing, renaming, manipulating, and compiling audio & text files. 
 - **Project homepage**: https://github.com/BruhLookAtThis/soundKit_MR
 - **Main developers/maintainers**: BruhLookAtThis  
-- **Source code**: Available at https://github.com/BruhLookAtThis/soundKit_MR/releases
+- **Source code**: https://github.com/BruhLookAtThis/soundKit_MR/releases
 
 --------------------------------------------------------------
 
@@ -77,7 +77,7 @@ This tool includes and redistributes the following open-source components:
 - **Description**: A library and CLI tool for playback and decoding of streamed audio formats commonly used in video games.  
 - **Project homepage**: https://github.com/vgmstream/vgmstream  
 - **Main developers/maintainers**: hcs, bnnm, and many contributors (see repository for full list).  
-- **Source code**: Available at https://github.com/vgmstream/vgmstream  
+- **Source code**: https://github.com/vgmstream/vgmstream  
 - **Full license text**: (The following is on the vgstream licensing page):
   
 Copyright (c) 2008-2025 Adam Gashlin, Fastelbja, Ronny Elfert, bnnm,
@@ -110,7 +110,6 @@ Portions Public Domain originating with Sun Microsystems
 - **Description**: Simple tool for extracting and repacking Wwise soundbanks (.bnk files), used for handling audio containers in modding workflows.
 - **Project homepage / Source code**: https://github.com/JohnnYoru/BNKTool
 - **Copyright holder**: Copyright (c) 2026 JohnnYoru
-- **Full license text**:
 
 --------------------------------------------------------------
 
@@ -119,5 +118,15 @@ Portions Public Domain originating with Sun Microsystems
 - **Description**: A CLI tool for parsing, editing, and converting Unreal Engine 5 assets. Built on UAssetAPI with extensions for Zen/IoStore support, texture handling, and NiagaraSystem editing. Optimized for Marvel Rivals modding.
 - **Project homepage / Source code**: https://github.com/XzantGaming/UAssetToolRivals
 - **Copyright holder**: Copyright (c) 2026 XzantGaming
+
+--------------------------------------------------------------
+
+### wav2wem.exe
+- **License**: GNU General Public License v2.0
+- **Description**: Tool to convert WAV/FLAC into aoTuV Wwise .wem files.  
+- **Project homepage**: https://github.com/pas2k/wav2wem
+- **Version used**: 0.1 (Built the included .exe locally)
+- **Source code**: https://github.com/pas2k/wav2wem/releases/tag/v0.1
+- **Direct Download**: https://github.com/pas2k/wav2wem/releases/download/v0.1/wav2wem.exe
 
 --------------------------------------------------------------
