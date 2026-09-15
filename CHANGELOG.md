@@ -2400,6 +2400,9 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
   - For example: In `2-Put-CUSTOM-WEMs-Here\My_Magik_MusicMod\Media-LobbyMusic\144105724-Aespa-Illusion.wem`, `Media-LobbyMusic` will now be detected and processed
 - The output `.pak` will be named after that `Media` folders uppermost parent folder within `2-Put-CUSTOM-WEMs-Here`, unless the `.wem`s contained within it are already designated a specific output name in a `PAK-NAME-LIST` file
   - So for that earlier example of `My_Magik_MusicMod\Media-LobbyMusic\144105724-Aespa-Illusion.wem`, the output `.pak` would be named `My_Magik_MusicMod_99999999_P`
+  - In case the parent folder contains TWO `Media` folders, then the Media folders names will be appended to the .pak name
+    - For example, you may have `My_Magik_MusicMod\Media-LobbyMusic\144105724-Aespa-Illusion.wem` AND `My_Magik_MusicMod\Media-EmoteMusic\34536546-RV-Automatic.wem`
+    - The output `.pak`s will be `My_Magik_MusicMod_Media-LobbyMusic_99999999_P` and `My_Magik_MusicMod_Media-EmoteMusic_99999999_P`
 
 
 NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
