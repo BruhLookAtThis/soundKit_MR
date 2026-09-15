@@ -2396,8 +2396,10 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
   - Users can now have `Media` mods auto-renamed/organized based off `PAK-NAME-LIST` entries. For example:
     - If users have `3243243.wem` inside of `\A-INPUT\2-Put-CUSTOM-WEMs-Here\Media\`, and `3243243:MyMediaMod` in their `PAK-NAME-LIST` file, then the script will output `MyMediaMod_99999999_P.pak`
   - If there is not `PAK-NAME-LIST` listing, then the script will name the `.pak` file normally (directly matching the `.wem`s parent folder within `2-Put-CUSTOM-WEMs-Here`)
-- Updated Option 1 Sub-Option 9 to be able to find eligible `Media` folders within subfolders placed in `\A-INPUT\2-Put-CUSTOM-WEMs-Here\Media\`
+- Updated Option 1 Sub-Option 9 to be able to find eligible `Media` folders within subfolders placed in `\A-INPUT\2-Put-CUSTOM-WEMs-Here\`
   - For example: In `2-Put-CUSTOM-WEMs-Here\My_Magik_MusicMod\Media-LobbyMusic\144105724-Aespa-Illusion.wem`, `Media-LobbyMusic` will now be detected and processed
+- The output `.pak` will be named after that `Media` folders uppermost parent folder within `2-Put-CUSTOM-WEMs-Here`, unless the `.wem`s contained within it are already designated a specific output name in a `PAK-NAME-LIST` file
+  - So for that earlier example of `My_Magik_MusicMod\Media-LobbyMusic\144105724-Aespa-Illusion.wem`, the output `.pak` would be named `My_Magik_MusicMod_99999999_P`
 
 
 NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
