@@ -2348,9 +2348,16 @@ UPDATE 2.9.9-beta-23 (09-11-2026) (NOT RELEASED YET, `BUG TESTING`)
 ### For General
 
 ### For SDKT
-- Updated DEV Option 200 to ignore non-audio files in input folder
+- Updated DEV Option 200 to ignore trying to process non-pak files in input folder
   - Also copies input items directly to the output folder upon successful processing, including non-audio files
   - I mainly just added this for myself so I can throw my update download files into the script, have things update, and zip them right back up, no hassle
+- Added output folder naming to Option 0/100 `variable` mode
+  - Before, users would type decimals separated by commas, and the output folders would be `#.#-variant`
+  - Now, users can add a number in parenthesis after the decimal to have the files at that amp level output into a folder named after the parenthesid number
+  - For example:
+    - Inputting `1.0, 0.8` would output `1.0` files into a `1.0-variant` folder & `0.8` files into a `0.8-variant` folder
+    - Now, inputting `1.0 (1), 0.8 (2)` would output `1.0` files into a `1` folder & `0.8` files into a `2` folder
+  - This adjustment was made to easily streamline the next modding step, which would be creating output `.pak` variants
 
 NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
 
