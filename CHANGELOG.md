@@ -2342,12 +2342,19 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 2.9.9-beta-23 (09-11-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 2.9.9-beta-23 (09-15-2026) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
 ### For General
 
 ### For SDKT
+- Added new backend for Vorbis `.wem` creation
+  - Users no longer need to download the AudioKinetic or other related files
+  - Now the script creates Vorbis `.wems`, so long as wav2wem.exe remains in `\0_DATA\0-TOOLS-ALL\0-WAV2WEM\`
+- Added `wav2wem.exe` to script startup auto-download and Option U download
+  - `wav2wem.exe` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/wav2wem.exe
+- Removed WwiseConsole setup and all related code
+
 - Updated DEV Option 200 to ignore trying to process non-pak files in input folder
   - Also copies input items directly to the output folder upon successful processing, including non-audio files
   - I mainly just added this for myself so I can throw my update download files into the script, have things update, and zip them right back up, no hassle
