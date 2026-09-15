@@ -28,8 +28,7 @@ OVERVIEW
    
    Audio that has been logged can be found here:
 
-   (For Marvel Rivals)
-   https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0
+   [For Marvel Rivals](<https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=0#gid=0>)
 
 5. The \0_DATA\1-MISC-STUFF\ folder contains:
    
