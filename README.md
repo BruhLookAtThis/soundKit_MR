@@ -44,17 +44,14 @@ MAKE SURE YOU READ THE INSTRUCTIONS (If theyre outdated, they will be labeled as
 --------------------------------------------------------------
 CREDITS:
 
-❕토 Tobi 비❕ (BruhLookAtThis) [Buy Me A Coffee: https://ko-fi.com/bruhlookatthis ]
-
-Evelyn | WispEnjoyer (wispenjoyer_)
-
-Kara (senran.kagura)
-
-JohnnYoru (johnnyoru)
-
-auri thedarkdame (thedarkdame)
-
-Xzant (XzantGaming)
+- Tobi (BruhlookAtThis) - SoundKit Creator [Buy Me A Coffee](<https://ko-fi.com/bruhlookatthis>)
+- Wispenjoyer_ - Research
+- Kara - Research
+- Fabrice Bellard - FFmpeg/FFmprobe
+- JohnnYoru - BNKTool
+- Auri The Dark Dame - Special Thanks
+- XzantGaming - UassetTool
+- Pas2k - wav2wem
 
 --------------------------------------------------------------
 ## Licensing
