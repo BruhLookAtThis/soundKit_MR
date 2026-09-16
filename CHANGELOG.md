@@ -2371,16 +2371,6 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
-
-### For General
-
-### For SDKT
-
-NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
-
-----------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------
 ## UPDATE 2.9.9-beta-24 (09-15-2026)
 
 ### For General
@@ -2404,5 +2394,15 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
     - For example, you may have `My_Magik_MusicMod\Media-LobbyMusic\144105724-Aespa-Illusion.wem` AND `My_Magik_MusicMod\Media-EmoteMusic\34536546-RV-Automatic.wem`
     - The output `.pak`s will be `My_Magik_MusicMod_Media-LobbyMusic_99999999_P` and `My_Magik_MusicMod_Media-EmoteMusic_99999999_P`
 
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
+
+### For General
+
+### For SDKT
 
 NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
