@@ -5,4 +5,6 @@ bnk_vo_
 bnk_display_breath_
 
 Exceptions:
-bnk_sfx_1039303
+bnk_display_1018305
+bnk_display_1034801
+bnk_display_1064001
