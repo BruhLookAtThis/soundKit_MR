@@ -2399,6 +2399,17 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+## UPDATE 2.9.9-beta-24b (09-17-2026)
+
+### For General
+
+### For SDKT
+- Fixed `CHARACTER-ID-LIST.txt` list auto-population misplacing playable character IDs
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 
 ### For General
