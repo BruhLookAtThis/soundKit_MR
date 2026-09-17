@@ -1,4 +1,4 @@
-Updated as of Season 9.5 (Peni Liquid Shell Update)
+Updated as of Season 10 (Vampire Jammies Update)
 
 # IGNORE THE NAMES DIRECTLY BELOW (IF ANYTHING IS LISTED THERE)
 
@@ -263,6 +263,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1030501: MoonKnight (Phoenix Knight)
 1030502: MoonKnight (SUAVE SPECTOR)
 1030503: MoonKnight (FIST OF KHONSHU)
+1030504: MoonKnight (ETERNITY KNIGHT)
 1030800: MoonKnight (Fist of Vengeance)
 1030801: MoonKnight (Moon Knight Mech)
 
@@ -345,6 +346,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1035302: Venom (Gummy Surprise)
 1035502: Venom (WAR OF THE REALMS)
 1035503: Venom (VENOM BLOOM)
+1035504: Venom (PRESIDENT OZZY)
 1035800: Venom (Marvel Cosmic Invasion)
 
 1036: SpiderMan
@@ -378,6 +380,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1037301: Magneto (Temporal Tyrant)
 1037302: Magneto (The Trial of Magneto)
 1037303: Magneto (MAGNETIC VINTAGE)
+1037304: Magneto (MASTER OF SLUMBER)
 1037500: Magneto (Master of Magnetism)
 1037501: Magneto (King Magnus)
 1037502: Magneto (Seat of Autumn)
@@ -532,6 +535,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1047501: Jeff (Devouring Duo)
 1047502: Jeff (Business Shark)
 1047505: Jeff (JEFF-POOL)
+1047508: Jeff (SHARK IN SHEEP'S CLOTHING)
 1047800: Jeff (8-Bit Dash)
 
 1048: Psylocke
@@ -753,6 +757,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1064001: Jubilee (Default)
 1064100: Jubilee (COOL COMBUSTION)
 1064101: Jubilee (CRIMSON CROWN)
+1064300: Jubilee (VAMPY JAMMIES)
 1064500: Jubilee (MIDNIGHT MUTANT)
 
 1065: Rogue
@@ -766,6 +771,7 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1065500: Rogue (STARLIT REBEL)
 1065501: Rogue (RAIDER PRIME)
 1065800: Rogue (X-MEN '97 SEASON 2)
+1065801: Rogue (SLUMBER SUGAH)
 
 1066: TheHood
 10660: TheHood
@@ -774,19 +780,18 @@ Updated as of Season 9.5 (Peni Liquid Shell Update)
 1066101: TheHood (SAPPHIRE SANDS)
 1066500: TheHood (SINFUL BLACKOUT)
 
-1067: GorrTheGodButcher
-10670: GorrTheGodButcher
-1067001: GorrTheGodButcher (Default)
-1067100: GorrTheGodButcher (BLUE REQUIEM)
-1067101: GorrTheGodButcher (GODS' GRAVEYARD)
-1067300: GorrTheGodButcher (DIVINE DESTROYER)
-
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
 
 # Galacta has bnk_vo_system.bnk, bnk_vo_practice_level.bnk & bnk_vo_tutorial_level.bnk
 # UltronDrone has bnk_vo_4019001.bnk
 
 4016001: Galacta Bot (SFX)
+1067: GorrTheGodButcher
+10670: GorrTheGodButcher
+1067001: GorrTheGodButcher (Default)
+1067100: GorrTheGodButcher (BLUE REQUIEM)
+1067101: GorrTheGodButcher (GODS' GRAVEYARD)
+1067300: GorrTheGodButcher (DIVINE DESTROYER)
 
 4017: Galacta
 4017001: Galacta (Default)
