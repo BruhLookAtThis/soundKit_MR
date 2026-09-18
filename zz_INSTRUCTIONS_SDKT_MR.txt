@@ -15,9 +15,13 @@ CREDITS:
 CREATOR NOTES:
 ----------------------------------------------------------------
 
--Documentation for KNOWN SFX/Voices:
+### Documentation for KNOWN SFX/Voices:
 https://docs.google.com/spreadsheets/d/14gbnE0TD2O4e8zrn2jSJm9HsNl5vWxFYWm4ZsndQJlA/edit?gid=438791024#gid=438791024
--Marvel Rivals Modding Discord:
+
+----------------------------------------------------------------
+MARVEL RIVALS MODDING DISCORD LINK:
+----------------------------------------------------------------
+
 https://discord.gg/mrm
 
 ----------------------------------------------------------------
