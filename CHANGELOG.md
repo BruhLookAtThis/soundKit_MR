@@ -2410,6 +2410,19 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+## UPDATE 2.9.9-beta-24c (09-18-2026)
+
+### For General
+
+### For SDKT
+- Fixed rare issue with `Vorbis` `.wem` creation that created incompatible `.wems`
+  - Modding the `President Ozzy` Venom MVP file did not work with `Vorbis` `.wems` (though the fallback `PCM` `.wem` did work)
+  - 
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 
 ### For General
