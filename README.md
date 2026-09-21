@@ -1,6 +1,6 @@
 THIS PROJECT MAY SOON-ISH BE ABANDONED
 --------------------------------------------------------------
-1. A new tool, [XzoundWave](<https://github.com/XzantGaming/XzoundWave-Rivals-Sound-Toolkit>), made by **XzantGaming** (the creator of [Repak-X](<https://github.com/XzantGaming/Repak-X>), will replace soundKit for most, if not all of yall
+1. A new tool, [XzoundWave](<https://github.com/X-zant/XzoundWave-Rivals-Sound-Toolkit/releases>), made by **XzantGaming** (the creator of [Repak-X](<https://github.com/XzantGaming/Repak-X>), will replace soundKit for most, if not all of yall
 2. It offers a much easier, faster, and smoother audio modding experience than soundKit, so please give it a try when you can
 3. It (hopefully) will implement all features of the soundKit Beta, but right now the majority of what the average user needs is already implemented.
 4. More time will be needed to add the more niche/advanced tricks from the soundKit Beta, but thats largely only a concern for myself
