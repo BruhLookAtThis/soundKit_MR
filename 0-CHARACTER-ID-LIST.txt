@@ -780,19 +780,18 @@ Updated as of Season 10 (Vampire Jammies Update)
 1066101: TheHood (SAPPHIRE SANDS)
 1066500: TheHood (SINFUL BLACKOUT)
 
-1067: GorrTheGodButcher
-10670: GorrTheGodButcher
-1067001: GorrTheGodButcher (Default)
-1067100: GorrTheGodButcher (BLUE REQUIEM)
-1067101: GorrTheGodButcher (GODS' GRAVEYARD)
-1067300: GorrTheGodButcher (DIVINE DESTROYER)
-
 # BELOW ARE NPCs THAT HAVE THEIR OWN .BNK FILES
 
 # Galacta has bnk_vo_system.bnk, bnk_vo_practice_level.bnk & bnk_vo_tutorial_level.bnk
 # UltronDrone has bnk_vo_4019001.bnk
 
 4016001: Galacta Bot (SFX)
+1067: GorrTheGodButcher
+10670: GorrTheGodButcher
+1067001: GorrTheGodButcher (Default)
+1067100: GorrTheGodButcher (BLUE REQUIEM)
+1067101: GorrTheGodButcher (GODS' GRAVEYARD)
+1067300: GorrTheGodButcher (DIVINE DESTROYER)
 
 4017: Galacta
 4017001: Galacta (Default)
