@@ -2426,6 +2426,31 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+## UPDATE 2.2.8 (09-22-2026)
+
+## This is intended to be the FINAL update for this version of SoundKit, as XzoundWave takes over as the new standard audio modding tool
+
+### For General
+- Updated .usmap file
+- Removed `z---UPDATER.bat` file
+
+### For SMT
+- Updated UI to notify users about XzoundWave
+- Added new backend for Vorbis `.wem` creation
+  - Users no longer need to download the AudioKinetic or other related files
+  - Now the script creates Vorbis `.wems`, so long as wav2wem.exe remains in `\0_XTRA\0-TOOLS\0-WAV2WEM\`
+- Added `wav2wem.exe` to script startup auto-download and Option U download
+  - `wav2wem.exe` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/wav2wem.exe
+
+### For CVS
+- Updated UI to notify users about XzoundWave
+- Updated `CHARACTER-ID-LIST.txt` list
+- Updated `SUBS-NEW` and `SUBS-OLD` folders
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\3_XTRA\.OLD-STUFF\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 
 ### For General
