@@ -2451,6 +2451,27 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+## UPDATE 2.9.9-beta-24d (10-9-2026)
+
+### For General
+
+### For SDKT
+- Upgraded DEV Option 204 to allow more specific file organization
+  - Script can now match more specific strings for the second param in `0-WEM-FOLDER-NAME-LIST*.txt` entries
+  - For example:
+    - Before, only `vo_`, `sfx_`, or `display_` matches would work
+    - Now, `vo_10470_breath_` or `892378234` (for wems that do not have a given label) can be matched and organized
+    - So `2:vo_10470_breath_:Jeff-Stuff:Jeff-Kinda-Foul-Mod-Wems` can organize files with `vo_10470_breath_` in their names
+    - The longer the string, the higher priority its matching takes
+    - So `vo_10470_breath_` files will be matched and organized before `vo_10470_` files
+- Additionally, upgraded DEV Option 204 to allow deletion of specific matched files
+  - This is done by entering `[DELETE]` as the 3rd param in a `0-WEM-FOLDER-NAME-LIST*.txt` entry
+    - For Example: `3:vo_10470_breath_:[DELETE]` will delete any file with `vo_10470_breath_` in its filename that is within the `3` folder instead of organizing it
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 
 ### For General
