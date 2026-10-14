@@ -2472,6 +2472,21 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+## UPDATE 2.9.9-beta-24e (10-14-2026)
+
+### For General
+
+### For SDKT
+- Added `z` shortcut for `variable` mode in Option 0
+  - When selecting `variable` mode, instead of manually inputting all your values, you can type `z` to use a preset set
+  - By default, this is set to `1.0 (3), 0.8 (2), 0.6 (1)` (the values I use for my released mods)
+  - If you want to edit this preset yourself, find this line in the script and edit it:
+    - `$variantShortcutZ = "1.0 (3), 0.8 (2), 0.6 (1)"`
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 
 ### For General
