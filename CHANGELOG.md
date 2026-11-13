@@ -2487,6 +2487,26 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+## UPDATE 2.9.9-beta-25 (11-13-2026)
+
+### For General
+
+### For SDKT
+- Added `.pak` obfuscation as a Y/N prompt after pak'ing options
+  - NOTE: Use with caution. Rivals is paying more attention to obfuscated mods than ever now
+  - NOTE 2: Because of this, the script defaults to a `N` answer if you just press `Enter` for the prompt
+- Added DEV Option 205 (Mainly for myself, of course)
+  - This is for trimming silence from the beginnings and ends of supported audio files (excluding .wem for now)
+  - Additionally, output file volume levels are normalized
+    - All related params are directly editable under the `EDITABLE SETTINGS: DEV Option 205` section within the script 
+  - Place your files here `\X-TRA-OPTIONS\x205-TRIMMER\0-Place-Untrimmed-Files-Here`
+  - Run Option d then Option 205
+  - Trimmed audio clips will be output to `\X-TRA-OPTIONS\x205-TRIMMER\1-Trimmed-Files-Here`
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 
 ### For General
