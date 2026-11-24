@@ -2507,6 +2507,27 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+## UPDATE 2.9.9-beta-26 (11-??-2026) (NOT RELEASED YET, `BUG TESTING`)
+
+### For General
+
+### For SDKT
+- Integrated my Subtitle tool into SoundKit
+  - Too lazy to flesh this out LOL I know how it works, so thats all that matters
+  - Info might be able to help you if you dont know shit tho
+- For Option 300, `.txt`s are copied from `0_DATA\0-TXTs\SUBS-NEW\en` (if available) and placed into `\X-TRA-OPTIONS\x300-JSON-MAKER\0-1-Place-Vanilla-Full-CVS-TXT-Here`, overwriting anything residing in there
+- Upon script start (if the files are missing) or during Option U, the script will now:
+    - Auto-download `retoc.exe`
+      - `retoc.exe` is pulled from here: https://github.com/trumank/retoc/releases/download/v0.1.5/retoc_cli-x86_64-pc-windows-msvc.zip
+- Added ability to enter any Option # from the main menu, including DEV options
+- Added y/N prompt to Option 205
+  - This will allow users to move the files/folders from `1-Trimmed-Files-Here` into `A-INPUT\0-Put-CUSTOM-AUDIO-Here`
+- 
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_DATA\.IGNORE-THIS-FOLDER\`
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 
 ### For General
